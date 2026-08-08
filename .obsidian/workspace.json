@@ -11,10 +11,12 @@
             "id": "e938d99dbaa63a26",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "type": "image",
+              "state": {
+                "file": "TercerSemestre/Horario_tercersemestre.jpeg"
+              },
+              "icon": "lucide-image",
+              "title": "Horario_tercersemestre"
             }
           }
         ]
@@ -37,7 +39,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -176,6 +180,14 @@
       "bases:Create new base": false
     }
   },
-  "active": "e938d99dbaa63a26",
-  "lastOpenFiles": []
+  "active": "5d556547d355a1f4",
+  "lastOpenFiles": [
+    "TercerSemestre/Horario_tercersemestre (1).jpeg",
+    "TercerSemestre/Horario_tercersemestre.jpeg",
+    "TercerSemestre/CalcIII",
+    "TercerSemestre/AlgebraLinealI",
+    "TercerSemestre/Estruct_deDatos",
+    "TercerSemestre/Probabilidad",
+    "TercerSemestre"
+  ]
 }
