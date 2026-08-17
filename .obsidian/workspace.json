@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "00d3fa5739803e7d",
+        "id": "9639c07162ee9571",
         "type": "tabs",
         "children": [
           {
-            "id": "7ea75aa3f68a3633",
+            "id": "e62f07b1abdd353f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TercerSemestre/Calculo3/Untitled.md",
+                "file": "TercerSemestre/AlgebraLineal2/TransformacionesLineales.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "TransformacionesLineales"
             }
           }
         ]
@@ -33,7 +33,7 @@
       {
         "id": "19222e06e28c1808",
         "type": "tabs",
-        "dimension": 73.6318407960199,
+        "dimension": 71.94029850746269,
         "children": [
           {
             "id": "ddd66d7aa249ed22",
@@ -56,7 +56,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#calculo",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +85,7 @@
       {
         "id": "61f9a0a6e3af86da",
         "type": "tabs",
-        "dimension": 26.368159203980102,
+        "dimension": 28.059701492537314,
         "children": [
           {
             "id": "5d1ee9aef5d2167f",
@@ -224,10 +224,14 @@
       "bases:Create new base": false
     }
   },
-  "active": "7ea75aa3f68a3633",
+  "active": "e62f07b1abdd353f",
   "lastOpenFiles": [
-    "TercerSemestre/Calculo3/temario.pdf",
+    "TercerSemestre/AlgebraLineal2/EspaciosVectoriales.md",
     "TercerSemestre/Calculo3/Untitled.md",
+    "TercerSemestre/AlgebraLineal2/TransformacionesLineales.md",
+    "TercerSemestre/AlgebraLineal2/temario_AlgebraLineal.md",
+    "TercerSemestre/AlgebraLineal2",
+    "TercerSemestre/Calculo3/temario_calc3.pdf",
     "TercerSemestre/Calculo3",
     "TercerSemestre/Horario_tercersemestre.jpeg",
     "ISLP.pdf",
