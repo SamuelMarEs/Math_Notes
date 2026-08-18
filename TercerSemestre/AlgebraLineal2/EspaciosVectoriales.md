@@ -9,6 +9,7 @@ Formalmente, un espacio vectorial $V$ es un conjunto de *vectores* que satisface
 6. $(a\cdot b)\cdot \vec{x}=a\cdot(b\cdot \vec{x})$ para todo $a,b\in F$ y $\vec{x}\in V$.
 7. $(a+b)\cdot \vec{x}=a\cdot \vec{x}+b\cdot \vec{x}$ para todo $a,b\in F$ y $\vec{x}\in V$.
 8. $a\cdot(\vec{x}+\vec{y})=a\cdot \vec{x}+a\cdot \vec{y}$ para todo $a \in F$ y $\vec{x},\vec{y}\in V$.
+Un espacio vectorial $V$ sobre un campo $F$, con operación binaria $+$ y acción $\cdot$ se denota como $(V,+,\cdot)$.
 
 #### Subespacio Vectorial
 Sea $V$ un espacio vectorial sobre $F$. Un subconjunto $W\subset V$ es un subespacio vectorial si $W$ es un espacio vectorial sobre $F$.

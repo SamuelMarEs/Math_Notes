@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "88ad1672d61fe1e8",
+        "id": "c740c0d46b391437",
         "type": "tabs",
         "children": [
           {
-            "id": "09ca4160e5b92799",
+            "id": "9e900e5d4dd836f4",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "TercerSemestre/AlgebraLineal2/KernelYRango.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "KernelYRango"
             }
           }
         ]
@@ -220,17 +224,20 @@
       "bases:Create new base": false
     }
   },
-  "active": "09ca4160e5b92799",
+  "active": "9e900e5d4dd836f4",
   "lastOpenFiles": [
-    "TercerSemestre/Probabilidad/PrincipiosDeProbabilidad.md",
-    "TercerSemestre/Probabilidad/TiposDeProbabilidad.md",
-    "TercerSemestre/Probabilidad/Temario_Probabilidad.pdf",
-    "TercerSemestre/Probabilidad",
-    "TercerSemestre/AlgebraLineal2/EspaciosAsociadosAMatrices.md",
     "TercerSemestre/AlgebraLineal2/EspaciosVectoriales.md",
+    "TercerSemestre/AlgebraLineal2/EspaciosAsociadosAMatrices.md",
+    "TercerSemestre/AlgebraLineal2/KernelYRango.md",
+    "TercerSemestre/Calculo3/Tareas18_agosto.md",
     "TercerSemestre/AlgebraLineal2/TransformacionesLineales.md",
-    "TercerSemestre/Calculo3/temario_calc3.pdf",
+    "TercerSemestre/Calculo3/u.md",
     "TercerSemestre/Calculo3/Untitled.md",
+    "TercerSemestre/Probabilidad/Temario_Probabilidad.pdf",
+    "TercerSemestre/Probabilidad/TiposDeProbabilidad.md",
+    "TercerSemestre/Probabilidad/PrincipiosDeProbabilidad.md",
+    "TercerSemestre/Probabilidad",
+    "TercerSemestre/Calculo3/temario_calc3.pdf",
     "TercerSemestre/AlgebraLineal2/temario_AlgebraLineal.md",
     "TercerSemestre/AlgebraLineal2",
     "TercerSemestre/Calculo3",

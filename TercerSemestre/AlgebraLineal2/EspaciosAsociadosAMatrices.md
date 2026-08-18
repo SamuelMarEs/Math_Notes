@@ -13,12 +13,12 @@ $$
 - Definimos la ***imagen*** $$
   	im(A)=\{ y\in F^{m}|Ax=y \quad\text{para algún}\quad x\in F^{n} \}
   $$ la cual es un subespacio de $F^{m}$.
-- Definimos el ***kernel***, *espacio nulo*, o *núcleo* como $$
+- Definimos el [[KernelYRango|kernel]], *espacio nulo*, o *núcleo* como $$
   	ker(A)\{ x\in F^{n}|Ax=0 \}
   $$ el cual es un subespacio de $F^{n}$.
 
 ##### Teo:
-Llamamos el ***rango*** de una matriz $A$ a 
+Llamamos el [[KernelYRango|rango]] de una matriz $A$ a 
 $$
 	dim(im(A))=dim(C_{A})=dim(R_{A}).
 $$
