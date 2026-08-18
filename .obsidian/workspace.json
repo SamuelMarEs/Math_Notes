@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "5d86ca1097b55f29",
+        "id": "6dee6b3c651d5c29",
         "type": "tabs",
         "children": [
           {
-            "id": "f5870a6e59f08bb0",
+            "id": "90f24b9cf313c24c",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -220,12 +220,13 @@
       "bases:Create new base": false
     }
   },
-  "active": "ddd66d7aa249ed22",
+  "active": "90f24b9cf313c24c",
   "lastOpenFiles": [
-    "TercerSemestre/Calculo3/temario_calc3.pdf",
+    "TercerSemestre/AlgebraLineal2/EspaciosAsociadosAMatrices.md",
     "TercerSemestre/AlgebraLineal2/EspaciosVectoriales.md",
-    "TercerSemestre/Calculo3/Untitled.md",
     "TercerSemestre/AlgebraLineal2/TransformacionesLineales.md",
+    "TercerSemestre/Calculo3/temario_calc3.pdf",
+    "TercerSemestre/Calculo3/Untitled.md",
     "TercerSemestre/AlgebraLineal2/temario_AlgebraLineal.md",
     "TercerSemestre/AlgebraLineal2",
     "TercerSemestre/Calculo3",
