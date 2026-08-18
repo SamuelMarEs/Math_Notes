@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "6dee6b3c651d5c29",
+        "id": "88ad1672d61fe1e8",
         "type": "tabs",
         "children": [
           {
-            "id": "90f24b9cf313c24c",
+            "id": "09ca4160e5b92799",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -220,8 +220,12 @@
       "bases:Create new base": false
     }
   },
-  "active": "90f24b9cf313c24c",
+  "active": "09ca4160e5b92799",
   "lastOpenFiles": [
+    "TercerSemestre/Probabilidad/PrincipiosDeProbabilidad.md",
+    "TercerSemestre/Probabilidad/TiposDeProbabilidad.md",
+    "TercerSemestre/Probabilidad/Temario_Probabilidad.pdf",
+    "TercerSemestre/Probabilidad",
     "TercerSemestre/AlgebraLineal2/EspaciosAsociadosAMatrices.md",
     "TercerSemestre/AlgebraLineal2/EspaciosVectoriales.md",
     "TercerSemestre/AlgebraLineal2/TransformacionesLineales.md",
