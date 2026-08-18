@@ -10,8 +10,21 @@ Formalmente, un espacio vectorial $V$ es un conjunto de *vectores* que satisface
 7. $(a+b)\cdot \vec{x}=a\cdot \vec{x}+b\cdot \vec{x}$ para todo $a,b\in F$ y $\vec{x}\in V$.
 8. $a\cdot(\vec{x}+\vec{y})=a\cdot \vec{x}+a\cdot \vec{y}$ para todo $a \in F$ y $\vec{x},\vec{y}\in V$.
 
+#### Subespacio Vectorial
+Sea $V$ un espacio vectorial sobre $F$. Un subconjunto $W\subset V$ es un subespacio vectorial si $W$ es un espacio vectorial sobre $F$.
+##### Teo:
+Sea $V$ un espacio vectorial sobre un campo $F$, y $W\subset V$. Entonces $W$ es un subespacio vectorial si:
+1. $\vec{x},\vec{y}\in W\implies \vec{x}+\vec{y}\in W$.
+2. $a\in F$ y $\vec{x}\in W\implies a\vec{x}\in W$.
+3. $\vec{0}\in W$.
 
-
+#### Base
+Una base de un espacio vectorial $V$ es un conjunto $\{ v_{1},v_{2},\dots, v_{n} \}$ linealmente independiente tal que 
+$$
+	V=span(v_{1},v_{2},\dots,v_{n})= <v_{1},v_{2},\dots,v_{n}>.
+$$
+##### Teo:
+Cualquier conjunto linealmente independiente con tamaño $n=dim(V)$ es una base de $V$.
 
 
 #AlgebraLineal

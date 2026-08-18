@@ -5,7 +5,7 @@ Una transformación lineal entre $V$ y $W$ es una función $T:V\to W$ que satisf
 2. $T(r\vec{x})=rT(\vec{x})$.
 Esto se puede interpretar como que $T$ es una función que "preserva la estructura".
 
-#### Primeras consecuencias:
+#### Primeras propiedades:
 1. Si $T:V\to W$ es lineal, entonces $T(\vec{0}_{v})=\vec{0}_{w}$. 
 2. $T(r\vec{x}+\vec{y})=rT(\vec{x})+T(\vec{y})$.
 3. $T(\vec{x}-\vec{y})=T(\vec{x})-T(\vec{y})$.

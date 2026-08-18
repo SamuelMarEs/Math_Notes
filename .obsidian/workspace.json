@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "9639c07162ee9571",
+        "id": "5d86ca1097b55f29",
         "type": "tabs",
         "children": [
           {
-            "id": "e62f07b1abdd353f",
+            "id": "f5870a6e59f08bb0",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "TercerSemestre/AlgebraLineal2/TransformacionesLineales.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "TransformacionesLineales"
+              "title": "New tab"
             }
           }
         ]
@@ -224,14 +220,14 @@
       "bases:Create new base": false
     }
   },
-  "active": "e62f07b1abdd353f",
+  "active": "ddd66d7aa249ed22",
   "lastOpenFiles": [
+    "TercerSemestre/Calculo3/temario_calc3.pdf",
     "TercerSemestre/AlgebraLineal2/EspaciosVectoriales.md",
     "TercerSemestre/Calculo3/Untitled.md",
     "TercerSemestre/AlgebraLineal2/TransformacionesLineales.md",
     "TercerSemestre/AlgebraLineal2/temario_AlgebraLineal.md",
     "TercerSemestre/AlgebraLineal2",
-    "TercerSemestre/Calculo3/temario_calc3.pdf",
     "TercerSemestre/Calculo3",
     "TercerSemestre/Horario_tercersemestre.jpeg",
     "ISLP.pdf",
