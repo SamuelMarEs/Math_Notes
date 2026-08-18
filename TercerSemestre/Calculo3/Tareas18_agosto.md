@@ -69,7 +69,22 @@ $$
 $$
 donde $B_{i}$ es la matriz obtenida al intercambiar la $i$-ésima columna de $A$ por el vector columna $b$.
 ##### Demostración:
-
+Dado el sistema $Ax=b$ con $\det(A)\neq 0$, sabemos que la solución única es de la forma 
+$$
+	x=A^{-1}b,
+$$
+lo cual se puede reescribir usando la igualdad $A^{-1}=\frac{1}{\det(A)}\text{adj}(A)$, de forma que tenemos: 
+$$
+	x=\frac{1}{\det(A)}\text{adj}(A)b.
+$$
+El $i$-ésimo valor del vector solución $x$ está dado por multiplicar la $i$-ésima columna de la matriz adjunta (que tiene los cofactores $C_{ki}$) por el vector columna $b=(b_{1},\dots,bn)$, es decir 
+$$
+	x_{i}=\frac{C_{1i}b_{1}+C_{2i}b_{2}+\dots+C_{ni}b_{i}}{\det(A)},
+$$
+donde el numerador es el determinante de $A$ al remplazar la $i$-ésima columna por el vector $b$. Por lo tanto tenemos 
+$$
+	x_{i}=\frac{\det(B_{i})}{\det(A)}.\quad\square
+$$
 
 ### Software para encontrar inversas
 En el lenguaje de programación Python, usando la libreria numpy (np), se puede calcular la inversa de una matriz de la siguiente forma:
@@ -82,7 +97,7 @@ A = np.array([1,2],
 A_inv = np.linalg.inv(A)
 ~~~
 
-### Balanceo de ecuaciones
+### Balanceo de ecuaciones químicas
 Plantear un sistema para resolver 
 $$
 	pC_{3}H_{4}O_{3}+qO_{2}=rCO_{2}+sH_{2}O,
@@ -101,6 +116,7 @@ Sustituyendo $s$ y $r$ en la última ecuación, tenemos
 $$
 	3p+2q=6p+2p \implies 5p=2q.
 $$
+Estas ecuaciones forman un sistema consistente indeterminado, pues si bien tiene solución, esta no es única.
 
 
 #Calculo #AlgebraLineal 
