@@ -1,4 +1,4 @@
-Sea $A\in M_{m\times n}(F)$ con coeficientes $a_{ij}$ de la forma 
+Sea $A\in M_{m\times n}(F)$ una [[Matrices|matriz]] con coeficientes $a_{ij}$ de la forma 
 $$
 	A=\begin{pmatrix}
 	a_{11} & \dots & a_{1n} \\

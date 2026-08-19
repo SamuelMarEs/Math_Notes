@@ -96,6 +96,7 @@ A = np.array([1,2],
 # Calculamos la inversa
 A_inv = np.linalg.inv(A)
 ~~~
+El método funciona mediante un algoritmo llamado *descomposición LU con pivoteo parcial*.
 
 ### Balanceo de ecuaciones químicas
 Plantear un sistema para resolver 
