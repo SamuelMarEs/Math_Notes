@@ -102,7 +102,7 @@ Plantear un sistema para resolver
 $$
 	pC_{3}H_{4}O_{3}+qO_{2}=rCO_{2}+sH_{2}O,
 $$
-y hallar la menor solución entera positiva posible para $p,q,r$ y $s$. Decir si es consistente, incosistente, determinado o indeterminado.
+y hallar la menor solución entera positiva posible para $p,q,r$ y $s$. Decir si es consistente, inconsistente, determinado o indeterminado.
 ##### Solución:
 Podemos plantear un sistema de 3 ecuaciones y 4 incógnitas, donde los coeficientes son las cantidades de cada elemento: 
 $$
@@ -117,6 +117,18 @@ $$
 	3p+2q=6p+2p \implies 5p=2q.
 $$
 Estas ecuaciones forman un sistema consistente indeterminado, pues si bien tiene solución, esta no es única.
+Entonces, escribiendo todas las variables en términos de $p$ tenemos: 
+$$
+	r=3p,\quad s=2p,\quad\text{y}\quad q=\frac{5}{2}p.
+$$
+Dado que queremos una solución entera, y como $q=\frac{5}{2}p$, entonces $p$ debe ser par. El entero par más chico es $p=2$, con el cual obtenemos la solución 
+$$
+	p=2,\quad r=6,\quad s=4,\quad\text{y}\quad q=5.
+$$
+Por lo tanto nuestra ecuación balanceada es 
+$$
+	2C_{3}H_{4}O_{3}+5O_{2}=6CO_{2}+4H_{2}O.
+$$
 
 
 #Calculo #AlgebraLineal 
