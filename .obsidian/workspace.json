@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "743b788c8a3795c7",
+        "id": "edb94088351653d5",
         "type": "tabs",
         "children": [
           {
-            "id": "c44812f59bc8bdd5",
+            "id": "4030e514097b887c",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -220,15 +220,21 @@
       "bases:Create new base": false
     }
   },
-  "active": "c44812f59bc8bdd5",
+  "active": "4030e514097b887c",
   "lastOpenFiles": [
+    "TercerSemestre/Probabilidad/ProbabilidadFrecuentista.md",
+    "TercerSemestre/Probabilidad/ProbabilidadSubjetiva.md",
+    "TercerSemestre/Probabilidad/ProbabilidadClasica.md",
+    "TercerSemestre/Probabilidad/ProbabilidadGeometrica.md",
+    "TercerSemestre/Imagenes",
+    "TercerSemestre/Imagenes/200LanzamientosDeMoneda.png",
+    "TercerSemestre/Probabilidad/Combinatoria.md",
+    "TercerSemestre/Probabilidad/PrincipiosDeProbabilidad.md",
     "TercerSemestre/Calculo3/Tareas18_agosto.md",
     "TercerSemestre/Calculo3/Matrices.md",
     "TercerSemestre/AlgebraLineal2/EspaciosVectoriales.md",
     "TercerSemestre/Calculo3/OperacionesElementales.md",
     "TercerSemestre/AlgebraLineal2/EspaciosAsociadosAMatrices.md",
-    "TercerSemestre/Probabilidad/TiposDeProbabilidad.md",
-    "TercerSemestre/Probabilidad/PrincipiosDeProbabilidad.md",
     "TercerSemestre/AlgebraLineal2/KernelYRango.md",
     "TercerSemestre/Datos_Algoritmos/Untitled.md",
     "TercerSemestre/Datos_Algoritmos",
