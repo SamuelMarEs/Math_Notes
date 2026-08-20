@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "b4c7edb99715470e",
+        "id": "f1a8f7d25755921d",
         "type": "tabs",
         "children": [
           {
-            "id": "b3e2667f4838b0ab",
+            "id": "e6bf852c24c483ec",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -220,8 +220,11 @@
       "bases:Create new base": false
     }
   },
-  "active": "b3e2667f4838b0ab",
+  "active": "e6bf852c24c483ec",
   "lastOpenFiles": [
+    "TercerSemestre/AlgebraLineal2/Tarea1_AlgebraLineal2.md",
+    "TercerSemestre/AlgebraLineal2/TransformacionesLineales.md",
+    "TercerSemestre/Probabilidad/Temario_Probabilidad.pdf",
     "TercerSemestre/Datos_Algoritmos/RepasoPython.md",
     "TercerSemestre/Probabilidad/ProbabilidadFrecuentista.md",
     "TercerSemestre/Probabilidad/ProbabilidadSubjetiva.md",
@@ -238,9 +241,7 @@
     "TercerSemestre/AlgebraLineal2/EspaciosAsociadosAMatrices.md",
     "TercerSemestre/AlgebraLineal2/KernelYRango.md",
     "TercerSemestre/Datos_Algoritmos",
-    "TercerSemestre/AlgebraLineal2/TransformacionesLineales.md",
     "TercerSemestre/Calculo3/u.md",
-    "TercerSemestre/Probabilidad/Temario_Probabilidad.pdf",
     "TercerSemestre/Probabilidad",
     "TercerSemestre/Calculo3/temario_calc3.pdf",
     "TercerSemestre/AlgebraLineal2/temario_AlgebraLineal.md",
