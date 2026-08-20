@@ -105,8 +105,9 @@ Para los ejercicios 2-6, probar que $T$ es una transformación lineal, encontrar
 	     $$
 
 
-11.- Probar que existe una transformación lineal $T:R^{2}\to R^{2}$ tal que $T(1,1)=(1,0,2)$ y $T(2,3)=(1,-1,4)$.
+11.- Probar que existe una transformación lineal $T:R^{2}\to R^{3}$ tal que $T(1,1)=(1,0,2)$ y $T(2,3)=(1,-1,4)$. ¿Qué es $T(8,11)$? $T(3,4)=(2,-1,6)$
 **Sol:**
+Sea $T(a_{1},a_{2})=( , a_{1}-a_{2}, 2a_{1})$
 
 
 13.- Sean $V$ y $W$ espacios vectoriales, sea $T:V\to W$ lineal y sea $\{ w_{1},w_{2},\dots,w_{k} \}$ un conjunto de $k$ vectores linealmente independientes de $R(T)$. Probar que si $S=\{ v_{1},\dots,v_{k} \}$ se eligen tal que $T(v_{i})=w_{i}$ para $i=1,\dots,k$, entonces $S$ es linealmente independiente.
@@ -124,9 +125,13 @@ $$
 	T(\lambda f+g)=\int_{0}^{x}\lambda f(t)+g(t)dt=\lambda\int_{0}^{x}f(t)dt+\int_{0}^{x}g(t)dt=\lambda T(f)+T(g).
 $$
 Además tenemos que la única forma de que la integral definida de un polinomio sea cero es que el polinomio sea el polinomio nulo, es decir que $N(T)=\{ 0 \}$, y por lo tanto la transformación es inyectiva.
+Sin embargo, no existe ningún polinomio $g$ tal que $T(g)=1$, o en general cualquier constante distinta de cero, pues $\int_{0}^{x}g(t)dt$ nunca va a tener un término constante.
+
 
 16.- Sea $T:P(R)\to P(R)$ definida como $T(f(x))=f'(x)$. $T$ es lineal. Probar que $T$ es suprayectiva, pero no inyectiva.
 **Sol:**
+Para cualquier polinomio $g\in P(R)$, podemos tomar $\int g=f$ tal que $T(f)=\left( \int g \right)'=g$, por lo tanto $T$ es suprayectiva.
+Sea $h=1\in P(R)$, tenemos que $T(h)=0\implies h\in N(T)\implies N(T)\neq \{ 0 \}$, por lo tanto $T$ no puede ser inyectiva.
 
 
  

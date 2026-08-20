@@ -27,4 +27,19 @@ $$
 pero como todos estos vectores son parte de nuestra base $S_{1}$, son linealmente independientes, lo que implica que $a_{k+1}=\dots=a_{n}=0$, por lo tanto $\{ T(v_{k+1}),\dots,T(v_{n}) \}$ son linealmente independientes, lo que concluye nuestra demostración. $\quad\square$
 
 
+##### Teorema 2.4
+Sean $V$ y $W$ espacios vectoriales sobre $F$. Sea $T:V\to W$ lineal. Entonces $T$ es inyectiva (uno a uno) si y sólo si $N(T)=\{ 0 \}$.
+##### Demostración:
+Por ser $T$ lineal, sabemos que $T(0)=0$. Además, por definición de inyectividad, sea $x\in N(T)$, entonces $T(x)=0\implies x=0$, por lo tanto $N(T)=\{ 0 \}$.
+Para el regreso, supongamos que $N(T)=\{ 0 \}$. Sean $x,y\in V$ tales que $T(x)=T(y)$. Entonces tenemos que $T(x-y)=T(x)-T(y)=0$, lo que implica que $x-y\in N(T)$, y por lo tanto $x-y=0$, es decir que $x=y$, y por lo tanto $T$ es inyectiva. $\quad\square$
+
+
+##### Teorema 2.5
+Sean $V$ y $W$ espacios vectoriales de dimensión finita con la misma dimensión. Sea $T:V\to W$ lineal. Entonces las siguientes afirmaciones son equivalentes:
+- $T$ es inyectiva.
+- $T$ es suprayectiva.
+- $\text{rank}(T)=\text{dim}(V)$.
+##### Demostración:
+Sea $T$ inyectiva, entonces $N(T)=\{ 0 \}$, entonces $\text{nullity}(T)=0$, por lo tanto $\text{rank}(T)=\text{dim}(V)=\text{dim}(W)$, es decir que $\text{rank}(T)=\text{dim}(W)$, la cual es la definición de suprayectividad. $\quad\square$
+
 #AlgebraLineal #Teorema

@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "ffca39e38131ac98",
+        "id": "d90361963f854288",
         "type": "tabs",
         "children": [
           {
-            "id": "ec1d985abfc2afff",
+            "id": "e7c3215d6440aa62",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -220,13 +220,13 @@
       "bases:Create new base": false
     }
   },
-  "active": "ddd66d7aa249ed22",
+  "active": "e7c3215d6440aa62",
   "lastOpenFiles": [
-    "TercerSemestre/AlgebraLineal2/TransformacionesInyectivas_Suprayectivas.md",
+    "TercerSemestre/AlgebraLineal2/Tarea1_AlgebraLineal2.md",
     "TercerSemestre/AlgebraLineal2/TeoremaDimension.md",
+    "TercerSemestre/AlgebraLineal2/TransformacionesInyectivas_Suprayectivas.md",
     "TercerSemestre/AlgebraLineal2/TransformacionesLineales.md",
     "TercerSemestre/AlgebraLineal2/KernelYRango.md",
-    "TercerSemestre/AlgebraLineal2/Tarea1_AlgebraLineal2.md",
     "TercerSemestre/Calculo3/Tareas18_agosto.md",
     "TercerSemestre/Calculo3/temario_calc3.pdf",
     "TercerSemestre/Calculo3/Matrices.md",
