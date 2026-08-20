@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "f1a8f7d25755921d",
+        "id": "ffca39e38131ac98",
         "type": "tabs",
         "children": [
           {
-            "id": "e6bf852c24c483ec",
+            "id": "ec1d985abfc2afff",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -220,10 +220,18 @@
       "bases:Create new base": false
     }
   },
-  "active": "e6bf852c24c483ec",
+  "active": "ddd66d7aa249ed22",
   "lastOpenFiles": [
-    "TercerSemestre/AlgebraLineal2/Tarea1_AlgebraLineal2.md",
+    "TercerSemestre/AlgebraLineal2/TransformacionesInyectivas_Suprayectivas.md",
+    "TercerSemestre/AlgebraLineal2/TeoremaDimension.md",
     "TercerSemestre/AlgebraLineal2/TransformacionesLineales.md",
+    "TercerSemestre/AlgebraLineal2/KernelYRango.md",
+    "TercerSemestre/AlgebraLineal2/Tarea1_AlgebraLineal2.md",
+    "TercerSemestre/Calculo3/Tareas18_agosto.md",
+    "TercerSemestre/Calculo3/temario_calc3.pdf",
+    "TercerSemestre/Calculo3/Matrices.md",
+    "TercerSemestre/AlgebraLineal2/EspaciosAsociadosAMatrices.md",
+    "TercerSemestre/Calculo3/OperacionesElementales.md",
     "TercerSemestre/Probabilidad/Temario_Probabilidad.pdf",
     "TercerSemestre/Datos_Algoritmos/RepasoPython.md",
     "TercerSemestre/Probabilidad/ProbabilidadFrecuentista.md",
@@ -234,16 +242,10 @@
     "TercerSemestre/Imagenes/200LanzamientosDeMoneda.png",
     "TercerSemestre/Probabilidad/Combinatoria.md",
     "TercerSemestre/Probabilidad/PrincipiosDeProbabilidad.md",
-    "TercerSemestre/Calculo3/Tareas18_agosto.md",
-    "TercerSemestre/Calculo3/Matrices.md",
     "TercerSemestre/AlgebraLineal2/EspaciosVectoriales.md",
-    "TercerSemestre/Calculo3/OperacionesElementales.md",
-    "TercerSemestre/AlgebraLineal2/EspaciosAsociadosAMatrices.md",
-    "TercerSemestre/AlgebraLineal2/KernelYRango.md",
     "TercerSemestre/Datos_Algoritmos",
     "TercerSemestre/Calculo3/u.md",
     "TercerSemestre/Probabilidad",
-    "TercerSemestre/Calculo3/temario_calc3.pdf",
     "TercerSemestre/AlgebraLineal2/temario_AlgebraLineal.md",
     "TercerSemestre/AlgebraLineal2",
     "TercerSemestre/Calculo3",

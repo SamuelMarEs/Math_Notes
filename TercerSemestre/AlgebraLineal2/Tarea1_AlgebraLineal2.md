@@ -59,10 +59,25 @@ Para los ejercicios 2-6, probar que $T$ es una transformación lineal, encontrar
    por lo tanto $\text{dim}(N(T))=4$, y entonces $\text{dime}(R(T))=2$. Dado que $N(T)\neq \{ 0 \}$, $T$ no es inyectiva. Además $\text{dim}(R(T))\neq\text{dim}(M_{2\times 2}(F))$, por lo tanto tampoco es suprayectiva.
    
 5. $T:P_{2}(R)\to P_{3}(R)$ definida por $T(f(x))=xf(x)+f'(x)$.
-6. $T:M_{n\times n}(F)\to F$ definida por $T(A)=\text{tr}(A)$. La traza de $A$ dada por 
+   **Sol:**
+   Sean $f(x)=a_{1}x^{2}+b_{1}x+c_{1},g(x)=a_{2}x^{2}+b_{2}x+c_{2}\in P_{2}(R)$ y $\lambda\in R$, tenemos que $$
+	\begin{align}
+	T(f(x)+g(x))&=(\lambda a_{1}+a_{2})x^{3}+(\lambda b_{1}+b_{2})x^{2}+(\lambda c_{1}+c_{2})x+2(\lambda a_{1}+a_{2})x+(\lambda b_{1}+b_{2}) \\
+	&=\lambda[(a_{1}x^{3}+ b_{1}x^{2}+ c_{1}x)+(2a_{1}x+ b_{1})]+[(a_{2}x^{3}+b_{2}x^{2}+c_{1}x)+(2a_{2}x+b_{2})] \\
+	&=\lambda T(f(x))+T(g(x)).
+	\end{align}
    $$
+   La única forma de que $T(f)=0$ es si $f=0$, por lo tanto $N(T)=\{ 0 \}$, por lo tanto la transformación es inyectiva. Sin embargo, por el teorema de la dimensión tenemos que $\text{dim}(R(T))=3$, por lo tanto no es suprayectiva, ya que $\text{dim}(P_{3}(R))=4$. En particular, no se puede cubrir ningún polinomio de la forma $g(x)=ax^{3}+bx^{2}+cx$ para $a,b,c\neq 0$.
+   Una base de $R(T)$ es $\{ x^{3},x^{2},x \}$.
+   
+6. $T:M_{n\times n}(F)\to F$ definida por $T(A)=\text{tr}(A)$. La traza de $A$ dada por $$
    	\text{tr}(A)=\sum_{i=1}^{n}a_{ii}.
    $$
+   **Sol:**
+   Sean $A,B\in M_{n\times n}(F)$ con $A=[a_{ii}]$ y $B=[b_{ii}]$, y sea $\lambda \in R$, entonces   $$
+	T(\lambda A+B)=\sum_{i=1}^{n}\lambda a_{ii}+b_{ii}=\lambda \sum_{i=1}^{n}a_{ii}+\sum_{i=1}^{n}b_{ii}=\lambda T(A)+T(B).
+   $$
+   El la base del kernel $N(T)$ tiene $n^{2}-n$ matrices, cada una con un uno en una posición distinta de la diagonal, además de $\begin{pmatrix}n-1 \\  1\end{pmatrix}=n-1$ matrices obtenidas de colocar un 1 en la posición 11, y todas las formas de colocar un $-1$ en las demás posiciones, i.e. $\text{dim}(N(T))=n^{2}-1$, y por lo tanto $\text{dim}(R(T))=1=\text{dim}(R)$, por lo tanto la transformación es suprayectiva, pero no es inyectiva. Una base de $R(T)$ es $\{ 1 \}$.
 
 7.- Probar las propiedades:
    - Si $T:V\to W$ es lineal, entonces $T(\vec{0}_{v})=\vec{0}_{w}$. 
@@ -91,16 +106,27 @@ Para los ejercicios 2-6, probar que $T$ es una transformación lineal, encontrar
 
 
 11.- Probar que existe una transformación lineal $T:R^{2}\to R^{2}$ tal que $T(1,1)=(1,0,2)$ y $T(2,3)=(1,-1,4)$.
+**Sol:**
+
 
 13.- Sean $V$ y $W$ espacios vectoriales, sea $T:V\to W$ lineal y sea $\{ w_{1},w_{2},\dots,w_{k} \}$ un conjunto de $k$ vectores linealmente independientes de $R(T)$. Probar que si $S=\{ v_{1},\dots,v_{k} \}$ se eligen tal que $T(v_{i})=w_{i}$ para $i=1,\dots,k$, entonces $S$ es linealmente independiente.
+**Sol:**
+
 
 15.- Definamos 
 $$
 	T:P(R)\to P(R) \quad\text{como}\quad T(f(x))=\int_{0}^{x}f(t)dt.
 $$
 Probar que $T$ es linear e inyectiva, pero no suprayectiva.
+**Sol:**
+Por las propiedades de la integral, dados $f,g\in P(R)$ y $\lambda\in R$, tenemos que 
+$$
+	T(\lambda f+g)=\int_{0}^{x}\lambda f(t)+g(t)dt=\lambda\int_{0}^{x}f(t)dt+\int_{0}^{x}g(t)dt=\lambda T(f)+T(g).
+$$
+Además tenemos que la única forma de que la integral definida de un polinomio sea cero es que el polinomio sea el polinomio nulo, es decir que $N(T)=\{ 0 \}$, y por lo tanto la transformación es inyectiva.
 
 16.- Sea $T:P(R)\to P(R)$ definida como $T(f(x))=f'(x)$. $T$ es lineal. Probar que $T$ es suprayectiva, pero no inyectiva.
+**Sol:**
 
 
  
