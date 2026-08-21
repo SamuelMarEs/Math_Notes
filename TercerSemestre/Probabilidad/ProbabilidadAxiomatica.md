@@ -7,7 +7,7 @@
    $$
 
 ##### Definición:
-Una ***medida de probabilidad*** es una función $P:\mathcal{A}\to[0,1]$ que satisface los axiomas de Kolmogorov, donde $\mathcal{A}\subset 2^{\Omega}$ done $\Omega$ es el [[PrincipiosDeProbabilidad|espacio muestral]].
+Una ***medida de probabilidad*** es una función $P:\mathcal{A}\to[0,1]$ que satisface los axiomas de Kolmogorov, donde $\mathcal{A}\subset 2^{\Omega}$ es una [[SigmaAlgebra|sigma álgebra]] done $\Omega$ es el [[PrincipiosDeProbabilidad|espacio muestral]].
 
 Se puede demostrar que la [[ProbabilidadClasica|probabilidad clásica]], [[ProbabilidadGeometrica|probabilidad geométrica]] y la [[ProbabilidadFrecuentista|probabilidad frecuentista]] satisfacen los axiomas de Kolmogorov.
 

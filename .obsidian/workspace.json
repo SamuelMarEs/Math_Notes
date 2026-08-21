@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "ac3175213e0c5b8e",
+        "id": "ee6698ca164127d2",
         "type": "tabs",
         "children": [
           {
-            "id": "e0cc978e3cb28519",
+            "id": "9c4e5df1a0380184",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -220,8 +220,10 @@
       "bases:Create new base": false
     }
   },
-  "active": "e0cc978e3cb28519",
+  "active": "9c4e5df1a0380184",
   "lastOpenFiles": [
+    "TercerSemestre/Probabilidad/SigmaAlgebra.md",
+    "TercerSemestre/Probabilidad/Espacio_de_Probabilidad.md",
     "TercerSemestre/Probabilidad/ProbabilidadAxiomatica.md",
     "TercerSemestre/Probabilidad/ProbabilidadGeometrica.md",
     "TercerSemestre/Probabilidad/ProbabilidadFrecuentista.md",
