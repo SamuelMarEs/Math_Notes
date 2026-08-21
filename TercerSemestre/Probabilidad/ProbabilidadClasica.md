@@ -46,6 +46,4 @@ $$
 Como después del 8 se repiten los primeros 4 resultados, entonces los mejores números son 6, 7 y 8.
 
 
-
-
 #Probabilidad
