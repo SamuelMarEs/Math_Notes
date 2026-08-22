@@ -1,3 +1,5 @@
+Samuel Márquez Estrada
+
 ### Sección 2.1 Friedberg
 Para los ejercicios 2-6, probar que $T$ es una transformación lineal, encontrar bases de $N(T)$ y $R(T)$, calcular sus dimensiones, y verificar si $T$ es inyectiva o suprayectiva.
 2. $T:R^{3}\to R^{2}$ definida por $T(a_{1},a_{2},a_{3})=(a_{1}-a_{2},2a_{3})$.

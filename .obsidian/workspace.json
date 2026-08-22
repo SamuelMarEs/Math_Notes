@@ -11,10 +11,14 @@
             "id": "9c4e5df1a0380184",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "TercerSemestre/Probabilidad/Tarea1Probabilidad.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Tarea1Probabilidad"
             }
           }
         ]
@@ -222,6 +226,8 @@
   },
   "active": "9c4e5df1a0380184",
   "lastOpenFiles": [
+    "TercerSemestre/AlgebraLineal2/Tarea1_AlgebraLineal2.md",
+    "TercerSemestre/Probabilidad/Tarea1Probabilidad.md",
     "TercerSemestre/Probabilidad/SigmaAlgebra.md",
     "TercerSemestre/Probabilidad/Espacio_de_Probabilidad.md",
     "TercerSemestre/Probabilidad/ProbabilidadAxiomatica.md",
@@ -230,7 +236,6 @@
     "TercerSemestre/Probabilidad/ProbabilidadClasica.md",
     "TercerSemestre/Probabilidad/PrincipiosDeProbabilidad.md",
     "TercerSemestre/Probabilidad/Combinatoria.md",
-    "TercerSemestre/AlgebraLineal2/Tarea1_AlgebraLineal2.md",
     "TercerSemestre/AlgebraLineal2/TeoremaDimension.md",
     "TercerSemestre/AlgebraLineal2/TransformacionesInyectivas_Suprayectivas.md",
     "TercerSemestre/AlgebraLineal2/TransformacionesLineales.md",
