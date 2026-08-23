@@ -4,37 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "ee6698ca164127d2",
+        "id": "7770fa3fef31c3f3",
         "type": "tabs",
         "children": [
           {
-            "id": "9c4e5df1a0380184",
+            "id": "a99e7c512d6d9d4f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "TercerSemestre/Probabilidad/Tarea1Probabilidad.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Tarea1Probabilidad"
-            }
-          },
-          {
-            "id": "a34353e31b28cc4f",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Tarea1Proba.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Tarea1Proba"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -238,13 +221,13 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "a34353e31b28cc4f",
+  "active": "ddd66d7aa249ed22",
   "lastOpenFiles": [
+    "TercerSemestre/AlgebraLineal2/Tarea1_AlgebraLineal2.md",
     "TercerSemestre/Probabilidad/Tarea1Probabilidad.md",
     "Excalidraw/Tarea1Proba.md",
     "Excalidraw",
     "TercerSemestre/Probabilidad/SigmaAlgebra.md",
-    "TercerSemestre/AlgebraLineal2/Tarea1_AlgebraLineal2.md",
     "TercerSemestre/Probabilidad/Espacio_de_Probabilidad.md",
     "TercerSemestre/Probabilidad/ProbabilidadAxiomatica.md",
     "TercerSemestre/Probabilidad/ProbabilidadGeometrica.md",

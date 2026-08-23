@@ -107,13 +107,34 @@ Para los ejercicios 2-6, probar que $T$ es una transformación lineal, encontrar
 	     $$
 
 
-11.- Probar que existe una transformación lineal $T:R^{2}\to R^{3}$ tal que $T(1,1)=(1,0,2)$ y $T(2,3)=(1,-1,4)$. ¿Qué es $T(8,11)$? $T(3,4)=(2,-1,6)$
+11.- Probar que existe una transformación lineal $T:R^{2}\to R^{3}$ tal que $T(1,1)=(1,0,2)$ y $T(2,3)=(1,-1,4)$. ¿Qué es $T(8,11)$? 
 **Sol:**
-Sea $T(a_{1},a_{2})=( , a_{1}-a_{2}, 2a_{1})$
+Sea $T(a_{1},a_{2})=(2a_{1}-a_{2} , a_{1}-a_{2}, 2a_{1})$, tenemos que $T(1,1)=(2-1,1-1,2)=(1,0,2)$, y $T(2,3)=(4-3,2-3,4)=(1,-1,4)$.
+Además tenemos que para $(a_{1},a_{2}),(b_{1},b_{2})\in R^{2}$ y $\lambda\in R$, se cumple que 
+$$
+	\begin{align}
+	T(\lambda a_{1}+b_{1},\lambda a_{2}+b_{2})&=(2(\lambda a_{1}+b_{1})-(\lambda a_{2}+b_{2}), (\lambda a_{1}+b_{1})-(\lambda a_{2}+b_{2}), 2(\lambda a_{1}+b_{1})) \\
+	&=\lambda(2a_{1}-a_{2},a_{1}-a_{2},2a_{2})+(2b_{1}-b_{2},b_{1}-b_{2},2b_{1}) \\
+	&=\lambda T(a_{1},a_{2})+T(b_{1},b_{2}),
+	\end{align}
+$$
+por lo que $T$ es lineal. 
+Además, $T(8,11)=(5,-3,16)$.
 
 
 13.- Sean $V$ y $W$ espacios vectoriales, sea $T:V\to W$ lineal y sea $\{ w_{1},w_{2},\dots,w_{k} \}$ un conjunto de $k$ vectores linealmente independientes de $R(T)$. Probar que si $S=\{ v_{1},\dots,v_{k} \}$ se eligen tal que $T(v_{i})=w_{i}$ para $i=1,\dots,k$, entonces $S$ es linealmente independiente.
 **Sol:**
+**Prueba por contradicción:**
+Supongamos que $S=\{ v_{1},\dots,v_{k} \}$ es un conjunto linealmente dependiente, esto quiere decir que existen $a_{1},\dots,a_{k}$ no todos ceros tales que 
+$$
+	a_{1}v_{1}+\dots+a_{k}v_{k}=0.
+$$
+Si tomamos la transformación lineal de esta combinación, tenemos que 
+$$
+	0=T\left( \sum_{i=1}^{k} a_{i}v_{i}\right)=a_{1}T(v_{1})+\dots+a_{k}T(v_{k})=a_{1}w_{1}+\dots+a_{k}w_{k,}
+$$
+es decir, tenemos una combinación lineal de $\{ w_{1},w_{2},\dots,w_{k} \}$ con $a_{1},\dots,a_{k}$ no todos ceros, que es igual a cero, es decir que $\{ w_{1},w_{2},\dots,w_{k} \}$ es linealmente independiente, pero esto es una contradicción.
+Por lo tanto, $S$ tiene que ser linealmente independiente.
 
 
 15.- Definamos 
