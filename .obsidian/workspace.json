@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "Tarea1Probabilidad"
             }
+          },
+          {
+            "id": "a34353e31b28cc4f",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Tarea1Proba.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Tarea1Proba"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -221,14 +234,17 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "9c4e5df1a0380184",
+  "active": "a34353e31b28cc4f",
   "lastOpenFiles": [
-    "TercerSemestre/AlgebraLineal2/Tarea1_AlgebraLineal2.md",
     "TercerSemestre/Probabilidad/Tarea1Probabilidad.md",
+    "Excalidraw/Tarea1Proba.md",
+    "Excalidraw",
     "TercerSemestre/Probabilidad/SigmaAlgebra.md",
+    "TercerSemestre/AlgebraLineal2/Tarea1_AlgebraLineal2.md",
     "TercerSemestre/Probabilidad/Espacio_de_Probabilidad.md",
     "TercerSemestre/Probabilidad/ProbabilidadAxiomatica.md",
     "TercerSemestre/Probabilidad/ProbabilidadGeometrica.md",
