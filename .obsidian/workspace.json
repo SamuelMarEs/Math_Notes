@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "595167b70ff775c9",
+        "id": "1bf8d1f9d0ec4037",
         "type": "tabs",
         "children": [
           {
-            "id": "b0f980e163d05e0c",
+            "id": "53bf3ef4c507f0d9",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -221,12 +221,15 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "b0f980e163d05e0c",
+  "active": "53bf3ef4c507f0d9",
   "lastOpenFiles": [
+    "TercerSemestre/AlgebraLineal2/TeoremaDimension.md",
+    "TercerSemestre/AlgebraLineal2/BasesOrdenadas.md",
+    "TercerSemestre/AlgebraLineal2/KernelYRango.md",
+    "TercerSemestre/Probabilidad/Tarea1Probabilidad.md",
     "TercerSemestre/Calculo3/SistemasCoordenadas.md",
     "Excalidraw/CoordenadasEsfericas.md",
     "Excalidraw/CoordenadasPolares.md",
-    "TercerSemestre/Probabilidad/Tarea1Probabilidad.md",
     "TercerSemestre/Probabilidad/ProbabilidadGeometrica.md",
     "TercerSemestre/Calculo3/Tareas18_agosto.md",
     "TercerSemestre/AlgebraLineal2/Tarea1_AlgebraLineal2.md",
@@ -239,10 +242,8 @@
     "TercerSemestre/Probabilidad/ProbabilidadClasica.md",
     "TercerSemestre/Probabilidad/PrincipiosDeProbabilidad.md",
     "TercerSemestre/Probabilidad/Combinatoria.md",
-    "TercerSemestre/AlgebraLineal2/TeoremaDimension.md",
     "TercerSemestre/AlgebraLineal2/TransformacionesInyectivas_Suprayectivas.md",
     "TercerSemestre/AlgebraLineal2/TransformacionesLineales.md",
-    "TercerSemestre/AlgebraLineal2/KernelYRango.md",
     "TercerSemestre/Calculo3/temario_calc3.pdf",
     "TercerSemestre/Calculo3/Matrices.md",
     "TercerSemestre/AlgebraLineal2/EspaciosAsociadosAMatrices.md",
@@ -254,7 +255,6 @@
     "TercerSemestre/Imagenes/200LanzamientosDeMoneda.png",
     "TercerSemestre/AlgebraLineal2/EspaciosVectoriales.md",
     "TercerSemestre/Datos_Algoritmos",
-    "TercerSemestre/Calculo3/u.md",
     "TercerSemestre/Probabilidad",
     "TercerSemestre/AlgebraLineal2",
     "TercerSemestre/Calculo3",
