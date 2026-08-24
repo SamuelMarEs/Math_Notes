@@ -30,4 +30,4 @@ $$
 
 Este ejemplo nos indica que la probabilidad geométrica no está limitada a áreas, si no que puede trabajarse en otras dimensiones. Es decir, puede generalizarse al volumen, o "áreas" de más dimensiones.
 
-#Probabilidad
+#Probabilidad #Geometria

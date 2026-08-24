@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "7770fa3fef31c3f3",
+        "id": "595167b70ff775c9",
         "type": "tabs",
         "children": [
           {
-            "id": "a99e7c512d6d9d4f",
+            "id": "b0f980e163d05e0c",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -221,16 +221,20 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "ddd66d7aa249ed22",
+  "active": "b0f980e163d05e0c",
   "lastOpenFiles": [
-    "TercerSemestre/AlgebraLineal2/Tarea1_AlgebraLineal2.md",
+    "TercerSemestre/Calculo3/SistemasCoordenadas.md",
+    "Excalidraw/CoordenadasEsfericas.md",
+    "Excalidraw/CoordenadasPolares.md",
     "TercerSemestre/Probabilidad/Tarea1Probabilidad.md",
+    "TercerSemestre/Probabilidad/ProbabilidadGeometrica.md",
+    "TercerSemestre/Calculo3/Tareas18_agosto.md",
+    "TercerSemestre/AlgebraLineal2/Tarea1_AlgebraLineal2.md",
     "Excalidraw/Tarea1Proba.md",
     "Excalidraw",
     "TercerSemestre/Probabilidad/SigmaAlgebra.md",
     "TercerSemestre/Probabilidad/Espacio_de_Probabilidad.md",
     "TercerSemestre/Probabilidad/ProbabilidadAxiomatica.md",
-    "TercerSemestre/Probabilidad/ProbabilidadGeometrica.md",
     "TercerSemestre/Probabilidad/ProbabilidadFrecuentista.md",
     "TercerSemestre/Probabilidad/ProbabilidadClasica.md",
     "TercerSemestre/Probabilidad/PrincipiosDeProbabilidad.md",
@@ -239,7 +243,6 @@
     "TercerSemestre/AlgebraLineal2/TransformacionesInyectivas_Suprayectivas.md",
     "TercerSemestre/AlgebraLineal2/TransformacionesLineales.md",
     "TercerSemestre/AlgebraLineal2/KernelYRango.md",
-    "TercerSemestre/Calculo3/Tareas18_agosto.md",
     "TercerSemestre/Calculo3/temario_calc3.pdf",
     "TercerSemestre/Calculo3/Matrices.md",
     "TercerSemestre/AlgebraLineal2/EspaciosAsociadosAMatrices.md",
@@ -253,11 +256,9 @@
     "TercerSemestre/Datos_Algoritmos",
     "TercerSemestre/Calculo3/u.md",
     "TercerSemestre/Probabilidad",
-    "TercerSemestre/AlgebraLineal2/temario_AlgebraLineal.md",
     "TercerSemestre/AlgebraLineal2",
     "TercerSemestre/Calculo3",
     "TercerSemestre/Horario_tercersemestre.jpeg",
-    "ISLP.pdf",
-    "Chapter2_Intro/Intro.md"
+    "ISLP.pdf"
   ]
 }

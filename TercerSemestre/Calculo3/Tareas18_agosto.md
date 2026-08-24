@@ -63,7 +63,7 @@ $$
 	\end{pmatrix}.
 $$
 ### Método de Cramer
-Sea $A\in M_{n\times n}$ con coeficientes $a_{ij}$. Si $\det(A)\neq 0$, entonces el sistema $Ax=b$ tiene solución $x=(x_{1},\dots,x_{n})^{T}$ tal que 
+Sea $A\in M_{n\times n}$ con coeficientes $a_{ij}$. Si $\det(A)\neq 0$, entonces el sistema $Ax=b$ tiene solución única $x=(x_{1},\dots,x_{n})^{T}$ tal que 
 $$
 	x_{i}=\frac{\det(B_{i})}{\det(A)},
 $$
