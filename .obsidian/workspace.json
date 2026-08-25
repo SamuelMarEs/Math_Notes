@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "1bf8d1f9d0ec4037",
+        "id": "4e70153926666426",
         "type": "tabs",
         "children": [
           {
-            "id": "53bf3ef4c507f0d9",
+            "id": "84a56c2e09925e05",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "TercerSemestre/AlgebraLineal2/Matrices+Transformaciones.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Matrices+Transformaciones"
+              "title": "New tab"
             }
           }
         ]
@@ -225,13 +221,24 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "53bf3ef4c507f0d9",
+  "active": "ddd66d7aa249ed22",
   "lastOpenFiles": [
+    "R_notebooks/MuestrasAleatorias_files/libs/quarto-html/tabsets/tabsets.js",
+    "R_notebooks/MuestrasAleatorias_files/libs/quarto-html/tippy.umd.min.js",
+    "R_notebooks/MuestrasAleatorias_files/libs/quarto-html/tippy.css",
+    "R_notebooks/MuestrasAleatorias_files/libs/quarto-html/tabsets",
+    "R_notebooks/MuestrasAleatorias_files/libs/quarto-html/quarto.js",
+    "R_notebooks/MuestrasAleatorias_files/libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css",
+    "R_notebooks/MuestrasAleatorias_files/libs/quarto-html/popper.min.js",
+    "R_notebooks/MuestrasAleatorias_files/libs/quarto-html/anchor.min.js",
+    "R_notebooks/MuestrasAleatorias_files/libs/clipboard/clipboard.min.js",
+    "R_notebooks/MuestrasAleatorias_files/libs/bootstrap/bootstrap.min.js",
+    "R_notebooks/MuestrasAleatorias_files/libs/bootstrap/bootstrap-icons.woff",
+    "TercerSemestre/Probabilidad/Tarea1Probabilidad.md",
     "TercerSemestre/AlgebraLineal2/Matrices+Transformaciones.md",
     "TercerSemestre/AlgebraLineal2/TeoremaDimension.md",
     "TercerSemestre/AlgebraLineal2/BasesOrdenadas.md",
     "TercerSemestre/AlgebraLineal2/KernelYRango.md",
-    "TercerSemestre/Probabilidad/Tarea1Probabilidad.md",
     "TercerSemestre/Calculo3/SistemasCoordenadas.md",
     "Excalidraw/CoordenadasEsfericas.md",
     "Excalidraw/CoordenadasPolares.md",
@@ -239,7 +246,6 @@
     "TercerSemestre/Calculo3/Tareas18_agosto.md",
     "TercerSemestre/AlgebraLineal2/Tarea1_AlgebraLineal2.md",
     "Excalidraw/Tarea1Proba.md",
-    "Excalidraw",
     "TercerSemestre/Probabilidad/SigmaAlgebra.md",
     "TercerSemestre/Probabilidad/Espacio_de_Probabilidad.md",
     "TercerSemestre/Probabilidad/ProbabilidadAxiomatica.md",
@@ -249,20 +255,11 @@
     "TercerSemestre/Probabilidad/Combinatoria.md",
     "TercerSemestre/AlgebraLineal2/TransformacionesInyectivas_Suprayectivas.md",
     "TercerSemestre/AlgebraLineal2/TransformacionesLineales.md",
-    "TercerSemestre/Calculo3/temario_calc3.pdf",
     "TercerSemestre/Calculo3/Matrices.md",
     "TercerSemestre/AlgebraLineal2/EspaciosAsociadosAMatrices.md",
     "TercerSemestre/Calculo3/OperacionesElementales.md",
-    "TercerSemestre/Probabilidad/Temario_Probabilidad.pdf",
     "TercerSemestre/Datos_Algoritmos/RepasoPython.md",
-    "TercerSemestre/Probabilidad/ProbabilidadSubjetiva.md",
-    "TercerSemestre/Imagenes",
     "TercerSemestre/Imagenes/200LanzamientosDeMoneda.png",
-    "TercerSemestre/Datos_Algoritmos",
-    "TercerSemestre/Probabilidad",
-    "TercerSemestre/AlgebraLineal2",
-    "TercerSemestre/Calculo3",
-    "TercerSemestre/Horario_tercersemestre.jpeg",
-    "ISLP.pdf"
+    "TercerSemestre/Horario_tercersemestre.jpeg"
   ]
 }

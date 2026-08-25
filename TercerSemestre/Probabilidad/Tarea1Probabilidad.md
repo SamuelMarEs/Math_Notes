@@ -7,14 +7,16 @@ Samuel Márquez Estrada
      **Sol:** $\Omega=\{ 0,1,2,\dots \}$. Enteros no negativos. Podrían ser 0 personas que requieran hospitalización, o si el accidente es muy grande, cualquier número entero de personas.
    - Lanzar un dado hasta que se obtiene un "6".
      **Sol:** $\Omega=\mathbb{N}$. El número de veces que se lanzó el dado.
+     $\Omega =\{ (a_{1},a_{2},\dots,a_{n-1},6):n\in\mathbb{N}, a_{i}\in \{ 1,2,3,4,5 \} \}$. Todos los resultados posibles en $n$ lanzamientos para que salga el 6.
    - Registrar la fecha de cumpleaños de $n$ personas escogidas al azar.
      **Sol:** $\Omega=\{ (x_{1},x_{2},\dots,x_{n}):x_{i}\in \{ 1,2,\dots,365 \} \}$. Todas las posibles $n$-adas posibles con números del 1 al 365.
    - Observar la forma en la que $r$ personas que abordan un elevador en la planta baja de un edificio descienden en los pisos $1,2,\dots,n$.
      **Sol:** $\Omega=\{ (x_{1},1),(x_{2},2),\dots,(x_{n},n) \}$. Pares ordenados dónde $x_{i}$ es el número de personas que se bajan en el piso $i$, y $\sum_{i=1}^{n}x_{i}=r$.
    - Registrar la duración de una llamada telefónica escogida al azar.
-     **Sol:** $\Omega=\mathbb{R}-\mathbb{R}^{-}$. El número de minutos (número no negativo) que duró la llamada.
+     **Sol:** $\Omega=\mathbb{R}-\mathbb{R}^{-}=[0,\infty)$. El número de minutos (número no negativo) que duró la llamada.
    - Observar el número de años que le restan de vida a una persona escogida al azar dentro del conjunto de asegurados de una compañía aseguradora.
      **Sol:** $\Omega=\mathbb{Q}^{+}\cup \{ 0 \}$. El número de años en forma racional no negativa. 
+     O $\Omega=\{ 0,1,\dots,130 \}$ igual el número de años.
 
 2.- Considere el experimento aleatorio de lanzar dos dados distinguibles. Escriba explícitamente los resultados asociados a los siguientes eventos y determine su cardinalidad.
 - $A=$"la suma de los dos resultados es 7."

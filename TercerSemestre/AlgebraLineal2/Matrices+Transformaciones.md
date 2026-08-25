@@ -9,7 +9,7 @@ Definimos la ***matriz de $T$*** con respecto a $\beta$ y $\gamma$ como
 $$
 	A=[T]_{\beta}^{\gamma}=(a_{ij}),\quad 1\leq i\leq m,1\leq j\leq n,
 $$
-dónde $T(v_{j})=\sum_{i=1}^{m}a_{ij}$ para $1\leq j\leq n$.
+dónde $$T(v_{j})=\sum_{i=1}^{m}a_{ij}\quad\text{para}\quad1\leq j\leq n.$$
 
 
 #AlgebraLineal
