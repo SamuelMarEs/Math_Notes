@@ -11,10 +11,14 @@
             "id": "84a56c2e09925e05",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "TercerSemestre/Calculo3/Funciones.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Funciones"
             }
           }
         ]
@@ -221,8 +225,9 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "ddd66d7aa249ed22",
+  "active": "5d1ee9aef5d2167f",
   "lastOpenFiles": [
+    "TercerSemestre/Calculo3/Funciones.md",
     "R_notebooks/MuestrasAleatorias_files/libs/quarto-html/tabsets/tabsets.js",
     "R_notebooks/MuestrasAleatorias_files/libs/quarto-html/tippy.umd.min.js",
     "R_notebooks/MuestrasAleatorias_files/libs/quarto-html/tippy.css",
@@ -233,7 +238,6 @@
     "R_notebooks/MuestrasAleatorias_files/libs/quarto-html/anchor.min.js",
     "R_notebooks/MuestrasAleatorias_files/libs/clipboard/clipboard.min.js",
     "R_notebooks/MuestrasAleatorias_files/libs/bootstrap/bootstrap.min.js",
-    "R_notebooks/MuestrasAleatorias_files/libs/bootstrap/bootstrap-icons.woff",
     "TercerSemestre/Probabilidad/Tarea1Probabilidad.md",
     "TercerSemestre/AlgebraLineal2/Matrices+Transformaciones.md",
     "TercerSemestre/AlgebraLineal2/TeoremaDimension.md",
