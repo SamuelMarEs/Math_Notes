@@ -20,19 +20,10 @@ Si $m=1$ decimos que es una función con **valores escalares**, y si $m>1$ decim
 2. $g:\mathbb{R}^{6}\to\mathbb{R}^{2}$ dada por $g(x_{1},x_{2},x_{3},x_{4},x_{5},x_{6})=(x_{1}x_{2}x_{3}x_{4}x_{5}x_{6},\sqrt{ x_{1}^{2}+x_{6}^{2} })$.
 
 
-##### Definición:
-Si $f:\mathbb{R}^{2}\to\mathbb{R}$ es una función, vamos a definir la gráfica de la función como el conjunto 
-$$
-	\{ (x,y,z)\in\mathbb{R}^{3} :z=f(x,y)\}.
-$$
-##### Definición:
-Si $f:\mathbb{R}^{n}\to\mathbb{R}^{m}$ es una función con dominio $U\subset\mathbb{R}^{n}$. Definimos la gráfica de $f$ como el conjunto 
-$$
-	\{ (x_{1},\dots,x_{n,}x_{n+m})\in\mathbb{R}^{n+m}:(x_{1},\dots,x_{n})\in U,\quad\text{y}\quad x_{n+m}=f(x_{1},\dots,x_{n}) \}.
-$$ 
-### Conjuntos de nivel
+### [[ConjuntoDeNivel|Conjuntos de nivel]]
 Supongamos que $f:\mathbb{R}^{3}\to\mathbb{R}$ esta dada por $f(x,y,z)=x^{2}+y^{2}+z^{2}$.
 El conjunto $\{ (x,y,z)\in\mathbb{R}^{3}:f(x,y,z)=r^{2} ,r>0\}$ es la esfera con centro en el origen y radio $r$. Estas esferas son las *superficies de nivel*.
 De forma similar, si tenemos $f:\mathbb{R}^{2}\to\mathbb{R}$, podemos tomar las *curvas de nivel* como el conjunto $\{ (x,y,a)\in\mathbb{R}^{3}:f(x,y)=a \}$. 
+
 
 #Calculo 
