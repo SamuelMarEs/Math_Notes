@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "5e829f5dcba560fe",
+        "id": "6ef98540ac0fd430",
         "type": "tabs",
         "children": [
           {
-            "id": "4cb079f803094df7",
+            "id": "db6a57388974c11c",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "TercerSemestre/Probabilidad/ProbabilidadCondicional.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "ProbabilidadCondicional"
             }
           }
         ]
@@ -221,8 +225,11 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "4cb079f803094df7",
+  "active": "db6a57388974c11c",
   "lastOpenFiles": [
+    "TercerSemestre/Probabilidad/ProbabilidadAxiomatica.md",
+    "TercerSemestre/Probabilidad/PrincipiosDeProbabilidad.md",
+    "TercerSemestre/Probabilidad/ProbabilidadCondicional.md",
     "Excalidraw/Ejemplo1CurvasDeNivel.md",
     "TercerSemestre/Calculo3/ConjuntoDeNivel.md",
     "TercerSemestre/Calculo3/Graficas.md",
@@ -258,10 +265,7 @@
     "Excalidraw/Tarea1Proba.md",
     "TercerSemestre/Probabilidad/SigmaAlgebra.md",
     "TercerSemestre/Probabilidad/Espacio_de_Probabilidad.md",
-    "TercerSemestre/Probabilidad/ProbabilidadAxiomatica.md",
     "TercerSemestre/Probabilidad/ProbabilidadFrecuentista.md",
-    "TercerSemestre/Probabilidad/ProbabilidadClasica.md",
-    "TercerSemestre/Probabilidad/PrincipiosDeProbabilidad.md",
     "TercerSemestre/Imagenes/200LanzamientosDeMoneda.png",
     "TercerSemestre/Horario_tercersemestre.jpeg"
   ]
