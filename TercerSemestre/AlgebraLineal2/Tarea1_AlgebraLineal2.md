@@ -157,4 +157,97 @@ Para cualquier polinomio $g\in P(R)$, podemos tomar $\int g=f$ tal que $T(f)=\le
 Sea $h=1\in P(R)$, tenemos que $T(h)=0\implies h\in N(T)\implies N(T)\neq \{ 0 \}$, por lo tanto $T$ no puede ser inyectiva.
 
 
+17.- Sean $V,W$ espacios vectoriales de dimensión finita y $T:V\to W$ lineal.
+- Pruebe que si $\text{dim}(V)<\text{dim}(W)$ entonces $T$ no puede ser sobreyectiva.
+  **Sol:** Sea $k=\text{dim}(V)$ y $n=\text{dim}(W)$, con $k<n$. Sabemos que $T$ es sobreyectiva si y sólo si $\text{rank}(T)=\text{dim}(W)$. Además, sabemos que, dada la base $S=\{ v_{1},\dots,v_{k} \}$, tenemos que $T(\text{span}(S))=R(T)$ la imagen de $T$. Es decir, tenemos un conjunto de $k$ vectores que genera a $R(T)$, por lo tanto $\text{rank}(T)\leq k<n$, es decir $\text{rank}(T)<\text{dim}(W)$, por lo que $T$ no puede ser sobreyectiva. $\square$
+  
+- Pruebe que si $\text{dim}(V)>\text{dim}(W)$ entonces $T$ no puede ser inyectiva.
+  **Sol:** Nuevamente, sea $k=\text{dim}(V)$ y $n=\text{dim}(W)$ con $k>n$. Sabemos que $T$ es inyectiva si y sólo si $N(T)=\{ 0_{V} \}$. Dada una base de $V$, $S_{v}=\{ v_{1},\dots,v_{k} \}$, sabemos que el conjunto $S_{w}=\{ T(v_{1}),\dots,T(v_{n}) \}$ genera a $W$. Y además sabemos que se puede reducir a una base de tamaño $n$ para $W$. Es decir que, existen $k-n>0$ vectores que se pueden expresar como combinación lineal de los otros. Tomemos, sin pérdida de generalidad, un vector $j$ de este tipo, es decir un vector $v_{j}\in V$. Si $T(v_{j})=0$ ya acabamos, pues eso implica que $v_{j}\in N(T)$, y por ser parte de la base de $V$, sabemos que $v_{j}\neq 0$ y por lo tanto $T$ no puede ser inyectiva. Si $T(v_{j})\neq 0$ tenemos entonces que 
+  $$
+	T(v_{j})=a_{1}T(v_{1})+\dots+a_{j-1}T(v_{j-1})+a_{j+1}T(v_{j+1})+\dots+a_{k}T(v_{k}),
+  $$
+  con $a_{i}\in F$ y no todos ceros, y por lo tanto 
+  $$
+	\begin{align}
+	0&=a_{1}T(v_{1})+\dots+a_{j-1}T(v_{j-1})+a_{j+1}T(v_{j+1})+\dots+a_{k}T(v_{k})-T(v_{j}) \\
+	&=T(a_{1}v_{1}+\dots+a_{j-1}v_{j-1}+a_{j+1}v_{j+1}+\dots+a_{k}v_{k}-v_{j})
+	\end{align},
+  $$
+  es decir que existe un vector $s=a_{1}v_{1}+\dots+a_{j-1}v_{j-1}+a_{j+1}v_{j+1}+\dots+a_{k}v_{k}-v_{j}$ distinto de cero (porque está generado por $S$ con algunos coeficientes distintos de cero), tal que $T(s)=0$, por lo tanto $s\in N(T)$, y por esto $T$ no es inyectiva. $\square$
+
+
+18.- De un ejemplo de una transformación lineal $T:R^{2}\to R^{2}$ tal que $N(T)=R(T)$.
+**Sol:** Sea $T(a,b)=(a-b,a-b)$, primero vamos a demostrar que $T$ es lineal.
+Sean $(a_{1},b_{1}),(a_{2},b_{2})\in R^{2}$, y $\lambda\in R^{2}$, entonces 
+$$
+	\begin{align}
+	 T(\lambda a_{1}+a_{2},\lambda b_{1}+b_{2})&=((\lambda a_{1}+a_{2})-(\lambda b_{1}+b_{2}),(\lambda a_{1}+a_{2})-(\lambda b_{1}+b_{2})) \\
+	 &=(\lambda a_{1}-\lambda b_{1},\lambda a_{1}-\lambda b_{1})+(a_{2}-b_{2},a_{2}-b_{2}) \\
+	 &=\lambda(a_{1}-b_{1},a_{1}-b_{1})+(a_{2}-b_{2},a_{2}-b_{2}) \\
+	 &=\lambda T(a_{1},b_{2})+T(a_{2},b_{2}).
+	\end{align}
+$$
+Entonces ya tenemos que en efecto $T$ es lineal. 
+Por un lado, $N(T)=\{ (x,x)\in R^{2} \}$, y a su vez tenemos que $R(T)=\{ (x,x)\in R^{2} \}$, por lo tanto $N(T)=R(T).\quad\square$ 
+
+
+22.- Sea $T:R^{3}\to R$ lineal. Pruebe que existen escalares $a,b,c$ tales que $T(x,y,z)=ax+by+cz$ para todo $(x,y,z)\in R^{3}$. ¿Se puede generaliar este resultado para $T:F^{n}\to F$? Nombre y pruebe un resultado análogo para $T:F^{n}\to F^{m}$.
+**Sol:** Todo vector $(x,y,z)\in R^{3}$ se puede expresar como $(x,0,0)+(0,y,0)+(0,0,z)$ de forma que tenemos 
+$$
+	\begin{align}
+	T((x,0,0)+(0,y,0)+(0,0,z))&=T(x,0,0)+T(0,y,0)+T(0,0,z) \\
+	&=xT(1,0,0)+yT(0,1,0)+zT(0,0,1),
+	\end{align}
+$$
+por lo que basta fijar $T(1,0,0)=a,T(0,1,0)=b$ y $T(0,0,1)=c$, de forma que tenemos 
+$$
+	T(x,y,z)=ax+by+cz.\quad\square
+$$
+El resultado se puede modificar de forma análoga para $T:F^{n}\to F$ para cualquier vector $(x_{1},\dots,x_{n})$ tomando los escalares $a_{1},\dots,a_{n}$ tales que $T(x_{1},\dots,x_{n})=a_{1}x_{1}+\dots+a_{n}x_{n}$. Basta tomar $a_{i}=T(e_{i})$ para $e_{i}=(0_{1},\dots,1_{i},\dots,0_{n})=$ el $i$-ésimo vector de la base canónica.
+Para la forma general, se puede decir que, sea $T:F^{n}\to F^{m}$ lineal, existen vectores $a_{1},\dots,a_{n}\in F^{m}$ tales que 
+$$
+	T(x_{1},\dots,x_{n})=a_{1}x_{1}+\dots+a_{n}x_{n}.
+$$
+La demostración es exactamente que para el caso $m=1$, asignando $a_{i}=T(e_{i})\in F^{m}$ pues tenemos que $(x_{1},\dots,x_{n})=x_{1}e_{1}+\dots+x_{n}e_{n}$. $\square$
+
+
+23.- Sea $T:R^{3}\to R$ lineal. Describa geometricamente todas las posibilidades para el espacio nulo de $T$. $Hint:$ use el inciso 22.
+**Sol:** Dados los escalares $a,b,c\in R$ que describen la transformación (por el inciso anterior), el espacio nulo $N(T)$ se puede describir de la forma $\{ (x,y,z):ax+by+cz=0 \}$, el cual es un ***PLANO*** por el origen en $R^{3}$.
+
+
+25.- Sea $T:R^{2}\to R^{2}$. Incluya figuras para cada una de las siguientes:
+- Encuentre una fórmula para $T(a,b)$, donde $T$ repersenta la proyección sobre el eje $y$ a lo largo del eje $x$.
+  **Sol:** Sea $(a,b)\in R^{2}$, podemos reescribir nuestro vector de la forma $(a,0)+(0,b)$ dónde $(a,0)\in$ eje $x$, y $(0,b)\in$ eje $y$.
+  Entonces, podemos dar la siguiente forma para la transformación lineal: 
+  $$
+	T(a,b)=(0,b).
+  $$
+  Geométricamente, esta transformación se puede ver como "comprimir" el espacio $R^{2}$ sobre el eje $y$.
+  ![[ProyeccionSobreYdeX]]
+
+
+- Encuentre una fórmula para $T(a,b)$, donde $T$ representa la proyección sobre el eje $y$ a lo largo de la recta $L=\{ (s,s):s\in R \}$.
+  **Sol:** Sea $(a,b)\in R^{2}$, podemos reescribir el vector como $(a,b)=(a,a)+(0,b-a)$ donde $(a,a)\in L$ y $(0,b-a)\in$ eje $y$. Entonce, podemos dar la fórmula para la transformación lineal de la siguiente forma: 
+  $$
+	T(a,b)=(0,b-a).
+  $$
+  Geométricamente, está es la proyección de la recta identidad sobre el eje $y$.
+
+
+
+37.- Sean $V$ el espacio vectorial de todas las secuencias $(a_{n})$ sobre $F$ con las operaciones $(a_{n})+(b_{n})=(a_{n}+b_{n})$ y $t(a_{n})=(ta_{n})$. Sea además $T:V\to V$ definida como 
+$$
+	T(a_{1},a_{2},\dots)=(a_{2},a_{3},\dots),
+$$
+lineal y suprayectiva, pero no inyectiva.
+- Pruebe que $V=R(T)+N(T)$, pero $V$ no es la suma directa de ambos espacios. 
+  **Sol:** Primero vamos a demostrar que $R(T)\cap N(T)\neq \{ (0) \}$. Si tomamos la secuencia $(a,0,0,\dots)$, tenemos que $T(a,0,0,\dots)=(0,0,\dots)=(0)$, por lo tanto $(a,0,0,\dots)\in N(T)$. Adicionalmente, dado que $T$ es suprayectiva, tenemos que existe una secuencia $(a_{n})$ en $V$ tal que $T(a_{n})=(a,0,0,\dots)$, en particular basta tomar por ejemplo $(d,a,0,0,\dots)$.
+  Entonces, tenemos que nuestra secuencia $(a,0,\dots)\in R(T)\cap N(T)$, por lo tanto $V$ no puede ser suma directa de ambos espacios.
+  Sin embargo, dado que $T$ es suprayectiva, tenemos que $R(T)=V$, y por esto es trivial que $V=R(T)+N(T)$ ya que basta tomar $(a_{n})\in R(T)=V$ y $(0)\in N(T).\quad\square$ 
+  
+- Encuentre una operación lineal $T_{1}$ sobre $V$ tal que $R(T_{1})\cap N(T_{1})=\{ 0 \}$ pero $V$ no es la suma directa de $R(T_{1})$ y $N(T_{1})$.
+  **Sol:** 
+
+
+
  
