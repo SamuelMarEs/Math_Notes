@@ -154,7 +154,7 @@ Sin embargo, no existe ningún polinomio $g$ tal que $T(g)=1$, o en general cual
 16.- Sea $T:P(R)\to P(R)$ definida como $T(f(x))=f'(x)$. $T$ es lineal. Probar que $T$ es suprayectiva, pero no inyectiva.
 **Sol:**
 Para cualquier polinomio $g\in P(R)$, podemos tomar $\int g=f$ tal que $T(f)=\left( \int g \right)'=g$, por lo tanto $T$ es suprayectiva.
-Sea $h=1\in P(R)$, tenemos que $T(h)=0\implies h\in N(T)\implies N(T)\neq \{ 0 \}$, por lo tanto $T$ no puede ser inyectiva.
+Sea $h=1\in P(R)$, tenemos que $T(h)=0\implies h\in N(T)\implies N(T)\neq \{ 0 \}$, por lo tanto $T$ no puede ser inyectiva.$\square$
 
 
 17.- Sean $V,W$ espacios vectoriales de dimensión finita y $T:V\to W$ lineal.
@@ -208,15 +208,15 @@ Para la forma general, se puede decir que, sea $T:F^{n}\to F^{m}$ lineal, existe
 $$
 	T(x_{1},\dots,x_{n})=a_{1}x_{1}+\dots+a_{n}x_{n}.
 $$
-La demostración es exactamente que para el caso $m=1$, asignando $a_{i}=T(e_{i})\in F^{m}$ pues tenemos que $(x_{1},\dots,x_{n})=x_{1}e_{1}+\dots+x_{n}e_{n}$. $\square$
+La demostración es exactamente que para el caso $m=1$, asignando $a_{i}=T(e_{i})\in F^{m}$ pues tenemos que $(x_{1},\dots,x_{n})=x_{1}e_{1}+\dots+x_{n}e_{n}.\quad\square$
 
 
-23.- Sea $T:R^{3}\to R$ lineal. Describa geometricamente todas las posibilidades para el espacio nulo de $T$. $Hint:$ use el inciso 22.
+23.- Sea $T:R^{3}\to R$ lineal. Describa geométricamente todas las posibilidades para el espacio nulo de $T$. $Hint:$ use el inciso 22.
 **Sol:** Dados los escalares $a,b,c\in R$ que describen la transformación (por el inciso anterior), el espacio nulo $N(T)$ se puede describir de la forma $\{ (x,y,z):ax+by+cz=0 \}$, el cual es un ***PLANO*** por el origen en $R^{3}$.
 
 
 25.- Sea $T:R^{2}\to R^{2}$. Incluya figuras para cada una de las siguientes:
-- Encuentre una fórmula para $T(a,b)$, donde $T$ repersenta la proyección sobre el eje $y$ a lo largo del eje $x$.
+- Encuentre una fórmula para $T(a,b)$, donde $T$ representa la proyección sobre el eje $y$ a lo largo del eje $x$.
   **Sol:** Sea $(a,b)\in R^{2}$, podemos reescribir nuestro vector de la forma $(a,0)+(0,b)$ dónde $(a,0)\in$ eje $x$, y $(0,b)\in$ eje $y$.
   Entonces, podemos dar la siguiente forma para la transformación lineal: 
   $$
@@ -232,6 +232,21 @@ La demostración es exactamente que para el caso $m=1$, asignando $a_{i}=T(e_{i}
 	T(a,b)=(0,b-a).
   $$
   Geométricamente, está es la proyección de la recta identidad sobre el eje $y$.
+![[ProyeccionSobreYdeL]]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -246,7 +261,12 @@ lineal y suprayectiva, pero no inyectiva.
   Sin embargo, dado que $T$ es suprayectiva, tenemos que $R(T)=V$, y por esto es trivial que $V=R(T)+N(T)$ ya que basta tomar $(a_{n})\in R(T)=V$ y $(0)\in N(T).\quad\square$ 
   
 - Encuentre una operación lineal $T_{1}$ sobre $V$ tal que $R(T_{1})\cap N(T_{1})=\{ 0 \}$ pero $V$ no es la suma directa de $R(T_{1})$ y $N(T_{1})$.
-  **Sol:** 
+  **Sol:** Podemos tomar la otra transformación del ejercicio 21, es decir 
+  $$
+	T_{1}(a_{1},a_{2},\dots)=U(a_{1},a_{2},\dots)=(0,a_{1},\dots).
+  $$
+  Es evidente que $N(T_{1})=\{ 0 \}$, pues cualquier sucesión no cero no va transformarse en cero. Por esto es que se satisface que $R(T_{1})\cap N(T_{1})=\{ 0 \}$.
+  Sabiendo esto, se tendría que cumplir que $R(T_{1})=V$ para que $V=R(T_{1})\oplus N(T_{1})$. Sin embargo, cualquier sucesión $(b_{1},b_{2},\dots)$ con $b_{1}\neq 0$ no puede estar en la imagen $R(T)$. Supongamos que si estuviera, entonces existiría $(a_{1},a_{2},\dots)$ tal que $T_{1}(a_{1},a_{2},\dots)=(0,a_{1},\dots)=(b_{1},b_{2},\dots)$, por lo que tendríamos que $b_{1}= 0$, lo cual es una contradicción. Por lo tanto $R(T)\neq V$, y por esto $V$ no es suma directa de la imagen y el espacio nulo. $\quad\square$
 
 
 
