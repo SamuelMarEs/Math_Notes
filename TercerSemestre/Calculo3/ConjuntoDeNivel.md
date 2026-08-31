@@ -9,7 +9,7 @@ Este conjunto puede verse como la *sombra* sobre el dominio producida por la [[G
 Si la función es inyectiva, entonces el conjunto de nivel es sólo un punto.
 
 Si $n=2$ entonces se llaman ***curvas de nivel***.
-Si $n=2$ entonces se llaman ***superficies de nivel***.
+Si $n=3$ entonces se llaman ***superficies de nivel***.
 
 No se debe confundir con las *secciones* de una superficie. Las secciones con un subconjunto que vive en la gráfica de la función, mientras que los conjuntos de nivel son un subconjunto del dominio.
 Por ejemplo tomemos $f:\mathbb{R}^{2}\to\mathbb{R}$ con dominio $U\subset\mathbb{R}^{2}$.
