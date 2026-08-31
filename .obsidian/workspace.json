@@ -11,10 +11,14 @@
             "id": "e61fa671a59a447e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "TercerSemestre/AlgebraLineal2/TransformacionesInversas.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "TransformacionesInversas"
             }
           }
         ]
@@ -223,15 +227,16 @@
   },
   "active": "e61fa671a59a447e",
   "lastOpenFiles": [
-    "TercerSemestre/AlgebraLineal2/Tarea2_AlgebraLineal2.md",
     "TercerSemestre/AlgebraLineal2/Matrices+Transformaciones.md",
+    "TercerSemestre/AlgebraLineal2/TransformacionesInversas.md",
+    "TercerSemestre/AlgebraLineal2/TeoremaDimension.md",
+    "TercerSemestre/AlgebraLineal2/Tarea2_AlgebraLineal2.md",
     "TercerSemestre/Calculo3/ConjuntoDeNivel.md",
     "TercerSemestre/AlgebraLineal2/BasesOrdenadas.md",
     "TercerSemestre/AlgebraLineal2/Tarea1_AlgebraLineal2.md",
     "Excalidraw/ProyeccionSobreYdeL.md",
     "Excalidraw/ProyeccionSobreYdeX.md",
     "TercerSemestre/AlgebraLineal2/Proyeccion+SumaDirecta.md",
-    "TercerSemestre/AlgebraLineal2/TeoremaDimension.md",
     "TercerSemestre/Probabilidad/ProbabilidadCondicional.md",
     "TercerSemestre/Probabilidad/ProbabilidadAxiomatica.md",
     "TercerSemestre/Probabilidad/PrincipiosDeProbabilidad.md",
@@ -261,7 +266,6 @@
     "Excalidraw/CoordenadasEsfericas.md",
     "Excalidraw/CoordenadasPolares.md",
     "TercerSemestre/Probabilidad/ProbabilidadGeometrica.md",
-    "TercerSemestre/Calculo3/Tareas18_agosto.md",
     "TercerSemestre/Imagenes/200LanzamientosDeMoneda.png",
     "TercerSemestre/Horario_tercersemestre.jpeg"
   ]
