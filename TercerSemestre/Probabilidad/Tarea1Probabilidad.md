@@ -99,6 +99,7 @@ Samuel Márquez Estrada
 **Sol:**
 ![[Tarea1Proba]]
 
+
 5.- Sean $A,B$ dos eventos cualesquiera de un experimento aleatorio con espacio muestral finito y equiprobable. Demuestre que la definición de probabilidad clásica satisface las siguientes propiedades:
 - $P(\emptyset)=0$.
   **Sol:** $P(\emptyset)=\frac{\#\emptyset}{\#\Omega}=\frac{0}{\#\Omega}=0.\quad\square$
@@ -144,7 +145,7 @@ $$
 **Sol:** Nuestro espacio muestral es $\Omega =[0,60]\times[0,60]$ que son pares ordenados, con la primera coordenada la hora a la que llega el autobús (expresado como minutos después de las 9:00), y la segunda, la hora a la que sale el tren.
 Nuestro evento es $A=\{ (x,y):y-x>5 \}$. El área de $\Omega$ es $60\times 60=360$, mientras que el área de $A$ es el área de un triángulo que corta al eje $y$ en $y=5$, y queremos que se detenga en $y=60$, es decir en $x=55$. Por lo tanto, es un triángulo de altura 55 y base 55. Entonces la probabilidad del evento $A$ esta dada por:
 $$
-	P(A)=\frac{55^{2}}{60^{2}}=\left( \frac{55}{60} \right)^{2}=\left( \frac{11}{12} \right)^{2}=\frac{121}{144}\approx0.84.
+	P(A)= \frac{1}{2} \frac{55^{2}}{60^{2}}=\frac{1}{2} \left( \frac{55}{60} \right)^{2}=\frac{1}{2} \left( \frac{11}{12} \right)^{2}=\frac{1}{2} \frac{121}{144}\approx 0.42.
 $$
 
 9.- **Triángulos 1.** Se escogen dos números $x$ y $y$ al azar de manera independiente uno del otro, dentro del intervalo $[0,\ell]$. Calcule la probabilidad de que las longitudes $x,y$ y $\ell$ formen un triángulo. 

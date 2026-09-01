@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "3e012fb84f97b99f",
+        "id": "17cd2a76f35b206b",
         "type": "tabs",
         "children": [
           {
-            "id": "9403ab00114d7dd2",
+            "id": "253ae8b024c16b64",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -221,8 +221,15 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "9403ab00114d7dd2",
+  "active": "253ae8b024c16b64",
   "lastOpenFiles": [
+    "TercerSemestre/Probabilidad/LeyProbabilidadTotal.md",
+    "TeoremaDeBayes.md",
+    "TercerSemestre/Probabilidad/ProbabilidadCondicional.md",
+    "TercerSemestre/Probabilidad/TiposDeProbabilidad",
+    "TercerSemestre/Probabilidad/Tarea1Probabilidad.md",
+    "TercerSemestre/Probabilidad/TiposDeProbabilidad/ProbabilidadClasica.md",
+    "TercerSemestre/Probabilidad/PrincipiosDeProbabilidad.md",
     "TercerSemestre/Horario_tercersemestre.jpeg",
     "TercerSemestre/Datos_Algoritmos/TDA.md",
     "TercerSemestre/Datos_Algoritmos/AlgoritmoEuclidesMCD.md",
@@ -238,14 +245,11 @@
     "Excalidraw/ProyeccionSobreYdeL.md",
     "Excalidraw/ProyeccionSobreYdeX.md",
     "TercerSemestre/AlgebraLineal2/Proyeccion+SumaDirecta.md",
-    "TercerSemestre/Probabilidad/ProbabilidadCondicional.md",
-    "TercerSemestre/Probabilidad/ProbabilidadAxiomatica.md",
-    "TercerSemestre/Probabilidad/PrincipiosDeProbabilidad.md",
+    "TercerSemestre/Probabilidad/TiposDeProbabilidad/ProbabilidadAxiomatica.md",
     "Excalidraw/Ejemplo1CurvasDeNivel.md",
     "TercerSemestre/Calculo3/Graficas.md",
     "Excalidraw/CurvasDeNivel.md",
     "TercerSemestre/Calculo3/Funciones.md",
-    "TercerSemestre/Probabilidad/Tarea1Probabilidad.md",
     "TercerSemestre/Imagenes/Esfera.png",
     "TercerSemestre/Imagenes/Helice.png",
     "TercerSemestre/Imagenes/Circulo.png",
@@ -259,9 +263,6 @@
     "R_notebooks/MuestrasAleatorias_files/libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css",
     "R_notebooks/MuestrasAleatorias_files/libs/quarto-html/popper.min.js",
     "R_notebooks/MuestrasAleatorias_files/libs/quarto-html/anchor.min.js",
-    "R_notebooks/MuestrasAleatorias_files/libs/clipboard/clipboard.min.js",
-    "TercerSemestre/AlgebraLineal2/KernelYRango.md",
-    "TercerSemestre/Calculo3/SistemasCoordenadas.md",
     "TercerSemestre/Imagenes/200LanzamientosDeMoneda.png"
   ]
 }

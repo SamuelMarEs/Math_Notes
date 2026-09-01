@@ -23,7 +23,7 @@ $$
 $$
 De esta forma, podemos calcular la probabilidad que originalmente queríamos. Sea $K$ la probabilidad de que al menos dos personas compartan cumpleaños, entonces $K^{c}=N$, y por lo tanto $P(K)=1-P(K^{c})=1-P(N)$, es decir que 
 $$
-	P(K)=1-P(N)=1-)=\frac{365! / (365-n)!}{365^{n}}.
+	P(K)=1-P(N)=\frac{365!}{365^{n}(365-n)!}.
 $$
 
 ##### Ejemplo
