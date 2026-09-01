@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "d8ebb0102462e951",
+        "id": "2a03239775429b0f",
         "type": "tabs",
         "children": [
           {
-            "id": "24b506af0d877c75",
+            "id": "1e4fd6ffbca29691",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "TercerSemestre/AlgebraLineal2/Tarea2_AlgebraLineal2.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Tarea2_AlgebraLineal2"
+              "title": "New tab"
             }
           }
         ]
@@ -225,12 +221,16 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "24b506af0d877c75",
+  "active": "1e4fd6ffbca29691",
   "lastOpenFiles": [
-    "TercerSemestre/AlgebraLineal2/Tarea1_AlgebraLineal2.md",
+    "TercerSemestre/AlgebraLineal2/TransformacionesInversas.md",
+    "TercerSemestre/AlgebraLineal2/BasesOrdenadas.md",
+    "TercerSemestre/AlgebraLineal2/Matrices+Transformaciones.md",
+    "TercerSemestre/AlgebraLineal2/TeoremaDimension.md",
     "TercerSemestre/AlgebraLineal2/Tarea2_AlgebraLineal2.md",
+    "TercerSemestre/AlgebraLineal2/Tarea1_AlgebraLineal2.md",
     "TercerSemestre/Probabilidad/LeyProbabilidadTotal.md",
-    "TeoremaDeBayes.md",
+    "TercerSemestre/Probabilidad/TeoremaDeBayes.md",
     "TercerSemestre/Probabilidad/ProbabilidadCondicional.md",
     "TercerSemestre/Probabilidad/TiposDeProbabilidad",
     "TercerSemestre/Probabilidad/Tarea1Probabilidad.md",
@@ -241,11 +241,7 @@
     "TercerSemestre/Datos_Algoritmos/AlgoritmoEuclidesMCD.md",
     "TercerSemestre/Datos_Algoritmos/Clases.md",
     "TercerSemestre/Datos_Algoritmos/RepasoPython.md",
-    "TercerSemestre/AlgebraLineal2/TransformacionesInversas.md",
-    "TercerSemestre/AlgebraLineal2/Matrices+Transformaciones.md",
-    "TercerSemestre/AlgebraLineal2/TeoremaDimension.md",
     "TercerSemestre/Calculo3/ConjuntoDeNivel.md",
-    "TercerSemestre/AlgebraLineal2/BasesOrdenadas.md",
     "Excalidraw/ProyeccionSobreYdeL.md",
     "Excalidraw/ProyeccionSobreYdeX.md",
     "TercerSemestre/AlgebraLineal2/Proyeccion+SumaDirecta.md",

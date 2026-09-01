@@ -1,14 +1,96 @@
 ### Sección 2.2 Friedberg
 2.- Sea $\beta$ y $\gamma$ las bases canónicas ordenadas para $R^{n}$ y $R^{m}$, respectivamente. Para cada transformación lineal $T:R^{n}\to R^{m}$ calcule $[T]_{\beta}^{\gamma}$.
 - $T:R^{2}\to R^{3}$ definida como $T(a_{1},a_{2})=(2a_{1}-a_{2},3a_{1}+4a_{2},a_{1})$.
-- $T:R^{3}\to R^{2}$ definida como $T(a_{1},a_{2},a_{3})=(2a_{1}+3a_{2}-a_{3},a_{1}+a_{3})$.
-- $T:R^{3}\to R$ definida como $T(a_{1},a_{2},a_{3})=2a_{1}+a_{2}-3a_{3}$.
-- $T:R^{3}\to R^{3}$ definida como $T(a_{1},a_{2},a_{3})=(2a_{2}+a_{3},-a_{1}+4a_{2}+5a_{3},a_{1}+a_{3}).$
-- $T:R^{n}\to R^{n}$ definida como $T(a_{1},\dots,a_{n})=(a_{1},\dots,a_{1})$.
-- $T:R^{n}\to R^{n}$ definida como $T(a_{1},\dots,a_{n})=(a_{n},a_{n-1},\dots,a_{1})$.
-- $T:R^{n}\to R$ definida como $T(a_{1},\dots,a_{n})=a_{1}+a_{n}.$
+  **Sol:** 
+  Primero vamos a calcular la imagen de los vectores de la base $\beta$.
+  $T(1,0)=(2,3,1)$, $T(0,1)=(-1,4,0)$. Entonces la representación matricial de nuestra transformación es 
+  $$
+	[T]_{\beta}^{\gamma}=\begin{pmatrix}
+	2 & -1 \\
+	3 & 4 \\
+	1 & 0
+	\end{pmatrix}.
+  $$
   
+- $T:R^{3}\to R^{2}$ definida como $T(a_{1},a_{2},a_{3})=(2a_{1}+3a_{2}-a_{3},a_{1}+a_{3})$.
+  **Sol:**
+  La imagen de la base canónica es $T(1,0,0)=(2,1)$, $T(0,1,0)=(3,0)$, y $T(0,0,1)=(-1,1)$.
+  Entonces tenemos que la representación matricial es 
+  $$
+	[T]_{\beta}^{\gamma}=\begin{pmatrix}
+	2 & 3 & -1 \\
+	1 & 0 & 1
+	\end{pmatrix}.
+  $$
+  
+- $T:R^{3}\to R$ definida como $T(a_{1},a_{2},a_{3})=2a_{1}+a_{2}-3a_{3}$.
+  **Sol:**
+  La imagen de la base es $T(1,0,0)=2$, $T(0,1,0)=1$ y $T(0,0,1)=-3$. Por lo tanto 
+  $$
+	[T]_{\beta}^{\gamma}=(2,1,-3).
+  $$
+- $T:R^{3}\to R^{3}$ definida como $T(a_{1},a_{2},a_{3})=(2a_{2}+a_{3},-a_{1}+4a_{2}+5a_{3},a_{1}+a_{3}).$
+  **Sol:**
+  La imagen de la base es $T(1,0,0)=(0,-1,1)$, $T(0,1,0)=(2,4,0)$ y $T(0,0,1)=(1,5,1)$.
+  Entonces la matriz es 
+  $$
+	[T]_{\beta}=\begin{pmatrix}
+	0 & 2 & 1 \\
+	-1 & 4 & 5 \\
+	1 & 0 & 1
+	\end{pmatrix}.
+  $$
+  
+- $T:R^{n}\to R^{n}$ definida como $T(a_{1},\dots,a_{n})=(a_{1},\dots,a_{1})$.
+  **Sol:**
+  La imagen de cualquier vector de la base canónica es $T(e_{1})=(1,\dots,1)$ y $T(e_{i})=(0,\dots,0)$ si $i\neq 1$. Entonces la matriz resultante es la matriz de $n\times n$ dada por 
+  $$
+	[T]_{\beta}=\begin{pmatrix}
+	1 & 0 & \dots & 0 \\
+	1 & 0 & \dots & 0 \\
+	\vdots  &  &  & \vdots \\
+	1 & 0 & \dots & 0
+	\end{pmatrix}.
+  $$
+  
+- $T:R^{n}\to R^{n}$ definida como $T(a_{1},\dots,a_{n})=(a_{n},a_{n-1},\dots,a_{1})$.
+  **Sol:**
+  La imagen de cualquier vector de la base es $T(e_{i})=e_{n-i+1)}$, y lo que esta haciendo la transformación es "invetir" la base. Entonces la matriz asociada es 
+  $$
+	[T]_{\beta}=\begin{pmatrix}
+	0 & \dots & 0 & 1 \\
+	0 & \dots & 1 & 0 \\
+	\vdots &  &  & \vdots \\
+	1 & \dots & 0 & 0
+	\end{pmatrix}.
+  $$
+  
+- $T:R^{n}\to R$ definida como $T(a_{1},\dots,a_{n})=a_{1}+a_{n}.$
+  La imagen de la base es $T(e_{i})=1$ si $i=1,n$, $T(e_{i})=0$ para $i\neq 1,n$. Entonces nuestra matriz es el vector 
+  $$
+	[T]_{\beta}^{\gamma}=(1,0,\dots,0,1).
+  $$
+
+
 3.- Sea $T:R^{2}\to R^{3}$ definida como $T(a_{1},a_{2})=(a_{1}-a_{2},a_{1},2a_{1}+a_{2})$. Sea $\beta$ la base canónica ordenada para $R^{2}$ y $\gamma=\{ (1,1,0),(0,1,1),(2,2,3) \}$. Calcula $[T]_{\beta}^{\gamma}$. Si $\alpha=\{ (1,2),(2,3) \}$, calcula $[T]_{\alpha}^{\gamma}$.
+**Sol:**
+La imagen de la base canónica $\beta$ es $T(1,0)=(1,1,2)=-\frac{1}{3} (1,1,0)+0(0,1,1)+\frac{2}{3} (2,2,3)$ y $T(0,1)=(-1,0,1)=-1(1,1,0)+1(0,1,1)+0(2,2,3)$. Entonces nuestra matriz asociada a la transformación es 
+$$
+	[T]_{\beta}^{\gamma}=\begin{pmatrix}
+	-\frac{1}{3} & -1 \\
+	0 & 1 \\
+	\frac{2}{3} & 0
+	\end{pmatrix}.
+$$
+Si en su lugar tomamos la base $\alpha=\{ (1,2),(2,3) \}$, entonces tenemos que la imagen de la transformación es $T(1,2)=(-1,1,4)=-\frac{7}{3}(1,1,0)+2(0,1,1)+\frac{2}{3}(2,2,3)$, y para el otro vector tenemos $T(2,3)=(-1,2,7)=-\frac{11}{3}(1,1,0)+3(0,1,1)+\frac{4}{3}(2,2,3)$, entonces la representación matricial queda como 
+$$
+	[T]_{\alpha}^{\gamma}=\begin{pmatrix}
+	-\frac{7}{3} & -\frac{11}{3} \\
+	2 & 3 \\
+	\frac{2}{3} & \frac{4}{3}
+	\end{pmatrix}.
+$$
+
 
 4.- Define $T:M_{2\times 2}(R)\to P_{2}(R)$ como
 $$
@@ -36,6 +118,8 @@ $$
 	
 $$
 Calcula $[T]_{\beta}^{\gamma}$.
+
+
 
 5.- Sean 
 $$

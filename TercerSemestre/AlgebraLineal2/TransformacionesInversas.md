@@ -8,6 +8,9 @@ Si recordamos todo lo que sabemos de funciones inversas, existen varias propieda
 - $(T^{-1})^{-1}=T$. La inversa de la inversa es la función original.
 - $T$ tiene inversa si y sólo si $T$ es biyectiva.
 
+##### Definición:
+Sean $V,W$ espacios vectoriales sobre un campo $F$. Decimos que $V$ y $W$ son ***isomorfos*** si $\exists\quad T:V\to W$ lineal e invertible, la cual llamamos un ***isomorfismo***. Denotamos que dos espacios son isomorfos como $V\cong W$.
+
 ##### Teorema 2.17.
 Sean $V,W$ espacios vectoriales sobre $F$. Sea $T:V\to W$ lineal e invertible. Entonces $T^{-1}W:\to V$ también es lineal.
 ##### Demostración:
@@ -47,16 +50,26 @@ $$
 	[T^{-1}]_{\gamma}^{\beta}=([T]_{\beta}^{\gamma})^{-1}.
 $$
 ##### Demostración:
-$\Rightarrow$
+$\Rightarrow$ 
 
-$\Leftarrow$
+$\Leftarrow$ Supongamos que $[T]_{\beta}^{\gamma}$ es invertible, es decir que existe $([T]_{\beta}^{\gamma})^{-1}$ tal que $[T]_{\beta}^{\gamma}([T]_{\beta}^{\gamma})^{-1}=I$.
 
 ##### Teorema 2.19.
 Sean $V$ y $W$ espacios vectoriales sobre $F$ de dimensión finita. $\exists$ un *isomorfismo* de $V$ en $W$ si y sólo si $\text{dim}(V)=\text{dim}(W)$.
+Es decir $V\cong W\Longleftrightarrow\text{dim}(V)=\text{dim}(W)$.
 ##### Demostración:
 $\Rightarrow$ Dado que existe un isomorfismo, sabemos que existe una transformación $T:V\to W$ lineal e invertible. Entonces por el lema tenemos inmediatamente que $\text{dim}(W)=\text{dim}(V)$.
 
-$\Leftarrow$ 
+$\Leftarrow$ Supongamos que $\text{dim}(V)=\text{dim}(W)$. Queremos demostrar que existe $T:V\to W$ lineal e invertible, o en otras palabras, lineal y biyectiva. Sean $\beta=\{ v_{1},\dots,v_{n} \}$ y $\gamma=\{ w_{1},\dots,w_{n} \}$ bases ordenadas para $V$ y $W$. Por el [[BasesOrdenadas|teorema 2.6]] existe una transformación lineal $T:V\to W$ tal que $T(v_{i})=w_{i}$ para $i=1,\dots,n$. Entonces solo basta probar que $T$ es biyectiva. Para esto basta probar que $N(T)=\{ 0 \}$, y el resto es por el [[TeoremaDimension|teorema 2.5]].
+Sea $x\in N(T)$, tenemos que $T(x)=0$. Sabemos que existen escalares $a_{1},\dots,a_{n}$ tales que $x=\sum_{i=1}^{n}a_{i}v_{i}$, por lo tanto 
+$$
+	0=T(x)=T\left( \sum_{i=1}^{n} a_{i}v_{i} \right)=\sum_{i=1}^{n}a_{i}w_{i}.
+$$
+Sin embargo, como $\{ w_{1},\dots,w_{n} \}$ es una base, tenemos que 
+$$
+	\sum_{i=1}^{n}a_{i}w_{i}=0\Longleftrightarrow a_{i}=0\quad\forall i.
+$$
+Por lo tanto tenemos que $x=0$, y por lo tanto $N(T)=\{ 0 \}$. Entonces, por el ***teorema 2.5*** sabemos que $T$ es biyectiva. $\quad\square$
 
 
 
