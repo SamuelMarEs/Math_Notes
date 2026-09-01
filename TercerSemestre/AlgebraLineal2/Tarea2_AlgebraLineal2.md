@@ -76,7 +76,44 @@ $$
 15.- Sea $V=P(R)$, y para $j\geq 1$ define $T_{j}(f(x))=f^{j}(x)$ la $j$-ésima derivada de $f(x)$. Pruebe que el conjunto $\{ T_{1},T_{2},\dots,T_{n} \}$ es un subconjunto linealmente independiente de $\mathcal{L}(V)$ para cualquier entero positivo $n$.
 
 ### Sección 2.3 Friedberg
-3.-
-4.-
-8.-
-12.-
+###### Teorema 2.10
+Sea $V$ un espacio vectorial. Sean $T,U_{1},U_{2}\in\mathcal{L}(V)$. Entonces se satisfacen las siguientes:
+- $T(U_{1}+U_{2})=TU_{1}+TU_{2}$ y $(U_{1}+U_{2})T=U_{1}T+U_{2}T$.
+- $T(U_{1}U_{2})=(TU_{1})U_{2}$.
+- $TI=IT=T$. (Dónde $I$ es la identidad).
+- $a(U_{1}U_{2})=(aU_{1})U_{2}=U_{1}(aU_{2})$ para cualquier escalar $a$.
+###### Teorema 2.11
+Sean $V,W,Z$ espacios vectoriales de dimensión finita con bases ordenadas $\alpha,\beta,\gamma$ respectivamente. Sean $T:V\to W$ y $U:W\to Z$ transformaciones lineales. Entonces 
+$$
+	[UT]_{\alpha}^{\gamma}=[U]_{\beta}^{\gamma}[T]_{\alpha}^{\beta}.
+$$
+###### Teorema 2.14
+Sean $V,W$ espacios vectoriales de dimensión finita con bases ordenadas $\beta$ y $\gamma$ respectivamente. Sea $T:V\to W$ lineal. Entonces para cada $u\in V$ tenemos que 
+$$
+	[T(u)]_{\gamma}=[T]_{\beta}^{\gamma}[u]_{\beta}.
+$$
+
+
+3.- Sea $g(x)=3+x$. Sean $T:P_{2}(R)\to P_{2}(R)$ y $U:P_{2}(R)\to R^{3}$ transformaciones lineales definidas respectivamente como 
+$$
+	T(f(x))=f'(x)g(x)+2f(x)\quad\text{y}\quad U(a+bx+x^{2})=(a+b,c,a-b).
+$$
+Sean $\beta$ y $\gamma$ las bases ordenadas de $P_{2}(R)$ y $R^{3}$ respectivamente.
+- Calcule $[U]_{\beta}^{\gamma},[T]_{\beta}$ y $[UT]_{\beta}^{\gamma}$ directamente. Después use el Teorema 2.11 para verificar su resultado.
+- Sea $h(x)=3-2x+x^{2}$. Calcule $[h(x)]_{\beta}$ y $[U(h(x))]_{\gamma}$. Entonces use $[U]_{\beta}^{\gamma}$ de la parte (a) del Teorema 2.14 para verificar sus resultados.
+
+
+4.- Para cada una de las siguientes, sea $T$ la transformación lineal definida en el Ejercicio 5 de la sección 2.2. Use el Teorema 2.14 para calcular los siguientes vectores.
+- $[T(A)]_{\alpha}$ donde $A=\begin{pmatrix}1 & 4 \\  -1 & 6\end{pmatrix}$.
+- $[T(f(x))]_{\alpha}$, donde $f(x)=4-6x+3x^{2}$.
+- $[T(A)]_{\gamma}$, donde $A=\begin{pmatrix}1 & 3 \\  2 & 4\end{pmatrix}$.
+- $[T(f(x))]_{\gamma}$, dónde $f(x)=6-x+2x^{2}$.
+
+
+8.- Pruebe el Teorema 2.10. Ahora nombra y prueba un resultado más general que involucre transformaciones lineales con dominio diferente a su codominio.
+
+ 
+12.- Sean $V,W$ y $Z$ espacios vectoriales, y sean $T:V\to W$ y $U:W\to Z$ lineales.
+- Pruebe que si $UT$ es intectiva, entonces $T$ es inyectiva. ¿Debe $U$ también ser inyectiva?
+- Pruebe que si $UT$ es suprayectiva, entonces $U$ es suprayectiva. ¿Debe $T$ también ser suprayectiva?
+- Pruebe que si $U$ y $T$ son inyectivas y suprayectivas, entonces $UT$ también lo es.

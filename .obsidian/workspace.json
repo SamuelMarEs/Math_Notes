@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "17cd2a76f35b206b",
+        "id": "d8ebb0102462e951",
         "type": "tabs",
         "children": [
           {
-            "id": "253ae8b024c16b64",
+            "id": "24b506af0d877c75",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "TercerSemestre/AlgebraLineal2/Tarea2_AlgebraLineal2.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Tarea2_AlgebraLineal2"
             }
           }
         ]
@@ -221,8 +225,10 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "253ae8b024c16b64",
+  "active": "24b506af0d877c75",
   "lastOpenFiles": [
+    "TercerSemestre/AlgebraLineal2/Tarea1_AlgebraLineal2.md",
+    "TercerSemestre/AlgebraLineal2/Tarea2_AlgebraLineal2.md",
     "TercerSemestre/Probabilidad/LeyProbabilidadTotal.md",
     "TeoremaDeBayes.md",
     "TercerSemestre/Probabilidad/ProbabilidadCondicional.md",
@@ -238,10 +244,8 @@
     "TercerSemestre/AlgebraLineal2/TransformacionesInversas.md",
     "TercerSemestre/AlgebraLineal2/Matrices+Transformaciones.md",
     "TercerSemestre/AlgebraLineal2/TeoremaDimension.md",
-    "TercerSemestre/AlgebraLineal2/Tarea2_AlgebraLineal2.md",
     "TercerSemestre/Calculo3/ConjuntoDeNivel.md",
     "TercerSemestre/AlgebraLineal2/BasesOrdenadas.md",
-    "TercerSemestre/AlgebraLineal2/Tarea1_AlgebraLineal2.md",
     "Excalidraw/ProyeccionSobreYdeL.md",
     "Excalidraw/ProyeccionSobreYdeX.md",
     "TercerSemestre/AlgebraLineal2/Proyeccion+SumaDirecta.md",
