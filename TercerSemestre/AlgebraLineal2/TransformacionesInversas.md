@@ -9,7 +9,7 @@ Si recordamos todo lo que sabemos de funciones inversas, existen varias propieda
 - $T$ tiene inversa si y sólo si $T$ es biyectiva.
 
 ##### Teorema 2.17.
-Sean $V,W$ espacios vectoriales sobre $F$. Sea $T:V\to W$ lineal e invertivle. Entonces $T^{-1}W:\to V$ también es lineal.
+Sean $V,W$ espacios vectoriales sobre $F$. Sea $T:V\to W$ lineal e invertible. Entonces $T^{-1}W:\to V$ también es lineal.
 ##### Demostración:
 Sean $y_{1},y_{2}\in W$ y $c\in F$. Vamos a demostrar que $T^{-1}(cy_{1}+y_{2})=cT^{-1}(y_{1})+T^{-1}(y_{2})$.
 Por definición, existen $x_{1},x_{2}\in V$ únicos tales que $T^{-1}(y_{1})=x_{1}$ y $T^{-1}(y_{2})=x_{2}$, así como también $T(x_{1})=y_{1}$ y $T(x_{2})=y_{2}$.

@@ -38,7 +38,7 @@ Python evalua primero `not`, después `and`, y por último `or`.
 ### Mutabilidad y aliasing
 ***Mutabilidad*** es una propiedad de un objeto: indica si su esado interno puede cambiar sin sustituirlo por otro objeto. Es lo que nos dice si el objeto es inmutable o mutable.
 ***Aliasing*** es una relación entre nombres: ocurre cuando dos o más nombres están asociados con el mismo objeto.
-El resultado no implica mutabilidad y la mutabiidad no implica aliasing.
+El resultado no implica mutabilidad y la mutabilidad no implica aliasing.
 
-
+#Algoritmos
 

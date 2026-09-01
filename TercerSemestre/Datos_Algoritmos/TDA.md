@@ -27,3 +27,6 @@ Algunos ejemplos en Python son `list`, `tuple`, `dict`, y `set`, que son a su ve
 
 ##### Definición:
 Un ***TDA*** (tipo de dato abstracto) especifica los estados válidos, las operaciones disponibles y las reglas que determinan su comportamiento, sin establecer cómo se representa o implementa.
+Un mismo TDA puede tener diferentes implementaciones.
+
+#Algoritmos
