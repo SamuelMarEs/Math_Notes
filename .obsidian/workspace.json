@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "2a03239775429b0f",
+        "id": "40d1d6e77714dc3f",
         "type": "tabs",
         "children": [
           {
-            "id": "1e4fd6ffbca29691",
+            "id": "ab67a35c1927d212",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "TercerSemestre/Datos_Algoritmos/Complejidad.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Complejidad"
             }
           }
         ]
@@ -221,10 +225,13 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "1e4fd6ffbca29691",
+  "active": "ab67a35c1927d212",
   "lastOpenFiles": [
-    "TercerSemestre/AlgebraLineal2/TransformacionesInversas.md",
+    "TercerSemestre/Datos_Algoritmos/TDA.md",
+    "TercerSemestre/Datos_Algoritmos/Complejidad.md",
+    "TercerSemestre/AlgebraLineal2/RepresentacionEstandar.md",
     "TercerSemestre/AlgebraLineal2/BasesOrdenadas.md",
+    "TercerSemestre/AlgebraLineal2/TransformacionesInversas.md",
     "TercerSemestre/AlgebraLineal2/Matrices+Transformaciones.md",
     "TercerSemestre/AlgebraLineal2/TeoremaDimension.md",
     "TercerSemestre/AlgebraLineal2/Tarea2_AlgebraLineal2.md",
@@ -237,7 +244,6 @@
     "TercerSemestre/Probabilidad/TiposDeProbabilidad/ProbabilidadClasica.md",
     "TercerSemestre/Probabilidad/PrincipiosDeProbabilidad.md",
     "TercerSemestre/Horario_tercersemestre.jpeg",
-    "TercerSemestre/Datos_Algoritmos/TDA.md",
     "TercerSemestre/Datos_Algoritmos/AlgoritmoEuclidesMCD.md",
     "TercerSemestre/Datos_Algoritmos/Clases.md",
     "TercerSemestre/Datos_Algoritmos/RepasoPython.md",
@@ -249,12 +255,10 @@
     "Excalidraw/Ejemplo1CurvasDeNivel.md",
     "TercerSemestre/Calculo3/Graficas.md",
     "Excalidraw/CurvasDeNivel.md",
-    "TercerSemestre/Calculo3/Funciones.md",
     "TercerSemestre/Imagenes/Esfera.png",
     "TercerSemestre/Imagenes/Helice.png",
     "TercerSemestre/Imagenes/Circulo.png",
     "TercerSemestre/Calculo3/temario_calc3.pdf",
-    "TercerSemestre/Datos_Algoritmos/Untitled.md",
     "R_notebooks/MuestrasAleatorias_files/libs/quarto-html/tabsets/tabsets.js",
     "R_notebooks/MuestrasAleatorias_files/libs/quarto-html/tippy.umd.min.js",
     "R_notebooks/MuestrasAleatorias_files/libs/quarto-html/tippy.css",
