@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "40d1d6e77714dc3f",
+        "id": "33e9dbf57eaab238",
         "type": "tabs",
         "children": [
           {
-            "id": "ab67a35c1927d212",
+            "id": "20085880add3839d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "TercerSemestre/Datos_Algoritmos/Complejidad.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Complejidad"
+              "title": "New tab"
             }
           }
         ]
@@ -33,7 +29,7 @@
       {
         "id": "19222e06e28c1808",
         "type": "tabs",
-        "dimension": 71.94029850746269,
+        "dimension": 71.74129353233832,
         "children": [
           {
             "id": "ddd66d7aa249ed22",
@@ -83,9 +79,9 @@
         ]
       },
       {
-        "id": "61f9a0a6e3af86da",
+        "id": "4df8e38988e2d316",
         "type": "tabs",
-        "dimension": 28.059701492537314,
+        "dimension": 28.258706467661693,
         "children": [
           {
             "id": "5d1ee9aef5d2167f",
@@ -225,10 +221,13 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "ab67a35c1927d212",
+  "active": "20085880add3839d",
   "lastOpenFiles": [
-    "TercerSemestre/Datos_Algoritmos/TDA.md",
+    "TercerSemestre/Calculo3/ConjuntosAbiertos.md",
+    "TercerSemestre/Calculo3/Limite.md",
+    "TercerSemestre/Calculo3/SistemasCoordenadas.md",
     "TercerSemestre/Datos_Algoritmos/Complejidad.md",
+    "TercerSemestre/Datos_Algoritmos/TDA.md",
     "TercerSemestre/AlgebraLineal2/RepresentacionEstandar.md",
     "TercerSemestre/AlgebraLineal2/BasesOrdenadas.md",
     "TercerSemestre/AlgebraLineal2/TransformacionesInversas.md",
@@ -252,9 +251,6 @@
     "Excalidraw/ProyeccionSobreYdeX.md",
     "TercerSemestre/AlgebraLineal2/Proyeccion+SumaDirecta.md",
     "TercerSemestre/Probabilidad/TiposDeProbabilidad/ProbabilidadAxiomatica.md",
-    "Excalidraw/Ejemplo1CurvasDeNivel.md",
-    "TercerSemestre/Calculo3/Graficas.md",
-    "Excalidraw/CurvasDeNivel.md",
     "TercerSemestre/Imagenes/Esfera.png",
     "TercerSemestre/Imagenes/Helice.png",
     "TercerSemestre/Imagenes/Circulo.png",
