@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "33e9dbf57eaab238",
+        "id": "ecdc7c0d976bf6fe",
         "type": "tabs",
         "children": [
           {
-            "id": "20085880add3839d",
+            "id": "8cfc89f90b76837b",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "TercerSemestre/Probabilidad/Independencia.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Independencia"
             }
           }
         ]
@@ -221,8 +225,11 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "20085880add3839d",
+  "active": "8cfc89f90b76837b",
   "lastOpenFiles": [
+    "TercerSemestre/Probabilidad/Independencia.md",
+    "TercerSemestre/Probabilidad/Independencia.md",
+    "TercerSemestre/Probabilidad/TeoremaDeBayes.md",
     "TercerSemestre/Calculo3/ConjuntosAbiertos.md",
     "TercerSemestre/Calculo3/Limite.md",
     "TercerSemestre/Calculo3/SistemasCoordenadas.md",
@@ -236,7 +243,6 @@
     "TercerSemestre/AlgebraLineal2/Tarea2_AlgebraLineal2.md",
     "TercerSemestre/AlgebraLineal2/Tarea1_AlgebraLineal2.md",
     "TercerSemestre/Probabilidad/LeyProbabilidadTotal.md",
-    "TercerSemestre/Probabilidad/TeoremaDeBayes.md",
     "TercerSemestre/Probabilidad/ProbabilidadCondicional.md",
     "TercerSemestre/Probabilidad/TiposDeProbabilidad",
     "TercerSemestre/Probabilidad/Tarea1Probabilidad.md",
@@ -249,8 +255,6 @@
     "TercerSemestre/Calculo3/ConjuntoDeNivel.md",
     "Excalidraw/ProyeccionSobreYdeL.md",
     "Excalidraw/ProyeccionSobreYdeX.md",
-    "TercerSemestre/AlgebraLineal2/Proyeccion+SumaDirecta.md",
-    "TercerSemestre/Probabilidad/TiposDeProbabilidad/ProbabilidadAxiomatica.md",
     "TercerSemestre/Imagenes/Esfera.png",
     "TercerSemestre/Imagenes/Helice.png",
     "TercerSemestre/Imagenes/Circulo.png",
