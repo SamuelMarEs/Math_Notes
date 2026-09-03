@@ -260,11 +260,45 @@ $$
 
 10.- Sea $V$ un espacio vectorial con base ordenada $\beta=\{ v_{1},v_{2},\dots,v_{n} \}$. Define $v_{0}=0$. Por el Teorema 2.6, existe una transformación lineal $T:V\to V$ tal que $T(v_{j})=v_{j}+v_{j-1}$ para $j=1,2,\dots,n$. Calcule $[T]_{\beta}$.
 **Sol:**
-
+Para un vector cualquiera de la base, $T(v_{j})$ tiene como imagen el vector con coordenadas 1 en los "espacios" $j$ y $j-1$, y cero en los demás. Por lo tanto, la matriz asociada será la matriz de $n\times n$ dada por:
+$$
+	[T]_{\beta}=\begin{pmatrix}
+	1 & 1 & 0 & \dots & 0 \\
+	0 & 1 & 1 & \dots & 0 \\
+	0 & 0 & 1 & \dots & 0 \\
+	\vdots &  &  &  & \vdots \\
+	0 & 0 & 0 & \dots & 1 \\
+	0 & 0 & 0 & \dots & 1
+	\end{pmatrix},
+$$
+que también se puede escribir como $[T]_{\beta}=a_{ij}$ donde 
+$$
+	a_{ij}=\begin{cases}
+	1,\text{ si } i=j \text{ o } i=j-1 \\
+	0, \text{ en los demás casos}.
+	\end{cases}
+$$
 
 
 15.- Sea $V=P(R)$, y para $j\geq 1$ define $T_{j}(f(x))=f^{j}(x)$ la $j$-ésima derivada de $f(x)$. Pruebe que el conjunto $\{ T_{1},T_{2},\dots,T_{n} \}$ es un subconjunto linealmente independiente de $\mathcal{L}(V)$ para cualquier entero positivo $n$.
 **Sol:**
+**Prueba por inducción**
+- Caso base: Sea $n=1$, entonces tenemos el conjunto $\{ T_{1} \}$, que es linealmente independiente, pues, por la forma en la que está definida, $T_{1}$ no es la transformación cero.
+- Supongamos cierto para todo $k\leq n$, es decir que el conjunto $\{ T_{1},T_{2},\dots,T_{k} \}$ es linealmente independiente.
+- Por demostrar que el conjunto $\{ T_{1},T_{2},\dots,T_{n+1} \}$ es linealmente independiente.
+  Por hipótesis de inducción, sabemos que $\{ T_{1},..,T_{n} \}$ es linealmente independiente, es decir que 
+  $$
+	0=a_{1}T_{1}+\dots+a_{n}T_{n}\Longleftrightarrow a_{i}=0,\forall i=1,\dots,n.
+  $$
+  Supongamos que existen escalares $b_{1},\dots,b_{n}$ no todos ceros tales que 
+  $$
+	T_{n+1}=b_{1}T_{1}+\dots+b_{n}T_{n},
+  $$
+  es decir que, para toda $f(x)\in P(R)$, se satisface que 
+  $$
+	f^{n+1}=b_{1}f'+\dots+b_{n}f^{n}.
+  $$
+  
 
 
 ### Sección 2.3 Friedberg
@@ -290,22 +324,121 @@ $$
 $$
 	T(f(x))=f'(x)g(x)+2f(x)\quad\text{y}\quad U(a+bx+x^{2})=(a+b,c,a-b).
 $$
-Sean $\beta$ y $\gamma$ las bases ordenadas de $P_{2}(R)$ y $R^{3}$ respectivamente.
+Sean $\beta$ y $\gamma$ las bases ordenadas canonicas de $P_{2}(R)$ y $R^{3}$ respectivamente.
 - Calcule $[U]_{\beta}^{\gamma},[T]_{\beta}$ y $[UT]_{\beta}^{\gamma}$ directamente. Después use el Teorema 2.11 para verificar su resultado.
+  **Sol:**
+  Directamente, para $T$ tenemos que $T(\beta)=\{ 2,3+3x,6x+4x^{2} \}$, y por lo tanto 
+  $$
+	[T]_{\beta}=\begin{pmatrix}
+	2 & 3 & 0 \\
+	0 & 3 & 6 \\
+	0 & 0 & 4
+	\end{pmatrix}.
+  $$
+  Para $U$, tenemos que $U(\beta)=\{ (1,0,1),(1,0,-1),(0,1,0) \}$, y por lo tanto la matriz asociada es 
+  $$
+	[U]_{\beta}^{\gamma}=\begin{pmatrix}
+	1 & 1 & 0 \\
+	0 & 0 & 1 \\
+	1 & -1 & 0
+	\end{pmatrix}.
+  $$
+  Por ultimo, podemos expresar $UT$ como 
+  $$
+	UT(a+bx+x^{2})=U((3b+2a)+(3b+6c)x+(4c)x^{2})=(2a+6b+6c,4c,2a-6c),
+  $$
+  y por lo tanto tenemos que $UT(\beta)=\{ (2,0,2),(6,0,0),(6,4,-6) \}$, y la matriz asociada es 
+  $$
+	[UT]_{\beta}^{\gamma}=\begin{pmatrix}
+	2 & 6 & 6 \\
+	0 & 0 & 4 \\
+	2 & 0 & -6
+	\end{pmatrix}.
+  $$
+  Para comprobar el resultado vamos a hacer el producto de las matrices 
+  $$
+	\begin{pmatrix}
+	1 & 1 & 0 \\
+	0 & 0 & 1 \\
+	1 & -1 & 0
+	\end{pmatrix}\begin{pmatrix}
+	2 & 3 & 0 \\
+	0 & 3 & 6 \\
+	0 & 0 & 4
+	\end{pmatrix}=\begin{pmatrix}
+	2 & 6 & 6 \\
+	0 & 0 & 4 \\
+	2 & 0 & -6
+	\end{pmatrix}.
+  $$
+  
 - Sea $h(x)=3-2x+x^{2}$. Calcule $[h(x)]_{\beta}$ y $[U(h(x))]_{\gamma}$. Entonces use $[U]_{\beta}^{\gamma}$ de la parte (a) del Teorema 2.14 para verificar sus resultados.
+  **Sol:**
+  Dada $h(x)$, tenemos que su vector coordenada es
+  $$
+	[h(x)]_{\beta}=\begin{pmatrix}
+	3 \\
+	-2 \\
+	1
+	\end{pmatrix}.
+  $$
+  Además, $U(h(x))=(1,1,5)$, y por lo tanto $[U(h(x))]_{\gamma}=(1,1,5)$. Usando el teorema 2.14, tenemos que 
+  $$
+	[U(h(x))]_{\gamma}=\begin{pmatrix}
+	1 & 1 & 0 \\
+	0 & 0 & 1 \\
+	1 & -1 & 0
+	\end{pmatrix}\begin{pmatrix}
+	3 \\
+	-2 \\
+	1
+	\end{pmatrix}=\begin{pmatrix}
+	1 \\
+	1 \\
+	5
+	\end{pmatrix}.
+  $$
 
 
-4.- Para cada una de las siguientes, sea $T$ la transformación lineal definida en el Ejercicio 5 de la sección 2.2. Use el Teorema 2.14 para calcular los siguientes vectores.
+4.- Para cada una de las siguientes, sea $T$ la transformación lineal definida en el inciso correspondiente del Ejercicio 5 de la sección 2.2. Use el Teorema 2.14 para calcular los siguientes vectores.
 - $[T(A)]_{\alpha}$ donde $A=\begin{pmatrix}1 & 4 \\  -1 & 6\end{pmatrix}$.
+  **Sol:** 
+  $$
+	[T(A)]_{\alpha}=\begin{pmatrix}
+	1 \\
+	-1 \\
+	4 \\
+	6
+	\end{pmatrix}.
+  $$
 - $[T(f(x))]_{\alpha}$, donde $f(x)=4-6x+3x^{2}$.
+  **Sol:** 
+  $$
+	[T(f(x))]_{\alpha}=\begin{pmatrix}
+	-6 \\
+	2 \\
+	0 \\
+	6
+	\end{pmatrix}
+  $$
 - $[T(A)]_{\gamma}$, donde $A=\begin{pmatrix}1 & 3 \\  2 & 4\end{pmatrix}$.
+  **Sol:** 
+  $$
+	[T(A)]_{\gamma}=(5).
+  $$
 - $[T(f(x))]_{\gamma}$, dónde $f(x)=6-x+2x^{2}$.
+  **Sol:**
+  $$
+	[T(f(x))]_{\gamma}=(12).
+  $$
 
 
 8.- Pruebe el Teorema 2.10. Ahora nombra y prueba un resultado más general que involucre transformaciones lineales con dominio diferente a su codominio.
+**Sol:**
+
 
  
 12.- Sean $V,W$ y $Z$ espacios vectoriales, y sean $T:V\to W$ y $U:W\to Z$ lineales.
-- Pruebe que si $UT$ es intectiva, entonces $T$ es inyectiva. ¿Debe $U$ también ser inyectiva?
+- Pruebe que si $UT$ es inyectiva, entonces $T$ es inyectiva. ¿Debe $U$ también ser inyectiva?
 - Pruebe que si $UT$ es suprayectiva, entonces $U$ es suprayectiva. ¿Debe $T$ también ser suprayectiva?
 - Pruebe que si $U$ y $T$ son inyectivas y suprayectivas, entonces $UT$ también lo es.
