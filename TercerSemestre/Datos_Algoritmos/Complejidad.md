@@ -112,4 +112,8 @@ $$
 	c_{1}g(n)\leq f(n)\leq c_{2}g(n).
 $$
 La desigualdad de la izquierda prueba que $f\in \Omega(g)$, y la de la derecha que $f\in O(g)$.
-$\Leftarrow$ Si $f\in O(g)$ 
+$\Leftarrow$ Si $f\in O(g)$ y $f\in \Omega(g)$, entonces tenemos que $\exists c_{1},c_{2}>0$ y $\exists n_{1},n_{2}\in\mathbb{N}$ tales que $\forall n\geq n_{1}$ se tiene que $0\leq f(n)\leq c_{1}g(n)$, y $\forall n\geq n_{2}$ tenemos que $0\leq c_{2}g(n)\leq f(n)$. Entonces, basta tomar a $n_{0}=\text{max}(n_{1},n_{2})$, tal que $\forall n\geq n_{0}$ se van a cumplir ambas contenciones al mismo tiempo, es decir que 
+$$
+	0\leq c_{2}g(n)\leq f(n)\leq c_{1}g(n).\quad\square
+$$
+
