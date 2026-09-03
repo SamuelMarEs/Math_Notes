@@ -3,7 +3,6 @@ Dado un [[EspaciosVectoriales|espacio vectorial]] $V$ sobre $F$ de dimensión fi
 $$
 	T:V\to V.
 $$
-
 ##### Definición:
 Dado un espacio vectorial $V$ y dos [[BasesOrdenadas|bases ordenadas]] $\beta$ y $\beta'$. La matriz de cambio de base de $\beta'$ a $\beta$ está dada por 
 $$
@@ -27,5 +26,17 @@ $$
 	[v]_{\beta}=[I_{V}(v)]_{\beta}=[I_{V}]_{\beta'}^{\beta}[v]_{\beta'}=Q[v]_{\beta'}.
 $$
 
+#### Teorema 2.23
+Sea $T$ un operador lineal sobre un espacio vectorial $V$ de dimensión finita. Sean $\beta$ y $\beta'$ dos bases ordenadas de $V$ y sea $Q$ la matriz de cambio de base de $\beta'$ a $\beta$.
+Entonces 
+$$
+	[T]_{\beta'}=Q^{-1}[T]_{\beta}Q.
+$$
+
+##### Definición
+Dadas $A,B\in M_{n\times n}(F)$, decimos que $B$ es ***similar*** a $A$ si existe $Q\in M_{2\times 2}(F)$ invertible tal que 
+$$
+	B=Q^{-1}AQ.
+$$
 
 #AlgebraLineal
