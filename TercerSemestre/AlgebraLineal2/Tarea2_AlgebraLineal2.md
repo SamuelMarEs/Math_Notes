@@ -118,7 +118,19 @@ $$
 	
 $$
 Calcula $[T]_{\beta}^{\gamma}$.
-
+**Sol:**
+Sea $\beta=\{  e_{1},e_{2},e_{3},e_{4} \}$ la base canónica del espacio $M_{2\times 2}(R)$. Entonces tenemos que 
+$$
+	T(\beta)=\{ 1,1+x^{2},0,2x \},
+$$
+entonces tenemos que 
+$$
+	[T]_{\beta}^{\gamma}=\begin{pmatrix}
+	1 & 1 & 0 & 0 \\
+	0 & 0 & 0 & 2 \\
+	0 & 1 & 0 & 0
+	\end{pmatrix}.
+$$
 
 
 5.- Sean 
@@ -138,7 +150,34 @@ $$
 	0 & 1
 	\end{pmatrix}\right\},\quad \beta=\{ 1,x,x^{2} \},\quad\text{y}\quad\gamma=\{ 1 \}.
 $$
-- Define $T:M_{2\times 2}(F)\to M_{2\times 2}(F)$ como $T(A)=A^{t}$. Calcula $[T]_{\alpha}$
+- Define $T:M_{2\times 2}(F)\to M_{2\times 2}(F)$ como $T(A)=A^{t}$. Calcula $[T]_{\alpha}$.
+  **Sol:**
+  Sea $T(A)=A^{t}$ la transpuesta de una matriz, tenemos que 
+  $$
+	T(\alpha)=\left\{ \begin{pmatrix}
+	1 & 0 \\
+	0 & 0
+	\end{pmatrix},\begin{pmatrix}
+	0 & 0 \\
+	1 & 0
+	\end{pmatrix}, \begin{pmatrix}
+	0 & 1 \\
+	0 & 0
+	\end{pmatrix},
+	\begin{pmatrix}
+	0 & 0 \\
+	0 & 1
+	\end{pmatrix} \right\},
+  $$
+  la cual es exactamente la misma base, solo que en otro orden. Nuestra matríz asociada es 
+  $$
+	[T]_{\alpha}=\begin{pmatrix}
+	1 & 0 & 0 & 0 \\
+	0 & 0 & 1 & 0 \\
+	0 & 1 & 0 & 0 \\
+	0 & 0 & 0 & 1
+	\end{pmatrix}.
+  $$
 - Define 
   $$
   	T:P_{2}(R)\to M_{2\times 2}(R)\quad\text{como}\quad T(f(x))=\begin{pmatrix}
@@ -147,17 +186,86 @@ $$
 	\end{pmatrix},
   $$
   dónde $'$ denota la derivada. Calcule $[T]_{\beta}^{\alpha}$.
+  **Sol:**
+  Tenemos que la imagen de la base $\beta$ bajo $T$ es: 
+  $$
+	T(\beta)=\left\{ \begin{pmatrix}
+	0 & 2 \\
+	0 & 0
+	\end{pmatrix},\begin{pmatrix}
+	1 & 2 \\
+	0 & 0
+	\end{pmatrix}, \begin{pmatrix}
+	0 & 2 \\
+	0 & 2
+	\end{pmatrix} \right\},
+  $$
+  y entonces nuestra matriz asociada va a ser 
+  $$
+	[T]_{\beta}^{\alpha}=\begin{pmatrix}
+	0 & 1 & 0 \\
+	2 & 2 & 2 \\
+	0 & 0 & 0 \\
+	0 & 0 & 2
+	\end{pmatrix}.
+  $$
+  
 - Define $T:M_{2\times 2}(F)\to F$ como $T(A)=\text{tr}(A)$. Calcule $[T]_{\alpha}^{\gamma}$.
+  **Sol:**
+  Para la base canónica $\alpha$, tenemos que su imagen bajo $T$ es: 
+  $$
+	T(\alpha)=\{ 1,0,0,1 \},
+  $$
+  y como tenemos que la imagen está contenida en $F$, entonces la imagen de la base es la misma matriz asociada. Es decir que 
+  $$
+	[T]_{\alpha}^{\gamma}=(1,0,0,1).
+  $$
+  
 - Define $T:P_{2}(R)\to R$ como $T(f(x))=f(2)$. Calcule $[T]_{\beta}^{\gamma}$.
+  **Sol:**
+  La imagen de la base $\beta$ es 
+  $$
+	T(\beta) = \{ 1,2,4 \},
+  $$
+  y entonces, al igual que en el inciso anterior, tenemos que 
+  $$
+	[T]_{\beta}^{\gamma} = (1,2,4).
+  $$
+  
 - Si $A=\begin{pmatrix}1 & -2 \\  0 & 4\end{pmatrix},$ calcula $[A]_{\alpha}$.
+  **Sol:** 
+  $$
+	[A]_{\alpha}=\begin{pmatrix}
+	1 \\
+	-2 \\
+	0 \\
+	4
+	\end{pmatrix}.
+  $$
 - Si $f(x)=3-6x+x^{2}$, calcule $[f(x)]_{\beta}$.
+  **Sol:** 
+  $$
+	[f(x)]_{\beta}=\begin{pmatrix}
+	3 \\
+	-6 \\
+	1
+	\end{pmatrix}.
+  $$
 - Para $a\in F$, calcule $[a]_{\gamma}$.
+  **Sol:** 
+  $$
+	[a]_{\gamma}=(a).
+  $$
 
 
 10.- Sea $V$ un espacio vectorial con base ordenada $\beta=\{ v_{1},v_{2},\dots,v_{n} \}$. Define $v_{0}=0$. Por el Teorema 2.6, existe una transformación lineal $T:V\to V$ tal que $T(v_{j})=v_{j}+v_{j-1}$ para $j=1,2,\dots,n$. Calcule $[T]_{\beta}$.
+**Sol:**
+
 
 
 15.- Sea $V=P(R)$, y para $j\geq 1$ define $T_{j}(f(x))=f^{j}(x)$ la $j$-ésima derivada de $f(x)$. Pruebe que el conjunto $\{ T_{1},T_{2},\dots,T_{n} \}$ es un subconjunto linealmente independiente de $\mathcal{L}(V)$ para cualquier entero positivo $n$.
+**Sol:**
+
 
 ### Sección 2.3 Friedberg
 ###### Teorema 2.10
