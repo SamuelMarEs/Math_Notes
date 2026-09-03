@@ -290,24 +290,9 @@ $$
   $$
 	0=a_{1}T_{1}+\dots+a_{n}T_{n}\Longleftrightarrow a_{i}=0,\forall i=1,\dots,n.
   $$
-  Supongamos que existen escalares $b_{1},\dots,b_{n}$ no todos ceros tales que 
-  $$
-	T_{n+1}=b_{1}T_{1}+\dots+b_{n}T_{n},
-  $$
-  es decir que, para toda $f(x)\in P(R)$, se satisface que 
-  $$
-	f^{n+1}=b_{1}f'+\dots+b_{n}f^{n}.
-  $$
-  
 
 
 ### Sección 2.3 Friedberg
-###### Teorema 2.10
-Sea $V$ un espacio vectorial. Sean $T,U_{1},U_{2}\in\mathcal{L}(V)$. Entonces se satisfacen las siguientes:
-- $T(U_{1}+U_{2})=TU_{1}+TU_{2}$ y $(U_{1}+U_{2})T=U_{1}T+U_{2}T$.
-- $T(U_{1}U_{2})=(TU_{1})U_{2}$.
-- $TI=IT=T$. (Dónde $I$ es la identidad).
-- $a(U_{1}U_{2})=(aU_{1})U_{2}=U_{1}(aU_{2})$ para cualquier escalar $a$.
 ###### Teorema 2.11
 Sean $V,W,Z$ espacios vectoriales de dimensión finita con bases ordenadas $\alpha,\beta,\gamma$ respectivamente. Sean $T:V\to W$ y $U:W\to Z$ transformaciones lineales. Entonces 
 $$
@@ -434,7 +419,13 @@ Sean $\beta$ y $\gamma$ las bases ordenadas canonicas de $P_{2}(R)$ y $R^{3}$ re
 
 
 8.- Pruebe el Teorema 2.10. Ahora nombra y prueba un resultado más general que involucre transformaciones lineales con dominio diferente a su codominio.
-**Sol:**
+###### Teorema 2.10
+Sea $V$ un espacio vectorial. Sean $T,U_{1},U_{2}\in\mathcal{L}(V)$. Entonces se satisfacen las siguientes:
+- $T(U_{1}+U_{2})=TU_{1}+TU_{2}$ y $(U_{1}+U_{2})T=U_{1}T+U_{2}T$.
+- $T(U_{1}U_{2})=(TU_{1})U_{2}$.
+- $TI=IT=T$. (Dónde $I$ es la identidad).
+- $a(U_{1}U_{2})=(aU_{1})U_{2}=U_{1}(aU_{2})$ para cualquier escalar $a$.
+**Demostración:**
 
 
  
