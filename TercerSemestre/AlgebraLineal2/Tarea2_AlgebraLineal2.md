@@ -282,15 +282,16 @@ $$
 
 15.- Sea $V=P(R)$, y para $j\geq 1$ define $T_{j}(f(x))=f^{j}(x)$ la $j$-ésima derivada de $f(x)$. Pruebe que el conjunto $\{ T_{1},T_{2},\dots,T_{n} \}$ es un subconjunto linealmente independiente de $\mathcal{L}(V)$ para cualquier entero positivo $n$.
 **Sol:**
-**Prueba por inducción**
-- Caso base: Sea $n=1$, entonces tenemos el conjunto $\{ T_{1} \}$, que es linealmente independiente, pues, por la forma en la que está definida, $T_{1}$ no es la transformación cero.
-- Supongamos cierto para todo $k\leq n$, es decir que el conjunto $\{ T_{1},T_{2},\dots,T_{k} \}$ es linealmente independiente.
-- Por demostrar que el conjunto $\{ T_{1},T_{2},\dots,T_{n+1} \}$ es linealmente independiente.
-  Por hipótesis de inducción, sabemos que $\{ T_{1},..,T_{n} \}$ es linealmente independiente, es decir que 
-  $$
-	0=a_{1}T_{1}+\dots+a_{n}T_{n}\Longleftrightarrow a_{i}=0,\forall i=1,\dots,n.
-  $$
-
+**Prueba por contradicción**
+Supongamos que existen escalares $a_{1},\dots,a_{n}$ no todos ceros tales que 
+$$
+	a_{1}T_{1}+\dots+a_{n}T_{n}=0.
+$$
+Llamemos a esta nueva transformación lineal $U=a_{1}T_{1}+\dots+a_{n}T_{n}$. Vamos a demostrar que no puede ser la transformación cero. En particular, para el polinomio $f(x)=x^{m}$. Tenemos que $T_{j}(x^{m})=m(m-1)\dots(m-j+1)x^{m-j}$, y entonces tenemos que 
+$$
+	U(x^{m})=ma_{1}x^{m-1}+\dots+m(m-1)\dots(m-n+1)a_{n}x^{m-n}=0.
+$$
+Sin embargo los exponentes $x^{m-1},\dots,x^{m-n}$ elementos de la base canónica del espacio $P_{m-n}(R),$ y por lo tanto son en si mismos linealmente independientes para cualesquiera escalares, por lo tanto la única forma de que $U(x^{m})=0$ es si $a_{1}=\dots=a_{n}=0$, lo que contradice nuestra suposición inicial. Por lo tanto, el conjunto $\{ T_{1},\dots,T_{n} \}$ es linealmente independiete.
 
 ### Sección 2.3 Friedberg
 ###### Teorema 2.11
@@ -426,10 +427,56 @@ Sea $V$ un espacio vectorial. Sean $T,U_{1},U_{2}\in\mathcal{L}(V)$. Entonces se
 - $TI=IT=T$. (Dónde $I$ es la identidad).
 - $a(U_{1}U_{2})=(aU_{1})U_{2}=U_{1}(aU_{2})$ para cualquier escalar $a$.
 **Demostración:**
-
+- Sean $T,U_{1},U_{2}\in\mathcal{L}(V)$. Como $T$ es lineal, $T(x+y)=T(x)+T(y)$ para cualesquiera $x,y$, por lo tanto 
+  $$
+  	T(U_{1}+U_{2})=T(U_{1})+T(U_{2})=TU_{1}+TU_{2}.
+  $$
+  Además, por la forma en la que esta definida la suma de funciones, $(f+g)(x)=f(x)+g(x)$, tenemos que 
+  $$
+	(U_{1}+U_{2})T=U_{1}(T)+U_{2}(T)=U_{1}T+U_{2}T.
+  $$
+- Sea $T,U_{1},U_{2}\in\mathcal{L}(V)$, entonces por las propiedades de la composición de funciones
+  $$
+  	T(U_{1}U_{2})=T(U_{1}(U_{2}(x)))=(T(U_{1}))(U_{2}(x))=(TU_{1})U_{2}.
+  $$
+- Sea $I$ la identidad, entonces tenemos que 
+  $$
+  	TI=T(I(x))=T(x)=I(T(x))=IT.
+  $$
+- Sea $a$ un escalar, entonces 
+  $$
+  	a(U_{1}U_{2})=aU_{1}(U_{2}(x))=(aU_{1})U_{2}.
+  $$
+  Además, como $U_{1}$ es lineal, entonces 
+  $$
+	aU_{1}(U_{2}(x))=U_{1}(aU_{2}(x))=U_{1}(aU_{2}).
+  $$
 
  
 12.- Sean $V,W$ y $Z$ espacios vectoriales, y sean $T:V\to W$ y $U:W\to Z$ lineales.
 - Pruebe que si $UT$ es inyectiva, entonces $T$ es inyectiva. ¿Debe $U$ también ser inyectiva?
+  **Sol:**
+  Sea $UT$ inyectiva, entonces tenemos que $$UT(x_{1})=UT(x_{2})\Rightarrow x_{1}=x_{2}.$$
+  Prueba por contradicción.
+  Supongamos que $T$ no es inyectiva, es decir que existen $a_{1}\neq a_{2}$ tales que $T(a_{1})=T(a_{2})$, y entonces $U(T(a_{1}))=U(T(a_{2}))$ para $a_{1}\neq a_{2}$, y por lo tanto $UT$ no es inyectiva $!$.
+  $U$ no necesariamente tiene que ser inyectiva para que $UT$ sea inyectiva, basta con que $T$ lo sea.
+  
 - Pruebe que si $UT$ es suprayectiva, entonces $U$ es suprayectiva. ¿Debe $T$ también ser suprayectiva?
+  **Sol:**
+  Sea $UT$ suprayectiva, entonces tenemos que $\forall v\in V,\exists x\in V$ tal que $U(T(x))=v$. 
+  Prueba por contradicción.
+  Supongamos que $U$ no es suprayectiva. Entonces existe $v\in V$ tal que para ningún $y\in V$ se satisfaga que $U(y)=v$, y por lo tanto $U(T(x))\neq v$ para todo $T(x)$ independientemente del vector $x$, y por lo tanto $UT$ no es suprayectiva !.
+  A diferencia del inciso anterior, en este caso ambas transformaciones deben ser suprayectivas, no basta con que solo $U$ lo sea. Si sólo $U$ es suprayectiva, entonces para todo $v\in V,\exists x\in V$ tal que $U(x)=v$. Sin embargo, si $T$ no es suprayectiva, no podemos asegurar que $x\in R(T)$, pero si $T$ es suprayectiva, entonces $R(T)=V$ y por lo tanto $x\in R(T)$.
+  
 - Pruebe que si $U$ y $T$ son inyectivas y suprayectivas, entonces $UT$ también lo es.
+  **Sol:**
+  Primero vamos a demostrar que $UT$ es inyectiva. Dado que $U$ es inyectiva, entonces $U(T(a_{1}))=U(T(a_{1}))\Rightarrow T(a_{1})=T(a_{2}),$ y además dedo que $T$ también es inyectiva, tenemos que $T(a_{1})=T(a_{2})\Rightarrow a_{1}=a_{2}$, y por lo tanto tenemos que 
+  $$
+	U(T(a_{1}))=U(T(a_{2}))\Rightarrow a_{1}=a_{2},
+  $$
+  es decir que $UT$ es inyectiva.
+  Ahora para demostrar la suprayectividad. Sean $U$ y $T$ suprayectivas, tenemos que $\forall y\in V,\exists x\in V$ tal que $U(x)=y$. Además, dado que $T$ también es suprayectiva, $\exists w\in V$ tal que $T(w)=x$. Por lo tanto tenemos que 
+  $$
+	\forall y\in V:y=U(x)=U(T(w))\quad\text{para algún }w\in V,
+  $$
+  es decir que $UT$ es suprayectiva. 
