@@ -56,7 +56,7 @@ $$
 	\forall\varepsilon>0,\exists \delta>0\text{ tq }0\leq \lvert x-x_{0} \rvert <\delta\implies \lvert f(x)-L \rvert <\varepsilon.
 $$
 ##### Demostración
-$\Rightarrow$ Dado $\varepsilon>0$, el conjunto $V=(L-\varepsilon,L+\varepsilon)$ es un abierto en $R$ que contiene a $L$. Por la definición de límite (en $R^{n}$), existe un abierto $U\in R^{n}$ tal que $x_{0}\in U$ y $f(U\setminus \{ x_{0} \})\subset U$.
+$\Rightarrow$ Dado $\varepsilon>0$, el conjunto $V=(L-\varepsilon,L+\varepsilon)$ es un abierto en $R$ que contiene a $L$. Por la definición de límite (en $R^{n}$), existe un abierto $U\in R^{n}$ tal que $x_{0}\in U$ y $f(U\setminus \{ x_{0} \})\subset V$ (Esto para cualquier abierto $V$, y por consiguiente también para el que acabamos de definir).
 Como $U$ es abierto, entonces existe un $r>0$ tal que $B_{r}(x_{0})\subset U$. Entonces definimos a $\delta=r$, y vamos a demostrar que, en efecto, 
 $$
 	0\leq \lvert x-x_{0} \rvert<\delta\Rightarrow \lvert f(x)-L \rvert <\varepsilon. 
@@ -67,7 +67,7 @@ $$
 $$
 
 $\Leftarrow$ Sea $V$ un abierto en $R$ con $L\in V$. Queremos demostrar que existe un $U\in R^{n}$ con $x_{0}\in U$ tal que $f(U\setminus \{ x_{0} \})\subset V$.
-Cualquier abierto $V\subset R$ que contenga a $L$, sabemos que $B_{\varepsilon}(L)\subset V$ para algún $\varepsilon$, es decir que $L-\varepsilon<c<L+\varepsilon\Rightarrow x\in V$ para cualquier $c$. Sabemos que $\forall\varepsilon>0$ va a existir un $\delta$ que satisfaga la definición de límite, entonces definamos el abierto $U=B_{\delta}(x_{0})$. Entonces tenemos que $\forall x\in U\setminus \{ x_{0} \}$ se satisface que $0\leq\lvert x-x_{0} \rvert<\delta$, y por la definición de limite esto implica que $\lvert f(x)-L \rvert<\varepsilon$, que a su vez implica que $L-\varepsilon < f(x)<L+\varepsilon$, y por lo tanto $f(x)\in V.\quad\square$ 
+Para cualquier abierto $V\subset R$ que contenga a $L$, sabemos que $B_{\varepsilon}(L)\subset V$ para algún $\varepsilon$, es decir que $L-\varepsilon<c<L+\varepsilon\Rightarrow c\in V$ para cualquier $c$. Sabemos que $\forall\varepsilon>0$ va a existir un $\delta$ que satisfaga la definición de límite, entonces definamos el abierto $U=B_{\delta}(x_{0})$. Entonces tenemos que $\forall x\in U\setminus \{ x_{0} \}$ se satisface que $0\leq\lvert x-x_{0} \rvert<\delta$, y por la definición de limite esto implica que $\lvert f(x)-L \rvert<\varepsilon$, que a su vez implica que $L-\varepsilon < f(x)<L+\varepsilon$, y por lo tanto $f(x)\in V.\quad\square$ 
 
 Esta demostración se generaliza de igual forma a funciones de $R^{n}$ en $R^{m}$, pero ahora en vez de trabajar con $\varepsilon$ y $\delta$ escalares, serían puntos en $R^{m}$.
 

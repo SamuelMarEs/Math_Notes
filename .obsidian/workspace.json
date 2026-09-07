@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "f2f998af56f19409",
+        "id": "d92d0e930465caac",
         "type": "tabs",
         "children": [
           {
-            "id": "0a251bfb18237c17",
+            "id": "289d47ff92f041f6",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -29,7 +29,7 @@
       {
         "id": "19222e06e28c1808",
         "type": "tabs",
-        "dimension": 71.7412935323383,
+        "dimension": 71.74129353233832,
         "children": [
           {
             "id": "ddd66d7aa249ed22",
@@ -81,7 +81,7 @@
       {
         "id": "4df8e38988e2d316",
         "type": "tabs",
-        "dimension": 28.258706467661685,
+        "dimension": 28.258706467661693,
         "children": [
           {
             "id": "5d1ee9aef5d2167f",
@@ -221,18 +221,24 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "0a251bfb18237c17",
+  "active": "ddd66d7aa249ed22",
   "lastOpenFiles": [
-    "TercerSemestre/AlgebraLineal2/Tarea2_AlgebraLineal2.md",
+    "TercerSemestre/Calculo3/TeoremasLimite.md",
+    "TercerSemestre/Calculo3/Limite.md",
+    "TercerSemestre/Calculo3/Continuidad.md",
     "TercerSemestre/AlgebraLineal2/CambioDeBase.md",
     "TercerSemestre/AlgebraLineal2/RepresentacionEstandar.md",
     "TercerSemestre/AlgebraLineal2/Inversas_Isomorfismos.md",
+    "TercerSemestre/AlgebraLineal2/BasesOrdenadas.md",
+    "TercerSemestre/AlgebraLineal2/EspaciosAsociadosAMatrices.md",
+    "TercerSemestre/AlgebraLineal2/Proyeccion+SumaDirecta.md",
+    "TercerSemestre/AlgebraLineal2/Tarea2_AlgebraLineal2.md",
+    "TercerSemestre/AlgebraLineal2/Tarea1_AlgebraLineal2.md",
+    "TercerSemestre/AlgebraLineal2/Matrices+Transformaciones.md",
+    "TercerSemestre/AlgebraLineal2/KernelYRango.md",
     "Excalidraw/NetaDelPlanetaAlgebraLineal.md",
-    "TercerSemestre/Calculo3/Limite.md",
-    "TercerSemestre/Calculo3/Continuidad.md",
     "TercerSemestre/Calculo3/ConjuntosAbiertos.md",
     "Excalidraw/LimitesPorTrayectorias.md",
-    "TercerSemestre/AlgebraLineal2/Matrices+Transformaciones.md",
     "TercerSemestre/Datos_Algoritmos/Complejidad.md",
     "TercerSemestre/Datos_Algoritmos/AlgoritmoEuclidesMCD.md",
     "TercerSemestre/Datos_Algoritmos/DistanciasUnitarias.md",
@@ -242,14 +248,8 @@
     "TercerSemestre/Probabilidad/TeoremaDeBayes.md",
     "TercerSemestre/Calculo3/SistemasCoordenadas.md",
     "TercerSemestre/Datos_Algoritmos/TDA.md",
-    "TercerSemestre/AlgebraLineal2/BasesOrdenadas.md",
     "TercerSemestre/AlgebraLineal2/TeoremaDimension.md",
-    "TercerSemestre/AlgebraLineal2/Tarea1_AlgebraLineal2.md",
-    "TercerSemestre/Probabilidad/LeyProbabilidadTotal.md",
-    "TercerSemestre/Probabilidad/ProbabilidadCondicional.md",
     "TercerSemestre/Probabilidad/TiposDeProbabilidad",
-    "TercerSemestre/Probabilidad/Tarea1Probabilidad.md",
-    "TercerSemestre/Probabilidad/TiposDeProbabilidad/ProbabilidadClasica.md",
     "TercerSemestre/Horario_tercersemestre.jpeg",
     "TercerSemestre/Imagenes/Esfera.png",
     "TercerSemestre/Imagenes/Helice.png",
