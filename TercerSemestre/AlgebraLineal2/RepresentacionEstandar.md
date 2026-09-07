@@ -17,7 +17,7 @@ Este resultado se generaliza a que $\mathcal{L}(V,W)\cong F^{nm}$.
 ##### Definición:
 Sea $V$ un espacio vectorial sobre un campo $F$ y base $\beta=\{ v_{1},\dots,v_{n} \}$. La ***representación estándar*** de $V$ con respecto a $\beta$ es $\Phi_{\beta}:V\to F^{n}$ definida como 
 $$
-	\Phi_{\beta}(x)=[x]^{\beta}=\begin{pmatrix}
+	\Phi_{\beta}(x)=[x]_{\beta}=\begin{pmatrix}
 	a_{1} \\
 	\vdots \\
 	a_{n}
@@ -26,12 +26,14 @@ $$
 Es decir, todo espacio de dimensión finita puede verse como una eneada de escalares. El siguiente teorema muestra que esto es un isomorfismo.
 
 ##### Teorema 2.21
-
+Para cualquier espacio vectorial de dimensión finita $V$ con base ordenada $\beta$, la transformación $\Phi_{\beta}$ es un isomorfismo.
+##### Demostración:
+Trivial por el teorema 2.20, basta tomar $W=V$, de forma que $\Phi_{\beta}\in\mathcal{L}(V)$, y nos lleva a la matriz de $n\times n.\quad\square$
 
 
 ### Neta del planeta
 Lo que esto nos dice es que, todos los espacios vectoriales de dimensión finita se pueden representar como sistemas de coordenadas a los que estamos acostumbrados. 
-Sean $V$ y $W$ espacios vectoriales sobe $F$ con bases ordenadas $\beta$ y $\gamma$. Sea $T:V\to W$ lineal, y definamos los isomorfimos $\Phi_{\beta}:V\to F^{n}$ y $\Phi_{\gamma}:W\to F^{m}$. Sea además $L_{A}:F^{n}\to F^{m}$ la transformación asociada a la matriz $A=[T]_{\beta}^{\gamma}$.
+Sean $V$ y $W$ espacios vectoriales sobe $F$ con bases ordenadas $\beta$ y $\gamma$. Sea $T:V\to W$ lineal, y definamos los isomorfismos $\Phi_{\beta}:V\to F^{n}$ y $\Phi_{\gamma}:W\to F^{m}$. Sea además $L_{A}:F^{n}\to F^{m}$ la transformación asociada a la matriz $A=[T]_{\beta}^{\gamma}$.
 Entonces, el siguiente diagrama generaliza TODO lo que se ha visto hasta el momento.
 ![[NetaDelPlanetaAlgebraLineal]]
 

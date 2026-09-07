@@ -12,7 +12,7 @@ Si recordamos todo lo que sabemos de funciones inversas, existen varias propieda
 Sean $V,W$ espacios vectoriales sobre un campo $F$. Decimos que $V$ y $W$ son ***isomorfos*** si $\exists\quad T:V\to W$ lineal e invertible, la cual llamamos un ***isomorfismo***. Denotamos que dos espacios son isomorfos como $V\cong W$.
 
 ##### Teorema 2.17.
-Sean $V,W$ espacios vectoriales sobre $F$. Sea $T:V\to W$ lineal e invertible. Entonces $T^{-1}W:\to V$ también es lineal.
+Sean $V,W$ espacios vectoriales sobre $F$. Sea $T:V\to W$ lineal e invertible. Entonces $T^{-1}:W\to V$ también es lineal.
 ##### Demostración:
 Sean $y_{1},y_{2}\in W$ y $c\in F$. Vamos a demostrar que $T^{-1}(cy_{1}+y_{2})=cT^{-1}(y_{1})+T^{-1}(y_{2})$.
 Por definición, existen $x_{1},x_{2}\in V$ únicos tales que $T^{-1}(y_{1})=x_{1}$ y $T^{-1}(y_{2})=x_{2}$, así como también $T(x_{1})=y_{1}$ y $T(x_{2})=y_{2}$.
@@ -50,9 +50,24 @@ $$
 	[T^{-1}]_{\gamma}^{\beta}=([T]_{\beta}^{\gamma})^{-1}.
 $$
 ##### Demostración:
-$\Rightarrow$ 
+$\Rightarrow$ Supongamos que $T$ es invertible. Por el Lema anterior, tenemos que $\text{dim}(V)=\text{dim}(W)$. Sea $n=\text{dim}(V)$.  Entonces sabemos que $[T]_{\beta}^{\gamma}$ es una matriz de $n\times n$. Además, $T^{-1}:W\to V$ satisface que $TT^{-1}=I_{W}$ y $T^{-1}T=I_{V}$. Por lo tanto 
+$$
+	I_{n}=[I_{V}]_{\beta}=[T^{-1}T]_{\beta}=[T^{-1}]_{\gamma}^{\beta}[T]_{\beta}^{\gamma}.
+$$
+De forma análoga llegamos a que $[T]_{\beta}^{\gamma}[T^{-1}]_{\gamma}^{\beta}=I_{n}$, es decir que la inversa existe, y en particular.
+$$
+	([T]_{\beta}^{\gamma})^{-1}=[T^{-1}]_{\gamma}^{\beta}.
+$$
 
-$\Leftarrow$ Supongamos que $[T]_{\beta}^{\gamma}$ es invertible, es decir que existe $([T]_{\beta}^{\gamma})^{-1}$ tal que $[T]_{\beta}^{\gamma}([T]_{\beta}^{\gamma})^{-1}=I$.
+$\Leftarrow$ Supongamos que $A=[T]_{\beta}^{\gamma}$ es invertible, es decir que existe $B=([T]_{\beta}^{\gamma})^{-1}$ tal que $AB=BA=I_{n}$. Por el [[BasesOrdenadas|teorema 2.6]] tenemos que existe $U\in\mathcal{L}(W,V)$ al que 
+$$
+	U(w_{j})=\sum_{i=1}^{n}B_{ij}v_{i}\quad\text{para }j=1,\dots,n,
+$$
+donde $\gamma=\{ w_{1},\dots,w_{n} \}$ y $\beta=\{ v_{1},\dots,v_{n} \}$. Tomemos $B=[U]_{\gamma}^{\beta}$. Para mostrar que $U=T^{-1}$, observemos que 
+$$
+	[UT]_{\beta}=[U]_{\gamma}^{\beta}[T]_{\beta}^{\gamma}=BA=I_{n}=[I_{V}]_{\beta}.
+$$
+Por lo tanto se tiene que $UT=I_{V}$ y similar mente $TU=I_{W}$.
 
 ##### Teorema 2.19.
 Sean $V$ y $W$ espacios vectoriales sobre $F$ de dimensión finita. $\exists$ un *isomorfismo* de $V$ en $W$ si y sólo si $\text{dim}(V)=\text{dim}(W)$.
