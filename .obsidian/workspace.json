@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "325974f8507a6853",
+        "id": "0f9716629018bf98",
         "type": "tabs",
         "children": [
           {
-            "id": "d81e19d857573d9b",
+            "id": "8b19a0a1eb8387d2",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -29,7 +29,7 @@
       {
         "id": "19222e06e28c1808",
         "type": "tabs",
-        "dimension": 71.74129353233832,
+        "dimension": 71.7412935323383,
         "children": [
           {
             "id": "ddd66d7aa249ed22",
@@ -81,7 +81,7 @@
       {
         "id": "4df8e38988e2d316",
         "type": "tabs",
-        "dimension": 28.25870646766169,
+        "dimension": 28.258706467661685,
         "children": [
           {
             "id": "5d1ee9aef5d2167f",
@@ -221,16 +221,28 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "ddd66d7aa249ed22",
+  "active": "8b19a0a1eb8387d2",
   "lastOpenFiles": [
-    "TercerSemestre/Probabilidad/Tarea3Probabilidad.md",
+    "TercerSemestre/Calculo3/Parcial1/Diferenciacion.md",
+    "TercerSemestre/Datos_Algoritmos/Parcial1",
+    "TercerSemestre/Calculo3/temario_calc3.pdf",
+    "TercerSemestre/Probabilidad/Temario_Probabilidad.pdf",
+    "TercerSemestre/Calculo3/Parcial4",
+    "TercerSemestre/Calculo3/Parcial3",
+    "TercerSemestre/Calculo3/Parcial2",
+    "TercerSemestre/Calculo3/Parcial1",
+    "TercerSemestre/Probabilidad/Parcial3",
+    "TercerSemestre/Probabilidad/Parcial2",
+    "TercerSemestre/AlgebraLineal2/Parcial4",
+    "TercerSemestre/Probabilidad/Parcial1/Tarea2Probabilidad.md",
+    "TercerSemestre/Probabilidad/Parcial1/Tarea3Probabilidad.md",
+    "TercerSemestre/Probabilidad/Parcial1/TeoremaDeBayes.md",
     "TercerSemestre/Imagenes/Figura1_36_Tarea3Proba.png",
     "Pasted image 20260907211105.png",
     "TercerSemestre/Imagenes/Figura1_30_Tarea3Proba.png",
-    "TercerSemestre/Probabilidad/Tarea2Probabilidad.md",
-    "TercerSemestre/AlgebraLineal2/Tarea3_AlgebraLineal2.md",
-    "TercerSemestre/AlgebraLineal2/Tarea2_AlgebraLineal2.md",
-    "TercerSemestre/Probabilidad/ProbabilidadCondicional.md",
+    "TercerSemestre/AlgebraLineal2/Parcial1/Tarea3_AlgebraLineal2.md",
+    "TercerSemestre/AlgebraLineal2/Parcial1/Tarea2_AlgebraLineal2.md",
+    "TercerSemestre/Probabilidad/Parcial1/ProbabilidadCondicional.md",
     "Excalidraw/Fig1_25_TareaProba2.md",
     "Excalidraw/Ejemplo1CurvasDeNivel.md",
     "Excalidraw/CurvasDeNivel.md",
@@ -241,30 +253,18 @@
     "Excalidraw/ProyeccionSobreYdeL.md",
     "Excalidraw/NetaDelPlanetaAlgebraLineal.md",
     "Excalidraw/LimitesPorTrayectorias.md",
-    "TercerSemestre/AlgebraLineal2/EspaciosDuales.md",
-    "Untitled",
-    "TercerSemestre/AlgebraLineal2/CambioDeBase.md",
-    "TercerSemestre/AlgebraLineal2/Matrices+Transformaciones.md",
-    "TercerSemestre/Calculo3/TeoremasLimite.md",
-    "TercerSemestre/Calculo3/Limite.md",
-    "TercerSemestre/Calculo3/Continuidad.md",
-    "TercerSemestre/AlgebraLineal2/RepresentacionEstandar.md",
-    "TercerSemestre/AlgebraLineal2/Inversas_Isomorfismos.md",
-    "TercerSemestre/AlgebraLineal2/BasesOrdenadas.md",
-    "TercerSemestre/AlgebraLineal2/EspaciosAsociadosAMatrices.md",
-    "TercerSemestre/Probabilidad/TiposDeProbabilidad",
+    "TercerSemestre/AlgebraLineal2/Parcial1/EspaciosDuales.md",
+    "TercerSemestre/AlgebraLineal2/Parcial1/CambioDeBase.md",
+    "TercerSemestre/AlgebraLineal2/Parcial1/Matrices+Transformaciones.md",
+    "TercerSemestre/Calculo3/Parcial1/TeoremasLimite.md",
+    "TercerSemestre/Calculo3/Parcial1/Limite.md",
+    "TercerSemestre/Calculo3/Parcial1/Continuidad.md",
+    "TercerSemestre/AlgebraLineal2/Parcial1/RepresentacionEstandar.md",
+    "TercerSemestre/AlgebraLineal2/Parcial1/Inversas_Isomorfismos.md",
     "TercerSemestre/Horario_tercersemestre.jpeg",
     "TercerSemestre/Imagenes/Esfera.png",
     "TercerSemestre/Imagenes/Helice.png",
     "TercerSemestre/Imagenes/Circulo.png",
-    "TercerSemestre/Calculo3/temario_calc3.pdf",
-    "R_notebooks/MuestrasAleatorias_files/libs/quarto-html/tabsets/tabsets.js",
-    "R_notebooks/MuestrasAleatorias_files/libs/quarto-html/tippy.umd.min.js",
-    "R_notebooks/MuestrasAleatorias_files/libs/quarto-html/tippy.css",
-    "R_notebooks/MuestrasAleatorias_files/libs/quarto-html/tabsets",
-    "R_notebooks/MuestrasAleatorias_files/libs/quarto-html/quarto.js",
-    "R_notebooks/MuestrasAleatorias_files/libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css",
-    "R_notebooks/MuestrasAleatorias_files/libs/quarto-html/popper.min.js",
     "TercerSemestre/Imagenes/200LanzamientosDeMoneda.png"
   ]
 }
