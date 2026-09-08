@@ -96,7 +96,13 @@ Sea $T:V\to W$ lineal.  Sea $A=[T]_{\beta}^{\gamma}$ la matriz de $m\times n$ as
 ##### Demostración:
 1.- (Tarea)
 
-2.- 
+2.- La matriz $[T^{t}]_{\gamma*}^{\beta*}$ es una matriz de $n\times m$ esta definida como 
+$$
+	T^{t}(g_{j})=\sum_{i=1}^{n}b_{ij}f_{i},\quad[T^{t}]_{\gamma*}^{\beta*}=b_{ij},
+$$
+para $g_{j}\in \gamma*$, y $1\leq j\leq m$. Es decir las columnas de nuestra matriz son las coordenadas de la imagen de $g_{j}$, para todos lo elementos de la base dual de $W^{*}$. 
+Además sabemos que, sea $[T]_{\beta}^{\gamma}=a_{kl}$ la matriz de $m\times n$, entonces $([T]_{\beta}^{\gamma})^{t}=a_{lk}$ la transpuesta de dimensión $n\times m$. Tenemos entonces que demostrar que $a_{lk}=b_{ij}$.
+Por como definimos la transpuesta, teneoms que $T^{t}(g_{j})=g_{j}T$
 
 
 #AlgebraLineal
