@@ -11,10 +11,14 @@
             "id": "65414b6ac09b2618",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "TercerSemestre/Datos_Algoritmos/Parcial1/CorreccionAlgoritmica.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "CorreccionAlgoritmica"
             }
           }
         ]
@@ -29,7 +33,7 @@
       {
         "id": "19222e06e28c1808",
         "type": "tabs",
-        "dimension": 71.7412935323383,
+        "dimension": 71.74129353233832,
         "children": [
           {
             "id": "ddd66d7aa249ed22",
@@ -81,7 +85,7 @@
       {
         "id": "4df8e38988e2d316",
         "type": "tabs",
-        "dimension": 28.258706467661685,
+        "dimension": 28.258706467661693,
         "children": [
           {
             "id": "5d1ee9aef5d2167f",
@@ -221,8 +225,13 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "ddd66d7aa249ed22",
+  "active": "5d1ee9aef5d2167f",
   "lastOpenFiles": [
+    "TercerSemestre/Datos_Algoritmos/Parcial1/ComposicionSecuencial.md",
+    "TercerSemestre/Datos_Algoritmos/Parcial1/CorreccionAlgoritmica.md",
+    "TercerSemestre/Datos_Algoritmos/Parcial1/TripletasDeHoare.md",
+    "TercerSemestre/Datos_Algoritmos/Parcial1/Clases.md",
+    "TercerSemestre/Datos_Algoritmos/Parcial1/TDA.md",
     "TercerSemestre/AlgebraLineal2/Parcial1/EspaciosDuales.md",
     "TercerSemestre/Calculo3/Parcial1/Diferenciacion.md",
     "TercerSemestre/Datos_Algoritmos/Parcial1",
@@ -257,10 +266,6 @@
     "TercerSemestre/AlgebraLineal2/Parcial1/CambioDeBase.md",
     "TercerSemestre/AlgebraLineal2/Parcial1/Matrices+Transformaciones.md",
     "TercerSemestre/Calculo3/Parcial1/TeoremasLimite.md",
-    "TercerSemestre/Calculo3/Parcial1/Limite.md",
-    "TercerSemestre/Calculo3/Parcial1/Continuidad.md",
-    "TercerSemestre/AlgebraLineal2/Parcial1/RepresentacionEstandar.md",
-    "TercerSemestre/AlgebraLineal2/Parcial1/Inversas_Isomorfismos.md",
     "TercerSemestre/Horario_tercersemestre.jpeg",
     "TercerSemestre/Imagenes/Esfera.png",
     "TercerSemestre/Imagenes/Helice.png",
