@@ -50,11 +50,11 @@ El orden sí nos importa, entonces la cantidad de formas en que pueden clasifica
 **Sol:**
 Se puede ver como la probabilidad de que ninguna persona se lo cuente a la primera de nuevo. Quien empieza, se lo puede contar a cualquiera, entonces, sea $M_{i}$ el evento de que la $i$-ésima persona no se lo cuente a la primera, queremos calcular 
 $$
-	P\left( \bigcap_{i=1}^{n}M_{i} \right)=P(M_{1})P(M_{2}|M_{1})\dots P(M_{n}|M_{1}\cap M_{2}\cap\dots \cap M_{n-1}).
+	P\left( \bigcap_{i=1}^{r}M_{i} \right)=P(M_{1})P(M_{2}|M_{1})\dots P(M_{r}|M_{1}\cap M_{2}\cap\dots \cap M_{r-1}).
 $$
-Observemos que para cada $i$, se cumple que $P(M_{i}|M_{1}\cap\dots \cap M_{i-1})=\frac{n-i+1}{n}$, de forma que, sea $M=\bigcap_{i=1}^{n}M_{i}$, tenemos que 
+Observemos que para cada $i$, se cumple que $P(M_{i}|M_{1}\cap\dots \cap M_{i-1})=\frac{n-1}{n}$, de forma que, sea $M=\bigcap_{i=1}^{r}M_{i}$, tenemos que 
 $$
-	P(M)= \frac{n(n-1)(n-2)\dots(2)(1)}{n^{n}}=\frac{n!}{n^{n}}.
+	P(M)= \frac{n(n-1)(n-1)\dots(n-1)(n-1)}{n^{n}}=\frac{n(n-1)^{r-1}}{n^{r}}.
 $$
 
 81.- Funciones. Sean $A$ y $B$ dos conjuntos finitos con cardinalidades $n$ y $m$, respectivamente, como se muestra en la figura 1.25. 
@@ -73,49 +73,66 @@ Determine el número total de funciones $f$ de $A$ en $B$ tal que
 	\begin{pmatrix}
 	n \\
 	m
-	\end{pmatrix}\cdot m!\cdot m^{n-n},
+	\end{pmatrix}\cdot m!\cdot m^{n-m},
   $$
   funciones suprayectivas de $A$ en $B$.
 
 
 82.- Un panadero elabora 100 panes en un día, en donde 10 de ellos pesan menos de lo que deberían. Un inspector pesa 5 panes tomados al azar. Calcule la probabilidad de que el inspector encuentre en su muestra exactamente un pan de peso incorrecto.
 **Sol:**
-Hay $\begin{pmatrix}100 \\  5\end{pmatrix}$ muestras de 5 panes a partir de los 100 panes. La probabilidad de que, al tomar un solo pan al azar, su peso sea distinto, es $\frac{1}{10}$. La probabilidad de elegir un pan bueno es $\frac{9}{10}$, y la probabilidad de elegir 4 es $\left( \frac{9}{10} \right)^{4}$. Entonces la probabilidad de que al elegir 5 panes solo uno sea de peso incorrecto es 
+Hay $\begin{pmatrix}100 \\  5\end{pmatrix}$ muestras de 5 panes a partir de los 100 panes. Dentro de esas muestras, hay $\begin{pmatrix}90 \\  4\end{pmatrix}$ formas de elegir los 4 panes buenos, y para cada una de esas hay $\begin{pmatrix}10 \\  1\end{pmatrix}$ formas de escoger el pan malo. Entonces la probabilidad de que haya exactamente un pan malo es 
 $$
-	\begin{pmatrix}
+	\frac{\begin{pmatrix}
+	90 \\
+	4
+	\end{pmatrix}\begin{pmatrix}
+	10 \\
+	1
+	\end{pmatrix}}{\begin{pmatrix}
 	100 \\
 	5
-	\end{pmatrix}\cdot \frac{1}{10}\cdot\left( \frac{9}{10} \right)^{4}.
+	\end{pmatrix}}.
 $$
 
 95.- Zapatos. Una mujer tiene $n$ pares de zapatos en desorden y en un viaje intempestivo escoge al azar $2r$ zapatos ($2r\leq 2n$). Calcule la probabilidad de que en el conjunto escogido:
 - no haya ningún par completo.
   **Sol:**
-  Hay $\begin{pmatrix}2n \\  2r\end{pmatrix}$ formas posibles de elegir los $2r$ zapatos, o $\begin{pmatrix}n \\  r\end{pmatrix}$ formas de elegir $r$ pares de zapatos. Si elegimos 2 zapatos al azar, hay una probabilidad de $\frac{1}{n}$ de que sean del mismo par, y una probabilidad de $\frac{n-1}{n}$ de que no sean del mismo par. Entonces, la probabilidad de elegir $r$ pares distintos es 
+  La cardinalidad de nuestro espacio muestral es $\begin{pmatrix}2n \\  2r\end{pmatrix}$ muestras de $2r$ zapatos a partir de $2n$ zapatos. Podemos pensar en los zapatos como izquierdos y derechos. Si tomamos $2r$ zapatos de solo un lado, todos serán sin par. Entonces, siempre que $2r\leq n$, tenemos que hay $\begin{pmatrix}n \\  2r\end{pmatrix}$ formas de tomar zapatos de un solo lado. Pero cada zapato se podría tomar de un lado o del otro, entonces esto hay que multiplicarlo por $2^{2r}$ (por que cada uno de los $2r$ zapatos se puede tomar de cada uno de los dos lados). Entonces tenemos 
   $$
-	\begin{pmatrix}
+	\frac{\begin{pmatrix}
+	n \\
+	2r
+	\end{pmatrix}2^{2r}}{\begin{pmatrix}
 	2n \\
 	2r
-	\end{pmatrix}\left( \frac{n-1}{n} \right)^{r}.
+	\end{pmatrix}}.
   $$
 - haya exactamente un par completo.
   **Sol:**
-  De forma análoga al caso anterior, pero ahora es la probabilidad de elegir $r-1$ pares que no cuadren (o $2r-2$ zapatos que no cuadran entre si), y 1 par que si. Entonces tenemos que la probabilidad es 
+  Tomemos primero un solo par, que se puede tomar de $\begin{pmatrix}n \\  1\end{pmatrix}=n$ formas. Para los demás zapatos $2(r-1)$, los queremos sin par, entonces es el mismo caso que el inciso anterior, solo que para $2(r-1)$ zapatos. Entonces la probabilidad de que haya únicamente un par completo es 
   $$
-	\begin{pmatrix}
+	\frac{n\begin{pmatrix}
+	n-1 \\
+	2(r-1)
+	\end{pmatrix}2^{2(r-1)}}{\begin{pmatrix}
 	2n \\
 	2r
-	\end{pmatrix}\left( \frac{n-1}{n} \right)^{r-1}\left( \frac{1}{n} \right).
+	\end{pmatrix}}.
   $$
+
 - haya $r$ pares completos.
   **Sol:**
-  Mismo caso que el primer inciso, pero en vez de tomar la probabilidad de que los pares cuadren tomamo la probabilidad de que si cuadren. Entonces tenemos 
+  Sabemos que hay $n$ pares, y queremos tomar $r$ de ellos, entonces la cardinalidad del evento "que haya $r$ pares completos" es $\begin{pmatrix}n \\  r\end{pmatrix}$, y por lo tanto tenemos que la probabilidad de que los $2r$ zapatos tengan par es 
   $$
-	\begin{pmatrix}
+	\frac{\begin{pmatrix}
+	n \\
+	r
+	\end{pmatrix}}{\begin{pmatrix}
 	2n \\
 	2r
-	\end{pmatrix}\left( \frac{1}{n} \right)^{r}.
+	\end{pmatrix}}.
   $$
+
 
 96.- Llaves. Una persona tiene $n$ llaves, de las cuales únicamente una ajusta a la cerradura pero no sabe cuál de ellas es la correcta. Procede a tomar las llaves al azar, una por una, hasta encontrar la correcta. Calcule la probabilidad de encontrar la llave correcta en el $n$-ésimo intento suponiendo que 
 - retira las llaves que no funcionaron.
