@@ -65,19 +65,71 @@ Determine el número total de funciones $f$ de $A$ en $B$ tal que
   Podemos ver a todas las funciones como una eneada que nos indica a dónde va cada $a_{i}$. Es decir $\{ (f(a_{1}),f(a_{2}),\dots,f(a_{n})):f(a_{i})=b_{1},\dots b_{n}\}$. Por lo tanto, cada función tiene $m$ valores posibles, es decir que hay $n^{m}$ funciones posibles de $A$ a $B$.
 - son inyectivas (uno a uno), suponiendo $n\leq m$.
   **Sol:**
-  Podemos ver las funciones de la misma forma, pero ahora, el número de resultados posibles se reduce con cada 
+  Podemos ver las funciones de la misma forma, pero ahora, el número de resultados posibles se reduce con cada vez que asignamos $f(a_{i})=b_{j}$. Para $f(a_{1})$, tenemos $m$ opciones, para $f(a_{2})$, $m-1$ opciones, y así para los demás. Es decir que hay $\frac{m!}{(m-n)!}$ funciones inyectivas de $A$ en $B$.
 - son suprayectivas (sobre), suponiendo $m\leq n$.
+  **Sol:**
+  Para que una función de $A$ en $B$ sea suprayectiva, tenemos que tomar un subconjunto de tamaño $m$ de $A$. Hay exactamente $\begin{pmatrix}n \\  m\end{pmatrix}$ formas de elegir este subconjunto, y para cada una de esas formas asignamos de forma inyectiva los valores, es decir que hay $\begin{pmatrix}n \\  m\end{pmatrix}m!$ funciones inyectivas desde algún subconjunto $A_{m}\subset A\to B$ con $A_{m}$ de cardinalidad $m$. Para el resto de los $n-m$ elementos de $A$, hay $m^{n-m}$ funciones (sin restricciones) de ellos a $B$. Por lo tanto, hay en total 
+  $$
+	\begin{pmatrix}
+	n \\
+	m
+	\end{pmatrix}\cdot m!\cdot m^{n-n},
+  $$
+  funciones suprayectivas de $A$ en $B$.
 
 
 82.- Un panadero elabora 100 panes en un día, en donde 10 de ellos pesan menos de lo que deberían. Un inspector pesa 5 panes tomados al azar. Calcule la probabilidad de que el inspector encuentre en su muestra exactamente un pan de peso incorrecto.
+**Sol:**
+Hay $\begin{pmatrix}100 \\  5\end{pmatrix}$ muestras de 5 panes a partir de los 100 panes. La probabilidad de que, al tomar un solo pan al azar, su peso sea distinto, es $\frac{1}{10}$. La probabilidad de elegir un pan bueno es $\frac{9}{10}$, y la probabilidad de elegir 4 es $\left( \frac{9}{10} \right)^{4}$. Entonces la probabilidad de que al elegir 5 panes solo uno sea de peso incorrecto es 
+$$
+	\begin{pmatrix}
+	100 \\
+	5
+	\end{pmatrix}\cdot \frac{1}{10}\cdot\left( \frac{9}{10} \right)^{4}.
+$$
 
 95.- Zapatos. Una mujer tiene $n$ pares de zapatos en desorden y en un viaje intempestivo escoge al azar $2r$ zapatos ($2r\leq 2n$). Calcule la probabilidad de que en el conjunto escogido:
 - no haya ningún par completo.
+  **Sol:**
+  Hay $\begin{pmatrix}2n \\  2r\end{pmatrix}$ formas posibles de elegir los $2r$ zapatos, o $\begin{pmatrix}n \\  r\end{pmatrix}$ formas de elegir $r$ pares de zapatos. Si elegimos 2 zapatos al azar, hay una probabilidad de $\frac{1}{n}$ de que sean del mismo par, y una probabilidad de $\frac{n-1}{n}$ de que no sean del mismo par. Entonces, la probabilidad de elegir $r$ pares distintos es 
+  $$
+	\begin{pmatrix}
+	2n \\
+	2r
+	\end{pmatrix}\left( \frac{n-1}{n} \right)^{r}.
+  $$
 - haya exactamente un par completo.
+  **Sol:**
+  De forma análoga al caso anterior, pero ahora es la probabilidad de elegir $r-1$ pares que no cuadren (o $2r-2$ zapatos que no cuadran entre si), y 1 par que si. Entonces tenemos que la probabilidad es 
+  $$
+	\begin{pmatrix}
+	2n \\
+	2r
+	\end{pmatrix}\left( \frac{n-1}{n} \right)^{r-1}\left( \frac{1}{n} \right).
+  $$
 - haya $r$ pares completos.
+  **Sol:**
+  Mismo caso que el primer inciso, pero en vez de tomar la probabilidad de que los pares cuadren tomamo la probabilidad de que si cuadren. Entonces tenemos 
+  $$
+	\begin{pmatrix}
+	2n \\
+	2r
+	\end{pmatrix}\left( \frac{1}{n} \right)^{r}.
+  $$
 
 96.- Llaves. Una persona tiene $n$ llaves, de las cuales únicamente una ajusta a la cerradura pero no sabe cuál de ellas es la correcta. Procede a tomar las llaves al azar, una por una, hasta encontrar la correcta. Calcule la probabilidad de encontrar la llave correcta en el $n$-ésimo intento suponiendo que 
 - retira las llaves que no funcionaron.
+  **Sol:**
+  Al elegir la primera llave, hay una probabilidad de $\frac{n-1}{n}$ de que no sea la correcta. Al elegir la segunda, esta probabilidad pasa a ser $\frac{n-2}{n-1}$. Al repetir el proceso $i$ veces, hay una probabilidad de $\frac{n-i}{n-i+1}$ de que no sea la correcta. Entonces tenemos que la probabilidad de que esto se reptia la $n-1$ veces es 
+  $$
+	\frac{(n-1)(n-2)\dots(2)(1)}{(n)(n-1)\dots(2)}=\frac{1}{n}.
+  $$
 - no retira las llaves que no funcionaron.
+  **Sol:**
+  En este caso, cada vez que se elige una llave, la siguiente vez que se elige otra no se altera la probabilidad. Entonces tenemos que siempre, la probabilidad de elegir una llave erronea $n-1$ veces es $\left( \frac{n-1}{n} \right)^{n-1}$, y en la última vez elegimos la correcta, que tiene una probabilidad de $\frac{1}{n}$. Entonces la probabilidad de que la llave correcta se encuentre en el $n$-ésimo intento es de 
+  $$
+	\left( \frac{n-1}{n} \right)^{n-1}\left( \frac{1}{n} \right).
+  $$
+  
 
 
