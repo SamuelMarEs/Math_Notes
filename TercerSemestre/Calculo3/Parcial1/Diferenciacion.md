@@ -31,4 +31,20 @@ $$
 Como estamos manteniendo todas las variables como constantes, menos la que estamos derivando, entonces aplican todas las reglas de diferenciación que conocemos de cálculo 1.
 
 
+***Nota:*** Las derivadas parciales por si solas no son suficientes para definir la derivada de una función de varias variables. Es necesario el concepto de [[PlanoTangente]].
+
+
+### Derivada
+Sea $f:R^{2}\to R$. Decimos que la [[Funciones|función]] $f$ es ***diferenciable*** en $(x_{0},y_{0})$ si existen las [[Diferenciacion|derivadas parciales]] $\frac{\partial f}{\partial x}(x_{0},y_{0})$ y $\frac{\partial f}{\partial y}(x_{0},y_{0})$, y además el siguiente límite cumple 
+$$
+	\lim_{ (x,y) \to (x_{0},y_{0})} \frac{f(x,y)-f_{x}(x_{0},y_{0})(x-x_{0})-f_{y}(x_{0},y_{0})(y-y_{0})}{\lvert \lvert (x,y)-(x_{0},y_{0}) \rvert  \rvert }=0.
+$$
+Vamos a decir que la derivada de $f$ en $(x_{0},y_{0})$ es el vector fila (o matriz)
+$$
+	\begin{bmatrix}
+	\frac{\partial f}{\partial x}(x_{0},y_{0}) & \frac{\partial f}{\partial y}(x_{0},y_{0})
+	\end{bmatrix}.
+$$
+
+
 #Calculo
