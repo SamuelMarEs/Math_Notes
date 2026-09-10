@@ -75,5 +75,13 @@ y el límite $$
 	x_{n}-a_{n}
 	\end{pmatrix} \rvert  \rvert }{\lvert \lvert (x_{1},\dots,x_{n})-(a_{1},\dots,a_{n}) \rvert  \rvert }=0.
 $$
+#### Teorema:
+Sea $f:R^{n}\to R^{m}$ y $U\subset R^{n}$ abierto. Si $f$ es diferenciable en $(a_{1},\dots,a_{n})\in U$, entonces es continua en $(a_{1},\dots,a_{n})$.
+
+
+#### Teorema:
+Sea $f:R^{n}\to R^{m}$, $\bar{a}\in R^{n}$ y $U$ una vecindad de $\bar{a}$. Si las derivadas parciales $\frac{\partial f_{i}}{\partial x_{j}}$ existen, y $f$ es continua en $U$, para $i=1,\dots,m$, $j=1,\dots,n$. 
+Entonces $f$ es diferenciable en $\bar{a}$.
+
 
 #Calculo
