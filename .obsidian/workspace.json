@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "462507c4988ab6b8",
+        "id": "9a627c1a792dddaf",
         "type": "tabs",
         "children": [
           {
-            "id": "fbaae97d4bc181ce",
+            "id": "07b1e8613fd84d25",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "TercerSemestre/Datos_Algoritmos/Parcial1/Ciclos.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Ciclos"
+              "title": "New tab"
             }
           }
         ]
@@ -33,7 +29,7 @@
       {
         "id": "19222e06e28c1808",
         "type": "tabs",
-        "dimension": 71.7412935323383,
+        "dimension": 71.74129353233832,
         "children": [
           {
             "id": "ddd66d7aa249ed22",
@@ -85,7 +81,7 @@
       {
         "id": "4df8e38988e2d316",
         "type": "tabs",
-        "dimension": 28.258706467661685,
+        "dimension": 28.258706467661693,
         "children": [
           {
             "id": "5d1ee9aef5d2167f",
@@ -225,10 +221,10 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "fbaae97d4bc181ce",
+  "active": "5d1ee9aef5d2167f",
   "lastOpenFiles": [
-    "TercerSemestre/Datos_Algoritmos/Parcial1/Arreglos.md",
     "TercerSemestre/Datos_Algoritmos/Parcial1/Ciclos.md",
+    "TercerSemestre/Datos_Algoritmos/Parcial1/Arreglos.md",
     "TercerSemestre/Datos_Algoritmos/Parcial1/CorreccionAlgoritmica.md",
     "TercerSemestre/Datos_Algoritmos/Parcial1/ComposicionSecuencial.md",
     "TercerSemestre/Probabilidad/Parcial1/Tarea3Probabilidad.md",
