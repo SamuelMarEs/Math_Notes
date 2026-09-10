@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "9a627c1a792dddaf",
+        "id": "765fa2093a604091",
         "type": "tabs",
         "children": [
           {
-            "id": "07b1e8613fd84d25",
+            "id": "fe8e414de3edcdc0",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -221,13 +221,13 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "5d1ee9aef5d2167f",
+  "active": "fe8e414de3edcdc0",
   "lastOpenFiles": [
+    "TercerSemestre/Probabilidad/Parcial1/Tarea3Probabilidad.md",
     "TercerSemestre/Datos_Algoritmos/Parcial1/Ciclos.md",
     "TercerSemestre/Datos_Algoritmos/Parcial1/Arreglos.md",
     "TercerSemestre/Datos_Algoritmos/Parcial1/CorreccionAlgoritmica.md",
     "TercerSemestre/Datos_Algoritmos/Parcial1/ComposicionSecuencial.md",
-    "TercerSemestre/Probabilidad/Parcial1/Tarea3Probabilidad.md",
     "TercerSemestre/Probabilidad/Parcial1/Independencia.md",
     "TercerSemestre/Calculo3/Parcial1/Diferenciacion.md",
     "TercerSemestre/Calculo3/Parcial1/Derivada.md",

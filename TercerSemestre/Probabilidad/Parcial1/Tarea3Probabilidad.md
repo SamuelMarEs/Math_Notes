@@ -217,4 +217,46 @@ Queremos $P(F)\leq 0.01$, es decir que tenemos que encontrar la mínima solució
 
 155.- Basketbol. Dos jugadores de basketbol alternan turnos para efectuar tiros libres hasta que uno de ellos enceste. En cada intento, la probabilidad de encestar es $p$ para el primer jugador y $q$ para el segundo jugador, siendo los resultados de los tiros independientes unos de otros. Calcule la probabilidad de encestar primero de cada uno de los jugadores.
 **Sol:**
+Definamos $A$ y $B$ los eventos de que el primero en anotar sea el jugador 1 y el jugador 2, respectivamente.
+Primero, vamos a calcular la probabilidad de que el primer jugador sea el que anote primero. Sabemos que la probabilidad de que el jugador 1 enceste es $p$, y la de que el jugador 2 enceste es $q$.
+Podemos particionar nuestros eventos en dos casos: los casos donde el jugador 1 inicia $(I_{A})$, y los casos donde el jugador 2 inicia $(I_{B})$, y podemos asumir ambos con $1 / 2$ de probabilidad. Entonces tenemos que 
+$$
+	P(A)=P(A|I_{A})P(I_{A})+P(A|I_{B})P(I_{B})=\frac{1}{2}(P(A|I_{A})+P(A|I_{B})).
+$$
 
+Vamos a calcular primero $P(A|I_{A})$. Llamemos $E_{n}$ el evento de que el primer jugador enceste después de $n$ intentos. Es fácil ver que 
+$$
+	P(E_{n})=(1-p)^{n-1}(1-q)^{n-1}p,
+$$
+pues es la probabilidad de que ambos fallen $n-1$ veces, y el primero enceste en su $n$-ésimo intento. En realidad, no sabemos cuantos tiros les tomara encestar, entonces la $P(A)$ es la unión de todos los posibles casos, es decir que le tome 1, 2, 3, ..., o más intentos.
+Notese además que $E_{i}\cap E_{j}=\emptyset$ para $i\neq j$. Entonces tenemos que 
+$$
+	P(A|I_{A})=P\left( \bigcup_{i=1}^{\infty}E_{i} \right)=\sum_{i=1}^{\infty}P(E_{i})=\sum_{i=1}^{\infty}(1-p)^{i-1}(1-q)^{i-1}p=\sum_{i=0}^{\infty}(1-p)^{i}(1-q)^{i}p.
+$$
+Esta es una serie geométrica de la forma $$\sum_{k=0}^{\infty}ar^{k}=\frac{a}{1-r},\quad\text{para }|r|<1$$ con $a=p$ y $r=(1-p)(1-q)=1-p-q+pq$, que de hecho es $1-P(A\cup B)$, ya que $A$ y $B$ son independientes.
+Entonces tenemos que 
+$$
+	P(A|I_{A})=\sum_{i=0}^{\infty}(1-p)^{i}(1-q)^{i}p=\frac{p}{p+q-pq}.
+$$
+
+Ahora, para calcular $P(A|I_{B})$, volvemos a tomar nuestro evento $E_{n}$, pero ahora vamos a tener que 
+$$
+	P(E_{n})=(1-q)^{n}(1-p)^{n-1}p=(1-q)^{n-1}(1-p)^{n-1}(1-q)p.
+$$
+Entonces, de forma análoga a si empieza el primer jugador, tenemos que 
+$$
+	P(A|I_{B})=P(\bigcup_{i=1}^{\infty}E_{i})=\sum_{i=1}^{\infty}P(E_{i})=\sum_{i=1}^{\infty}(1-p)^{i-1}(1-q)^{i-1}(1-q)p=\sum_{i=0}^{\infty}(1-p)^{i}(1-q)^{i}(1-q)p.
+$$
+Y nuevamente usando la serie geométrica, llegamos a que 
+$$
+	P(A|I_{B})=\sum_{i=0}^{\infty}(1-p)^{i}(1-q)^{i}(1-q)p=\frac{p(1-q)}{p+q-pq}.
+$$
+Entonces tenemos que 
+$$
+	P(A)=\frac{1}{2}\left( \frac{p}{p+q-pq} + \frac{p(1-q)}{p+q+pq}\right)=\frac{p}{2}\left( \frac{2-q}{p+q-pq} \right).
+$$
+
+La solución para encontrar $P(B)$ es análoga, y nos permite llegar a que 
+$$
+	P(B)=\frac{q}{2}\left( \frac{2-p}{p+q-pq} \right).
+$$
