@@ -1,4 +1,4 @@
-Sea $f:R^{2}\to R$ tal que las [[Diferenciacion|derivadas parciales]] $\frac{\partial f}{\partial x}$ y $\frac{\partial f}{\partial y}$ existen. Tomemos $P=(x_{0},y_{0},z_{0})$ en la gráfica de $f$. (Es decir $z_{0}=f(x_{0},y_{0})$). 
+Sea $f:R^{2}\to R$ tal que las [[DerivadasParciales|derivadas parciales]] $\frac{\partial f}{\partial x}$ y $\frac{\partial f}{\partial y}$ existen. Tomemos $P=(x_{0},y_{0},z_{0})$ en la gráfica de $f$. (Es decir $z_{0}=f(x_{0},y_{0})$). 
 Vamos a considerar las curvas sobre la [[Graficas|gráfica]] de $f$ determinadas por los planos $x=x_{0}$ y $y=y_{0}.$
 Sea $L_{1}$ la línea que pasa por $P$ con pendiente $\frac{\partial f}{\partial x}(x_{0},y_{0})$ y $L_{2}$ la recta que pasa por $P$ con pendiendte $\frac{\partial f}{\partial y}(x_{0},y_{0})$.
 ![[PlanoTangente]]
