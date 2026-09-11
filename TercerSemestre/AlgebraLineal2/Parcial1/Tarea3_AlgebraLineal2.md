@@ -1,15 +1,32 @@
 ### Sección 2.4 Friedberg
 2.- Para cada una de las siguientes transformaciones, determina si son invertibles y justifica tu respuesta.
+- $T:R^{2}\to R^{3}$ definida como $T(a_{1},a_{2})=(a_{1}-2a_{2},a_{2},3a_{1}+4a_{2})$.
+- $T:R^{2}\to R^{3}$ definida como $T(a_{1},a_{2})=(3a_{1}-a_{2},a_{2},4a_{1})$.
+- $T:R^{3}\to R^{3}$ definida como $T(a_{1},a_{2},a_{3})=(3a_{1}-2a_{3},a_{2},3a_{1}+4a_{2})$.
+- $T:P_{3}(R)\to P_{2}(R)$ definida como $T(p(x))=p'(x)$.
+- $T:M_{2\times 2}(R)\to P_{2}(R)$ definida como $T\begin{pmatrix}a & b \\  c & d\end{pmatrix}=a+2bx+(c+d)x^{2}$.
+- $T:M_{2\times 2}(R)\to M_{2\times 2}(R)$ definida como $T\begin{pmatrix}a & b \\  c & d\end{pmatrix}=\begin{pmatrix}a+b & a \\  c & c+d\end{pmatrix}$.
 
-3.-
+3.- ¿Cuál de los siguientes pares de espacios vectoriales son isomorfos? Justifique su respuesta.
+- $F^{3}$ y $P_{3}(F)$.
+- $F^{4}$ y $P_{3}(F)$.
+- $M_{2\times 2}(R)$ y $P_{3}(R)$.
+- $V=\{ A\in M_{2\times 2}(R):\text{tr}(A)=0 \}$ y $R^{4}$.
 
-8.-
+8.- Pruebe los corolarios 1 y 2 del teorema 2.18.
 
-12.-
+12.- Pruebe el teroema 2.21.
 
-14.-
+14.- Sea 
+$$
+	V=\left\{ \begin{pmatrix}
+	a & a+b \\
+	0 & c
+	\end{pmatrix} :a,b,c\in F\right\}.
+$$
+Construya un 
 
-15.-
+15.- 
 
 ### Sección 2.5 Friedberg
 2.- Para cada uno de los siguientes pares de bases ordenadas $\beta$ y $\beta'$ para $R^{2}$, encuentre la matriz de cambio de base que cambia las coordenadas $\beta'$ en coordenadas $\beta$.
