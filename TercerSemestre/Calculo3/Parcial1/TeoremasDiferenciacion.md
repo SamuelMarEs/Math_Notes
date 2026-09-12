@@ -14,7 +14,7 @@ Sea $\hbar=\bar{x}-\bar{a}$, entonces eso es lo mismo que
 $$
 	\lim_{ \bar{h} \to \bar{0}  } \frac{\lvert \lvert f(\bar{h}+\bar{a})-f(\bar{a})-Df(\bar{a})\bar{h} \rvert  \rvert }{\lvert \lvert \bar{h} \rvert  \rvert } .
 $$
-Recordemos además la definicón de [[Limite|limite]]: 
+Recordemos además la definición de [[Limite|limite]]: 
 $$
 	\forall\varepsilon>0,\exists \delta>0:0<\lvert \lvert \bar{h} \rvert  \rvert<\delta\implies \frac{\lvert \lvert f(\bar{h}+\bar{a})-f(\bar{a})-Df(\bar{a})\bar{h} \rvert  \rvert }{\lvert \lvert \bar{h} \rvert  \rvert }<\varepsilon.
 $$
@@ -31,7 +31,7 @@ $$
 	&\leq \lvert \lvert \bar{h} \rvert  \rvert+ M\lvert \lvert \bar{h} \rvert  \rvert &=\lvert \lvert \bar{h} \rvert  \rvert (M+1).
 	\end{align}
 $$
-($M$ como definido en la [[TareaDiferenciacion|tarea de diferenciacion]]).
+($M$ como definido en la [[TareaDiferenciacion|tarea de diferenciación]]).
 Sea $\varepsilon'>0$ y definamos $\delta=\min\{ \delta_{1}, \varepsilon' / (M+1) \}$. Si $\lvert \lvert \bar{h} \rvert \rvert<\delta$, entonces tenemos que 
 $$
 	\lvert \lvert f(\bar{a}+\bar{h})-f(\bar{a}) \rvert  \rvert <\lvert \lvert \bar{h} \rvert  \rvert (M+1)< \frac{\varepsilon'}{M+1}(M+1)=\varepsilon'.

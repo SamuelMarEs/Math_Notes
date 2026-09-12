@@ -13,9 +13,16 @@
 - $M_{2\times 2}(R)$ y $P_{3}(R)$.
 - $V=\{ A\in M_{2\times 2}(R):\text{tr}(A)=0 \}$ y $R^{4}$.
 
-8.- Pruebe los corolarios 1 y 2 del teorema 2.18.
+8.- Pruebe los corolarios 1 y 2 del teorema 2.18 ($[T^{-1}]_{\gamma}^{\beta}=([T]_{\beta}^{\gamma})^{-1}$).
+###### Corolario 1:
+Sea $V$ un espacio vectorial de dimensión finita con base ordenada $\beta$, y sea $T:V\to V$ lineal. Entonces $T$ es invertible si y sólo si $[T]_{\beta}$ es invertible. Más aún, $[T^{-1}]_{\beta}=([T]_{\beta})^{-1}$.
 
-12.- Pruebe el teroema 2.21.
+###### Corolario 2:
+Sea $A$ una matriz de $n\times n$. Entonces $A$ es invertible si y sólo si $L_{A}$ es invertible. Más aún, $(L_{A})^{-1}=L_{A^{-1}}$.
+
+12.- Pruebe el teorema 2.21:
+###### Teorema 2.21:
+Para cualquier espacio vectorial $V$ con base $\beta$, la transformación $\phi_{\beta}:V\to F^{n}$, definida como $\phi_{\beta}(x)=[x]_{\beta}$, es un isomorfismo.
 
 14.- Sea 
 $$
@@ -24,9 +31,9 @@ $$
 	0 & c
 	\end{pmatrix} :a,b,c\in F\right\}.
 $$
-Construya un 
+Construya un isomorfismo de $V$ en $F^{3}$.
 
-15.- 
+15.- Sean $V,W$ espacios vectoriales de dimensión $n$, y sea $T:V\to W$ lineal. Suponga que $\beta$ es una base para $V$. Muestre que $T$ es un isomorfismo si y sólo si $T(\beta)$ es una base de $W$.
 
 ### Sección 2.5 Friedberg
 2.- Para cada uno de los siguientes pares de bases ordenadas $\beta$ y $\beta'$ para $R^{2}$, encuentre la matriz de cambio de base que cambia las coordenadas $\beta'$ en coordenadas $\beta$.
