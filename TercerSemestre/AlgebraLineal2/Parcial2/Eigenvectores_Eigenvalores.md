@@ -127,7 +127,7 @@ El polinomio característico es:
 $$
 	f(t)=\det A=(1-t)(2-t)(3-t),
 $$
-cuyas raices son $1,2,3$, que son los eigenvalores de $T$.
+cuyas raíces son $1,2,3$, que son los eigenvalores de $T$.
 
 #### Teorema 5.3
 Sea $A\in M_{n\times n}(F)$.
@@ -143,9 +143,67 @@ $$
 	\end{vmatrix}.
 $$
 En el determinante sale el término $(A_{11}-t)(A_{22}-t)\dots(A_{nn}-t)$, por lo que el mayor coeficiente de mayor grado es $(-t)^{n}=(-1)^{n}t^{n}$. 
-Entonces $f(t)$ tiene grado a lo más $n$. Por lo tanto (dependiendo del campo) tiene a lo más $n$ raices, cada una un eigenvalor.
+Entonces $f(t)$ tiene grado a lo más $n$. Por lo tanto (dependiendo del campo) tiene a lo más $n$ raíces, cada una un eigenvalor.
 
 #### Teorema 5.4
 Sea $T$ un operador lineal en un espacio vectorial $V$, y sea $\lambda$ un eigenvalor de $T$. Un vector $v\in V$ es un eigenvector de $v$ de $T$ correspondiente a $\lambda$ si y sólo si $v\neq 0$ y $v\in N(T-\lambda I)$.
-##### Demostrción:
+##### Demostración:
 $v\in N(T-\lambda I)$ si y solo si es solución del sistema $(T-\lambda I)v=0$, en cuyo caso $Tv=\lambda Iv=\lambda v$, es decir que $v$ es el eigenvector asociado a $\lambda$.
+
+##### Ejemplo:
+Encuentra los eigenvectores para $A=\begin{pmatrix}1 & 1 & 0 \\ 0 & 2 & 2 \\ 0 & 0 & 3\end{pmatrix}$, si sabemos que los eigenvalores son 1,2,3.
+**Sol:**
+Usando el teorema 5.4, sea 
+$$
+	\begin{pmatrix}
+	0 & 1 & 0 \\
+	0 & 1 & 2 \\
+	0 & 0 & 2
+	\end{pmatrix}\begin{pmatrix}
+	x_{1} \\
+	x_{2} \\
+	x_{3}
+	\end{pmatrix}=0,
+$$
+tenemos el sistema 
+$$
+	\begin{cases}
+	x_{2}=0 \\
+	x_{2}+2x_{3}=0 \\
+	x_{3}=0
+	\end{cases},
+$$
+cuya solución es $v_{1}=t\begin{pmatrix}1 \\  0 \\  0\end{pmatrix}$ (tomando $x_{1}=t$ para $t$ cualquier escalar). Es decir que el vector $(1,0,0)$ es un eigenvector asociado al valor propio 1.
+De la misma forma, para $\lambda=2$, tenemos 
+$$
+	\begin{pmatrix}
+	-1 & 1 & 0 \\
+	0 & 0 & 2 \\
+	0 & 0 & 1
+	\end{pmatrix}\begin{pmatrix}
+	x_{1} \\
+	x_{2} \\
+	x_{3}
+	\end{pmatrix}=0,
+$$
+cuya solución es $x_{3}=0$, $x_{1}=x_{2}=t$, por lo que el eigenvector asociado a 2 es $v_{2}=t\begin{pmatrix}1 \\  1 \\  0\end{pmatrix}$.
+Por último, para $\lambda=3$, tenemos 
+$$
+	\begin{pmatrix}
+	-2 & 1 & 0 \\
+	0 & -1 & 2 \\
+	0 & 0 & 0
+	\end{pmatrix}\begin{pmatrix}
+	x_{1} \\
+	x_{2} \\
+	x_{3}
+	\end{pmatrix}=0,
+$$
+que nos da el sistema 
+$$
+	\begin{cases}
+	-2x_{1}+x_{2}=0 \\
+	-x_{2}+2x_{3}=0,
+	\end{cases}
+$$
+con solución de la forma $x_{3}=t=x_{1}$, y $x_{2}=2t$, de modo que nuestro eigenvector asociado a $\lambda=3$ es $v_{3}=t\begin{pmatrix}1 \\  2 \\  1\end{pmatrix}$.
