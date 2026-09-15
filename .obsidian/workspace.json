@@ -11,10 +11,14 @@
             "id": "7ac811cc4393634d",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "TercerSemestre/Calculo3/Parcial1/TeoremasDiferenciacion.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "TeoremasDiferenciacion"
             }
           }
         ]
@@ -29,7 +33,7 @@
       {
         "id": "19222e06e28c1808",
         "type": "tabs",
-        "dimension": 71.7412935323383,
+        "dimension": 71.74129353233832,
         "children": [
           {
             "id": "ddd66d7aa249ed22",
@@ -81,7 +85,7 @@
       {
         "id": "4df8e38988e2d316",
         "type": "tabs",
-        "dimension": 28.258706467661685,
+        "dimension": 28.258706467661693,
         "children": [
           {
             "id": "5d1ee9aef5d2167f",
@@ -221,18 +225,18 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "ddd66d7aa249ed22",
+  "active": "7ac811cc4393634d",
   "lastOpenFiles": [
+    "Excalidraw/Teroema2Diferenciacion.md",
+    "TercerSemestre/Calculo3/Parcial1/TeoremasDiferenciacion.md",
     "TercerSemestre/AlgebraLineal2/Parcial1/RepresentacionEstandar.md",
     "TercerSemestre/AlgebraLineal2/Parcial1/Matrices+Transformaciones.md",
     "TercerSemestre/AlgebraLineal2/Parcial1/EspaciosDuales.md",
     "TercerSemestre/AlgebraLineal2/Parcial1/TransformacionesLineales.md",
     "TercerSemestre/AlgebraLineal2/Parcial2/Eigenvectores_Eigenvalores.md",
-    "TercerSemestre/Calculo3/Parcial1/TeoremasDiferenciacion.md",
     "TercerSemestre/AlgebraLineal2/Parcial1/Tarea3_AlgebraLineal2.md",
     "TercerSemestre/AlgebraLineal2/Parcial1/Tarea2_AlgebraLineal2.md",
     "TercerSemestre/Calculo3/Parcial1/Diferenciacion.md",
-    "Excalidraw/Teroema2Diferenciacion.md",
     "TercerSemestre/Calculo3/Parcial1/TeoremasLimite.md",
     "TercerSemestre/Calculo3/Parcial1/Continuidad.md",
     "TercerSemestre/Calculo3/Parcial1/Matrices.md",

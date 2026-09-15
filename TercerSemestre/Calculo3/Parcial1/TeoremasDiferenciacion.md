@@ -1,3 +1,4 @@
+#Calculo
 #### Teorema:
 Sea $f:R^{n}\to R^{m}$ y $U\subset R^{n}$ [[Limite|abierto]]. Si $f$ es [[Diferenciacion|diferenciable]] en $(a_{1},\dots,a_{n})\in U$, entonces es [[Continuidad|continua]] en $(a_{1},\dots,a_{n})$.
 ##### Demostración:
@@ -43,9 +44,43 @@ recordamos que $\bar{x}=\bar{h}+\bar{a}$, entonces tenemos que $$\lim_{ \bar{x} 
 Sea $f:R^{n}\to R^{m}$, $\bar{a}\in R^{n}$ y $U$ una vecindad de $\bar{a}$. Si las derivadas parciales $\frac{\partial f_{i}}{\partial x_{j}}$ existen, y $f$ son continuas en $U$, para $i=1,\dots,m$, $j=1,\dots,n$. 
 Entonces $f$ es diferenciable en $\bar{a}$.
 ##### Demostración (para $f:R^{2}\to R$):
-![[Teroema2Diferenciacion]]
-
-
-
-
-#Calculo
+Aplicando el teorema del valor medio a $\frac{\partial f}{\partial x_{1}}$ y $\frac{\partial f}{\partial x_{2}}$, y fijando $y=a_{2}$, tenemos que existe $a_{1}<c_{1}<a+h$ tal que 
+$$
+	\frac{\partial f}{\partial x_{1}}(c_{1},a_{2})=\frac{f(a_{1}+h_{1},a_{2})-f(a_{1},a_{2})}{h_{1}}.
+$$
+Ahora fijemos $x=a_{1}+h_{1}$, y nuevamente por el teorema del valor medio existe $a_{2}<c_{2}<a_{2}+h_{2}$ tal que 
+$$
+	\frac{\partial f}{\partial x_{2}}(a_{1}+h_{1},c_{2})=\frac{f(a_{1}+h_{1},a_{2}+h_{2})-f(a_{1}+h_{1},a_{2})}{h_{2}}.
+$$
+Entonces si despejamos y sumamos ambas expresiones tenemos que 
+$$
+    \begin{align}
+    h_{1}\frac{\partial f}{\partial x_{1}}(c_{1},a_{2})+h_{2}\frac{\partial f}{\partial x_{2}}(a_{1}+h_{1},c_{2})&=f(a_{1}+h_{1},a_{2})-f(a_{1},a_{2})+f(a_{1}+h_{1},a_{2}+h_{2})-f(a_{1}+h_{1},a_{2}) \\
+	&=f(a_{1}+h_{1},a_{2}+h_{2})-f(a_{1},a_{2}).
+    \end{align}
+$$
+Entonces tenemos que 
+$$
+	\left\lvert  f(\bar{a}+\bar{h})-f(\bar{a})-h_{1} \frac{\partial f}{\partial x_{1}}(\bar{a})-h_{2} \frac{\partial f}{\partial x_{2}}(\bar{a})  \right\rvert
+$$
+$$
+	\begin{align}
+	&= \left\lvert h_{1}\frac{\partial f}{\partial x_{1}}(c_{1},a_{2})+h_{2}\frac{\partial f}{\partial x_{2}}(a_{1}+h_{1},c_{2})-h_{1} \frac{\partial f}{\partial x_{1}}(\bar{a})-h_{2} \frac{\partial f}{\partial x_{2}}(\bar{a}) \right\rvert  \\
+	&\leq \lvert h_{1} \rvert \left\lvert  \frac{\partial f}{\partial x_{1}}(c_{1},a_{2})- \frac{\partial f}{\partial x_{1}}(a_{1},a_{2})  \right\rvert +\lvert h_{2} \rvert \left\lvert  \frac{\partial f}{\partial x_{2}}(a_{1}+h_{1},c_{2})- \frac{\partial f}{\partial x_{2}}(a_{1},a_{2})  \right\rvert  \\
+	&\leq \lvert \lvert \bar{h} \rvert  \rvert \rvert \left\lvert  \frac{\partial f}{\partial x_{1}}(c_{1},a_{2})- \frac{\partial f}{\partial x_{1}}(a_{1},a_{2})  \right\rvert +\lvert \lvert \bar{h} \rvert  \rvert  \left\lvert \frac{\partial f}{\partial x_{2}}(a_{1}+h_{1},c_{2})- \frac{\partial f}{\partial x_{2}}(a_{1},a_{2})  \right\rvert.
+	\end{align} 
+$$
+Notemos que cuando $h\to 0$, tenemos que $c_{1}\to a_{1}$, $c_{2}\to a_{2}$ y $a_{1}+h_{1}\to a_{1}$. Si dividimos por la norma, tenemos entonces que 
+$$
+	\begin{align}
+	0&<\lim_{ \bar{h} \to 0 } \frac{\left\lvert  f(\bar{a}+\bar{h})-f(\bar{a})-h_{1} \frac{\partial f}{\partial x_{1}}(\bar{a})-h_{2} \frac{\partial f}{\partial x_{2}}(\bar{a})  \right\rvert}{\lvert \lvert \bar{h} \rvert  \rvert } \\
+	& \leq \lim_{ \bar{h} \to 0 }  \left\lvert  \frac{\partial f}{\partial x_{1}}(a_{1},a_{2})- \frac{\partial f}{\partial x_{1}}(a_{1},a_{2})  \right\rvert +  \left\lvert \frac{\partial f}{\partial x_{2}}(a_{1},a_{2})- \frac{\partial f}{\partial x_{2}}(a_{1},a_{2})  \right\rvert \\
+	& =0
+	\end{align}
+$$
+es decir que 
+$$
+	\lim_{ \bar{h} \to 0 } \frac{\left\lvert  f(\bar{a}+\bar{h})-f(\bar{a})-h_{1} \frac{\partial f}{\partial x_{1}}(\bar{a})-h_{2} \frac{\partial f}{\partial x_{2}}(\bar{a})  \right\rvert}{\lvert \lvert \bar{h} \rvert  \rvert }=0,
+$$
+y por lo tanto $f$ es diferenciable.
+La prueba se extiende de forma natural a funciones $f:R^{n}\to R$, y posteriormente a funciones $f:R^{n}\to R^{m}$.
