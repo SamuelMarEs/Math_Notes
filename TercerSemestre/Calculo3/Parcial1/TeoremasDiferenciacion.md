@@ -44,26 +44,6 @@ Sea $f:R^{n}\to R^{m}$, $\bar{a}\in R^{n}$ y $U$ una vecindad de $\bar{a}$. Si l
 Entonces $f$ es diferenciable en $\bar{a}$.
 ##### Demostración (para $f:R^{2}\to R$):
 ![[Teroema2Diferenciacion]]
-Por el teorema del valor medio (aplicado a la curva restringida al plano $y=y_{0}$), existe $x_{0}<a<x_{0}+h_{1}$ tal que 
-$$
-	\frac{\partial f}{\partial x}(a,y_{0})= \frac{f(x_{0}+h_{1},y_{0})-f(x_{0},y_{0})}{h_{1}}.
-$$
-Por la continuidad de las parciales: 
-$$
-	\forall\varepsilon_{1} >0,\exists \delta_{1}>0:\lvert h_{1} \rvert <\delta_{1}\implies \left\lvert  \frac{\partial f}{\partial x}(a,y_{0})- \frac{\partial f}{\partial x}(x_{0},y_{0})  \right\rvert<\varepsilon_{1}. 
-$$
-Sabemos que $\exists\varepsilon_{1}'$ tal que 
-$$
-	\frac{\partial f}{\partial x}(a,y_{0})- \frac{\partial f}{\partial x}(x_{0},y_{0}) =\varepsilon_{1}',
-$$
-o lo que es lo mismo
-$$
-	\frac{\partial f}{\partial x}(a,y_{0})=\varepsilon_{1}'+ \frac{\partial f}{\partial x}(x_{0},y_{0}).
-$$
-Entonces tenemos que 
-$$
-	h_{1} \frac{\partial f}{\partial x}(a,y_{0})=h_{1}\varepsilon_{1}'+h_{1} \frac{\partial f}{\partial x}(x_{0},y_{0})=f(x_{0}+h_{1},y_{0})-f(x_{0},y_{0}).
-$$
 
 
 
