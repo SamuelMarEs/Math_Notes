@@ -73,7 +73,7 @@ $$
 Notemos que cuando $h\to 0$, tenemos que $c_{1}\to a_{1}$, $c_{2}\to a_{2}$ y $a_{1}+h_{1}\to a_{1}$. Si dividimos por la norma, tenemos entonces que 
 $$
 	\begin{align}
-	0&<\lim_{ \bar{h} \to 0 } \frac{\left\lvert  f(\bar{a}+\bar{h})-f(\bar{a})-h_{1} \frac{\partial f}{\partial x_{1}}(\bar{a})-h_{2} \frac{\partial f}{\partial x_{2}}(\bar{a})  \right\rvert}{\lvert \lvert \bar{h} \rvert  \rvert } \\
+	0&\leq\lim_{ \bar{h} \to 0 } \frac{\left\lvert  f(\bar{a}+\bar{h})-f(\bar{a})-h_{1} \frac{\partial f}{\partial x_{1}}(\bar{a})-h_{2} \frac{\partial f}{\partial x_{2}}(\bar{a})  \right\rvert}{\lvert \lvert \bar{h} \rvert  \rvert } \\
 	& \leq \lim_{ \bar{h} \to 0 }  \left\lvert  \frac{\partial f}{\partial x_{1}}(a_{1},a_{2})- \frac{\partial f}{\partial x_{1}}(a_{1},a_{2})  \right\rvert +  \left\lvert \frac{\partial f}{\partial x_{2}}(a_{1},a_{2})- \frac{\partial f}{\partial x_{2}}(a_{1},a_{2})  \right\rvert \\
 	& =0
 	\end{align}
