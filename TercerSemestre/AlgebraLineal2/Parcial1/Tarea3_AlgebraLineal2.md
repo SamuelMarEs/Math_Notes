@@ -160,18 +160,59 @@ Sea $x=a_{1}v_{1}+\dots+a_{n}v_{n}\in V$ tal que $T(x)=0_{W}$ (i.e $x\in N(T)$).
 $$
 	T(x)=a_{1}T(v_{1})+\dots+a_{n}T(v_{n})=0_{W}.
 $$
-Sin embargo, $T(\beta)$ es base, por lo tanto $a_{1}T(v_{1})+\dots+a_{n}T(v_{n})\Longleftrightarrow a_{1}=\dots=a_{n}=0$. Por lo tanto tenemo que $x=0_{V}\Rightarrow N(T)=\{ 0_{V} \}.\quad\square$ 
+Sin embargo, $T(\beta)$ es base, por lo tanto $a_{1}T(v_{1})+\dots+a_{n}T(v_{n})\Longleftrightarrow a_{1}=\dots=a_{n}=0$. Por lo tanto tenemos que $x=0_{V}\Rightarrow N(T)=\{ 0_{V} \}.\quad\square$ 
 
 
 ### Sección 2.5 Friedberg
 2.- Para cada uno de los siguientes pares de bases ordenadas $\beta$ y $\beta'$ para $R^{2}$, encuentre la matriz de cambio de base que cambia las coordenadas $\beta'$ en coordenadas $\beta$.
 - $\beta=\{ e_{1},e_{2} \},\beta'=\{ (a_{1},a_{2}),(b_{1},b_{2}) \}$.
+  **Sol:**
+  $(a_{1},a_{2})=a_{1}e_{1}+a_{2}e_{2}$, y de forma casi idéntica para el segundo vector, por lo tanto la matriz de cambio de base es 
+  $$
+	\begin{pmatrix}
+	a_{1} & b_{1} \\
+	a_{2} & b_{2}
+	\end{pmatrix}.
+  $$
 - $\beta=\{ (-1,3),(2,-1) \},\beta'=\{ (0,10),(5,0) \}$.
+  **Sol:**
+  $(0,10)=4(-1,3)+2(2,-1)$ y $(5,0)=1(-1,3)+3(2,-1)$, entonces la matriz de cambio de base es 
+  $$
+	\begin{pmatrix}
+	4 & 1 \\
+	2 & 3
+	\end{pmatrix}.
+  $$
 - $\beta=\{ (2,5),(-1,-3) \},\beta'=\{ (e_{1},e_{2}) \}$.
+  **Sol:**
+  $e_{1}=3(2,5)+5(-1,3)$ y $e_{2}=-1(2,5)-2(-1,-3)$, entonces la matriz es 
+  $$
+	\begin{pmatrix}
+	3 & -1 \\
+	5 & -2
+	\end{pmatrix}.
+  $$
 - $\beta=\{ (-4,3),(2,-1) \},\beta'=\{ (2,1),(-4,1) \}$.
+  **Sol:**
+  $(2,1)=2(-4,3)+5(2,-1)$ y $(-4,1)=-1(-4,3)-4(2,-1)$, y la matriz es 
+  $$
+	\begin{pmatrix}
+	2 & -1 \\
+	5 & -4
+	\end{pmatrix}.
+  $$
 
 3.- Para cada uno de los siguientes pares de bases ordenadas $\beta$ y $\beta'$ para $P_{2}(R)$, encuentre la matriz de cambio de base que cambia las coordenadas $\beta'$ en coordenadas $\beta$.
 - $\beta=\{ x^{2},x,1 \},\beta'=\{ a_{2}x^{2}+a_{1}x+a_{0},b_{2}x^{2}+b_{1}x+b_{0},c_{2}x^{2}+c_{1}x+c_{0} \}$.
+  **Sol:**
+  Como estamos pasando de otra base a la base canónica, tenemos que la matriz es 
+  $$
+	\begin{pmatrix}
+	a_{0} & b_{0} & c_{0} \\
+	a_{1} & b_{1} & c_{1} \\
+	a_{2} & b_{2} & c_{2}
+	\end{pmatrix}.
+  $$
 - $\beta=\{ 1,x,x^{2} \},\beta'=\{  a_{2}x^{2}+a_{1}x+a_{0},b_{2}x^{2}+b_{1}x+b_{0},c_{2}x^{2}+c_{1}x+c_{0}  \}$.
 - $\beta = \{ 2x^{2}-x,3x^{2}+1,x^{2} \},\beta'=\{ 1,x,x^{2} \}$.
 - $\beta=\{ x^{2}-x+1,x+1,x^{2}+1 \},\beta'=\{ x^{2}+x+4,4x^{2}-3x+2,2x^{2}+3 \}$.
@@ -198,7 +239,24 @@ $$
 	-1 & 1
 	\end{pmatrix}
 $$
-para encontrar $[T]_{\beta'}$
+para encontrar $[T]_{\beta'}$.
+**Sol:**
+El teorema 2.23 nos dice que $[T]_{\beta'}=Q^{-1}[T]_{\beta}Q$, es decir que la matriz que buscamos es 
+$$
+	\begin{pmatrix}
+	2 & -1 \\
+	-1 & 1
+	\end{pmatrix}\begin{pmatrix}
+	2 & 1 \\
+	1 & -3
+	\end{pmatrix}\begin{pmatrix}
+	1 & 1 \\
+	1 & 2
+	\end{pmatrix}=\begin{pmatrix}
+	8 & 13 \\
+	-5 & -9
+	\end{pmatrix}.
+$$
 
 5.- Sea $T$ el operador lineal sobre $P_{1}(R)$ definido como $T(p(x))=p'(x)$, la derivada de $p(x)$. Sea $\beta=\{ 1,x \}$ y $\beta'=\{ 1+x,1-x \}$. Use el Teorema 2.23 y el hecho de que 
 $$
@@ -211,6 +269,23 @@ $$
 	\end{pmatrix}
 $$
 para encontrar $[T]_{\beta'}$.
+**Sol:**
+Al igual que el ejercicio anterior, pero en este caso con una matriz distinta para $[T]_{\beta}$, pero nuevamente queremos calcular 
+$$
+	\begin{pmatrix}
+	2 & -1 \\
+	-1 & 1
+	\end{pmatrix}\begin{pmatrix}
+	0 & 1 \\
+	0 & 0
+	\end{pmatrix}\begin{pmatrix}
+	1 & 1 \\
+	1 & -1
+	\end{pmatrix}=\begin{pmatrix}
+	2 & -2 \\
+	-1 & 1
+	\end{pmatrix}.
+$$
 
 6.- Para cada matriz $A$ y base ordenada $\beta$, encuentra $[L_{A}]_{\beta}$. También, encuentra una matriz invertible $Q$ tal que $[L_{A}]_{\beta}=Q^{-1}AQ$.
 - $A=\begin{pmatrix}1 & 3 \\  1 & 1\end{pmatrix}$ y $\beta=\left\{ \begin{pmatrix}1 \\  1\end{pmatrix},\begin{pmatrix}1 \\  2\end{pmatrix} \right\}$.

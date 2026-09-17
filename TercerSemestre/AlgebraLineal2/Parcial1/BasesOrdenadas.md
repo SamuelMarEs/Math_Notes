@@ -1,5 +1,5 @@
 ##### Definición:
-Sea $V$ un espacio vectorial de dimensión finita. Sea $\{ v_{1},\dots,v_{n} \}$ una base de $V$, decirmos que esa base en particular es una ***base ordenada*** de $V$ si nos importa el orden de los vectores. 
+Sea $V$ un espacio vectorial de dimensión finita. Sea $\{ v_{1},\dots,v_{n} \}$ una base de $V$, decimos que esa base en particular es una ***base ordenada*** de $V$ si nos importa el orden de los vectores. 
 (Hay $n!$ bases ordenadas distintas dada una base).
 Por ejemplo, las bases $v_{1},v_{2},\dots,v_{n}$ y $v_{n},v_{1},v_{2},\dots ,v_{n-1}$, si bien son una misma base, no son iguales como bases ordenadas.
 
