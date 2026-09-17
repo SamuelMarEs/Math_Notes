@@ -33,7 +33,7 @@
       {
         "id": "19222e06e28c1808",
         "type": "tabs",
-        "dimension": 71.74129353233832,
+        "dimension": 71.7412935323383,
         "children": [
           {
             "id": "ddd66d7aa249ed22",
@@ -85,7 +85,7 @@
       {
         "id": "4df8e38988e2d316",
         "type": "tabs",
-        "dimension": 28.258706467661693,
+        "dimension": 28.258706467661685,
         "children": [
           {
             "id": "5d1ee9aef5d2167f",
@@ -227,6 +227,8 @@
   },
   "active": "5ce05e2cf4c23423",
   "lastOpenFiles": [
+    "TercerSemestre/Calculo3/temario_calc3.pdf",
+    "TercerSemestre/AlgebraLineal2/Parcial1/Tarea3_AlgebraLineal2.md",
     "TercerSemestre/Calculo3/Parcial1/PlanosTangentes.md",
     "TercerSemestre/Calculo3/Parcial1/Continuidad.md",
     "TercerSemestre/Calculo3/Parcial1/Limite.md",
@@ -245,16 +247,13 @@
     "TercerSemestre/Calculo3/Parcial1/TeoremasDiferenciacion.md",
     "TercerSemestre/AlgebraLineal2/Parcial2/Eigenvectores_Eigenvalores.md",
     "Excalidraw/Teroema2Diferenciacion.md",
-    "TercerSemestre/AlgebraLineal2/Parcial1/Tarea3_AlgebraLineal2.md",
     "TercerSemestre/AlgebraLineal2/Parcial1/Tarea2_AlgebraLineal2.md",
     "TercerSemestre/Calculo3/Parcial1/Diferenciacion.md",
     "TercerSemestre/Calculo3/Parcial1/TeoremasLimite.md",
     "TercerSemestre/Calculo3/Parcial1/Matrices.md",
     "TercerSemestre/Calculo3/Parcial1/DerivadasParciales.md",
     "TercerSemestre/Calculo3/Parcial1/Gradiente.md",
-    "TercerSemestre/Probabilidad/Parcial1/Tarea3Probabilidad.md",
     "TercerSemestre/Datos_Algoritmos/Parcial1",
-    "TercerSemestre/Calculo3/temario_calc3.pdf",
     "TercerSemestre/Probabilidad/Temario_Probabilidad.pdf",
     "TercerSemestre/Calculo3/Parcial4",
     "TercerSemestre/Calculo3/Parcial3",

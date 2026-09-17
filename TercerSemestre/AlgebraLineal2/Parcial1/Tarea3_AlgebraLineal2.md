@@ -205,19 +205,28 @@ Sin embargo, $T(\beta)$ es base, por lo tanto $a_{1}T(v_{1})+\dots+a_{n}T(v_{n})
 3.- Para cada uno de los siguientes pares de bases ordenadas $\beta$ y $\beta'$ para $P_{2}(R)$, encuentre la matriz de cambio de base que cambia las coordenadas $\beta'$ en coordenadas $\beta$.
 - $\beta=\{ x^{2},x,1 \},\beta'=\{ a_{2}x^{2}+a_{1}x+a_{0},b_{2}x^{2}+b_{1}x+b_{0},c_{2}x^{2}+c_{1}x+c_{0} \}$.
   **Sol:**
-  Como estamos pasando de otra base a la base canónica, tenemos que la matriz es 
-  $$
+  Como estamos pasando de otra base a la base canónica, tenemos que la matriz esta dada por los vectores coordenada de cada elemento de la base $\beta'$ en la canónica, pero invirtiendo las coordenadas, es decir: $$
 	\begin{pmatrix}
-	a_{0} & b_{0} & c_{0} \\
+	a_{2} & b_{2} & c_{2} \\
 	a_{1} & b_{1} & c_{1} \\
-	a_{2} & b_{2} & c_{2}
+	a_{0} & b_{0} & c_{0}
 	\end{pmatrix}.
   $$
 - $\beta=\{ 1,x,x^{2} \},\beta'=\{  a_{2}x^{2}+a_{1}x+a_{0},b_{2}x^{2}+b_{1}x+b_{0},c_{2}x^{2}+c_{1}x+c_{0}  \}$.
+  **Sol:**
+  
 - $\beta = \{ 2x^{2}-x,3x^{2}+1,x^{2} \},\beta'=\{ 1,x,x^{2} \}$.
+  **Sol:**
+  
 - $\beta=\{ x^{2}-x+1,x+1,x^{2}+1 \},\beta'=\{ x^{2}+x+4,4x^{2}-3x+2,2x^{2}+3 \}$.
+  **Sol:**
+  
 - $\beta=\{ x_{2}-x,x_{2}+1,x-1 \},\beta'=\{ 5x^{2}-2x-3,-2x^{2}+5x+5,2x^{2}-x-3 \}$.
+  **Sol:**
+  
 - $\beta=\{ 2x^{2}-x+1,x^{2}+3x-2,-x^{2}+2x+1 \}, \beta'=\{ 9x-9,x^{2}+21x-2,3x^{2}+5x+2 \}$
+  **Sol:**
+  
 
 4.- Sea $T$ un operador lineal sobre $R^{2}$ definido como 
 $$
@@ -289,10 +298,73 @@ $$
 
 6.- Para cada matriz $A$ y base ordenada $\beta$, encuentra $[L_{A}]_{\beta}$. También, encuentra una matriz invertible $Q$ tal que $[L_{A}]_{\beta}=Q^{-1}AQ$.
 - $A=\begin{pmatrix}1 & 3 \\  1 & 1\end{pmatrix}$ y $\beta=\left\{ \begin{pmatrix}1 \\  1\end{pmatrix},\begin{pmatrix}1 \\  2\end{pmatrix} \right\}$.
+  **Sol:**
+  Sean $$
+	Q=\begin{pmatrix}
+	1 & 1 \\
+	1 & 2
+	\end{pmatrix}\text{ y }Q^{-1}=\begin{pmatrix}
+	2 & -1 \\
+	-1 & 1
+	\end{pmatrix},
+  $$
+  entonces 
+  $$
+	[L_{A}]_{\beta}=\begin{pmatrix}
+	2 & -1 \\
+	-1 & 1
+	\end{pmatrix}\begin{pmatrix}
+	1 & 3 \\
+	1 & 1
+	\end{pmatrix}\begin{pmatrix}
+	1 & 1 \\
+	1 & 2
+	\end{pmatrix}=
+  $$
 - $A=\begin{pmatrix}1 & 2 \\  2 & 1\end{pmatrix}$ y $\beta=\left\{ \begin{pmatrix}1 \\  1\end{pmatrix},\begin{pmatrix}1 \\  -1\end{pmatrix} \right\}$.
+  **Sol:**
+  Sean $$
+	Q=\begin{pmatrix}
+	1 & 1 \\
+	1 & -1
+	\end{pmatrix}\text{ y }Q^{-1}=\begin{pmatrix}
+	\frac{1}{2} & \frac{1}{2} \\
+	\frac{1}{2} & -\frac{1}{2}
+	\end{pmatrix},
+  $$
+  entonces 
+  $$
+	[L_{A}]_{\beta}=\begin{pmatrix}
+	\frac{1}{2} & \frac{1}{2} \\
+	\frac{1}{2} & -\frac{1}{2}
+	\end{pmatrix}\begin{pmatrix}
+	1 & 2 \\
+	2 & 1
+	\end{pmatrix}\begin{pmatrix}
+	1 & 1 \\
+	1 & -1
+	\end{pmatrix}=
+  $$
 - $A=\begin{pmatrix}1 & 1 & -1 \\  2 & 0 & 1 \\  1 & 1 & 0\end{pmatrix}$ y $\beta=\left\{ \begin{pmatrix}1 \\  1 \\  1\end{pmatrix},\begin{pmatrix}1 \\  0 \\  1\end{pmatrix},\begin{pmatrix}1 \\  1 \\  2\end{pmatrix} \right\}$.
+  **Sol:**
+  
 - $A=\begin{pmatrix}13 & 1 & 4 \\ 1 & 13 & 4 \\  4 & 4 & 10\end{pmatrix}$ y $\beta=\left\{ \begin{pmatrix}1 \\  1 \\  -2\end{pmatrix},\begin{pmatrix}1 \\  -1 \\  0\end{pmatrix},\begin{pmatrix}1 \\  1 \\  1\end{pmatrix} \right\}$.
+  **Sol:**
+
 
 11.- Sea $V$ un espacio vectorial de dimensión finita con bases ordenadas $\alpha, \beta, \gamma$. 
 - Pruebe que si $Q$ y $R$ son las matrices de cambio de base de $\alpha$ en $\beta$, y $\beta$ en $\gamma$, respectivamente, entonces $RQ$ es la matriz de cambio de base de $\alpha$ en $\gamma$.
+  **Sol:**
+  Sea $Q=[I_{n}]_{\alpha}^{\beta}$ y $R=[I_{n}]_{\beta}^{\gamma}$, entonces por el teorema 2.11 tenemos que 
+  $$
+	RQ=[I_{n}]_{\beta}^{\gamma}[I_{n}]_{\alpha}^{\gamma}=[I_{n}I_{n}]_{\alpha}^{\gamma}=[I_{n}]_{\alpha}^{\gamma},
+  $$
+  que es la definición de la matriz de cambio de base de $\alpha$ en $\gamma.\quad\square$
+  
 - Pruebe que si $Q$ cambia las coordenadas $\alpha$ en coordenadas $\beta$, entonces $Q^{-1}$ cambia las coordenadas $\beta$ en coordenadas $\alpha$.
+  **Sol:**
+  Sea $Q=[I_{n}]_{\alpha}^{\beta}$ la matriz de cambio de base de $\alpha$ en $\beta$. Por el teorema 2.22 sabemos que $Q$ es invertible. Entonces, por el teorema 2.18 tenemos que 
+  $$
+	Q^{-1}=([I_{n}]_{\alpha}^{\beta})^{-1}=[I_{n}^{-1}]_{\beta}^{\alpha}=[I_{n}]_{\beta}^{\alpha},
+  $$
+  es decir que $Q^{-1}$ es la matriz de cambio de base de $\beta$ a $\alpha$.
