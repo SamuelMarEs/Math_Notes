@@ -1,3 +1,4 @@
+Samuel Márquez Estrada
 ### Sección 2.4 Friedberg
 2.- Para cada una de las siguientes transformaciones, determina si son invertibles y justifica tu respuesta.
 - $T:R^{2}\to R^{3}$ definida como $T(a_{1},a_{2})=(a_{1}-2a_{2},a_{2},3a_{1}+4a_{2})$.
@@ -214,19 +215,51 @@ Sin embargo, $T(\beta)$ es base, por lo tanto $a_{1}T(v_{1})+\dots+a_{n}T(v_{n})
   $$
 - $\beta=\{ 1,x,x^{2} \},\beta'=\{  a_{2}x^{2}+a_{1}x+a_{0},b_{2}x^{2}+b_{1}x+b_{0},c_{2}x^{2}+c_{1}x+c_{0}  \}$.
   **Sol:**
-  
+  En este caso si tenemos la base canónica, entonces la matriz es: $$
+	\begin{pmatrix}
+	a_{0} & b_{0} & c_{0} \\
+	a_{1} & b_{1} & c_{1} \\
+	a_{2} & b_{2} & c_{2}
+	\end{pmatrix}.
+  $$
 - $\beta = \{ 2x^{2}-x,3x^{2}+1,x^{2} \},\beta'=\{ 1,x,x^{2} \}$.
   **Sol:**
-  
+  Veamos que $1=0(2x^{2}-x)+1(3x^{2}+1)-3(x^{2})$, $x=-1(2x^{2}-x)+0(3x^{2}+1)+2(x^{2})$, y $x^{2}=0(2x^{2}-x)+0(3x^{2}+1)+1(x^{2})$, entonces la matriz de cambio de base es 
+  $$
+	\begin{pmatrix}
+	0 & -1 & 0 \\
+	1 & 0 & 0 \\
+	-3 & 2 & 1
+	\end{pmatrix}.
+  $$
 - $\beta=\{ x^{2}-x+1,x+1,x^{2}+1 \},\beta'=\{ x^{2}+x+4,4x^{2}-3x+2,2x^{2}+3 \}$.
   **Sol:**
-  
+  $$
+	\begin{pmatrix}
+	2 & 1 & -1 \\
+	3 & -2 & 1 \\
+	-1 & 3 & 3
+	\end{pmatrix}.
+  $$
 - $\beta=\{ x_{2}-x,x_{2}+1,x-1 \},\beta'=\{ 5x^{2}-2x-3,-2x^{2}+5x+5,2x^{2}-x-3 \}$.
   **Sol:**
-  
+  $$
+	\begin{pmatrix}
+	1 & 5 & -1 \\
+	4 & -3 & 2 \\
+	-2 & 2 & -1
+	\end{pmatrix}.
+  $$
 - $\beta=\{ 2x^{2}-x+1,x^{2}+3x-2,-x^{2}+2x+1 \}, \beta'=\{ 9x-9,x^{2}+21x-2,3x^{2}+5x+2 \}$
   **Sol:**
-  
+  $$
+	\begin{pmatrix}
+	1 & 4 & 2 \\
+	-1 & 3 & 1 \\
+	-2 & 4 & 2
+	\end{pmatrix}.
+	
+  $$
 
 4.- Sea $T$ un operador lineal sobre $R^{2}$ definido como 
 $$
@@ -319,7 +352,10 @@ $$
 	\end{pmatrix}\begin{pmatrix}
 	1 & 1 \\
 	1 & 2
-	\end{pmatrix}=
+	\end{pmatrix}=\begin{pmatrix}
+	6 & 11 \\
+	-2 & -4
+	\end{pmatrix}
   $$
 - $A=\begin{pmatrix}1 & 2 \\  2 & 1\end{pmatrix}$ y $\beta=\left\{ \begin{pmatrix}1 \\  1\end{pmatrix},\begin{pmatrix}1 \\  -1\end{pmatrix} \right\}$.
   **Sol:**
@@ -343,14 +379,76 @@ $$
 	\end{pmatrix}\begin{pmatrix}
 	1 & 1 \\
 	1 & -1
-	\end{pmatrix}=
+	\end{pmatrix}=\begin{pmatrix}
+	3 & 0 \\
+	0 & -1
+	\end{pmatrix}.
   $$
 - $A=\begin{pmatrix}1 & 1 & -1 \\  2 & 0 & 1 \\  1 & 1 & 0\end{pmatrix}$ y $\beta=\left\{ \begin{pmatrix}1 \\  1 \\  1\end{pmatrix},\begin{pmatrix}1 \\  0 \\  1\end{pmatrix},\begin{pmatrix}1 \\  1 \\  2\end{pmatrix} \right\}$.
   **Sol:**
+  Sean 
+  $$
+	Q=\begin{pmatrix}
+	1 & 1 & 1 \\
+	1 & 0 & 1 \\
+	1 & 1 & 2
+	\end{pmatrix}\text{ y }Q^{-1}=\begin{pmatrix}
+	1 & 1 & -1 \\
+	1 & -1 & 0 \\
+	-1 & 0 & 1
+	\end{pmatrix},
+  $$
+  entonces 
+  $$
+	[L_{A}]_{\beta}=\begin{pmatrix}
+	1 & 1 & -1 \\
+	1 & -1 & 0 \\
+	-1 & 0 & 1
+	\end{pmatrix}\begin{pmatrix}1 & 1 & -1 \\  2 & 0 & 1 \\  1 & 1 & 0\end{pmatrix}\begin{pmatrix}
+	1 & 1 & 1 \\
+	1 & 0 & 1 \\
+	1 & 1 & 2
+	\end{pmatrix}=\begin{pmatrix}
+	2 & 2 & 2 \\
+	-2 & -3 & -4 \\
+	1 & 1 & 2
+	\end{pmatrix}.
+  $$
   
 - $A=\begin{pmatrix}13 & 1 & 4 \\ 1 & 13 & 4 \\  4 & 4 & 10\end{pmatrix}$ y $\beta=\left\{ \begin{pmatrix}1 \\  1 \\  -2\end{pmatrix},\begin{pmatrix}1 \\  -1 \\  0\end{pmatrix},\begin{pmatrix}1 \\  1 \\  1\end{pmatrix} \right\}$.
   **Sol:**
-
+  Sean 
+  $$
+	Q=\begin{pmatrix}
+	1 & 1 & 1 \\
+	1 & -1 & 1 \\
+	-2 & 0 & 1
+	\end{pmatrix}\text{ y }Q^{-1}=\begin{pmatrix}
+\frac{1}{6} & \frac{1}{6} & -\frac{1}{3} \\
+\frac{1}{2} & -\frac{1}{2} & 0 \\
+\frac{1}{3} & \frac{1}{3} & \frac{1}{3}
+\end{pmatrix},
+  $$
+  entonces tenemos que 
+  $$
+	[L_{A}]_{\beta}=\begin{pmatrix}
+\frac{1}{6} & \frac{1}{6} & -\frac{1}{3} \\
+\frac{1}{2} & -\frac{1}{2} & 0 \\
+\frac{1}{3} & \frac{1}{3} & \frac{1}{3}
+\end{pmatrix}\begin{pmatrix}
+13 & 1 & 4 \\
+1 & 13 & 4 \\
+4 & 4 & 10
+\end{pmatrix}\begin{pmatrix}
+1 & 1 & 1 \\
+1 & -1 & 1 \\
+-2 & 0 & 1
+\end{pmatrix}=\begin{pmatrix}
+1 & 0 & 0 \\
+0 & 1 & 0 \\
+0 & 0 & 1
+\end{pmatrix}.
+  $$
 
 11.- Sea $V$ un espacio vectorial de dimensión finita con bases ordenadas $\alpha, \beta, \gamma$. 
 - Pruebe que si $Q$ y $R$ son las matrices de cambio de base de $\alpha$ en $\beta$, y $\beta$ en $\gamma$, respectivamente, entonces $RQ$ es la matriz de cambio de base de $\alpha$ en $\gamma$.
@@ -367,4 +465,4 @@ $$
   $$
 	Q^{-1}=([I_{n}]_{\alpha}^{\beta})^{-1}=[I_{n}^{-1}]_{\beta}^{\alpha}=[I_{n}]_{\beta}^{\alpha},
   $$
-  es decir que $Q^{-1}$ es la matriz de cambio de base de $\beta$ a $\alpha$.
+  es decir que $Q^{-1}$ es la matriz de cambio de base de $\beta$ a $\alpha.\quad\square$
