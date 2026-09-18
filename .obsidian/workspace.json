@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "0adcdbde1961c2a2",
+        "id": "3ba66ad007989c9c",
         "type": "tabs",
         "children": [
           {
-            "id": "8c3bd789ecf3c299",
+            "id": "7367011cae1bd0b8",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "TercerSemestre/Datos_Algoritmos/Parcial1/Recursion.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Recursion"
             }
           }
         ]
@@ -29,7 +33,7 @@
       {
         "id": "19222e06e28c1808",
         "type": "tabs",
-        "dimension": 71.74129353233832,
+        "dimension": 71.7412935323383,
         "children": [
           {
             "id": "ddd66d7aa249ed22",
@@ -81,7 +85,7 @@
       {
         "id": "4df8e38988e2d316",
         "type": "tabs",
-        "dimension": 28.258706467661693,
+        "dimension": 28.258706467661685,
         "children": [
           {
             "id": "5d1ee9aef5d2167f",
@@ -221,8 +225,10 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "8c3bd789ecf3c299",
+  "active": "5d1ee9aef5d2167f",
   "lastOpenFiles": [
+    "TercerSemestre/Datos_Algoritmos/Parcial1/Recursion.md",
+    "TercerSemestre/AlgebraLineal2/Parcial2/Eigenvectores_Eigenvalores.md",
     "TercerSemestre/AlgebraLineal2/Parcial1/Tarea3_AlgebraLineal2.md",
     "TercerSemestre/Calculo3/temario_calc3.pdf",
     "TercerSemestre/Calculo3/Parcial1/PlanosTangentes.md",
@@ -241,7 +247,6 @@
     "TercerSemestre/AlgebraLineal2/Parcial1/KernelYRango.md",
     "TercerSemestre/AlgebraLineal2/Parcial1/TransformacionesLineales.md",
     "TercerSemestre/Calculo3/Parcial1/TeoremasDiferenciacion.md",
-    "TercerSemestre/AlgebraLineal2/Parcial2/Eigenvectores_Eigenvalores.md",
     "Excalidraw/Teroema2Diferenciacion.md",
     "TercerSemestre/AlgebraLineal2/Parcial1/Tarea2_AlgebraLineal2.md",
     "TercerSemestre/Calculo3/Parcial1/Diferenciacion.md",
