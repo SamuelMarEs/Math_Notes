@@ -1,4 +1,4 @@
-#Calculo
+#Calculo #Teorema
 #### Teorema:
 Sea $f:R^{n}\to R^{m}$ y $U\subset R^{n}$ [[Limite|abierto]]. Si $f$ es [[Diferenciacion|diferenciable]] en $(a_{1},\dots,a_{n})\in U$, entonces es [[Continuidad|continua]] en $(a_{1},\dots,a_{n})$.
 ##### Demostración:
@@ -32,7 +32,7 @@ $$
 	&\leq \lvert \lvert \bar{h} \rvert  \rvert+ M\lvert \lvert \bar{h} \rvert  \rvert &=\lvert \lvert \bar{h} \rvert  \rvert (M+1).
 	\end{align}
 $$
-($M$ como definido en la [[TareaDiferenciacion|tarea de diferenciación]]).
+($M$ como definido en la tarea de diferenciación).
 Sea $\varepsilon'>0$ y definamos $\delta=\min\{ \delta_{1}, \varepsilon' / (M+1) \}$. Si $\lvert \lvert \bar{h} \rvert \rvert<\delta$, entonces tenemos que 
 $$
 	\lvert \lvert f(\bar{a}+\bar{h})-f(\bar{a}) \rvert  \rvert <\lvert \lvert \bar{h} \rvert  \rvert (M+1)< \frac{\varepsilon'}{M+1}(M+1)=\varepsilon'.
