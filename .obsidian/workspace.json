@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "a36d10e99fe45ff1",
+        "id": "ef0327ecc399ef99",
         "type": "tabs",
         "children": [
           {
-            "id": "49d9fd96f33f8728",
+            "id": "b78fdde670dce773",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -221,16 +221,18 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "49d9fd96f33f8728",
+  "active": "ddd66d7aa249ed22",
   "lastOpenFiles": [
+    "TercerSemestre/Calculo3/Parcial2/PropiedadesDerivada.md",
+    "TercerSemestre/Calculo3/Parcial1/Tareas18_agosto.md",
+    "TercerSemestre/Calculo3/Parcial1/Diferenciacion.md",
+    "TercerSemestre/Calculo3/Parcial1/TeoremasDiferenciacion.md",
     "TercerSemestre/Probabilidad/Parcial2/VariablesAleatorias.md",
     "TercerSemestre/AlgebraLineal2/Parcial2/Eigenespacios.md",
     "TercerSemestre/AlgebraLineal2/Parcial2/Diagonalizabilidad.md",
     "TercerSemestre/AlgebraLineal2/Parcial2/Eigenvectores_Eigenvalores.md",
     "TercerSemestre/AlgebraLineal2/Parcial1/TransformacionesLineales.md",
     "TercerSemestre/AlgebraLineal2/Parcial1/EspaciosVectoriales.md",
-    "TercerSemestre/Calculo3/Parcial2/PropiedadesDerivada.md",
-    "TercerSemestre/Calculo3/Parcial1/TeoremasDiferenciacion.md",
     "TercerSemestre/Datos_Algoritmos/Parcial1/Recursion.md",
     "TercerSemestre/AlgebraLineal2/Parcial1/Tarea3_AlgebraLineal2.md",
     "TercerSemestre/Calculo3/temario_calc3.pdf",
@@ -248,8 +250,6 @@
     "TercerSemestre/AlgebraLineal2/Parcial1/Proyeccion+SumaDirecta.md",
     "TercerSemestre/AlgebraLineal2/Parcial1/KernelYRango.md",
     "Excalidraw/Teroema2Diferenciacion.md",
-    "TercerSemestre/AlgebraLineal2/Parcial1/Tarea2_AlgebraLineal2.md",
-    "TercerSemestre/Calculo3/Parcial1/Diferenciacion.md",
     "TercerSemestre/Datos_Algoritmos/Parcial1",
     "TercerSemestre/Probabilidad/Temario_Probabilidad.pdf",
     "TercerSemestre/Calculo3/Parcial4",
