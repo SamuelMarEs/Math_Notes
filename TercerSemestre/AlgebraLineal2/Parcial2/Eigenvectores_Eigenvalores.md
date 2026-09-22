@@ -30,7 +30,7 @@ $$
 $$
 es decir que todo vector de la base es un eigenvector.
 
-$\Leftarrow$ Ahora, supongamos que existe una basse $\beta$ tal que $T(v_{j})=\lambda_{j}v_{j}$ para algunos escalares $\lambda_{1},\lambda_{2},\dots,\lambda_{n}$. Entonces 
+$\Leftarrow$ Ahora, supongamos que existe una base $\beta$ tal que $T(v_{j})=\lambda_{j}v_{j}$ para algunos escalares $\lambda_{1},\lambda_{2},\dots,\lambda_{n}$. Entonces 
 $$
 	D=[T]_{\beta}=\begin{pmatrix}
 	\lambda_{1} & 0 & \dots & 0 \\
