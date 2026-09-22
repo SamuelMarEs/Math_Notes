@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "a52c594db076d3ab",
+        "id": "a36d10e99fe45ff1",
         "type": "tabs",
         "children": [
           {
-            "id": "7115a56d30d5f119",
+            "id": "49d9fd96f33f8728",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "TercerSemestre/AlgebraLineal2/Parcial2/Eigenespacios.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Eigenespacios"
+              "title": "New tab"
             }
           }
         ]
@@ -33,7 +29,7 @@
       {
         "id": "19222e06e28c1808",
         "type": "tabs",
-        "dimension": 71.7412935323383,
+        "dimension": 71.74129353233832,
         "children": [
           {
             "id": "ddd66d7aa249ed22",
@@ -85,7 +81,7 @@
       {
         "id": "4df8e38988e2d316",
         "type": "tabs",
-        "dimension": 28.258706467661685,
+        "dimension": 28.258706467661693,
         "children": [
           {
             "id": "5d1ee9aef5d2167f",
@@ -225,10 +221,11 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "7115a56d30d5f119",
+  "active": "49d9fd96f33f8728",
   "lastOpenFiles": [
-    "TercerSemestre/AlgebraLineal2/Parcial2/Diagonalizabilidad.md",
+    "TercerSemestre/Probabilidad/Parcial2/VariablesAleatorias.md",
     "TercerSemestre/AlgebraLineal2/Parcial2/Eigenespacios.md",
+    "TercerSemestre/AlgebraLineal2/Parcial2/Diagonalizabilidad.md",
     "TercerSemestre/AlgebraLineal2/Parcial2/Eigenvectores_Eigenvalores.md",
     "TercerSemestre/AlgebraLineal2/Parcial1/TransformacionesLineales.md",
     "TercerSemestre/AlgebraLineal2/Parcial1/EspaciosVectoriales.md",
@@ -253,7 +250,6 @@
     "Excalidraw/Teroema2Diferenciacion.md",
     "TercerSemestre/AlgebraLineal2/Parcial1/Tarea2_AlgebraLineal2.md",
     "TercerSemestre/Calculo3/Parcial1/Diferenciacion.md",
-    "TercerSemestre/Calculo3/Parcial1/TeoremasLimite.md",
     "TercerSemestre/Datos_Algoritmos/Parcial1",
     "TercerSemestre/Probabilidad/Temario_Probabilidad.pdf",
     "TercerSemestre/Calculo3/Parcial4",
