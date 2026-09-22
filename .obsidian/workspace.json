@@ -11,10 +11,14 @@
             "id": "7115a56d30d5f119",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Diagonalizabilidad.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Diagonalizabilidad"
             }
           }
         ]
@@ -81,7 +85,7 @@
       {
         "id": "4df8e38988e2d316",
         "type": "tabs",
-        "dimension": 28.258706467661693,
+        "dimension": 28.25870646766169,
         "children": [
           {
             "id": "5d1ee9aef5d2167f",
@@ -221,12 +225,13 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "ddd66d7aa249ed22",
+  "active": "7115a56d30d5f119",
   "lastOpenFiles": [
+    "TercerSemestre/AlgebraLineal2/Parcial2/Eigenvectores_Eigenvalores.md",
+    "Diagonalizabilidad.md",
     "TercerSemestre/Calculo3/Parcial2/PropiedadesDerivada.md",
     "TercerSemestre/Calculo3/Parcial1/TeoremasDiferenciacion.md",
     "TercerSemestre/Datos_Algoritmos/Parcial1/Recursion.md",
-    "TercerSemestre/AlgebraLineal2/Parcial2/Eigenvectores_Eigenvalores.md",
     "TercerSemestre/AlgebraLineal2/Parcial1/Tarea3_AlgebraLineal2.md",
     "TercerSemestre/Calculo3/temario_calc3.pdf",
     "TercerSemestre/Calculo3/Parcial1/PlanosTangentes.md",
@@ -249,7 +254,6 @@
     "TercerSemestre/Calculo3/Parcial1/Diferenciacion.md",
     "TercerSemestre/Calculo3/Parcial1/TeoremasLimite.md",
     "TercerSemestre/Calculo3/Parcial1/Matrices.md",
-    "TercerSemestre/Calculo3/Parcial1/DerivadasParciales.md",
     "TercerSemestre/Datos_Algoritmos/Parcial1",
     "TercerSemestre/Probabilidad/Temario_Probabilidad.pdf",
     "TercerSemestre/Calculo3/Parcial4",
