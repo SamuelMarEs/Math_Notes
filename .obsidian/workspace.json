@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "ee17e135c807ee69",
+        "id": "eeb837859ced41b9",
         "type": "tabs",
         "children": [
           {
-            "id": "7f0ee94827ec210b",
+            "id": "81f2f9f16189f4a4",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -81,7 +81,7 @@
       {
         "id": "4df8e38988e2d316",
         "type": "tabs",
-        "dimension": 28.258706467661693,
+        "dimension": 28.25870646766169,
         "children": [
           {
             "id": "5d1ee9aef5d2167f",
@@ -221,8 +221,17 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "7f0ee94827ec210b",
+  "active": "81f2f9f16189f4a4",
   "lastOpenFiles": [
+    "TercerSemestre/Datos_Algoritmos/Parcial1/MetodoMaestro.md",
+    "TercerSemestre/Datos_Algoritmos/Parcial1/Akra-Bazzi.md",
+    "Excalidraw/BusquedaRetroceso.md",
+    "TercerSemestre/Datos_Algoritmos/Parcial1/BusquedaConRetroceso.md",
+    "TercerSemestre/Datos_Algoritmos/Parcial1/Complejidad.md",
+    "TercerSemestre/Datos_Algoritmos/Parcial1/ArbolesDeRecursion.md",
+    "Excalidraw/ArbolUnaRama.md",
+    "Excalidraw/Arbol2Ramas.md",
+    "TercerSemestre/Datos_Algoritmos/Parcial1/Recursion.md",
     "TercerSemestre/AlgebraLineal2/Parcial2/Eigenvectores_Eigenvalores.md",
     "TercerSemestre/AlgebraLineal2/Parcial2/Diagonalizabilidad.md",
     "TercerSemestre/AlgebraLineal2/Parcial2/PruebaDeDiagonalizacion.md",
@@ -235,21 +244,12 @@
     "TercerSemestre/Probabilidad/Parcial2/VariablesAleatorias.md",
     "TercerSemestre/AlgebraLineal2/Parcial1/TransformacionesLineales.md",
     "TercerSemestre/AlgebraLineal2/Parcial1/EspaciosVectoriales.md",
-    "TercerSemestre/Datos_Algoritmos/Parcial1/Recursion.md",
     "TercerSemestre/AlgebraLineal2/Parcial1/Tarea3_AlgebraLineal2.md",
     "TercerSemestre/Calculo3/temario_calc3.pdf",
     "TercerSemestre/Calculo3/Parcial1/PlanosTangentes.md",
     "TercerSemestre/Calculo3/Parcial1/Continuidad.md",
     "TercerSemestre/Calculo3/Parcial1/Limite.md",
     "TercerSemestre/AlgebraLineal2/Parcial1/CambioDeBase.md",
-    "TercerSemestre/AlgebraLineal2/Parcial1/EspaciosDuales.md",
-    "TercerSemestre/AlgebraLineal2/Parcial1/RepresentacionEstandar.md",
-    "TercerSemestre/AlgebraLineal2/Parcial1/Inversas_Isomorfismos.md",
-    "TercerSemestre/AlgebraLineal2/Parcial1/EspaciosAsociadosAMatrices.md",
-    "TercerSemestre/AlgebraLineal2/Parcial1/Matrices+Transformaciones.md",
-    "TercerSemestre/AlgebraLineal2/Parcial1/BasesOrdenadas.md",
-    "TercerSemestre/AlgebraLineal2/Parcial1/TeoremaDimension.md",
-    "TercerSemestre/AlgebraLineal2/Parcial1/Proyeccion+SumaDirecta.md",
     "TercerSemestre/Datos_Algoritmos/Parcial1",
     "TercerSemestre/Probabilidad/Temario_Probabilidad.pdf",
     "TercerSemestre/Calculo3/Parcial4",
