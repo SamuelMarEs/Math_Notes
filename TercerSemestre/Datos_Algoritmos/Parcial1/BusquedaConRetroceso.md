@@ -32,3 +32,17 @@ $$
 La poda puede evitar trabajo, pero no garantiza evitar un peor caso exponencial.
 
 ###### Ejemplo de algoritmo
+Usamos una lista mutable $X$. Iniciamos con Buscar([]).
+```pseudocodigo
+Si |X| = n:
+	Registrar una copia de X
+	Retornar
+Para cada c en S_{|X|+1}:
+	 Si P(X seguido de c):
+		 Añadir c al final de X
+		 Buscar(X)
+		 Retirar el último elemento de X
+```
+En el ejemplo, $P$ rechaza prefijos con dos unos consecutivos.
+**Restauración del estado:** después de explorar una alternativa, $X$ queda como estaba antes de elegirla.
+**Terminación:** cada llamada aceptada completa una posición; quedan finitas posiciones y cada una tiene finitas alternativas.
