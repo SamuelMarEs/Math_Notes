@@ -11,10 +11,14 @@
             "id": "81f2f9f16189f4a4",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "TercerSemestre/Datos_Algoritmos/Parcial1/BusquedaConRetroceso.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "BusquedaConRetroceso"
             }
           }
         ]
@@ -29,7 +33,7 @@
       {
         "id": "19222e06e28c1808",
         "type": "tabs",
-        "dimension": 71.74129353233832,
+        "dimension": 71.7412935323383,
         "children": [
           {
             "id": "ddd66d7aa249ed22",
@@ -81,7 +85,7 @@
       {
         "id": "4df8e38988e2d316",
         "type": "tabs",
-        "dimension": 28.25870646766169,
+        "dimension": 28.258706467661685,
         "children": [
           {
             "id": "5d1ee9aef5d2167f",
@@ -223,10 +227,10 @@
   },
   "active": "81f2f9f16189f4a4",
   "lastOpenFiles": [
-    "TercerSemestre/Datos_Algoritmos/Parcial1/MetodoMaestro.md",
-    "TercerSemestre/Datos_Algoritmos/Parcial1/Akra-Bazzi.md",
     "Excalidraw/BusquedaRetroceso.md",
     "TercerSemestre/Datos_Algoritmos/Parcial1/BusquedaConRetroceso.md",
+    "TercerSemestre/Datos_Algoritmos/Parcial1/MetodoMaestro.md",
+    "TercerSemestre/Datos_Algoritmos/Parcial1/Akra-Bazzi.md",
     "TercerSemestre/Datos_Algoritmos/Parcial1/Complejidad.md",
     "TercerSemestre/Datos_Algoritmos/Parcial1/ArbolesDeRecursion.md",
     "Excalidraw/ArbolUnaRama.md",
