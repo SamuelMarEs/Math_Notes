@@ -39,11 +39,11 @@ $$
 Podemos definir las siguientes variables aleatorias:
 a) $X(w)=x$ la coordenada $x$ del punto $w$. Entonces $X\in[-1,1]$.
 b) $X(w)=x+y$ la suma de las coordenadas de $w$.
-c) $X(w)=\sqrt{ x^{2}+y^{2} }$ la distancia al origne, de modo que $X\in[0,1]$.
+c) $X(w)=\sqrt{ x^{2}+y^{2} }$ la distancia al origen, de modo que $X\in[0,1]$.
 
 En general, existen 2 tipos de variables aleatorias:
-- Discretas: son las que toman un número finito y numerable de valores.
+- Discretas: decimos que una variable aleatoria es discreta si tiene una probabilidad positiva sólo para un número finito o numberable de resultados.
 - Continuas: son aquellas que toman valores en un subconjunto de $\mathbb{R}$.
 
 #### Notación
-Vamos a denotar a las variables aleatorias con letras mayúsculas y a los valores de las variables con letras minúsculas.
+Vamos a denotar a las variables aleatorias con letras mayúsculas $(X,Y,Z)$ y a los valores de las variables con letras minúsculas $(x,y,z)$.
