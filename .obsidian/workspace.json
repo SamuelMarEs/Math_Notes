@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "bd86aaaeab91ac7b",
+        "id": "a71f882589e1c312",
         "type": "tabs",
         "children": [
           {
-            "id": "e30e00c01d0ae913",
+            "id": "f817b3c29c113a73",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -29,7 +29,7 @@
       {
         "id": "19222e06e28c1808",
         "type": "tabs",
-        "dimension": 71.74129353233832,
+        "dimension": 71.7412935323383,
         "children": [
           {
             "id": "ddd66d7aa249ed22",
@@ -81,7 +81,7 @@
       {
         "id": "4df8e38988e2d316",
         "type": "tabs",
-        "dimension": 28.25870646766169,
+        "dimension": 28.258706467661685,
         "children": [
           {
             "id": "5d1ee9aef5d2167f",
@@ -221,8 +221,11 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "e30e00c01d0ae913",
+  "active": "f817b3c29c113a73",
   "lastOpenFiles": [
+    "Excalidraw/ListaEnlazada.md",
+    "TercerSemestre/Datos_Algoritmos/Parcial1/Listas.md",
+    "Excalidraw/Listas.md",
     "TercerSemestre/Probabilidad/Parcial2/FuncionDeProbabilidad.md",
     "TercerSemestre/Probabilidad/Parcial2/VariablesAleatorias.md",
     "TercerSemestre/Datos_Algoritmos/Parcial1/BusquedaConRetroceso.md",
@@ -247,9 +250,6 @@
     "TercerSemestre/AlgebraLineal2/Parcial1/EspaciosVectoriales.md",
     "TercerSemestre/AlgebraLineal2/Parcial1/Tarea3_AlgebraLineal2.md",
     "TercerSemestre/Calculo3/temario_calc3.pdf",
-    "TercerSemestre/Calculo3/Parcial1/PlanosTangentes.md",
-    "TercerSemestre/Calculo3/Parcial1/Continuidad.md",
-    "TercerSemestre/Calculo3/Parcial1/Limite.md",
     "TercerSemestre/Datos_Algoritmos/Parcial1",
     "TercerSemestre/Probabilidad/Temario_Probabilidad.pdf",
     "TercerSemestre/Calculo3/Parcial4",
