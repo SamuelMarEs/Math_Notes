@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "832bb7414c1d82a9",
+        "id": "12da563406b2a88a",
         "type": "tabs",
         "children": [
           {
-            "id": "bd78feeab0bc3f28",
+            "id": "75073887c7b3e742",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -223,8 +223,10 @@
   },
   "active": "ddd66d7aa249ed22",
   "lastOpenFiles": [
-    "TercerSemestre/Calculo3/Parcial2/PropiedadesDerivada.md",
+    "TercerSemestre/AlgebraLineal2/Parcial2/TeoremasEigenespacios.md",
+    "TercerSemestre/AlgebraLineal2/Parcial2/SumaDirectaDeEigenespacios.md",
     "TercerSemestre/Calculo3/Parcial2/ReglaDeLaCadena.md",
+    "TercerSemestre/Calculo3/Parcial2/PropiedadesDerivada.md",
     "Excalidraw/ListaEnlazada.md",
     "TercerSemestre/Datos_Algoritmos/Parcial1/Listas.md",
     "Excalidraw/Listas.md",
@@ -242,13 +244,11 @@
     "TercerSemestre/AlgebraLineal2/Parcial2/Eigenvectores_Eigenvalores.md",
     "TercerSemestre/AlgebraLineal2/Parcial2/Diagonalizabilidad.md",
     "TercerSemestre/AlgebraLineal2/Parcial2/PruebaDeDiagonalizacion.md",
-    "TercerSemestre/AlgebraLineal2/Parcial2/TeoremasEigenespacios.md",
     "TercerSemestre/AlgebraLineal2/Parcial2/Eigenespacios.md",
     "TercerSemestre/Calculo3/Parcial1/Tareas18_agosto.md",
     "TercerSemestre/Calculo3/Parcial1/Diferenciacion.md",
     "TercerSemestre/Calculo3/Parcial1/TeoremasDiferenciacion.md",
     "TercerSemestre/AlgebraLineal2/Parcial1/TransformacionesLineales.md",
-    "TercerSemestre/AlgebraLineal2/Parcial1/EspaciosVectoriales.md",
     "TercerSemestre/Calculo3/temario_calc3.pdf",
     "TercerSemestre/Datos_Algoritmos/Parcial1",
     "TercerSemestre/Probabilidad/Temario_Probabilidad.pdf",
