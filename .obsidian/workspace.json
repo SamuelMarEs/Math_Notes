@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "a71f882589e1c312",
+        "id": "832bb7414c1d82a9",
         "type": "tabs",
         "children": [
           {
-            "id": "f817b3c29c113a73",
+            "id": "bd78feeab0bc3f28",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -29,7 +29,7 @@
       {
         "id": "19222e06e28c1808",
         "type": "tabs",
-        "dimension": 71.7412935323383,
+        "dimension": 71.74129353233832,
         "children": [
           {
             "id": "ddd66d7aa249ed22",
@@ -81,7 +81,7 @@
       {
         "id": "4df8e38988e2d316",
         "type": "tabs",
-        "dimension": 28.258706467661685,
+        "dimension": 28.258706467661693,
         "children": [
           {
             "id": "5d1ee9aef5d2167f",
@@ -221,8 +221,10 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "f817b3c29c113a73",
+  "active": "ddd66d7aa249ed22",
   "lastOpenFiles": [
+    "TercerSemestre/Calculo3/Parcial2/PropiedadesDerivada.md",
+    "TercerSemestre/Calculo3/Parcial2/ReglaDeLaCadena.md",
     "Excalidraw/ListaEnlazada.md",
     "TercerSemestre/Datos_Algoritmos/Parcial1/Listas.md",
     "Excalidraw/Listas.md",
@@ -242,13 +244,11 @@
     "TercerSemestre/AlgebraLineal2/Parcial2/PruebaDeDiagonalizacion.md",
     "TercerSemestre/AlgebraLineal2/Parcial2/TeoremasEigenespacios.md",
     "TercerSemestre/AlgebraLineal2/Parcial2/Eigenespacios.md",
-    "TercerSemestre/Calculo3/Parcial2/PropiedadesDerivada.md",
     "TercerSemestre/Calculo3/Parcial1/Tareas18_agosto.md",
     "TercerSemestre/Calculo3/Parcial1/Diferenciacion.md",
     "TercerSemestre/Calculo3/Parcial1/TeoremasDiferenciacion.md",
     "TercerSemestre/AlgebraLineal2/Parcial1/TransformacionesLineales.md",
     "TercerSemestre/AlgebraLineal2/Parcial1/EspaciosVectoriales.md",
-    "TercerSemestre/AlgebraLineal2/Parcial1/Tarea3_AlgebraLineal2.md",
     "TercerSemestre/Calculo3/temario_calc3.pdf",
     "TercerSemestre/Datos_Algoritmos/Parcial1",
     "TercerSemestre/Probabilidad/Temario_Probabilidad.pdf",
