@@ -48,10 +48,11 @@ $$
 $$
 ###### Demostración:
 
+
 ##### Teorema:
 Sean $f:U\to R$ y $g:U\to R$ diferenciables en $x_{0}$, supongamos que $g$ nunca es cero en $U$. Entonces $h=\frac{f(x)}{g(x)}$ es diferenciable en $x_{0}$ y 
 $$
 	Dh(x_{0})=\frac{g(x_{0})Df(x_{0})-f(x_{0})Dg(x_{0})}{g^{2}(x_{0})}.
 $$
 ###### Demostración:
-(A lo mejor es más sencillo demostrar primero el caso para $D\frac{1}{g}$).
+(A lo mejor es más sencillo demostrar primero el caso para $D\frac{1}{g}=-\frac{1}{g^{2}}Dg$, y a partir de eso generalizar basandonos en la regla del producto).
