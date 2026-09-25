@@ -1,5 +1,4 @@
 #Probabilidad 
-
 #### Definición:
 Sea $X$ una [[VariablesAleatorias|variable aleatoria]] discreta. Sea $f$ una funión que va de los reales al intervalo $[0,1]$ tal que 
 $$
