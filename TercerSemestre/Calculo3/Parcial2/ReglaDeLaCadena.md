@@ -39,7 +39,7 @@ Entonces tenemos que
 $$
 	\frac{dh}{dt}= \frac{\partial f}{\partial x} \frac{dx}{dt}+ \frac{\partial f}{\partial y} \frac{dy}{dt} + \frac{\partial f}{\partial z } \frac{dz}{dt}.
 $$
-Notemos que $h:R\to R$, y por lo tanto no estamos trabajando con una derivada clásica, no parcial.
+Notemos que $h:R\to R$, y por lo tanto estamos trabajando con una derivada clásica, no parcial.
 Es decir que
 $$
 	\frac{dh}{dt}= <\nabla f,c'(t)>.

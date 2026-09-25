@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "e45824b556bbd048",
+        "id": "62fed8bfb3e37eca",
         "type": "tabs",
         "children": [
           {
-            "id": "55270ad13573f977",
+            "id": "af319a32795892f6",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -81,7 +81,7 @@
       {
         "id": "4df8e38988e2d316",
         "type": "tabs",
-        "dimension": 28.258706467661693,
+        "dimension": 28.25870646766169,
         "children": [
           {
             "id": "5d1ee9aef5d2167f",
@@ -221,8 +221,9 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "ddd66d7aa249ed22",
+  "active": "af319a32795892f6",
   "lastOpenFiles": [
+    "TercerSemestre/Calculo3/Parcial2/ReglaDeLaCadena.md",
     "TercerSemestre/Probabilidad/Parcial2/ValorEsperado.md",
     "TercerSemestre/Probabilidad/Parcial2/FuncionDeDistribucion.md",
     "TeoremaCambioDeVariable.md",
@@ -230,7 +231,6 @@
     "TercerSemestre/Datos_Algoritmos/Parcial1/BusquedaConRetroceso.md",
     "TercerSemestre/AlgebraLineal2/Parcial2/TeoremasEigenespacios.md",
     "TercerSemestre/AlgebraLineal2/Parcial2/SumaDirectaDeEigenespacios.md",
-    "TercerSemestre/Calculo3/Parcial2/ReglaDeLaCadena.md",
     "TercerSemestre/Calculo3/Parcial2/PropiedadesDerivada.md",
     "Excalidraw/ListaEnlazada.md",
     "TercerSemestre/Datos_Algoritmos/Parcial1/Listas.md",
