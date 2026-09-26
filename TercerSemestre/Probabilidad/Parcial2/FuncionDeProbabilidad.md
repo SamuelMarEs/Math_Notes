@@ -89,6 +89,32 @@ Para $x\geq 1$, tenemos que $x-1\geq 0$. Además $2^{x}>0$ para toda $x$, por lo
 $$
 	\sum_{x=1}^{\infty} \frac{x-1}{2^{x}}.
 $$
-Sabemos que 
+Realicemos un cambio de variable $n=x-1$, de modo que tenemos 
+$$
+	\sum_{n=0}^{\infty} \frac{n}{2^{n+1}}=\frac{1}{2}\sum_{n=0}^{\infty} \frac{n}{2^{n}}.
+$$
+Esta es una serie geométrica ligeramente modificada, que converge a 
+$$
+	\sum_{n=0}^{\infty} \frac{n}{2^{n}}=\frac{1 / 2}{(1- 1 / 2)^{2}}=2,
+$$
+por lo tanto 
+$$
+	\sum_{x=1}^{\infty} \frac{x-1}{2^{x}}=\frac{1}{2}2=1.
+$$
+
 
 2.- Sea $f(x)=\begin{cases} \frac{p^{x-1}(1-p)}{1-p^{n}}, & x=1,\dots,n,\quad p\in(0,1) \\  0, & \text{en otro caso}\end{cases}$.
+**Sol:**
+Como $0<p<1$, entonces tenemos que $p^{x-1}>0,1-p>0$ y $1-p^{n}>0$ para $n\neq 0$. Por lo tanto $f(x)\geq 0$ para toda $x$.
+Ahora, tomemos 
+$$
+	\sum_{x=1}^{n} \frac{p^{x-1}(1-p)}{1-p^{n}}.
+$$
+Observemos que los términos $(1-p) / (1-p^{n})$ no dependen de $x$, entonces realmente queremos calcular 
+$$
+	\sum_{x=1}^{n}p^{x-1}=\sum_{x=0}^{n-1}p^{x}=\frac{1-p^{n}}{1-p},
+$$
+por lo tanto 
+$$
+	\sum_{x=1}^{n} \frac{p^{x-1}(1-p)}{1-p^{n}}=\frac{1-p}{1-p^{n}} \frac{1-p^{n}}{1-p}=1.
+$$

@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "62fed8bfb3e37eca",
+        "id": "1f088df5cc185d37",
         "type": "tabs",
         "children": [
           {
-            "id": "af319a32795892f6",
+            "id": "164b7b09f7199f52",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "TercerSemestre/Probabilidad/Parcial2/FuncionDeDistribucion.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "FuncionDeDistribucion"
             }
           }
         ]
@@ -221,21 +225,23 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "af319a32795892f6",
+  "active": "164b7b09f7199f52",
   "lastOpenFiles": [
-    "TercerSemestre/Calculo3/Parcial2/ReglaDeLaCadena.md",
     "TercerSemestre/Probabilidad/Parcial2/ValorEsperado.md",
+    "TercerSemestre/Probabilidad/Parcial2/V.A.Independientes.md",
     "TercerSemestre/Probabilidad/Parcial2/FuncionDeDistribucion.md",
-    "TeoremaCambioDeVariable.md",
     "TercerSemestre/Probabilidad/Parcial2/FuncionDeProbabilidad.md",
-    "TercerSemestre/Datos_Algoritmos/Parcial1/BusquedaConRetroceso.md",
+    "TercerSemestre/Probabilidad/Parcial2/Tarea4Probabilidad.md",
+    "TercerSemestre/Probabilidad/Parcial2/VariablesAleatorias.md",
+    "TercerSemestre/Probabilidad/Parcial1/Tarea3Probabilidad.md",
     "TercerSemestre/AlgebraLineal2/Parcial2/TeoremasEigenespacios.md",
     "TercerSemestre/AlgebraLineal2/Parcial2/SumaDirectaDeEigenespacios.md",
+    "TercerSemestre/Calculo3/Parcial2/ReglaDeLaCadena.md",
     "TercerSemestre/Calculo3/Parcial2/PropiedadesDerivada.md",
     "Excalidraw/ListaEnlazada.md",
     "TercerSemestre/Datos_Algoritmos/Parcial1/Listas.md",
     "Excalidraw/Listas.md",
-    "TercerSemestre/Probabilidad/Parcial2/VariablesAleatorias.md",
+    "TercerSemestre/Datos_Algoritmos/Parcial1/BusquedaConRetroceso.md",
     "Excalidraw/BusquedaRetroceso.md",
     "TercerSemestre/Datos_Algoritmos/Parcial1/MetodoMaestro.md",
     "TercerSemestre/Datos_Algoritmos/Parcial1/Akra-Bazzi.md",
@@ -247,8 +253,6 @@
     "TercerSemestre/AlgebraLineal2/Parcial2/Eigenvectores_Eigenvalores.md",
     "TercerSemestre/AlgebraLineal2/Parcial2/Diagonalizabilidad.md",
     "TercerSemestre/AlgebraLineal2/Parcial2/PruebaDeDiagonalizacion.md",
-    "TercerSemestre/AlgebraLineal2/Parcial2/Eigenespacios.md",
-    "TercerSemestre/Calculo3/Parcial1/Tareas18_agosto.md",
     "TercerSemestre/Calculo3/temario_calc3.pdf",
     "TercerSemestre/Datos_Algoritmos/Parcial1",
     "TercerSemestre/Probabilidad/Temario_Probabilidad.pdf",
