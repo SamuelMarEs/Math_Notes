@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TercerSemestre/Probabilidad/Parcial2/FuncionDeDistribucion.md",
+                "file": "TercerSemestre/Probabilidad/Parcial2/Tarea4Probabilidad.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "FuncionDeDistribucion"
+              "title": "Tarea4Probabilidad"
             }
           }
         ]
@@ -225,11 +225,11 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "164b7b09f7199f52",
+  "active": "ddd66d7aa249ed22",
   "lastOpenFiles": [
+    "TercerSemestre/Probabilidad/Parcial2/FuncionDeDistribucion.md",
     "TercerSemestre/Probabilidad/Parcial2/ValorEsperado.md",
     "TercerSemestre/Probabilidad/Parcial2/V.A.Independientes.md",
-    "TercerSemestre/Probabilidad/Parcial2/FuncionDeDistribucion.md",
     "TercerSemestre/Probabilidad/Parcial2/FuncionDeProbabilidad.md",
     "TercerSemestre/Probabilidad/Parcial2/Tarea4Probabilidad.md",
     "TercerSemestre/Probabilidad/Parcial2/VariablesAleatorias.md",
