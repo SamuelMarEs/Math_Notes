@@ -17,7 +17,7 @@ entonces decimos que $\mathcal{F}$ es una ***sigma álgebra*** ($\sigma$-álgebr
 3. $\mathcal{F}=2^{\Omega}$ el conjunto potencia es una $\sigma$-álgebra.
 
 ### Sigma álgebra de Borel
-La $\sigma$-álgebra de Borel de $\mathbb{R}$, denotada por $\mathcal{B}(\mathbb{R})$ es la mínima $\sigma$-álgebra de subconjuntos de $\mathbb{R}$ generada por los interalos $(-\infty,x]$. Esto se denota por 
+La $\sigma$-álgebra de Borel de $\mathbb{R}$, denotada por $\mathcal{B}(\mathbb{R})$ es la mínima $\sigma$-álgebra de subconjuntos de $\mathbb{R}$ generada por los intervalos $(-\infty,x]$. Esto se denota por 
 $$
 	\mathcal{B}(\mathbb{R})=\sigma \{ (-\infty,x]:x\in\mathbb{R} \}.
 $$
