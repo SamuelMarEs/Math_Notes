@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "bfd4dc3c056a7ce4",
+        "id": "a85a219fa1d511c7",
         "type": "tabs",
         "children": [
           {
-            "id": "a444a6f969107ea6",
+            "id": "0a94467718b9b2db",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "TercerSemestre/AlgebraLineal2/Parcial2/SubespaciosInvariantes.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "SubespaciosInvariantes"
             }
           }
         ]
@@ -221,8 +225,10 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "a444a6f969107ea6",
+  "active": "ddd66d7aa249ed22",
   "lastOpenFiles": [
+    "TercerSemestre/AlgebraLineal2/Parcial2/SubespaciosInvariantes.md",
+    "TercerSemestre/AlgebraLineal2/Parcial1/BasesOrdenadas.md",
     "TercerSemestre/Calculo3/Parcial2/ReglaDeLaCadena.md",
     "TercerSemestre/Calculo3/Parcial2/DerivadaDireccional.md",
     "TercerSemestre/Probabilidad/Parcial2/Tarea4Probabilidad.md",
@@ -256,8 +262,6 @@
     "Excalidraw/ListaEnlazada.md",
     "TercerSemestre/Datos_Algoritmos/Parcial1/Listas.md",
     "Excalidraw/Listas.md",
-    "TercerSemestre/Datos_Algoritmos/Parcial1/BusquedaConRetroceso.md",
-    "Excalidraw/BusquedaRetroceso.md",
     "TercerSemestre/Calculo3/temario_calc3.pdf",
     "TercerSemestre/Datos_Algoritmos/Parcial1",
     "TercerSemestre/Probabilidad/Temario_Probabilidad.pdf",
