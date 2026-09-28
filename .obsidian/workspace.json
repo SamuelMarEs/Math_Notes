@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "1dd3f0667748408e",
+        "id": "bfd4dc3c056a7ce4",
         "type": "tabs",
         "children": [
           {
-            "id": "86e99cf0928049fd",
+            "id": "a444a6f969107ea6",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -81,7 +81,7 @@
       {
         "id": "4df8e38988e2d316",
         "type": "tabs",
-        "dimension": 28.258706467661693,
+        "dimension": 28.25870646766169,
         "children": [
           {
             "id": "5d1ee9aef5d2167f",
@@ -221,10 +221,13 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "86e99cf0928049fd",
+  "active": "a444a6f969107ea6",
   "lastOpenFiles": [
-    "TercerSemestre/Imagenes/CDF_ejercicio194.png",
+    "TercerSemestre/Calculo3/Parcial2/ReglaDeLaCadena.md",
+    "TercerSemestre/Calculo3/Parcial2/DerivadaDireccional.md",
     "TercerSemestre/Probabilidad/Parcial2/Tarea4Probabilidad.md",
+    "TercerSemestre/Calculo3/Parcial2/Gradiente.md",
+    "TercerSemestre/Imagenes/CDF_ejercicio194.png",
     "TercerSemestre/Probabilidad/Parcial2/FuncionDeDistribucion.md",
     "TercerSemestre/Imagenes/PDF_ejercicio192.png",
     "TercerSemestre/Imagenes/PDF_ejercicio191.png",
@@ -249,14 +252,12 @@
     "TercerSemestre/Probabilidad/Parcial1/Tarea3Probabilidad.md",
     "TercerSemestre/AlgebraLineal2/Parcial2/TeoremasEigenespacios.md",
     "TercerSemestre/AlgebraLineal2/Parcial2/SumaDirectaDeEigenespacios.md",
-    "TercerSemestre/Calculo3/Parcial2/ReglaDeLaCadena.md",
     "TercerSemestre/Calculo3/Parcial2/PropiedadesDerivada.md",
     "Excalidraw/ListaEnlazada.md",
     "TercerSemestre/Datos_Algoritmos/Parcial1/Listas.md",
     "Excalidraw/Listas.md",
     "TercerSemestre/Datos_Algoritmos/Parcial1/BusquedaConRetroceso.md",
     "Excalidraw/BusquedaRetroceso.md",
-    "TercerSemestre/Datos_Algoritmos/Parcial1/MetodoMaestro.md",
     "TercerSemestre/Calculo3/temario_calc3.pdf",
     "TercerSemestre/Datos_Algoritmos/Parcial1",
     "TercerSemestre/Probabilidad/Temario_Probabilidad.pdf",
