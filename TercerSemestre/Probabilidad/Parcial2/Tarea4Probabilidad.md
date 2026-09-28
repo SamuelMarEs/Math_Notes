@@ -1,3 +1,5 @@
+###### Samuel Márquez Estrada
+
 160.- Suponga que un experimento aleatorio consiste en escoger un número al azar dentro del intervalo $(0,1)$. Cada resultado $w$ del experimento se expresa en su expansión decimal 
 $$
 	w=0.a_{1}a_{2}\dots
@@ -115,6 +117,7 @@ c) $P(-1<X\leq 2)=P(X=0)+P(X=1)+P(X=2)=1 / 2+ 1/8+ 1 / 8=3 / 4.$
 d) $P(X^{2}\geq 1)=1-P(X^{2} = 0)=1-P(X=0)=1-1 / 2=1 / 2.$
 e) $P(|X-1|<2)=P(-2<X-1<2)=P(-1<X<3)=P(-1<X\leq 2)=3 / 4$.
 f) $P(X-X^{2}<0)=P(X<X^{2})=P(X=-2)+P(X=2)=1 / 8+ 1 / 8= 1 / 4.$
+![[PDF_ejercicio170.png]]
 
 
 174.- Sean $f(x)$ y $g(x)$ dos funciones de probabilidad. Demuestre o proporcione un contra ejemplo, en cada caso, para la afirmación que establece que la siguiente función es de probabilidad.
@@ -164,7 +167,7 @@ $$
 	\sum_{n=1}^{\infty}\left( \frac{5}{6} \right)^{n-1}\left( \frac{1}{6} \right)=\left( \frac{1}{6} \right)\sum_{n=0}^{\infty}\left( \frac{5}{6} \right)^{n}=\left( \frac{1}{6} \right) \frac{1}{1-5 / 6}=1,
 $$
 por lo tanto $f$ si es una función de probabilidad.
-
+![[f(x)_ejercicio180.png]]
 
 191.- Suponga que la variable aleatoria discreta $X$ tiene la siguiente función de distribución. 
 $$
@@ -177,12 +180,22 @@ $$
 	\end{cases}
 $$
 Grafique $F(x)$, obtenga y grafique la correspondiente función de probabilidad $f(x)$ y calcule las siguientes probabilidades.
-a) $P(X\leq 3)$
-b) $P(X=3)$
-c) $P(X<3)$
-d) $P(X\geq 1)$
-e) $P(-1 / 2<X<4)$
-f) $P(X=5)$
+**Sol:**
+Para encontrar la función de probabilidad, basta en fijarse como está definida $F(x)$, de modo que es sencillo ver que 
+
+| x    | -1  | 0   | 1   | 2   | 3   | 4   | 5   |
+| ---- | --- | --- | --- | --- | --- | --- | --- |
+| f(x) | 1/4 | 0   | 1/4 | 0   | 1/4 | 0   | 1/4 |
+
+a) $P(X\leq 3)=P(X=-1)+P(X=1)+P(X=3)=\frac{3}{4}.$
+b) $P(X=3)=\frac{1}{4}.$
+c) $P(X<3)=P(X=-1)+P(X=1)=\frac{1}{2}.$
+d) $P(X\geq 1)=1-P(X<1)=1-P(-1)=\frac{3}{4}$.
+e) $P(-1 / 2<X<4)=P(X=1)+P(X=3)=\frac{1}{2}.$
+f) $P(X=5)=\frac{1}{4}$.
+![[CDF_ejercicio191.png|705]]
+![[PDF_ejercicio191.png]]
+
 
 
 192.- Muestre que la siguiente función es de probabilidad y encuentra la correspondiente función de distribución. Grafique ambas funciones. 
@@ -212,6 +225,8 @@ $$
 	0, & \text{en otro caso}
 	\end{cases}.
 $$
+![[PDF_ejercicio192.png]]
+![[CDF_ejercicio192.png]]
 
 
 194.- Grafique la siguiente función y compruebe que es una función de distribución. Determine si se trata de la función de distribución de una variable aleatoria discreta o continua. Encuentre además la correspondiente función de probabilidad o de densidad. 
@@ -223,6 +238,24 @@ $$
 	1 & \text{si }x\geq 2.
 	\end{cases}
 $$
+**Sol:**
+Notemos que $\lim_{ n \to \infty }F(n)=1$, pues $F(n)=1$ para $x\geq 2$. Análogamente $\lim_{ n \to -\infty }F(n)=0$. Además es fácil ver que la función es no decreciente (por como está definida), además de ser continua por la derecha (esto pues las desigualdades son son todas de la forma $a\leq x<b$).
+Para encontrar la función de probabilidad. Observemos que como $F(x)=0$ para $x<0$, entonces $f(x)=0$ para $x<0$. De forma análoga, como no hay cambios para $x>2$, entonces $f(x)=0$ para $x>2$. Entonces solo falta ver que pasa en $0,1\text{ y }2$. Por la continuidad por la derecha, y bajo el supuesto de que estamos trabajando con una v.a. discreta, podemos definir la función de probabilidad como 
 
+| x    | 0   | 1   | 2   |
+| ---- | --- | --- | --- |
+| f(x) | 1/5 | 2/5 | 2/5 |
+![[CDF_ejercicio194.png]]
 
 207.- Una moneda equilibrada y marcada con "Cara" y "Cruz" se lanza repetidas veces hasta obtener el resultado "Cruz". Defina la variable aleatoria $X$ como el número de lanzamientos necesarios hasta obtener el resultado de interés. Encuentre la función de distribución de $X$.
+**Sol:**
+Sea $X=$"número de lanzamientos hasta obtener cruz". Como la moneda es equilibrada, tenemos que la probabilidad de sacar "Cara" o de sacar "Cruz" es $1 / 2$.
+Entonces, la probabilidad de que tome $n$ lanzamientos obtener "Cruz", es la probabilidad de no obtener "Cruz" $n-1$ veces, y en la última obtener "Cruz". Es decir 
+$$
+	P(X=x)=\left( \frac{1}{2} \right)^{x-1}\left( \frac{1}{2} \right)=\left( \frac{1}{2} \right)^{x},
+$$
+es decir que la función de probabilidad es $f(x)=\begin{cases}\left( \frac{1}{2} \right)^{x}, & \text{si }x=1,2,\dots \\  0 & \text{en otro caso}\end{cases}.$ Entonces tenemos que la función de distribución para $x\geq 1$ es 
+$$
+	F(x)=\sum_{n=1}^{x}\left( \frac{1}{2} \right)^{x}=1-\left( \frac{1}{2} \right)^{x},
+$$
+por el ejercicio 192.
