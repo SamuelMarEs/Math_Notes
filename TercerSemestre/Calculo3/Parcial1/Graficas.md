@@ -15,7 +15,7 @@ $$
 	\{ (x,y,x^{2}+y^{2},xy)\in\mathbb{R}^{4}:(x,y)\in\mathbb{R}^{2}\}.
 $$
 
-***NOTA:*** no confundir la imgaen y la gráfica de una función.
+***NOTA:*** no confundir la imagen y la gráfica de una función.
 Por ejemplo, sea $c:\mathbb{R}\to\mathbb{R}^{2}$ dada por $c(t)=(\cos t,\sin t)$ con $0\leq t\leq 2\pi$. La imagen de nuestra función es el círculo en $\mathbb{R}^{2}$.
 ![[Circulo.png|365]]
 Por otro lado, su gráfica es 
