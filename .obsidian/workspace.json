@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "18ba599cf061151a",
+        "id": "df0cfe0d425d000f",
         "type": "tabs",
         "children": [
           {
-            "id": "8bc67cf6cc1d974a",
+            "id": "f2e6aef33b29369e",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -81,7 +81,7 @@
       {
         "id": "4df8e38988e2d316",
         "type": "tabs",
-        "dimension": 28.25870646766169,
+        "dimension": 28.258706467661693,
         "children": [
           {
             "id": "5d1ee9aef5d2167f",
@@ -221,10 +221,20 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "8bc67cf6cc1d974a",
+  "active": "f2e6aef33b29369e",
   "lastOpenFiles": [
-    "TercerSemestre/Datos_Algoritmos/Parcial1/Pilas.md",
+    "TercerSemestre/Calculo3/Parcial2/LongitudDeArco.md",
+    "TercerSemestre/Calculo3/Parcial2/DerivadaDeFuncionVectorial.md",
+    "TercerSemestre/Calculo3/Parcial1/Graficas.md",
+    "Excalidraw/VectorTangente.md",
     "TercerSemestre/AlgebraLineal2/Parcial2/SubespaciosInvariantes.md",
+    "TercerSemestre/AlgebraLineal2/Parcial2/SumaDirectaDeEigenespacios.md",
+    "TercerSemestre/AlgebraLineal2/Parcial2/PruebaDeDiagonalizacion.md",
+    "TercerSemestre/AlgebraLineal2/Parcial2/TeoremasEigenespacios.md",
+    "TercerSemestre/AlgebraLineal2/Parcial2/Eigenespacios.md",
+    "TercerSemestre/AlgebraLineal2/Parcial2/Diagonalizabilidad.md",
+    "TercerSemestre/AlgebraLineal2/Parcial2/Eigenvectores_Eigenvalores.md",
+    "TercerSemestre/Datos_Algoritmos/Parcial1/Pilas.md",
     "EcuacionesAndy.md",
     "TercerSemestre/AlgebraLineal2/Parcial1/BasesOrdenadas.md",
     "TercerSemestre/Calculo3/Parcial2/ReglaDeLaCadena.md",
@@ -248,16 +258,6 @@
     "TercerSemestre/Probabilidad/Parcial1/Combinatoria.md",
     "TercerSemestre/Probabilidad/Parcial1/ProbabilidadCondicional.md",
     "TercerSemestre/Probabilidad/Parcial1/ProbabilidadFrecuentista.md",
-    "TercerSemestre/Probabilidad/Parcial1/ProbabilidadClasica.md",
-    "TercerSemestre/Probabilidad/Parcial2/VariablesAleatorias.md",
-    "TercerSemestre/Probabilidad/Parcial1/SigmaAlgebra.md",
-    "TercerSemestre/Probabilidad/Parcial2/ValorEsperado.md",
-    "TercerSemestre/Probabilidad/Parcial2/V.A.Independientes.md",
-    "TercerSemestre/Probabilidad/Parcial1/Tarea3Probabilidad.md",
-    "TercerSemestre/AlgebraLineal2/Parcial2/TeoremasEigenespacios.md",
-    "TercerSemestre/AlgebraLineal2/Parcial2/SumaDirectaDeEigenespacios.md",
-    "TercerSemestre/Calculo3/Parcial2/PropiedadesDerivada.md",
-    "Excalidraw/ListaEnlazada.md",
     "TercerSemestre/Calculo3/temario_calc3.pdf",
     "TercerSemestre/Datos_Algoritmos/Parcial1",
     "TercerSemestre/Probabilidad/Temario_Probabilidad.pdf",
