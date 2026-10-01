@@ -36,4 +36,18 @@ En base a esto, podemos definir la función
 $$
 	s(t)=\int_{a}^{t}\lvert \lvert c'(\alpha) \rvert  \rvert d\alpha.
 $$
+#### Función Longitud de Arco
+Sea 
+$$
+	s(t)=\int _{a}^{t}\lvert \lvert c'(\alpha) \rvert  \rvert  \, d\alpha 
+$$
+la función de longitud de arco de una función.
+Por el Teorema fundamental del cálculo, tenemos que 
+$$
+	\frac{d}{dt}s(t)=\lvert \lvert c'(t) \rvert  \rvert \quad\forall t.
+$$
+Si $c(t)$ está parametrizada por longitud de arco, es decir que $\lvert \lvert c'(t) \rvert \rvert=1$, entonces tenemos que 
+$$
+	s(t)=\int_{a}^{t}d\alpha=t-a.
+$$
 
