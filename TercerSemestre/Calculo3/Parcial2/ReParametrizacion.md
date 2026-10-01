@@ -70,4 +70,43 @@ $$
 	\frac{d^{n}f}{dx^{n}}=(-1)^{n-1} \frac{1\cdot 3\cdot\dots \cdot(2n-3)}{2^{n}}x^{-\frac{2n-1}{2}}
 $$
 para $n\geq 2$.
+Entonces tenemos que 
+$$
+	\frac{d}{dt}s(t)= f(x_{1}'(t)^{2}+\dots+s
+	x_{n}'(t)^{2})
+$$
+es la composición de dos funciones diferenciables, y ambas son suaves, la $n$-ésima derivada existe para ambos casos. Por lo tanto la función longitud de arco es suave.
 
+#### Proposición:
+Una curva tiene una parametrización por longitud de arco si y sólo si es regular.
+##### Demostración:
+$\Rightarrow)$ Si $c(t)$ tiene una parametrización por longitud de arco $\gamma$, entonces existe $\phi$ tal que $t=\phi(\tau)$,  es decir que $c(t)=c(\phi(\tau))=\gamma(\tau)$. 
+Por regla de la cadena, tenemos que 
+$$
+	\frac{d\gamma}{d\tau}=\frac{dc}{dt} \frac{dt}{d\tau},
+$$
+y si tomamos la norma, tenemos que 
+$$
+	\lvert \lvert \frac{d\gamma}{d\tau} \rvert  \rvert =\lvert \lvert \frac{dc}{dt} \rvert  \rvert \lvert \lvert  \frac{dt}{d\tau} \rvert  \rvert .
+$$
+Como por hipótesis $\lvert \lvert \gamma' \rvert \rvert=1$ (por ser una parametrización por longitud de arco), entonces tenemos que $\lvert \lvert c'(t) \rvert \rvert \neq 0$, por lo tanto $c'(t)\neq 0$, es decir que es regular.
+
+($\Leftarrow$ Si $c(t)$ es regular, sabemos que la función longitud de arco $s(t)$ es suave, y que 
+$$
+	\frac{ds}{dt}=\lvert \lvert c'(t) \rvert  \rvert >0.
+$$
+Como $c(t)$ es regular, o $c(t)$ es estrictamente creciente, o estrictamente decreciente, y por lo tanto $s(t)$ es estrictamente creciente y continua, por lo tanto es inyectiva.
+Por lo tanto, sea $s:(a,b)\to\mathbb{R}$, tomemos $(\alpha,\beta)=s(a,b)$, de modo que podemos definir la inversa $s ^{-1}:(\alpha,\beta)\to(a,b)$. Llamemos a la inversa $\phi=s ^{-1}$, correspondiente a la reparametrización $\gamma$.
+Entonces tenemos que 
+$$
+	\gamma(s)=c(t)\Rightarrow \frac{d\gamma}{ds} \frac{ds}{dt}= \frac{dc}{dt}.
+$$
+Entonces si tomamos la norma, tenemos que 
+$$
+	\left\lvert  \left\lvert  \frac{d\gamma}{ds}  \right\rvert   \right\rvert \frac{ds}{dt}=\left\lvert  \left\lvert  \frac{dc}{dt}  \right\rvert   \right\rvert ,
+$$
+pero como $s(t)$ es la longitud de arco, tenemos que $s'(t)=\lvert \lvert c'(t) \rvert \rvert$, y por lo tanto tenemos que 
+$$
+	\left\lvert  \left\lvert  \frac{d\gamma}{ds}  \right\rvert   \right\rvert =1,
+$$
+es decir que $\gamma$ es una parametrización por longitud de arco. $\quad\square$
