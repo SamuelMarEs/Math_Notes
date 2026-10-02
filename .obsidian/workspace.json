@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "f731cbc77243f66a",
+        "id": "cb69caf37daa0b5b",
         "type": "tabs",
         "children": [
           {
-            "id": "99d693f5a65e76c4",
+            "id": "34fd62c398f4a1e1",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -81,7 +81,7 @@
       {
         "id": "4df8e38988e2d316",
         "type": "tabs",
-        "dimension": 28.258706467661693,
+        "dimension": 28.25870646766169,
         "children": [
           {
             "id": "5d1ee9aef5d2167f",
@@ -221,8 +221,12 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "99d693f5a65e76c4",
+  "active": "34fd62c398f4a1e1",
   "lastOpenFiles": [
+    "TercerSemestre/Probabilidad/Parcial2/Verosimilitud.md",
+    "TercerSemestre/Probabilidad/Parcial2/V.A.Independientes.md",
+    "TercerSemestre/Probabilidad/Parcial2/VariablesAleatorias.md",
+    "TercerSemestre/Probabilidad/Parcial2/Varianza_DesviacionEstandar.md",
     "TercerSemestre/Calculo3/Parcial2/LongitudDeArco.md",
     "TercerSemestre/Calculo3/Parcial2/ReParametrizacion.md",
     "TercerSemestre/AlgebraLineal2/Parcial2/TeoremasEigenespacios.md",
@@ -245,9 +249,7 @@
     "TercerSemestre/AlgebraLineal2/Parcial1/BasesOrdenadas.md",
     "TercerSemestre/Calculo3/Parcial2/ReglaDeLaCadena.md",
     "TercerSemestre/Probabilidad/Parcial2/Tarea4Probabilidad.md",
-    "TercerSemestre/Calculo3/Parcial2/Gradiente.md",
     "TercerSemestre/Imagenes/CDF_ejercicio194.png",
-    "TercerSemestre/Probabilidad/Parcial2/FuncionDeDistribucion.md",
     "TercerSemestre/Imagenes/PDF_ejercicio192.png",
     "TercerSemestre/Imagenes/PDF_ejercicio191.png",
     "TercerSemestre/Imagenes/CDF_ejercicio191.png",
@@ -256,8 +258,6 @@
     "TercerSemestre/Imagenes/f(x)_ejercicio180.png",
     "TercerSemestre/Imagenes/PDF_ejercicio170.png",
     "TercerSemestre/Probabilidad/Parcial2/Tarea4Probabilidad.ipynb",
-    "TercerSemestre/Probabilidad/Parcial2/FuncionDeProbabilidad.md",
-    "TercerSemestre/Probabilidad/Parcial1/PrincipiosDeProbabilidad.md",
     "TercerSemestre/Calculo3/temario_calc3.pdf",
     "TercerSemestre/Datos_Algoritmos/Parcial1",
     "TercerSemestre/Probabilidad/Temario_Probabilidad.pdf",
