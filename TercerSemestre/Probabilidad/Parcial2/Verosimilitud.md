@@ -41,3 +41,10 @@ $$
 	\frac{d\ell(p)}{dp}=\frac{s}{p}+\frac{n-s}{1-p}(-1)=0,
 $$
 y por lo tanto $p=s / n$.
+
+De forma más general, la verosimilitud se define como 
+$$
+	L(\theta|x)=\prod_{i=1}^{N}f(x|\theta),
+$$
+para $\theta$ un conjunto de parámetros, y $x$ una muestra o conjunto de observaciones.
+
