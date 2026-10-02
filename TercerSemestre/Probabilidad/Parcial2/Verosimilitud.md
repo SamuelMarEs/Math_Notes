@@ -28,13 +28,13 @@ dónde $\sum x_{i}$ es el número de veces que aparece la condición, y $n-\sum 
 
 A la probabilidad de observar una muestra se le conoce como ***función de verosimilitud***, y únicamente depende de los parámetros del modelo de probabilidad, en este caso, de $p$. 
 $$
-	\mathcal{L}(p)=p^{s}(1-p)^{n-s},
+	L(p)=p^{s}(1-p)^{n-s},
 $$
 dónde en este caso, $s=\sum x_{i}$.
 
 Observemos que podemos definir la función del logaritmo de la verosimilitud para encontrar $p$, es decir 
 $$
-	\ell(p)=\ln(\mathcal{L}(p))=s\ln(p)+(n-s)\ln(1-p).
+	\ell(p)=\ln(L(p))=s\ln(p)+(n-s)\ln(1-p).
 $$
 Si tomamos la derivada con respecto a $p$, tenemos que 
 $$
