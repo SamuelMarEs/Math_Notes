@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "50353602579ef6a0",
+        "id": "4d6bf150a0bd3b67",
         "type": "tabs",
         "children": [
           {
-            "id": "b5cc9a534d612a96",
+            "id": "a6970535b002fbd4",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "TercerSemestre/AlgebraLineal2/Parcial3/ProductoInterno.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "ProductoInterno"
+              "title": "New tab"
             }
           }
         ]
@@ -225,7 +221,7 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "b5cc9a534d612a96",
+  "active": "a6970535b002fbd4",
   "lastOpenFiles": [
     "TercerSemestre/AlgebraLineal2/Parcial3/ProductoInterno.md",
     "TercerSemestre/Calculo3/Parcial2/Curvatura.md",
