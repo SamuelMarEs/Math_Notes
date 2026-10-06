@@ -12,10 +12,10 @@ d) $\langle x,x\rangle \geq0\forall x\in V$.
 
 #### Teorema 6.1 (propiedades):
 1..- $\langle x,y+z\rangle = \langle x,y\rangle+\langle x, z\rangle$.
-2.- $\langle x,cy\rangle=c\langle x,y\rangle$.
+2.- $\langle x,cy\rangle=\overline{c}\langle x,y\rangle$.
 3.- $\langle x,0\rangle=\langle 0,x\rangle=0$.
 4.- $\langle x, x\rangle=0\Longleftrightarrow x=0$. 
-5.- $\langle x,y\rangle=\langle x,z\rangle \implies z=y$.
+5.- $\langle x,y\rangle=\langle x,z\rangle\forall x\in V \implies z=y$.
 ##### Demostración:
 1.- $\langle x, y+z\rangle=\overline{\langle y+z, x\rangle}=\overline{\langle y,x\rangle+\langle z, x\rangle}=\overline{\langle y,x\rangle}+\overline{\langle z,x\rangle}=\langle x,y\rangle+\langle x,z\rangle$.
 2.- 
