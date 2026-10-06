@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "ad3a0047cd029e1a",
+        "id": "5ab9ee1bfa81d78d",
         "type": "tabs",
         "children": [
           {
-            "id": "c145808a25e81d97",
+            "id": "b0c76463723abeb7",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -81,7 +81,7 @@
       {
         "id": "4df8e38988e2d316",
         "type": "tabs",
-        "dimension": 28.258706467661693,
+        "dimension": 28.25870646766169,
         "children": [
           {
             "id": "5d1ee9aef5d2167f",
@@ -221,8 +221,13 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "c145808a25e81d97",
+  "active": "b0c76463723abeb7",
   "lastOpenFiles": [
+    "TercerSemestre/Datos_Algoritmos/Parcial2/Arboles.md",
+    "Excalidraw/Arboles.md",
+    "TercerSemestre/Datos_Algoritmos/Parcial2",
+    "TercerSemestre/AlgebraLineal2/Parcial3/ProductoInterno.md",
+    "TercerSemestre/AlgebraLineal2/Parcial3/BasesOrtonormales.md",
     "TercerSemestre/Calculo3/Parcial2/CamposVectoriales.md",
     "TercerSemestre/Calculo3/Parcial2/Nabla.md",
     "OperadorNabla.md",
@@ -237,7 +242,6 @@
     "TercerSemestre/Imagenes/EjemploCampoVectorial2.png",
     "TercerSemestre/Imagenes/EjemploCampoVectorial1.png",
     "TercerSemestre/Probabilidad/Parcial2/DistribucionGeometrica.md",
-    "TercerSemestre/AlgebraLineal2/Parcial3/ProductoInterno.md",
     "TercerSemestre/Calculo3/Parcial2/Curvatura.md",
     "TercerSemestre/Datos_Algoritmos/Parcial1/Colas.md",
     "TercerSemestre/Probabilidad/Parcial2/DistribucionBernoulli.md",
@@ -248,9 +252,6 @@
     "Excalidraw/Moda.md",
     "TercerSemestre/Probabilidad/Parcial2/Tarea4Probabilidad.md",
     "TercerSemestre/Probabilidad/Parcial2/Verosimilitud.md",
-    "TercerSemestre/Probabilidad/Parcial2/ValorEsperado.md",
-    "TercerSemestre/Probabilidad/Parcial2/V.A.Independientes.md",
-    "TercerSemestre/Probabilidad/Parcial2/VariablesAleatorias.md",
     "TercerSemestre/Imagenes/CDF_ejercicio194.png",
     "TercerSemestre/Imagenes/PDF_ejercicio192.png",
     "TercerSemestre/Imagenes/PDF_ejercicio191.png",
@@ -267,7 +268,6 @@
     "TercerSemestre/Calculo3/Parcial3",
     "TercerSemestre/Calculo3/Parcial2",
     "TercerSemestre/Calculo3/Parcial1",
-    "TercerSemestre/Probabilidad/Parcial3",
-    "TercerSemestre/Probabilidad/Parcial2"
+    "TercerSemestre/Probabilidad/Parcial3"
   ]
 }
