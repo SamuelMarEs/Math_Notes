@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "4d6bf150a0bd3b67",
+        "id": "81463acb9413f7f9",
         "type": "tabs",
         "children": [
           {
-            "id": "a6970535b002fbd4",
+            "id": "5dd4affe13622790",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -29,7 +29,7 @@
       {
         "id": "19222e06e28c1808",
         "type": "tabs",
-        "dimension": 71.74129353233832,
+        "dimension": 71.7412935323383,
         "children": [
           {
             "id": "ddd66d7aa249ed22",
@@ -81,7 +81,7 @@
       {
         "id": "4df8e38988e2d316",
         "type": "tabs",
-        "dimension": 28.25870646766169,
+        "dimension": 28.258706467661685,
         "children": [
           {
             "id": "5d1ee9aef5d2167f",
@@ -221,8 +221,9 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "a6970535b002fbd4",
+  "active": "ddd66d7aa249ed22",
   "lastOpenFiles": [
+    "TercerSemestre/Probabilidad/Parcial2/DistribucionGeometrica.md",
     "TercerSemestre/AlgebraLineal2/Parcial3/ProductoInterno.md",
     "TercerSemestre/Calculo3/Parcial2/Curvatura.md",
     "TercerSemestre/Calculo3/Parcial2/LongitudDeArco.md",
@@ -248,7 +249,6 @@
     "TercerSemestre/AlgebraLineal2/Parcial2/Eigenespacios.md",
     "TercerSemestre/AlgebraLineal2/Parcial2/Diagonalizabilidad.md",
     "TercerSemestre/AlgebraLineal2/Parcial2/Eigenvectores_Eigenvalores.md",
-    "TercerSemestre/Datos_Algoritmos/Parcial1/Complejidad.md",
     "TercerSemestre/Imagenes/CDF_ejercicio194.png",
     "TercerSemestre/Imagenes/PDF_ejercicio192.png",
     "TercerSemestre/Imagenes/PDF_ejercicio191.png",
