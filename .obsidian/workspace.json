@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "7ce50b682c6cd94a",
+        "id": "79041af1e2c5681e",
         "type": "tabs",
         "children": [
           {
-            "id": "ffd653678cfd517b",
+            "id": "ad89a0e3e9814d4f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "TercerSemestre/Probabilidad/Parcial2/DistribucionPoisson.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "DistribucionPoisson"
+              "title": "New tab"
             }
           }
         ]
@@ -225,8 +221,9 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "5d1ee9aef5d2167f",
+  "active": "ddd66d7aa249ed22",
   "lastOpenFiles": [
+    "TercerSemestre/Probabilidad/Parcial2/DistribucionHipergeometrica.md",
     "TercerSemestre/Probabilidad/Parcial2/DistribucionPoisson.md",
     "TercerSemestre/Probabilidad/Parcial2/DistribucionBinomialNegativa.md",
     "TercerSemestre/Probabilidad/Parcial2/DistribucionGeometrica.md",
@@ -255,7 +252,6 @@
     "TercerSemestre/Probabilidad/Parcial2/Metricas_Importantes.md",
     "Excalidraw/Drawing 2026-10-02 10.41.37.excalidraw.md",
     "TercerSemestre/Probabilidad/Parcial2/Moda.md",
-    "Excalidraw/Moda.md",
     "TercerSemestre/Imagenes/CDF_ejercicio194.png",
     "TercerSemestre/Imagenes/PDF_ejercicio192.png",
     "TercerSemestre/Imagenes/PDF_ejercicio191.png",
