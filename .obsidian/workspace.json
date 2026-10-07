@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "5ab9ee1bfa81d78d",
+        "id": "7ce50b682c6cd94a",
         "type": "tabs",
         "children": [
           {
-            "id": "b0c76463723abeb7",
+            "id": "4670274284f47a6e",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -221,8 +221,13 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "b0c76463723abeb7",
+  "active": "ddd66d7aa249ed22",
   "lastOpenFiles": [
+    "TercerSemestre/Calculo3/Parcial2/LongitudDeArco.md",
+    "TercerSemestre/Calculo3/Parcial2/Curvatura.md",
+    "TercerSemestre/Calculo3/Parcial2/PropiedadesDerivada.md",
+    "TercerSemestre/Calculo3/Parcial2/ReglaDeLaCadena.md",
+    "TercerSemestre/Calculo3/Parcial2/ReParametrizacion.md",
     "TercerSemestre/Datos_Algoritmos/Parcial2/Arboles.md",
     "Excalidraw/Arboles.md",
     "TercerSemestre/Datos_Algoritmos/Parcial2",
@@ -231,18 +236,13 @@
     "TercerSemestre/Calculo3/Parcial2/CamposVectoriales.md",
     "TercerSemestre/Calculo3/Parcial2/Nabla.md",
     "OperadorNabla.md",
-    "TercerSemestre/Calculo3/Parcial2/ReglaDeLaCadena.md",
     "TercerSemestre/Calculo3/Parcial2/DerivadaDireccional.md",
-    "TercerSemestre/Calculo3/Parcial2/PropiedadesDerivada.md",
     "Excalidraw/CampoVectorial1.md",
-    "TercerSemestre/Calculo3/Parcial2/ReParametrizacion.md",
-    "TercerSemestre/Calculo3/Parcial2/LongitudDeArco.md",
     "TercerSemestre/Calculo3/Parcial2/DerivadaDeFuncionVectorial.md",
     "TercerSemestre/Calculo3/Parcial2/Gradiente.md",
     "TercerSemestre/Imagenes/EjemploCampoVectorial2.png",
     "TercerSemestre/Imagenes/EjemploCampoVectorial1.png",
     "TercerSemestre/Probabilidad/Parcial2/DistribucionGeometrica.md",
-    "TercerSemestre/Calculo3/Parcial2/Curvatura.md",
     "TercerSemestre/Datos_Algoritmos/Parcial1/Colas.md",
     "TercerSemestre/Probabilidad/Parcial2/DistribucionBernoulli.md",
     "TercerSemestre/Probabilidad/Parcial2/DistribucionBinomial.md",

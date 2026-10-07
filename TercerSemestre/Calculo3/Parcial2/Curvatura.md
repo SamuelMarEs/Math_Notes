@@ -38,6 +38,11 @@ Si tenemos una curva parametrizada por longitud de arco, entonces
 $$
 	N(s)=\frac{T'(s)}{\lvert \lvert T'(s) \rvert  \rvert }.
 $$
+En base a esto, la curvatura se puede calcular como 
+$$
+	k(t)=\frac{\lvert \lvert c'(t)\times c''(t) \rvert  \rvert }{\lvert \lvert c'(t) \rvert  \rvert ^{3}}.
+$$
+
 
 #### ¿Qué tan plana es una curva?
 Dada una curva $\gamma(s)$ parametrizada por longitud de arco, sabemos que podemos definir los vectores tangente, normal, y binomial como 
