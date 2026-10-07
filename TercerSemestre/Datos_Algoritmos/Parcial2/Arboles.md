@@ -105,3 +105,84 @@ Como elegir un recorrido:
 | Inorden   | Entre los subárboles izquierdo y derecho. | Obtener valores ordenados en un árbol binario de búsqueda; notación infija con paréntesis. |
 | Postorden | Después de sus descendientes.             | Calcular altura, combinar conteos de subárboles y evaluar expresiones                      |
 Con una visita de costo constante, los tres recorridos completos cuestan $\Theta(n)$. Cambia el orden de procesamiento, no la cantidad de nodos visitados.
+
+###### Ejemplo código:
+```python
+def preorden(nodo):
+	if nodo = None
+		return
+	
+	print(nodo.dato)       # Esta parte cumple la función de visitar
+	preorden(nodo.izquierdo)
+	preorden(nodo.derecho)
+```
+Para postorden e inorden solo cambia el orden de las operaciones que realizamos.
+Otras formas de visitar el nodo podrían ser: guardar el dato en una lista, acumular su valor en una suma, comprobar una propiedad, etc.
+
+##### Recorrido por niveles
+```pseudocodigo
+Si raíz es vacía:
+	Retornar
+Q = cola vacía
+Encolar(Q, raíz)
+Mientras Q no esté vacía:
+	nodo = Desencolar(Q)
+	Visitar(nodo)
+	Si nodo.izquierdo no es vacío:
+		Enconalr(Q, nodo.izquierdo)
+	Si nodo.derecho no es vacío:
+		Encolar(Q, nodo.derecho)
+```
+```python
+def por_nivel(raiz):
+	if raiz is None:
+		return []
+	pendientes = deque([raiz])
+	resultado = []
+	while pendientes:
+		nodo = pendientes.popleft()
+		resultado.append(nodo.dato)
+		if nodo.izquierdo is not None:
+			pendientes.append(nodo.izquierdo)
+		if nodo.derecho is not None:
+			pendientes.append(nodo.derecho)
+	return resultado
+```
+Este algoritmo tiene un orden de complejidad lineal. Para $n$ nodos, el ciclo while debe ejecutarse $n$ veces, por eso lineal.
+
+#### Contar nodos
+Sea $N(T)$ el número de nodos del árbol $T$. 
+$$
+	N(\emptyset)=0,\quad N(T)=1+N(T_{izq})+N(T_{der})\text{ si }T\neq \emptyset.
+$$
+En código esto se vería como 
+```python
+def contar_nodos(raiz):
+	if raiz is None:
+		return 0
+	n_izq = contar_nodos(raiz.izquierdo)
+	n_der = contar_nodos(raiz.derecho)
+	return 1 + n_izq + n_der
+```
+La complejidad de la operación sigue siendo lineal.
+#### Contar hojas
+Sea $L(T)$ el número de hojas del árbol $T$. 
+$$
+	L(T)=\begin{cases}
+	0, & T=\emptyset \\
+	1, & T\text{ tiene un úncio nodo} \\
+	L(T_{izq})+L(T_{der}) & \text{en otro caso}.
+	\end{cases}
+$$
+En código esto sería:
+```python
+def contar_hojas(raiz):
+	if raiz is None
+		return 0
+	if (raiz.izquierdo is None and raiz.derecho is None):
+		return 1
+	hojas_izq = contar_hojas(raiz.izquierdo)
+	hojas_der = contar_hojas(raiz.derecho)
+	return hojas_izq + hojas_der
+```
+Otra vez, la complejidad es de orden lineal.

@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "79041af1e2c5681e",
+        "id": "16b12d446f48257e",
         "type": "tabs",
         "children": [
           {
-            "id": "ad89a0e3e9814d4f",
+            "id": "3155c4c8dec04cf2",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -29,7 +29,7 @@
       {
         "id": "19222e06e28c1808",
         "type": "tabs",
-        "dimension": 71.74129353233832,
+        "dimension": 71.7412935323383,
         "children": [
           {
             "id": "ddd66d7aa249ed22",
@@ -81,7 +81,7 @@
       {
         "id": "4df8e38988e2d316",
         "type": "tabs",
-        "dimension": 28.25870646766169,
+        "dimension": 28.258706467661685,
         "children": [
           {
             "id": "5d1ee9aef5d2167f",
@@ -223,6 +223,11 @@
   },
   "active": "ddd66d7aa249ed22",
   "lastOpenFiles": [
+    "TercerSemestre/Datos_Algoritmos/Parcial1/MetodoMaestro.md",
+    "TercerSemestre/Datos_Algoritmos/Parcial1/Akra-Bazzi.md",
+    "TercerSemestre/Datos_Algoritmos/Parcial1/ArbolesDeRecursion.md",
+    "TercerSemestre/Datos_Algoritmos/Parcial1/Recursion.md",
+    "TercerSemestre/Datos_Algoritmos/Parcial2/Arboles.md",
     "TercerSemestre/Probabilidad/Parcial2/DistribucionHipergeometrica.md",
     "TercerSemestre/Probabilidad/Parcial2/DistribucionPoisson.md",
     "TercerSemestre/Probabilidad/Parcial2/DistribucionBinomialNegativa.md",
@@ -232,7 +237,6 @@
     "TercerSemestre/Calculo3/Parcial2/PropiedadesDerivada.md",
     "TercerSemestre/Calculo3/Parcial2/ReglaDeLaCadena.md",
     "TercerSemestre/Calculo3/Parcial2/ReParametrizacion.md",
-    "TercerSemestre/Datos_Algoritmos/Parcial2/Arboles.md",
     "Excalidraw/Arboles.md",
     "TercerSemestre/Datos_Algoritmos/Parcial2",
     "TercerSemestre/AlgebraLineal2/Parcial3/ProductoInterno.md",
@@ -248,10 +252,6 @@
     "TercerSemestre/Imagenes/EjemploCampoVectorial1.png",
     "TercerSemestre/Datos_Algoritmos/Parcial1/Colas.md",
     "TercerSemestre/Probabilidad/Parcial2/DistribucionBernoulli.md",
-    "TercerSemestre/Probabilidad/Parcial2/DistribucionBinomial.md",
-    "TercerSemestre/Probabilidad/Parcial2/Metricas_Importantes.md",
-    "Excalidraw/Drawing 2026-10-02 10.41.37.excalidraw.md",
-    "TercerSemestre/Probabilidad/Parcial2/Moda.md",
     "TercerSemestre/Imagenes/CDF_ejercicio194.png",
     "TercerSemestre/Imagenes/PDF_ejercicio192.png",
     "TercerSemestre/Imagenes/PDF_ejercicio191.png",
