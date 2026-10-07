@@ -11,10 +11,14 @@
             "id": "4670274284f47a6e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "TercerSemestre/Probabilidad/Parcial2/DistribucionGeometrica.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "DistribucionGeometrica"
             }
           }
         ]
@@ -221,7 +225,7 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "ddd66d7aa249ed22",
+  "active": "4670274284f47a6e",
   "lastOpenFiles": [
     "TercerSemestre/Calculo3/Parcial2/LongitudDeArco.md",
     "TercerSemestre/Calculo3/Parcial2/Curvatura.md",

@@ -35,3 +35,10 @@ Por último, nos pide la probabilidad de que la rata 51 sea la primera en presen
 $$
 	P(X=51)=0.05(0.95)^{51}\approx0.003.
 $$
+
+***Note:*** Sabemos que $X$ es una variable aleatoria geométrica si cuenta el número de fallos hasta el primer éxito. 
+Podemos definir otra variable aleatoria $Y=X+1$ que sería el número de **ensayos** hasta el primer éxito. La diferencia es que $X$ solo cuenta las fallas, y que $Y$ cuenta las fallas más el evento exitoso (por eso +1).
+Entonces tendríamos que 
+$$
+	E(Y)=E(X+1)=E(X)+1.
+$$
