@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "16b12d446f48257e",
+        "id": "f64c87921e125905",
         "type": "tabs",
         "children": [
           {
-            "id": "3155c4c8dec04cf2",
+            "id": "0bcfa79768a056e6",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -29,7 +29,7 @@
       {
         "id": "19222e06e28c1808",
         "type": "tabs",
-        "dimension": 71.7412935323383,
+        "dimension": 71.74129353233832,
         "children": [
           {
             "id": "ddd66d7aa249ed22",
@@ -81,7 +81,7 @@
       {
         "id": "4df8e38988e2d316",
         "type": "tabs",
-        "dimension": 28.258706467661685,
+        "dimension": 28.258706467661693,
         "children": [
           {
             "id": "5d1ee9aef5d2167f",
@@ -221,8 +221,11 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "ddd66d7aa249ed22",
+  "active": "0bcfa79768a056e6",
   "lastOpenFiles": [
+    "TercerSemestre/AlgebraLineal2/Parcial3/ProductoInterno.md",
+    "TercerSemestre/AlgebraLineal2/Parcial3/Tarea1AlgebraLineal2Parcial3.md",
+    "TercerSemestre/AlgebraLineal2/Parcial3/BasesOrtonormales.md",
     "TercerSemestre/Datos_Algoritmos/Parcial1/MetodoMaestro.md",
     "TercerSemestre/Datos_Algoritmos/Parcial1/Akra-Bazzi.md",
     "TercerSemestre/Datos_Algoritmos/Parcial1/ArbolesDeRecursion.md",
@@ -239,8 +242,6 @@
     "TercerSemestre/Calculo3/Parcial2/ReParametrizacion.md",
     "Excalidraw/Arboles.md",
     "TercerSemestre/Datos_Algoritmos/Parcial2",
-    "TercerSemestre/AlgebraLineal2/Parcial3/ProductoInterno.md",
-    "TercerSemestre/AlgebraLineal2/Parcial3/BasesOrtonormales.md",
     "TercerSemestre/Calculo3/Parcial2/CamposVectoriales.md",
     "TercerSemestre/Calculo3/Parcial2/Nabla.md",
     "OperadorNabla.md",
@@ -251,7 +252,6 @@
     "TercerSemestre/Imagenes/EjemploCampoVectorial2.png",
     "TercerSemestre/Imagenes/EjemploCampoVectorial1.png",
     "TercerSemestre/Datos_Algoritmos/Parcial1/Colas.md",
-    "TercerSemestre/Probabilidad/Parcial2/DistribucionBernoulli.md",
     "TercerSemestre/Imagenes/CDF_ejercicio194.png",
     "TercerSemestre/Imagenes/PDF_ejercicio192.png",
     "TercerSemestre/Imagenes/PDF_ejercicio191.png",

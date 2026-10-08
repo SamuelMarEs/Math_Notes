@@ -8,7 +8,7 @@ tal que $\forall x,y,z\in V$ y $c\in F$,
 a) $\langle x+z,y\rangle = \langle x,y\rangle+\langle z,y\rangle$.
 b) $\langle cx,y\rangle = c\langle x,y\rangle$.
 c) $\overline{\langle x,y\rangle}=\langle y,x\rangle$.
-d) $\langle x,x\rangle \geq0\forall x\in V$.
+d) $\langle x,x\rangle >0\forall x\neq 0,x\in V$.
 
 #### Teorema 6.1 (propiedades):
 1..- $\langle x,y+z\rangle = \langle x,y\rangle+\langle x, z\rangle$.
