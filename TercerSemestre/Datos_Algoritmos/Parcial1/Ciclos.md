@@ -29,7 +29,7 @@ Si es válida $\{ I\wedge G \}C\{ I \}$, entonces es válida:
 $$
 	\{ I \}\text{ mientras }G\text{ ejecutar }C\{ I\wedge \neg G \}.
 $$
-Si el ciclo termina, la inducción garantiza $I$, y la condición de salida garantiza $\neg G$. Para conectar esta regla con una especificación de precundiciones y postcondiciones, necesitamos:
+Si el ciclo termina, la inducción garantiza $I$, y la condición de salida garantiza $\neg G$. Para conectar esta regla con una especificación de precondiciones y postcondiciones, necesitamos:
 $$
 	P\implies I,\quad I\wedge \neg G\implies Q.
 $$
@@ -58,7 +58,7 @@ Invariante: $I(k):i=k\wedge 0\leq k\leq n.$
 Verificando el teorema, tenemos:
 1. Propiedad base. Al inicio, $i=0$ y $n\geq 0$, por lo tanto se cumple $I(0)$.
 2. Propiedad inductiva. Si $I(k)$ y $G$ son verdaderas, $k<n$. Después del incremento, $i=k+1$ y $0\leq k+1\leq n$, por lo tanto se cumple $I(k+1)$.
-3. Eventual falsedad de la guarda. Tras $n$ iteraciones, $i=n$, por lo que $i<n$ es falsa. Cada iterción contiene una sola asignación.
+3. Eventual falsedad de la guarda. Tras $n$ iteraciones, $i=n$, por lo que $i<n$ es falsa. Cada iteración contiene una sola asignación.
 4. Postcondición. Al salir, $\neg G$ implica $i\geq n$. El invariante garantiza $i\leq n$. Por lo tanto, $i=n$.
 
 #Algoritmos

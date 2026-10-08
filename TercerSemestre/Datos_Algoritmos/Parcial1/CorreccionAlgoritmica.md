@@ -1,6 +1,6 @@
 ¿Qué significa que un algoritmo sea correcto? 
 Cada algoritmo se diseña para cumplir una tarea específica.
-Decimos que un algoritmo es correcto sí, para cada entrada permitida por su especificación, termina y produce una salide que cumple lo especificado.
+Decimos que un algoritmo es correcto sí, para cada entrada permitida por su especificación, termina y produce una salida que cumple lo especificado.
 La **corrección** depende de una especificación.
 
 ##### Definición:
@@ -23,7 +23,7 @@ $$
 $$
 es una precondición.
 
-#### Correción parcial y total
+#### Corrección parcial y total
 ##### Definición
 Para toda entrada que satisface la precondición, si el algoritmo termina, entonces su estado final satisface la postcondición. Esta es una ***corrección parcial***.
 
@@ -33,11 +33,11 @@ Para toda entrada que satisface la precondición, el algoritmo **termina** y su 
 La condición parcial no garantiza que la ejecución del algoritmo culmine.
 
 #### Tripletas de Horae
-Una espacificación formada por una precondición $P$, un fragmento de código $C$ y una postcondición $Q$: 
+Una especificación formada por una precondición $P$, un fragmento de código $C$ y una postcondición $Q$: 
 $$
 	\{ P \}C\{ Q \}.
 $$
-En este caso, la tripleta representa [[Clases|corrección parcial]].Es válida si, desde cualquier estado que satisface $P$, toda ejecución de $C$ que dermina deja un estado que satisface $Q$.
+En este caso, la tripleta representa [[Clases|corrección parcial]]. Es válida si, desde cualquier estado que satisface $P$, toda ejecución de $C$ que termina deja un estado que satisface $Q$.
 Por ejemplo 
 $$
 	\{ x<4 \} x=x+1 \{ x<5 \}

@@ -1,5 +1,5 @@
 ##### Definición:
-La ***abstracción*** es un proceso mental que consiste en aislar propiedades o conceptos esencia les de un objeto, separándolo de sus detales particulares y del contexto. 
+La ***abstracción*** es un proceso mental que consiste en aislar propiedades o conceptos esenciales de un objeto, separándole de sus detalles particulares y del contexto. 
 En ciencias de la computación, es el principio fundamental que consiste en ocultar detalles complejos y mostrar únicamente las características o funcionalidades esenciales de un objeto o sistema.
 Se pueden abstraer *datos* y *procedimientos*.
 
@@ -18,8 +18,8 @@ Pueden ser
 - No lineales: sus elementos no forman una única secuencia posicional; pueden organizar de diferentes formas.
 Además, según si su estado puede cambiar pueden ser ser
 - Mutables: permiten modificar el contenido del objeto.
-- Inmutables: su estado no puede modificarse; una operación prodcue un objeto nuevo. 
-Algunas operaciones freuentes son:
+- Inmutables: su estado no puede modificarse; una operación produce un objeto nuevo. 
+Algunas operaciones frecuentes son:
 - Consulta: acceder, buscar o recorrer elementos.
 - Transformación: insertar, eliminar o modificar elementos.
 

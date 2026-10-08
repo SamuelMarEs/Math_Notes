@@ -3,7 +3,7 @@ Si las [[CorreccionAlgoritmica|tripletas]]
 $$
 	\{ P \}C_{1}\{ R \}\quad\text{y}\quad \{ R \}C_{2}\{ Q \}
 $$
-son válidas, entonces tembién lo es 
+son válidas, entonces también lo es 
 $$
 	\{ P \}C_{1};C_{2}\{ Q \}.
 $$
