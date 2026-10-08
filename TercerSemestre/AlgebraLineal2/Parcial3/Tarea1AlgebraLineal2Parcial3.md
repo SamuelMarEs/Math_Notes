@@ -54,10 +54,51 @@ $$
 $$
 ¿Qué nos dice esta ecuación sobre los paralelogramos en $R^{2}$?
 **Sol:**
+Sean $x,y\in V$ dos vectores cualesquiera.
+Observemos primero que $\lvert \lvert v \rvert \rvert^{2}=(\sqrt{ \langle v,v\rangle })^{2}=\langle{  v,v\rangle }$ para cualquier $v\in V$, entonces tenemos que 
+$$
+	\lvert \lvert x+y \rvert  \rvert ^{2}+\lvert \lvert x-y \rvert  \rvert ^{2}=\langle x+y,x+y\rangle+\langle x-y,x-y\rangle.
+$$
+Podemos reescribir $\langle x-y,x-y\rangle$ de la forma 
+$$
+	\begin{align}
+	\langle x-y,x-y\rangle&=\langle x,x-y\rangle+\langle -y,x-y\rangle \\
+	&=\langle x,x\rangle+\langle x, -y\rangle+\langle-y,x\rangle+\langle-y,-y\rangle \\
+	&=\langle x,x\rangle-\langle x, y\rangle-\langle y,x\rangle+\langle y,y\rangle,
+	\end{align}
+$$
+esto utilizando los axiomas y propiedades del producto interno. De forma análoga se puede mostrar que 
+$$
+	\langle x+y,x+y\rangle=\langle x,x\rangle+\langle x, y\rangle+\langle y,x\rangle+\langle y,y\rangle.
+$$
+Entonces tenemos que 
+$$
+	\begin{align}
+	\lvert \lvert x+y \rvert  \rvert ^{2}+\lvert \lvert x-y \rvert  \rvert ^{2}&=\langle x+y,x+y\rangle+\langle x-y,x-y\rangle \\
+	&= \langle x,x\rangle+\langle x, y\rangle+\langle y,x\rangle+\langle y,y\rangle +\langle x,x\rangle-\langle x, y\rangle-\langle y,x\rangle+\langle y,y\rangle \\
+	&=2\langle x,x\rangle +2\langle y,y\rangle \\
+	&=2\lvert \lvert x \rvert  \rvert^{2}+2\lvert \lvert y \rvert  \rvert ^{2}\quad\square
+	\end{align}
+$$
 
 
 24.- Sea $V$ un espacio vectorial complejo con producto interno $\langle\cdot,\cdot\rangle$. Sea $[\cdot,\cdot]$ una función real tal que $[x,y]$ es la parte real del número complejo $\langle x,y\rangle$ para todos $x,y\in V$. Pruebe que $[\cdot,\cdot]$ es un producto interno para $V$, donde $V$ es un espacio vectorial sobre $R$. Pruebe, además, que $[x,ix]=0$ para todo $x\in V$.
 **Sol:**
+Queremos demostrar que la función $[\cdot,\cdot]$ satisface los axiomas de un producto interno, teniendo en cuenta que $[\cdot,\cdot]:V^{2}\to\mathbb{R}$ está definida como $[x,y]=\mathrm{Re}(\langle x,y\rangle)$.
+a) Por demostrar que $[x+z,y]=[x,y]+[z,y]$. Usemos la definición junto con las propiedades del producto punto que ya conocemos: 
+$$
+	[x+z,y]=\mathrm{Re}(\langle x+z,y\rangle)=\mathrm{Re}(\langle x,y\rangle+\langle z,y\rangle)=\mathrm{Re}(\langle x,y\rangle)+\mathrm{Re}(\langle z,y\rangle)=[x,y]+[z,y].
+$$
+b) Por demostrar que $[cx,y]=c[x,y]$ para $c\in\mathbb{R}$. Nuevamente, usando la definición, tenemos que 
+$$
+	[cx,y]=\mathrm{Re}(\langle cx,y\rangle)=\mathrm{Re}(c\langle x,y\rangle)=c\mathrm{Re}(\langle x,y\rangle)=c[x,y].
+$$
+La condición de que $c$ sea un real es importante, pues de lo contrario no se puede garantizar que conmute con la operación $\mathrm{Re}$.
+c) Por demostrar que $\overline{[x,y]}=[y,x]$. El conjugado de un real es si mismo, por lo tanto $\overline{[x,y]}=[x,y],$ y por esto basta probar que $[x,y]=[y,x]$. La parte real de un complejo es igual a la parte real de su conjugado, por lo tanto 
+$$
+	[y,x]=\mathrm{Re}(\langle y,x\rangle)=\mathrm{Re}(\overline{\langle y,x\rangle})=\mathrm{Re}(\langle x,y\rangle)=[x,y].
+$$
+d) Sea $x\in V$ con $x\neq 0$. Entonces sabemos que $\langle x,x\rangle>0$, y por lo tanto su parte real va a satisfacer que $\mathrm{Re}(\langle x,x\rangle)>0$. Por esto es que $[x,x]>0$.
 
 
 26.- Pruebe que las siguientes son normas sobre el espacio vectorial dado:

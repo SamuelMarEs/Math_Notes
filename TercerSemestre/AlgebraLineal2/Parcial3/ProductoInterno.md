@@ -2,7 +2,7 @@
 #### Definición:
 Un producto interno sobre un espacio vectorial $V$ es una operación binaria 
 $$
-	\langle,\rangle:V^{2}\to F
+	\langle \cdot,\cdot\rangle:V^{2}\to F
 $$
 tal que $\forall x,y,z\in V$ y $c\in F$,
 a) $\langle x+z,y\rangle = \langle x,y\rangle+\langle z,y\rangle$.
