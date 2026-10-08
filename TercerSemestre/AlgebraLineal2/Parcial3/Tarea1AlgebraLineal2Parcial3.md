@@ -107,8 +107,53 @@ b) $V=C([0,1])$: $\lvert \lvert f \rvert \rvert=\max_{t\in[0,1]}\lvert f(t) \rve
 c) $V=C([0,1])$: $\lvert \lvert f \rvert \rvert=\int_{0}^{1}\lvert f(t) \rvert dt$ para toda $f\in V$.
 d) $V=M_{m\times n}(F)$: $\lvert \lvert A \rvert \rvert=\max_{i,j}\lvert A_{ij} \rvert$.
 **Sol:**
-a)
-b)
-c)
-d)
+Para demostrar que estas son normas bien definidas, tenemos que demostrar las siguientes propiedades:
+1. $\lvert \lvert x \rvert \rvert\geq 0$ y $\lvert \lvert x \rvert \rvert=0 \iff x=0$.
+2. $\lvert \lvert ax \rvert \rvert=\lvert a \rvert\cdot \lvert \lvert x \rvert \rvert.$
+3. $\lvert \lvert x+y \rvert \rvert\leq \lvert \lvert x \rvert \rvert+\lvert \lvert y \rvert \rvert.$
+
+a) Sean $x=(a,b),y=(c,d)\in R^{2}$ y $\alpha\in R$. Entonces, para la primera propiedad tenemos que 
+$$
+	\lvert \lvert (a,b) \rvert  \rvert =\lvert a \rvert +\lvert b \rvert \geq 0,
+$$
+pues $\lvert a \rvert\geq 0$ y $\lvert b \rvert\geq 0$ por las propiedades del valor absoluto. Más aún, la suma de estos dos solo puede ser cero si $\lvert a \rvert=-\lvert b \rvert$, es decir si $a=b=0$, i.e. $x=\vec{0}$.
+Para la segunda propiedad tenemos que
+$$
+	\lvert \lvert \alpha(a,b) \rvert  \rvert=\lvert \alpha a \rvert+\lvert \alpha b \rvert =\lvert \alpha \rvert (\lvert a \rvert +\lvert b \rvert )=\lvert \alpha \rvert \cdot \lvert \lvert (a,b) \rvert  \rvert   .
+$$
+Por último:
+$$
+	\lvert \lvert (a+c,b+d) \rvert  \rvert =\lvert a+c \rvert +\lvert b+d \rvert \leq \lvert a \rvert +\lvert c \rvert +\lvert b \rvert +\lvert d \rvert =\lvert \lvert (a,b) \rvert  \rvert +\lvert \lvert (c,d) \rvert  \rvert .
+$$
+
+b) Sean $f,g\in C([0,1])$ y $a\in R$. Primero 
+$$
+	\lvert \lvert f \rvert  \rvert =\max_{t\in[0,1]}\lvert f \rvert\geq 0,
+$$
+por las propiedades del valor absoluto. Además, $\lvert \lvert f \rvert \rvert=0$ solo si el valor máximo de $\lvert f \rvert$ es cero, lo cual solo puede suceder si $f=0$, pues de lo contrario $\exists c\in[0,1]$ tal que $|f(c)|>0$, y por lo tanto $0$ ya no es el máximo. Entonces $\lvert \lvert f \rvert \rvert=0 \iff f=0$.
+Ahora, veamos que 
+$$
+	\lvert \lvert \alpha f \rvert  \rvert =\max_{t\in[0,1]}\lvert \alpha f \rvert =\max_{t\in[0,1]}\lvert \alpha \rvert \lvert f \rvert =\lvert \alpha \rvert \max_{t\in[0,1]}\lvert f \rvert =\lvert \alpha \rvert \cdot \lvert \lvert f \rvert  \rvert .
+$$
+Por último, 
+$$
+	\lvert \lvert f+g \rvert  \rvert =\max_{t\in[0,1]}\lvert f+g \rvert \leq \max_{t\in[0,1]}(\lvert f \rvert +\lvert g \rvert )=\max_{t\in[0,1]}\lvert f \rvert+\max_{t\in[0,1]}\lvert g \rvert=\lvert \lvert f \rvert  \rvert +\lvert \lvert g \rvert  \rvert .
+$$
+
+c) Sean $f,g\in C([0,1])$ y $\alpha\in R$, tenemos que 
+$$
+	\lvert \lvert f \rvert  \rvert =\int_{0}^{1}\lvert f(t) \rvert dt\geq 0, 
+$$
+pues es la suma infinita de valores no negativos. Además, $\int_{0}^{1}\lvert f(t) \rvert dt=0 \iff f(t)=0$ por ser una integral, ya que de lo contrario sería mayor a cero.
+Para el segundo inciso, basa usar las propiedades de la integral y ver que 
+$$
+	\lvert \lvert \alpha f \rvert  \rvert =\int_{0}^{1}\lvert \alpha f(t) \rvert dt=\lvert \alpha \rvert \int_{0}^{1}\lvert f(t) \rvert dt=\lvert \alpha \rvert \cdot \lvert \lvert f \rvert  \rvert .
+$$
+Por último, basta usar nuevamente las propiedades de la integral, así como las propiedades del valor absoluto de la siguiente forma: 
+$$
+	\lvert \lvert f+g \rvert  \rvert =\int_{0}^{1}|f(t)+g(t)|dt\leq \int_{0}^{1}\lvert f(t) \rvert +\lvert g(tt) \rvert dt=\int_{0}^{1}\lvert f(t) \rvert dt+\int_{0}^{1}\lvert g(t) \rvert d(t)=\lvert \lvert f(t) \rvert  \rvert +\lvert \lvert g(t) \rvert  \rvert .
+$$
+
+
+d) 
 
