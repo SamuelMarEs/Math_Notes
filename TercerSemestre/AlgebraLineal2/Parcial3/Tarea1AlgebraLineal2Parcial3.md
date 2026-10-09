@@ -154,6 +154,18 @@ $$
 	\lvert \lvert f+g \rvert  \rvert =\int_{0}^{1}|f(t)+g(t)|dt\leq \int_{0}^{1}\lvert f(t) \rvert +\lvert g(tt) \rvert dt=\int_{0}^{1}\lvert f(t) \rvert dt+\int_{0}^{1}\lvert g(t) \rvert d(t)=\lvert \lvert f(t) \rvert  \rvert +\lvert \lvert g(t) \rvert  \rvert .
 $$
 
+d) Sean $A,B\in M_{2\times 2}(R)$ y $a\in R$, entonces tenemos que 
+$$
+	\lvert \lvert A \rvert  \rvert =\max_{ij}\lvert A_{ij} \rvert \geq 0
+$$
+por las propiedades del valor absoluto. Además, si $\exists A_{ij}\neq 0$, entonces $\max_{ij}\lvert A_{ij} \rvert\neq 0$, por lo que $\lvert \lvert A \rvert \rvert=0\iff A=0$ la matriz cero.
+Al multiplicar $aA$, tenemos que $\max_{ij}|aA_{ij}|=\lvert a \rvert\max_{ij}\lvert A_{ij} \rvert$, por lo tanto 
+$$
+	\lvert \lvert aA \rvert  \rvert =\lvert a \rvert \max_{ij}\lvert A_{ij} \rvert =\lvert a \rvert \cdot \lvert \lvert A_{ij} \rvert  \rvert .
+$$
+Por último, nuevamente por las propiedades del valor absoluto en $R$, tenemos que $\lvert A_{ij}+B_{ij} \rvert\leq \lvert A_{ij} \rvert+\lvert B_{ij} \rvert$, por esto tenemos que 
+$$
+	\lvert \lvert A+B \rvert  \rvert =\max_{ij}\lvert A_{ij}+B_{ij} \rvert \leq \max_{ij}\lvert A \rvert +\max_{ij}\lvert B_{ij} \rvert =\lvert \lvert A \rvert  \rvert +\lvert B \rvert .
+$$
 
-d) 
 
