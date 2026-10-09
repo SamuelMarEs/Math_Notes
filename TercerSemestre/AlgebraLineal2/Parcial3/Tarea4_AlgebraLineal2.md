@@ -1,5 +1,3 @@
-Samuel Márquez Estrada
-
 ##### Sección 6.1 Friedberg
 3.- En $C([0,1])$, sea $f(t)=t$ y $g(t)=e^{t}$. Calcule $\langle f,g\rangle$, $\lvert \lvert f \rvert \rvert$, $\lvert \lvert g \rvert \rvert$, y $\lvert \lvert f+g \rvert \rvert$. Verifique entonces la desigualdad de Cauchy Schwarz y la desigualdad triangular. El producto interno definido como: 
 $$
