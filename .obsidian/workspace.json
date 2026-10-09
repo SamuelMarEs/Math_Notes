@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "49512a5fee59d179",
+        "id": "62368e06cbcfa7f3",
         "type": "tabs",
         "children": [
           {
-            "id": "8147c9915faa8e0e",
+            "id": "0918f67f339325ca",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -29,7 +29,7 @@
       {
         "id": "19222e06e28c1808",
         "type": "tabs",
-        "dimension": 71.74129353233832,
+        "dimension": 71.7412935323383,
         "children": [
           {
             "id": "ddd66d7aa249ed22",
@@ -81,7 +81,7 @@
       {
         "id": "4df8e38988e2d316",
         "type": "tabs",
-        "dimension": 28.25870646766169,
+        "dimension": 28.258706467661685,
         "children": [
           {
             "id": "5d1ee9aef5d2167f",
@@ -221,8 +221,15 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "8147c9915faa8e0e",
+  "active": "ddd66d7aa249ed22",
   "lastOpenFiles": [
+    "TercerSemestre/Probabilidad/Parcial2/V.A.Independientes.md",
+    "TercerSemestre/Probabilidad/Parcial2/DistribucionPoisson.md",
+    "TercerSemestre/Probabilidad/Parcial2/EjerciciosProbabilidad.md",
+    "TercerSemestre/Probabilidad/Parcial2/DistribucionGeometrica.md",
+    "TercerSemestre/Probabilidad/Parcial1/TeoremaDeBayes.md",
+    "TercerSemestre/Probabilidad/Parcial2/DistribucionBinomial.md",
+    "TercerSemestre/Probabilidad/Parcial2/DistribucionBernoulli.md",
     "TercerSemestre/AlgebraLineal2/Parcial3/Tarea4_AlgebraLineal2.md",
     "TercerSemestre/Datos_Algoritmos/Parcial1/Listas.md",
     "TercerSemestre/Datos_Algoritmos/Parcial1/ArbolesDeRecursion.md",
@@ -242,13 +249,6 @@
     "TercerSemestre/Datos_Algoritmos/Parcial1/TDA.md",
     "TercerSemestre/AlgebraLineal2/Parcial3/ProductoInterno.md",
     "TercerSemestre/AlgebraLineal2/Parcial3/BasesOrtonormales.md",
-    "TercerSemestre/Datos_Algoritmos/Parcial1/Akra-Bazzi.md",
-    "TercerSemestre/Datos_Algoritmos/Parcial2/Arboles.md",
-    "TercerSemestre/Probabilidad/Parcial2/DistribucionHipergeometrica.md",
-    "TercerSemestre/Probabilidad/Parcial2/DistribucionPoisson.md",
-    "TercerSemestre/Probabilidad/Parcial2/DistribucionBinomialNegativa.md",
-    "TercerSemestre/Probabilidad/Parcial2/DistribucionGeometrica.md",
-    "TercerSemestre/Calculo3/Parcial2/LongitudDeArco.md",
     "TercerSemestre/Datos_Algoritmos/Parcial2",
     "TercerSemestre/Imagenes/EjemploCampoVectorial2.png",
     "TercerSemestre/Imagenes/EjemploCampoVectorial1.png",
