@@ -82,10 +82,38 @@ Mostrar que el potencial $V$ de Newton satisface la ecuación de Laplace:
 $$
 	\frac{\partial^{2}V}{\partial x^{2}}+ \frac{\partial^{2}V}{\partial y^{2}}+ \frac{\partial ^{2}V}{\partial z^{2}}=0\quad\text{para}\quad (x,y,z)\neq 0.
 $$
+**Sol:**
+La expresión que más nos sirve del potencial en este caso sería 
+$$
+	V(r)=-\frac{GMm}{r},\quad r=\sqrt{ x^{2}+y^{2}+z^{2} }.
+$$
+Entonces tenemos que 
+$$
+	\frac{\partial V}{\partial x}=\frac{dV}{dr} \frac{\partial r}{\partial x}=\frac{GMm}{r^{2}} \frac{1}{2}(x^{2}+y^{2}+z^{2})^{-1 / 2}2x=\frac{GmM}{(x^{2}+y^{2}+z^{2})^{3 / 2}}x.
+$$
+Si volvemos a derivar obtenemos que 
+$$
+	\frac{\partial^{2}V}{\partial x^{2}}=GmM\left( \frac{(x^{2}+y^{2}+z^{2})^{3 / 2} - x (3 / 2)(x^{2}+y^{2}+z^{2})^{1 / 2}2x}{(x^{2}+y^{2}+z^{2})^{3}} \right)=GmM \left( \frac{-2x^{2}+y^{2}+z^{2}}{(x^{2}+y^{2}+z^{2})^{ 5 / 2}} \right).
+$$
+De forma análoga se llega a que 
+$$
+	\frac{\partial^{2}V}{\partial y^{2}}=GmM \left( \frac{x^{2}-2y^{2}+z^{2}}{(x^{2}+y^{2}+z^{2})^{5/ 2}} \right),
+$$
+y 
+$$
+	\frac{\partial^{2}V}{\partial z^{2}}=GmM \left( \frac{x^{2}+y^{2}-2z^{2}}{(x^{2}+y^{2}+z^{2})^{5/ 2}} \right).
+$$
+Simplemente queda hacer la suma, y obtener que 
+$$
+		\frac{\partial^{2}V}{\partial x^{2}}+ \frac{\partial^{2}V}{\partial y^{2}}+ \frac{\partial ^{2}V}{\partial z^{2}}=GmM\left( \frac{-2x^{2}+y^{2}+z^{2}+x^{2}-2y^{2}+z^{2}+x^{2}+y^{2}-2z^{2}}{(x^{2}+y^{2}+z^{2})^{5/ 2}} \right)=0.
+$$
 
 ###### Ejemplo 6
 La ecuación diferencial parcial $u_{t}+u_{x x x}+uu_{x}=0$ llamada ecuación de Korteweg-de Vries describe el movimiento de ondas de agua en un canal poco profundo.
 Mostrar que para cualquier constante positiva $c$, la función 
 $$
-	u(x,t)=3c\text{sech}^{2}\left( \frac{1}{2} (x-ct)\sqrt{ c }\right).
+	u(x,t)=3c\text{sech}^{2}\left( \frac{1}{2} (x-ct)\sqrt{ c }\right)
 $$
+es solución de la ecuación diferencial.
+**Sol:**
+El problema consiste simplemente en calcular las derivadas implicadas en la ecuación diferencial, y ver que en efecto su suma es cero.
