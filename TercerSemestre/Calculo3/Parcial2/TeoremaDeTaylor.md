@@ -2,7 +2,7 @@
 Al estudiar funciones de varias variables, también nos interesa encontrar máximos y mínimos, y para esto ocupamos un criterio que nos permita detectar punto extremos, de forma similar al cálculo de una variable.
 Para funciones suaves de una variable, el teorema de Taylor (el mismo de las series) asegura que 
 $$
-	f(x)=f(a)+f'(a)+\frac{f''(a)}{2!}(x-a)+\dots+ \frac{f^{(k)(a)}}{k!}(x-a)^{k}+R_{k}(x,a),
+	f(x)=f(a)+f'(a)(x-a)+\frac{f''(a)}{2!}(x-a)^{2}+\dots+ \frac{f^{(k)(a)}}{k!}(x-a)^{k}+R_{k}(x,a),
 $$
 donde 
 $$
@@ -19,7 +19,7 @@ $$
 $$
 donde por la definición de diferenciabilidad (i.e. confirmando que $R_{1}$ es el plano tangente a la curva), tenemos que 
 $$
-	\frac{\lvert R_{1}(x,x_{0}) \rvert }{\lvert \lvert x-x_{0} \rvert  \rvert}\to 0\quad\text{cuando}\quad x\to 0.
+	\frac{\lvert R_{1}(x,x_{0}) \rvert }{\lvert \lvert x-x_{0} \rvert  \rvert}\to 0\quad\text{cuando}\quad x\to x_{0}.
 $$
 
 Lo siguiente, de acuerdo al libro, constituye un abuso de notación, pero definamos $h=x-x_{0}$, de modo que $R_{1}(x,x_{0})=R_{1}(h,x_{0})$.

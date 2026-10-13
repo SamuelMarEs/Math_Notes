@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "0abb76854991ec8a",
+        "id": "618f454b75eca364",
         "type": "tabs",
         "children": [
           {
-            "id": "008a309418d8f659",
+            "id": "308029259495406d",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "TercerSemestre/AlgebraLineal2/Parcial3/BasesOrtonormales.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "BasesOrtonormales"
             }
           }
         ]
@@ -221,8 +225,13 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "008a309418d8f659",
+  "active": "308029259495406d",
   "lastOpenFiles": [
+    "TercerSemestre/AlgebraLineal2/Parcial3/Untitled.md",
+    "TercerSemestre/AlgebraLineal2/Parcial3/ProductoInterno.md",
+    "TercerSemestre/AlgebraLineal2/Parcial3/BasesOrtonormales.md",
+    "TercerSemestre/Calculo3/Parcial2/TeoremaDeTaylor.md",
+    "TercerSemestre/Calculo3/Parcial2/DerivadasIteradas.md",
     "TercerSemestre/Probabilidad/Parcial2/EjerciciosProbabilidad.md",
     "TercerSemestre/Probabilidad/Parcial2/DistribucionBinomial.md",
     "TercerSemestre/Probabilidad/Parcial2/EjerciciosProbabilidad2.md",
@@ -230,8 +239,6 @@
     "TercerSemestre/Probabilidad/Parcial2/DistribucionGeometrica.md",
     "TercerSemestre/Probabilidad/Parcial2/V.A.Independientes.md",
     "TercerSemestre/Probabilidad/Parcial2/DistribucionPoisson.md",
-    "TercerSemestre/Calculo3/Parcial2/DerivadasIteradas.md",
-    "TercerSemestre/Calculo3/Parcial2/TeoremaDeTaylor.md",
     "TercerSemestre/Calculo3/temario_calc3.pdf",
     "TercerSemestre/Calculo3/Parcial2/ReglaDeLaCadena.md",
     "TercerSemestre/Probabilidad/Parcial1/TeoremaDeBayes.md",
@@ -247,9 +254,6 @@
     "TercerSemestre/Datos_Algoritmos/Parcial1/CorreccionAlgoritmica.md",
     "TercerSemestre/Datos_Algoritmos/Parcial1/DistanciasUnitarias.md",
     "TercerSemestre/Datos_Algoritmos/Parcial1/Fibonacci.md",
-    "TercerSemestre/Datos_Algoritmos/Parcial1/MetodoMaestro.md",
-    "TercerSemestre/Datos_Algoritmos/Parcial1/Recursion.md",
-    "TercerSemestre/Datos_Algoritmos/Parcial1/Ciclos.md",
     "TercerSemestre/Datos_Algoritmos/Parcial2",
     "TercerSemestre/Imagenes/EjemploCampoVectorial2.png",
     "TercerSemestre/Imagenes/EjemploCampoVectorial1.png",
