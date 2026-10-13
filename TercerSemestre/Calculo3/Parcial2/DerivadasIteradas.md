@@ -65,3 +65,27 @@ $$
 	D^{m_{1}}_{x}D_{y}^{m_{2}}D_{z}^{m_{3}}f,
 $$
 que sería una derivada de orden $m_{1}+m_{2}+m_{3}$.
+
+###### Ejercicio 19
+La fuerza gravitacional sobre una masa $m$ en $(x,y,z)$ inducida por una masa $M$ en el origen está dada por la ley de gravitación de Newton: 
+$$
+	F= -\frac{GmM}{r^{2}}\vec{u},
+$$
+dónde $G$ es constante, $r$ la distancia entre las masas, y $\vec{u}$ un vector unitario en la dirección de $m.$
+Notese que podemos escribir a $\vec{u}=\frac{1}{r} (x i+y j+z k)$.
+El potencial gravitacional $V$ de la masa $m$ en $(x,y,z)$ provocado por una masa $M$ en el origen se define como 
+$$
+	V=- \frac{GmM}{r},
+$$
+y se tiene que $F=-\nabla V$.
+Mostrar que el potencial $V$ de Newton satisface la ecuación de Laplace: 
+$$
+	\frac{\partial^{2}V}{\partial x^{2}}+ \frac{\partial^{2}V}{\partial y^{2}}+ \frac{\partial ^{2}V}{\partial z^{2}}=0\quad\text{para}\quad (x,y,z)\neq 0.
+$$
+
+###### Ejemplo 6
+La ecuación diferencial parcial $u_{t}+u_{x x x}+uu_{x}=0$ llamada ecuación de Korteweg-de Vries describe el movimiento de ondas de agua en un canal poco profundo.
+Mostrar que para cualquier constante positiva $c$, la función 
+$$
+	u(x,t)=3c\text{sech}^{2}\left( \frac{1}{2} (x-ct)\sqrt{ c }\right).
+$$

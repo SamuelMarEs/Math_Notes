@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "810ebff31236d617",
+        "id": "5c71846283e3078a",
         "type": "tabs",
         "children": [
           {
-            "id": "aa69fbf829a2766b",
+            "id": "a1567e7a4c289745",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -225,10 +225,12 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "aa69fbf829a2766b",
+  "active": "a1567e7a4c289745",
   "lastOpenFiles": [
-    "TercerSemestre/Calculo3/Parcial2/ReglaDeLaCadena.md",
+    "TercerSemestre/Calculo3/Parcial2/TeoremaDeTaylor.md",
+    "TercerSemestre/Calculo3/temario_calc3.pdf",
     "TercerSemestre/Calculo3/Parcial2/DerivadasIteradas.md",
+    "TercerSemestre/Calculo3/Parcial2/ReglaDeLaCadena.md",
     "TercerSemestre/Probabilidad/Parcial2/EjerciciosProbabilidad.md",
     "TercerSemestre/Probabilidad/Parcial2/V.A.Independientes.md",
     "TercerSemestre/Probabilidad/Parcial2/DistribucionPoisson.md",
@@ -251,8 +253,6 @@
     "TercerSemestre/Datos_Algoritmos/Parcial1/Recursion.md",
     "TercerSemestre/Datos_Algoritmos/Parcial1/Ciclos.md",
     "TercerSemestre/Datos_Algoritmos/Parcial1/Clases.md",
-    "TercerSemestre/Datos_Algoritmos/Parcial1/RepasoPython.md",
-    "TercerSemestre/Datos_Algoritmos/Parcial1/TDA.md",
     "TercerSemestre/Datos_Algoritmos/Parcial2",
     "TercerSemestre/Imagenes/EjemploCampoVectorial2.png",
     "TercerSemestre/Imagenes/EjemploCampoVectorial1.png",
@@ -265,7 +265,6 @@
     "TercerSemestre/Imagenes/f(x)_ejercicio180.png",
     "TercerSemestre/Imagenes/PDF_ejercicio170.png",
     "TercerSemestre/Probabilidad/Parcial2/Tarea4Probabilidad.ipynb",
-    "TercerSemestre/Calculo3/temario_calc3.pdf",
     "TercerSemestre/Datos_Algoritmos/Parcial1",
     "TercerSemestre/Probabilidad/Temario_Probabilidad.pdf",
     "TercerSemestre/Calculo3/Parcial4",
