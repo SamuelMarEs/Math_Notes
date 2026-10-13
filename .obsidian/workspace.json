@@ -11,10 +11,14 @@
             "id": "aa69fbf829a2766b",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "TercerSemestre/Calculo3/Parcial2/DerivadasIteradas.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "DerivadasIteradas"
             }
           }
         ]
@@ -29,7 +33,7 @@
       {
         "id": "19222e06e28c1808",
         "type": "tabs",
-        "dimension": 71.7412935323383,
+        "dimension": 71.74129353233832,
         "children": [
           {
             "id": "ddd66d7aa249ed22",
@@ -81,7 +85,7 @@
       {
         "id": "4df8e38988e2d316",
         "type": "tabs",
-        "dimension": 28.258706467661685,
+        "dimension": 28.258706467661693,
         "children": [
           {
             "id": "5d1ee9aef5d2167f",
@@ -223,6 +227,7 @@
   },
   "active": "aa69fbf829a2766b",
   "lastOpenFiles": [
+    "TercerSemestre/Calculo3/Parcial2/ReglaDeLaCadena.md",
     "TercerSemestre/Calculo3/Parcial2/DerivadasIteradas.md",
     "TercerSemestre/Probabilidad/Parcial2/EjerciciosProbabilidad.md",
     "TercerSemestre/Probabilidad/Parcial2/V.A.Independientes.md",
@@ -248,7 +253,6 @@
     "TercerSemestre/Datos_Algoritmos/Parcial1/Clases.md",
     "TercerSemestre/Datos_Algoritmos/Parcial1/RepasoPython.md",
     "TercerSemestre/Datos_Algoritmos/Parcial1/TDA.md",
-    "TercerSemestre/AlgebraLineal2/Parcial3/ProductoInterno.md",
     "TercerSemestre/Datos_Algoritmos/Parcial2",
     "TercerSemestre/Imagenes/EjemploCampoVectorial2.png",
     "TercerSemestre/Imagenes/EjemploCampoVectorial1.png",
