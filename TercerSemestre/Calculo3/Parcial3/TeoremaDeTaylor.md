@@ -119,4 +119,4 @@ $$
 	&=1+h_{1}+\frac{1}{2}h_{1}^{2} -\frac{1}{2}h_{2}^{2}.
 	\end{align}
 $$
-(más el resiudo)
+(más el residuo que es $R_{2}(0,h)=-\frac{h_{1}h_{2}^{2}}{2}-\frac{h_{1}^{2}h_{2}^{2}}{4}$)
