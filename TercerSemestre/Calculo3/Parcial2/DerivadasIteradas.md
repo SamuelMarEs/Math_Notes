@@ -10,7 +10,7 @@ Hay que tener en cuenta que $g_{i}:\mathbb{R}^{3}\to\mathbb{R}$. Como estamos tr
 $$
 	\frac{\partial^{2}f}{\partial x\partial y}=\frac{\partial}{\partial x}\left( \frac{\partial f}{\partial y} \right),
 $$
-y de forma análoga para aplicar las demás derivadas parciales en cualquier orden. (El orden si importa).
+y de forma análoga para aplicar las demás derivadas parciales en cualquier orden.
 
 ##### Ejercicio
 $f(x,y)$ una función $f:\mathbb{R}^{2}\to\mathbb{R}$. Sean $x=g(s,t)$, $y=h(s,t)$. Si $k(s,t)=f(g(s,t),h(s,t))$, calcule $D_{s}k$, $D_{t}(D_{s}k)$.
