@@ -30,7 +30,7 @@ De esta forma, podemos generalizar la derivada a funciones de $R^{n}$ en $R$.
 
 Sea $f:R^{n}\to R$, decimos que es diferenciable en $(a_{1},\dots,a_{n})$ si existen 
 $$
-	\frac{\partial f}{\partial x_{1}}, \frac{\partial f}{\partial x_{2}},\dots, \frac{\partial f}{x_{n}} \quad\text{en }(a_{1},\dots,a_{n}),
+	\frac{\partial f}{\partial x_{1}}, \frac{\partial f}{\partial x_{2}},\dots, \frac{\partial f}{\partial x_{n}} \quad\text{en }(a_{1},\dots,a_{n}),
 $$
 y el límite 
 $$
