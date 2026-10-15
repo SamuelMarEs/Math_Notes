@@ -42,7 +42,7 @@ En base a esto, la curvatura se puede calcular como
 $$
 	k(t)=\frac{\lvert \lvert c'(t)\times c''(t) \rvert  \rvert }{\lvert \lvert c'(t) \rvert  \rvert ^{3}}.
 $$
-
+Estos tres vectores se conocen como el triedro de Frenet $(T(t), N(t), B(t))$, comunmente encontrados como $(\tau(t), n(t), b(t))$.
 
 #### ¿Qué tan plana es una curva?
 Dada una curva $\gamma(s)$ parametrizada por longitud de arco, sabemos que podemos definir los vectores tangente, normal, y binomial como 
@@ -82,4 +82,32 @@ Recordemos que estamos en $\mathbb{R}^{3}$, notemos que $\frac{dB}{ds}$ es perpe
 $$
 	\frac{dB}{ds}=-\tau N,\quad\tau\in\mathbb{R}
 $$
+
+#### Plano normal
+Sea $c:\mathbb{R}\to\mathbb{R}^{n}$ una curva diferenciable, y $P_{0}=c(t_{0})$ un punto sobre la curva donde $c'(t_{0})\neq 0$. El plano normal a la curva en $P_{0}$ es el plano perpendicular a la recta tangente en ese punto, y que pasa por $P_{0}$.
+Es decir, el plano normal a la curva es el plano cuyo vector normal es $T(t)$, el vector normal tangente a la curva.
+Por lo tanto, la ecuación de nuestro plano normal es 
+$$
+	c'(t_{0})\cdot((x,y,z)-c(t_{0}))=0.
+$$
+En términos del triedro de Frenet, (para $\mathbb{R}^{3}$) el plano normal es $\mathrm{span}\{ N,B \}$.
+
+#### Plano osculador
+Sea $c:\mathbb{R}\to\mathbb{R}^{n}$ una curva diferenciable, y $P_{0}=c(t_{0})$ un punto sobre la curva donde $c'(t_{0})\neq 0$. El plano osculador de $c$ en el punto $P_{0}$ es el plano que contiene a la recta tangete y a la recta normal principal. Es decir, el plano osculador es el plano que mejor aproxima a la curva en el punto $P_{0}$.
+Tiene como vector normal al binomial $B=T\times N$, o en otras palabras es el $\mathrm{span}\{ T,N \}$. Las dos formas de encontrar su ecuación son las siguientes: 
+$$
+	B(t_{0})\cdot((x,y,z)-c(t_{0}))=0,\quad (c'(t_{0})\times c''(t_{0}))\cdot((x,y,z)-c(t_{0}))=0.
+$$
+
+#### Circulo osculador
+El circulo osculador, también llamado círculo de curvatura, es la circunferencia que mejor aproxima a la curva en un punto $P_{0}$. Está contenida en el plano osculador.
+El radio de la circunferencia es 
+$$
+	R=\frac{1}{k(P_{0})}=\frac{\lvert \lvert c'(t_{0}) \rvert  \rvert ^{3}}{\lvert \lvert c'(t_{0})\times c''(t_{0}) \rvert  \rvert }.
+$$
+Por otro lado, el centro de la circunferencia está en la dirección del vector normal $N$: 
+$$
+	C=c(t_{0})+ \frac{1}{k(t_{0})}N(t_{0}).
+$$
+
 
