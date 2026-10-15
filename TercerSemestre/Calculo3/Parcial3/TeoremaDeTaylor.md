@@ -120,3 +120,27 @@ $$
 	\end{align}
 $$
 (más el residuo que es $R_{2}(0,h)=-\frac{h_{1}h_{2}^{2}}{2}-\frac{h_{1}^{2}h_{2}^{2}}{4}$)
+
+3.- Sea $f(x,y)=\sin xy$, encontrar Taylor de segundo orden para $(1,\pi/2)$.
+**Sol:**
+Denotemos la parcial respecto a $x$ como $f_{x}$ y análogamente para las demás. Entonces tenemos que 
+$$
+	f_{x}=y\cos xy,\quad f_{y}=x\cos xy,\quad f_{x x}=-y^{2}\sin xy,\quad f_{yy}=-x^{2}\sin xy,\quad f_{xy}=-xy\sin xy.
+$$
+En ese mismo orden, los valores al evaluar en el punto $(1,\pi / 2)$ son $0,0,- \pi^{2} / 4,-1,-\pi / 2$. Además, $f(1,\pi / 2)=1$. 
+Entonces tenemos que la función es: 
+$$
+	f\left( 1+h_{1}, \frac{\pi}{2}+h_{2} \right)=1+0h_{1}+0h_{2}- \frac{\pi^{2}}{8}h_{1}^{2}-\frac{h_{2}^{2}}{2}-\frac{\pi}{2}h_{1}h_{2}+R_{2}((1,\pi / 2),h).
+$$
+
+4.- Sea $f(x,y)=\frac{(x-1)^{2}}{(y-3)^{2}}$ para $(4,6)$.
+Primero, tenemos que $f(4,6)=1$.
+Ahora, las parciales son 
+$$
+	f_{x}=\frac{2x-2}{(y-3)^{2}}, f_{y}=- \frac{(x-1)^{2}}{(y-3)^{3}},f_{x x}=\frac{2}{(y-3)^{3}},f_{yy}=\frac{6(x-1)^{2}}{(y-3)^{4}},f_{xy}=-\frac{4(x-1)}{(y-3)^{3}},
+$$
+cuyos valores al evaluarlos en el punto de interés son 
+$$
+	\frac{2}{3}, -\frac{2}{3}, \frac{2}{9}, \frac{2}{3}, -\frac{4}{9},
+$$
+respectivamente.
