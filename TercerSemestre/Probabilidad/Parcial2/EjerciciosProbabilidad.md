@@ -138,6 +138,9 @@ $$
 	\end{align}
 $$
 Entonces tenemos que 
+$$
+	P(X\geq  n+m|X\geq n)=\frac{(1-p)^{n+m}}{(1-p)^{n}}=(1-p)^{m}=P(X\geq m).
+$$
 
 
 8.- Si $X$ y $Y$ son v.a. $\mathrm{Poisson}(\lambda)$ independientes, demuestre que $Z=X+Y\sim \mathrm{Poisson}(2\lambda)$.

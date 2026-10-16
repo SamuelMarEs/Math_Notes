@@ -11,7 +11,8 @@ Para calcular el valor esperado, dado que $X$ es una v.a. geométrica, entonces
 $$
 	E(X)=\frac{1-p}{p}=\frac{0.6}{0.4}=\frac{3}{2}.
 $$
-Es decir, se espera que tome 1.5 tomas filmar correctamente el comercial (i.e. al menos dos tomas).
+Sin embargo, hay que sumar 1, pues hay que considerar el número de tomas fallidas más el éxito.
+Es decir, se espera que tome 2.5 tomas filmar correctamente el comercial (i.e. al menos dos tomas).
 
 
 2.- En la inspección de piezas de hojalata producidas por un proceso electrolítico se identifican 0.5 imperfecciones en promedio por minuto. Determine la probabilidad de identificar, por lo menos, 2 imperfecciones en 5 minutos.
@@ -19,7 +20,7 @@ Es decir, se espera que tome 1.5 tomas filmar correctamente el comercial (i.e. a
 Sea $X$ la v.a. que mide el número de imperfecciones en un intervalo de 5 minutos. Suponiendo que el promedio de imperfecciones de cada minuto es independiente, y que se mantiene constante, entonces el número de imperfecciones en un intervalo de 5 minutos es de 
 $\lambda=5\left( \frac{1}{2} \right)=\frac{5}{2}$. Tenemos entonces que $X\sim \mathrm{Poisson}\left( \lambda=\frac{5}{2} \right)$. Dado que queremos calcular la probabilidad de que haya al menos 2 imperfecciones, tenemos entonces que lo que queremos calcular es 
 $$
-	P(X\geq 2)=1-P(X\leq 2)=1-P(X=0)-P(X=1)=1-e^{-5 / 3}-\frac{5}{3}e^{-5/3}.
+	P(X\geq 2)=1-P(X\leq 2)=1-P(X=0)-P(X=1)=1-e^{-5 / 2}-\frac{5}{2}e^{-5/2}.
 $$
 
 
@@ -27,17 +28,11 @@ $$
 	a) ¿Cuál es la probabilidad de que haya, a lo más, 1 tarjeta defectuosa en la muestra?
 	b) ¿Cuál es la probabilidad de que haya 3 tarjetas defectuosas?
 **Sol:**
-Sea $X=$ número de tarjetas defectuosas en una muestra de tamaño 4. La probabilidad de que, al tomar una sola tarjeta del paquete, esta sea defectuosa, es $4 / 10=2 /5$. 
-Entonces tenemos que $X\sim\text{Binom}(4, 2 / 5)$.
-Para el inciso a), queremos calcular 
+Sea $X$ la v.a. que indica el número de piezas defectuosas al tomar 4 tarjetas. Sabemos que $X\in \{ 0,1,2 \}$. Podemos asumir además que $X$ sigue una distribución multinomial con $N=10$, $K=2$ tarjetas defectuosas. Entonces, lo que queremos calcular para el inciso a) es: 
 $$
-	P(X\leq 1)=P(X=0)+P(X=1)={4\choose 0}\left( \frac{2}{5} \right)^{0}\left( \frac{3}{5} \right)^{4}+{4\choose 1}\left( \frac{2}{5} \right)^{1}\left( \frac{3}{5} \right)^{3}=\left( \frac{3}{5} \right)^{3}\left( \frac{11}{5} \right).
+	P(X\leq 1)=P(X=0)+P(X=1)=\frac{{8\choose 4}{2\choose 0}}{{10\choose 4}}+ \frac{{8\choose 3}{2\choose 1}}{{10\choose 4}}= \frac{182}{210}\approx 0.8667.
 $$
-Para el inciso b), lo que queremos calcular es 
-$$
-	P(X=3)={4\choose 3}\left( \frac{2}{5} \right)^{3}\left( \frac{3}{5} \right)^{1}.
-$$
-
+Por otro lado, tenemos que $P(X=3)=0$, pues no es posible elegir tres defectuosas, ya que solo hay 2.
 
 4.- Sea $Z$ una v.a. con $E(Z)=0$ y $\mathrm{Var}(Z)=1$. Sea $X=Z+1$ y $Y=Z-1$. Demuestra que 
 $E(XY)=0$.
@@ -202,4 +197,23 @@ es decir que en promedio se espera que ninguno de los hijos tenga albinismo.
 10.- En una población grande, se sabe que el 12% de la población tiene una enfermedad congénita. Para detectar a las personas enfermas en un grupo de 100, se hace una prueba de sangre. Para reducir costos, se crean 10 grupos de 10 muestras de sangre y se combinan para hacer la prueba sobre la muestra combinada. Si la muestra es positiva, se aplican pruebas individuales a cada persona de la muestra. 
 ¿Cuál es el número esperado de pruebas que se realizaran en total con este esquema?
 **Sol:**
-La probabilidad de que una persona de la población tenga la enfermedad es $p=0.12$.
+La probabilidad de que una persona de la población tenga la enfermedad es $p=0.12$. Si tomamos únicamente un grupo de 10 personas, denotemos $Y_{1}$ la variable aleatoria que indica el número de pruebas requeridas para el grupo 1 de 10 personas. 
+La probabilidad de que solo se ocupe una prueba, es la probabilidad de que todos estén sanos, es decir que 
+$$
+	P(Y_{1}=1)=(1-0.12)^{10}\approx 0.2785.
+$$
+Por otro lado, si al menos uno tiene la enfermedad, se requieren 11 pruebas, y tenemos entonces que 
+$$
+	P(Y_{1}=11)=1-P(Y_{1}=1)\approx 0.7215.
+$$
+Entonces, el valor esperado de pruebas para solo uno de los grupos es 
+$$
+	E(Y_{1})=1(0.2785)+11(0.7215)=8.215\quad \text{pruebas.}
+$$
+Si denotamos $Y_{1},\dots,Y_{10}$ al número de pruebas necesarias en cada uno de los 10 grupos, entonces tenemos la v.a. $Y=\sum_{i=1}^{10}Y_{i}$ denota el número de pruebas de todos los grupos. Si asumimos que los resultados de un grupo son independientes de los demás (i.e. $Y_{i}$ son independientes), entonces 
+$$
+	\begin{align}
+	E(Y)=E\left( \sum_{i=1}^{10}Y_{i} \right)=\sum_{i=1}^{10}E(Y_{i})=\sum_{i=1}^{10}8.215=82.15,
+	\end{align}
+$$
+es decir que, en promedio, se requerirán $82$ pruebas.
