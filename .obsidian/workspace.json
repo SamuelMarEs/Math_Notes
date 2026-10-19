@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "61d8563b53f0cc1d",
+        "id": "20447b0b439441a1",
         "type": "tabs",
         "children": [
           {
-            "id": "17a8a433f9556a16",
+            "id": "45549b07f97b80c2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TercerSemestre/Calculo3/Parcial3/MaximosMinimos.md",
+                "file": "TercerSemestre/AlgebraLineal2/Parcial3/ComplementoOrtogonal.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "MaximosMinimos"
+              "title": "ComplementoOrtogonal"
             }
           }
         ]
@@ -225,10 +225,14 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "17a8a433f9556a16",
+  "active": "45549b07f97b80c2",
   "lastOpenFiles": [
-    "TercerSemestre/Calculo3/Parcial3/TeoremaDeTaylor.md",
+    "TercerSemestre/AlgebraLineal2/Parcial3/Norma.md",
+    "TercerSemestre/AlgebraLineal2/Parcial3/BasesOrtonormales.md",
+    "TercerSemestre/AlgebraLineal2/Parcial3/ProductoInterno.md",
+    "TercerSemestre/AlgebraLineal2/Parcial3/ComplementoOrtogonal.md",
     "TercerSemestre/Calculo3/Parcial3/MaximosMinimos.md",
+    "TercerSemestre/Calculo3/Parcial3/TeoremaDeTaylor.md",
     "TercerSemestre/Datos_Algoritmos/Parcial2/Arboles.md",
     "TercerSemestre/Calculo3/Parcial2/Curvatura.md",
     "TercerSemestre/Calculo3/Parcial1/Diferenciacion.md",
@@ -249,10 +253,6 @@
     "TercerSemestre/Calculo3/Parcial2/CamposVectoriales.md",
     "TercerSemestre/Calculo3/Parcial2/DerivadaDireccional.md",
     "TercerSemestre/Calculo3/Parcial2/DerivadaDeFuncionVectorial.md",
-    "TercerSemestre/Calculo3/Parcial1/TeoremasDiferenciacion.md",
-    "TercerSemestre/Calculo3/Parcial1/DerivadasParciales.md",
-    "TercerSemestre/Calculo3/Parcial1/Continuidad.md",
-    "TercerSemestre/Calculo3/Parcial1/Funciones.md",
     "TercerSemestre/Calculo3/temario_calc3.pdf",
     "TercerSemestre/Datos_Algoritmos/Parcial2",
     "TercerSemestre/Imagenes/EjemploCampoVectorial2.png",
