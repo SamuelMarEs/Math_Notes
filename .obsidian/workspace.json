@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TercerSemestre/AlgebraLineal2/Parcial3/ComplementoOrtogonal.md",
+                "file": "TercerSemestre/Calculo3/Parcial3/MaximosMinimos.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ComplementoOrtogonal"
+              "title": "MaximosMinimos"
             }
           }
         ]
@@ -227,10 +227,10 @@
   },
   "active": "45549b07f97b80c2",
   "lastOpenFiles": [
+    "TercerSemestre/AlgebraLineal2/Parcial3/ComplementoOrtogonal.md",
     "TercerSemestre/AlgebraLineal2/Parcial3/Norma.md",
     "TercerSemestre/AlgebraLineal2/Parcial3/BasesOrtonormales.md",
     "TercerSemestre/AlgebraLineal2/Parcial3/ProductoInterno.md",
-    "TercerSemestre/AlgebraLineal2/Parcial3/ComplementoOrtogonal.md",
     "TercerSemestre/Calculo3/Parcial3/MaximosMinimos.md",
     "TercerSemestre/Calculo3/Parcial3/TeoremaDeTaylor.md",
     "TercerSemestre/Datos_Algoritmos/Parcial2/Arboles.md",

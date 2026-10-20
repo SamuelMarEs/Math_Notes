@@ -83,6 +83,81 @@ Si $A=[a_{ij}]$ es una matriz de $n\times n$ y su forma cuadrática asociada $H$
 $$
 	H(h)\geq M\lvert \lvert h \rvert  \rvert^{2}.
 $$
+Para la demostración del tema, usamos el siguiente teorema:
+###### Teorema:
+Si $A\in M_{n\times n}(R)$ es simétrica, entonces los eigenvectores de $A$ son una base ortonormal de $R^{n}$ y los eigenvalores son reales.
+###### Demostración (Lema):
+Tenemos que 
+$$
+	H(h)=h^{T}Ah=\sum_{i,j=1}a_{ij}h_{i}h_{j},
+$$
+entones 
+$$
+	H(h)=h\cdot(Ah).
+$$
+Sea $u=(u_{1},\dots,u_{n})$ un vector y dada una base ortonormal $\{ v_{1},\dots,v_{n} \}$ de $R^{n}$ y los eigenvalores asociados son $\lambda_{1}>\lambda_{2}>\dots>\lambda_{n}$, que aseguramos existen por el teorema enunciado anteriormente.
+Podemos escribir $u=u_{1}v_{1}+u_{2}v_{2}+\dots+u_{n}v_{n}$, entonces 
+$$
+	\begin{align}
+	u\cdot(Au)&=(u_{1}v_{1}+\dots+u_{n}v_{n})\cdot(A(u_{1}v_{1}))+\dots+A(u_{n}v_{n})) \\
+	&=(u_{1}v_{1}+\dots+u_{n}v_{n})\cdot(u_{1}\lambda_{1}v_{1}+\dots+u_{n}\lambda_{n}v_{n}) \\
+	&=u_{1}^{2}\lambda_{1}(v_{1}\cdot v_{1})+\dots+u_{n}^{2}\lambda_{n}(v_{n}\cdot v_{n}) \\
+	&=u_{1}^{2}\lambda_{1}+\dots+u_{n}^{2}\lambda_{n}.
+	\end{align}
+$$
+Observemos que tenemos que $\lambda_{j}\geq \lambda_{n}\quad\forall j=1,\dots,n$. Entonces $u_{j}^{2}\lambda_{j}\geq u_{j}^{2}\lambda_{n}\quad\forall j=1,\dots,n$. Entonces tenemos que 
+$$
+	\sum_{j=1}^{n}u_{j}^{2}\lambda_{j}\geq \sum_{j=1}^{n}u_{j}^{2}\lambda_{n}=\lambda_{n}\sum_{j=1}^{n}u_{j}^{2}=\lambda_{n}\lvert \lvert u \rvert  \rvert ^{2}.\quad\square
+$$
+
+##### Demostración (Criterio de la segunda derivada):
+Caso para $Hf(x_{0})$ definida positiva, es decir, queremos demostrar que $x_{0}$ es un punto de mínimo local.
+Usando [[TeoremaDeTaylor|Taylor]] ya vimos que podemos reescribir a la función $f$ en términos de la Hessiana como 
+$$
+	f(x_{0}+h)-f(x_{0})=Hf(x_{0})(h)+R_{2}(x_{0},h),
+$$
+cuando $x_{0}$ es un punto crítico de $f$. Por el *Lema* tenemos que $Hf(x_{0})(h)\geq M\lvert \lvert h \rvert \rvert^{2}$, y además sabemos que $\lim_{ h \to 0 }R_{2}(x_{0},h)/\lvert \lvert h \rvert \rvert^{2}=0$. Este límite implica que para $\varepsilon=M$, existe $\delta>0$ tal que si $\lvert \lvert h \rvert \rvert<\delta$ entonces $R_{2}(x_{0},h)\leq M\lvert \lvert h \rvert \rvert^{2}$.
+Entonces tenemos que 
+$$
+	f(x_{0}+h)-f(x_{0})\geq2M\lvert \lvert h \rvert  \rvert ^{2}> 0,
+$$
+por lo tanto 
+$$
+	f(x_{0}+h)> f(x_{0}),
+$$
+es decir que $x_{0}$ es un punto de mínimo local. El hecho de que la Hessiana sea definida positiva nos garantiza que la cota va a ser estrictamente mayor a cero. <- Esta parte no quedó del todo clara.
+
+La demostración para el caso cuando $Hf(x_{0})$ es definida negativa, es decir que $x_{0}$ es un punto de máximo local se hace de forma análoga, solo que en vez de tomar una cota inferior (por el lema), tendríamos que tomar otro lema que nos de una cota superior, pero la demostración de ese nuevo lema seguirá siendo análoga.
+
+##### Ejemplo:
+Sea $f(x,y)=2(x^{2}+y^{2})e^{-x^{2}-y^{2}}$, encontrar los puntos de máximo y mínimo.
+**Sol:**
+El gradiente está dado por 
+$$
+	\nabla f(x,y)=(-4xe^{-x^{2}-y^{2}}(-1+x^{2}+y^{2}), -4ye^{-x^{2}-y^{2}}(-1+x^{2}+y^{2}).
+$$
+Los puntos críticos se encuentran en $(x,y)=(0,0)$, y en $x^{2}+y^{2}=1$.
+
+### Criterio rápido para $R^{2}$
+Sea $B\in M_{2\times 2}(R)$ dada por 
+$$
+	B=\begin{bmatrix}
+	a & b \\
+	c & d
+	\end{bmatrix}
+$$
+tal que $H(h)=h^{T}Bh$. Entonces $H(h)$ es definida positiva si y solo si $a >0$ y $\det B>0$.
+Este resultado no lo vamos a probar, pero lo vamos a utilizar en el siguiente teorema:
+
+#### Teorema:
+Sea $f:R^{2}\to R$ tal que $f$ es $C^{3}$ en un abierto $U\subset R^{2}$. $(x_{0},y_{0})$ es un punto de mínimo local si se cumplen las siguientes:
+1. $\frac{\partial f}{\partial x}(x_{0},y_{0})=\frac{\partial f}{\partial y}(x_{0},y_{0})=0$, es decir, si es un punto de inflexión.
+2. $\frac{\partial^{2}f}{\partial x^{2}}(x_{0},y_{0})>0$.
+3. $\frac{\partial^{2}f}{\partial x^{2}}(x_{0},y_{0}) \frac{\partial^{2}f}{\partial y^{2}}(x_{0},y_{0})-\left( \frac{\partial^{2}f}{\partial x\partial y}(x_{0},y_{0}) \right)^{2}>0$.
+
+La demostración es trivial usando el resultado de algebra lineal enunciado anteriormente.
+
+
 
 
 
