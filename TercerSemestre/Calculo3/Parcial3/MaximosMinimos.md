@@ -191,7 +191,11 @@ por lo tanto se trata de un punto mínimo.
 
 3.- Sea $h(x,y)=xy+x^{5}y+xy^{5}$, encontrar puntos críticos y decir si son puntos de mínimo, máximo, o de silla.
 **Sol:**
-
+Las parciales son 
+$$
+	h_{x}=y+5x^{4}y+y^{5},\quad h_{y}=x+x^{5}+5xy^{4},\quad h_{x x}=20x^{3}y,\quad h_{yy}=20xy^{3},\quad h_{xy}=1+5x^{4}+5y^{4}.
+$$
+La única raíz real de $h_{x}=0,h_{y}=0$ es el punto $(x,y)=(0,0)$. En este punto, es fácil ver que las segundas derivadas de $x$ y $y$ se anulan, y para la segunda derivada respecto a ambas sobrevive únicamente el $1$, por lo tanto el discriminante (tercera condición del criterio de la segunda derivada) es $-1$, y por lo tanto se trata de un punto silla.
 
 
 
