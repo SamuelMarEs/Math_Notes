@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "c1e08b123b484e09",
+        "id": "e3a7d1f1c909ea75",
         "type": "tabs",
         "children": [
           {
-            "id": "c4db5f27e2985a84",
+            "id": "a7ae6f2b1becdf81",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "TercerSemestre/Calculo3/Parcial3/MaxMinAbsolutos.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "MaxMinAbsolutos"
             }
           }
         ]
@@ -221,11 +225,13 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "ddd66d7aa249ed22",
+  "active": "a7ae6f2b1becdf81",
   "lastOpenFiles": [
+    "TercerSemestre/Calculo3/Parcial3/MaximosMinimos.md",
+    "TercerSemestre/Calculo3/Parcial3/MaxMinAbsolutos.md",
+    "TercerSemestre/Calculo3/Parcial1/ConjuntosAbiertos.md",
     "TercerSemestre/Datos_Algoritmos/Parcial2/ArbolesDeBusquedaBalanceada.md",
     "TercerSemestre/AlgebraLineal2/Parcial4/OperadorAdjunto.md",
-    "TercerSemestre/Calculo3/Parcial3/MaximosMinimos.md",
     "TercerSemestre/AlgebraLineal2/Parcial3/ComplementoOrtogonal.md",
     "TercerSemestre/AlgebraLineal2/Parcial3/Norma.md",
     "TercerSemestre/AlgebraLineal2/Parcial3/BasesOrtonormales.md",
@@ -247,8 +253,6 @@
     "TercerSemestre/Calculo3/Parcial2/DerivadasIteradas.md",
     "TercerSemestre/Calculo3/Parcial2/ReParametrizacion.md",
     "TercerSemestre/Calculo3/Parcial2/ReglaDeLaCadena.md",
-    "TercerSemestre/Calculo3/Parcial2/Nabla.md",
-    "TercerSemestre/Calculo3/Parcial2/CamposVectoriales.md",
     "TercerSemestre/Calculo3/temario_calc3.pdf",
     "TercerSemestre/Datos_Algoritmos/Parcial2",
     "TercerSemestre/Imagenes/EjemploCampoVectorial2.png",
