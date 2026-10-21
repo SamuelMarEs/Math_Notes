@@ -4,24 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "e3a7d1f1c909ea75",
+        "id": "74a3b93192ae421e",
         "type": "tabs",
         "children": [
           {
-            "id": "a7ae6f2b1becdf81",
+            "id": "9b0ff074324245bd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TercerSemestre/Calculo3/Parcial3/MaxMinAbsolutos.md",
+                "file": "TercerSemestre/Probabilidad/Parcial2/VariablesAleatorias.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "MaxMinAbsolutos"
+              "title": "VariablesAleatorias"
+            }
+          },
+          {
+            "id": "875e5f665d5cdf47",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "TercerSemestre/Probabilidad/Parcial3/V.A.Continuas.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "V.A.Continuas"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -225,10 +240,13 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "a7ae6f2b1becdf81",
+  "active": "875e5f665d5cdf47",
   "lastOpenFiles": [
-    "TercerSemestre/Calculo3/Parcial3/MaximosMinimos.md",
+    "TercerSemestre/Probabilidad/Parcial2/FuncionDeDistribucion.md",
+    "TercerSemestre/Probabilidad/Parcial3/V.A.Continuas.md",
+    "TercerSemestre/Probabilidad/Parcial2/VariablesAleatorias.md",
     "TercerSemestre/Calculo3/Parcial3/MaxMinAbsolutos.md",
+    "TercerSemestre/Calculo3/Parcial3/MaximosMinimos.md",
     "TercerSemestre/Calculo3/Parcial1/ConjuntosAbiertos.md",
     "TercerSemestre/Datos_Algoritmos/Parcial2/ArbolesDeBusquedaBalanceada.md",
     "TercerSemestre/AlgebraLineal2/Parcial4/OperadorAdjunto.md",
@@ -250,9 +268,6 @@
     "TercerSemestre/Calculo3/Parcial2/LongitudDeArco.md",
     "TercerSemestre/Probabilidad/Parcial2/DistribucionBernoulli.md",
     "TercerSemestre/Probabilidad/Parcial1/TeoremaDeBayes.md",
-    "TercerSemestre/Calculo3/Parcial2/DerivadasIteradas.md",
-    "TercerSemestre/Calculo3/Parcial2/ReParametrizacion.md",
-    "TercerSemestre/Calculo3/Parcial2/ReglaDeLaCadena.md",
     "TercerSemestre/Calculo3/temario_calc3.pdf",
     "TercerSemestre/Datos_Algoritmos/Parcial2",
     "TercerSemestre/Imagenes/EjemploCampoVectorial2.png",
