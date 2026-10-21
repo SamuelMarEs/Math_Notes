@@ -146,7 +146,7 @@ $$
 	c & d
 	\end{bmatrix}
 $$
-tal que $H(h)=h^{T}Bh$. Entonces $H(h)$ es definida positiva si y solo si $a >0$ y $\det B>0$.
+tal que $H(h)=h^{T}Bh$. Entonces $H(h)$ es definida positiva si y solo si $a >0$ y $\det B>0$. Si $a<0$ y $\det B>0$ entonces es definida negativa.
 Este resultado no lo vamos a probar, pero lo vamos a utilizar en el siguiente teorema:
 
 #### Teorema:
@@ -154,10 +154,43 @@ Sea $f:R^{2}\to R$ tal que $f$ es $C^{3}$ en un abierto $U\subset R^{2}$. $(x_{0
 1. $\frac{\partial f}{\partial x}(x_{0},y_{0})=\frac{\partial f}{\partial y}(x_{0},y_{0})=0$, es decir, si es un punto de inflexión.
 2. $\frac{\partial^{2}f}{\partial x^{2}}(x_{0},y_{0})>0$.
 3. $\frac{\partial^{2}f}{\partial x^{2}}(x_{0},y_{0}) \frac{\partial^{2}f}{\partial y^{2}}(x_{0},y_{0})-\left( \frac{\partial^{2}f}{\partial x\partial y}(x_{0},y_{0}) \right)^{2}>0$.
-
 La demostración es trivial usando el resultado de algebra lineal enunciado anteriormente.
 
+Si 
+$$
+	\frac{\partial^{2}f}{\partial x^{2}}(x_{0},y_{0}) \frac{\partial^{2}f}{\partial y^{2}}(x_{0},y_{0})-\left( \frac{\partial^{2}f}{\partial x\partial y}(x_{0},y_{0}) \right)^{2}<0,
+$$
+entonces es un punto silla, independientemente de la segunda condición. Si la segunda condición la volteamos, es decir que $\frac{\partial^{2}f}{\partial x^{2}}(x_{0},y_{0})<0$, y la condición 3 se sostiene, entonces es un máximo local.
+En caso de que la segunda condición sea cero exacto, entonces el criterio no es concluyente.
 
+##### Ejemplo:
+1.- Sea $f(x,y)=x^{2}-2xy+y^{2}$, encontrar los puntos de máximo, de mínimo, silla o nada.
+**Sol:**
+Las parciales son 
+$$
+	f_{x}=2x-2y,\quad f_{y}=-2x+2y,\quad f_{x x}=2=f_{yy},\quad f_{xy}=-2.
+$$
+Los puntos críticos son todos de la forma $x=y$. Además tenemos que tenemos que el tercer criterio nos da que 
+$$
+	f_{x x}\cdot f_{yy}-(f_{xy})^{2}=4-4=0.
+$$
+Entonces tenemos que el criterio no es concluyente.
+Por otro lado, observemos que $f(x,y)=(x-y)^{2}\geq 0$, y si $x=y$ tenemos que $f(x,y)=0$, por lo tanto los puntos son mínimos.
+
+2.- Sea $g(x,y)=x^{2}-2xy+2y^{2}$, encontrar los puntos de máximo, de mínimo, silla o nada.
+**Sol:**
+Las parciales son 
+$$
+	g_{x}=2x-2y,\quad g_{y}=-2x+4y\quad, g_{x x}=2,\quad g_{yy}=4,\quad g_{xy}=-2.
+$$
+La función se anula en $x=y\cap x=2y$, es decir que se anula en $(0,0)$. La segunda derivada es siempre positiva, y para el tercer criterio tenemos que 
+$$
+	g_{x x}\cdot g_{yy}-(g_{xy})^{2}=2\cdot 4-4=4>0,
+$$
+por lo tanto se trata de un punto mínimo.
+
+3.- Sea $h(x,y)=xy+x^{5}y+xy^{5}$, encontrar puntos críticos y decir si son puntos de mínimo, máximo, o de silla.
+**Sol:**
 
 
 
