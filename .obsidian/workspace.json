@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "491cb5ac89e130d7",
+        "id": "6ff1da33c6529569",
         "type": "tabs",
         "children": [
           {
-            "id": "896e73874b70aecb",
+            "id": "c6dfd42dc9ab5a79",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -177,8 +177,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -192,8 +191,9 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "57799c1e0e9b6761",
+  "active": "c6dfd42dc9ab5a79",
   "lastOpenFiles": [
+    "TercerSemestre/Datos_Algoritmos/Parcial2/PropuestaProyecto.md",
     "TercerSemestre/AlgebraLineal2/Parcial3/BasesOrtonormales.md",
     "TercerSemestre/AlgebraLineal2/Parcial3/ProcesoGram-Schmidt.md",
     "TercerSemestre/AlgebraLineal2/Parcial3/Norma.md",
