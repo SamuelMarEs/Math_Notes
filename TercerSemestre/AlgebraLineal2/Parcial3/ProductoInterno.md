@@ -20,18 +20,6 @@ d) $\langle x,x\rangle >0\forall x\neq 0,x\in V$.
 1.- $\langle x, y+z\rangle=\overline{\langle y+z, x\rangle}=\overline{\langle y,x\rangle+\langle z, x\rangle}=\overline{\langle y,x\rangle}+\overline{\langle z,x\rangle}=\langle x,y\rangle+\langle x,z\rangle$.
 2.- 
 
-#### Definición:
-La ***norma*** o ***longitud*** de un vector $x\in V$ es 
-$$
-	\lvert \lvert x \rvert  \rvert =\sqrt{ \langle x,x\rangle }.
-$$
-
-#### Teorema 6.2:
-1.- $\lvert \lvert cx \rvert \rvert=\lvert c \rvert\cdot\lvert \lvert x \rvert \rvert$.
-2.- $\lvert \lvert x \rvert \rvert\geq 0\forall x\in V$, y $\lvert \lvert x \rvert \rvert=0 \iff x=0$.
-3.- Desigualdad de Cauchy-Schwarz. $\lvert\langle x,y\rangle\rvert \leq \lvert \lvert x \rvert \rvert\cdot \lvert \lvert y \rvert \rvert$.
-4.- Desigualdad del triángulo. $\lvert \lvert x+y \rvert \rvert\leq \lvert \lvert x \rvert \rvert+\lvert \lvert y \rvert \rvert$.
-
 ### Algunos productos internos
 ##### Producto interno estandar
 Sean $x,y\in F^{n}$, entonces $$\langle x,y\rangle=\sum_{i=1}^{n}x_{i}\overline{y_{i}}$$
