@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "6ff1da33c6529569",
+        "id": "ebbbc4c6a9ade7a2",
         "type": "tabs",
         "children": [
           {
-            "id": "c6dfd42dc9ab5a79",
+            "id": "a5ee9f0343593c08",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -29,6 +29,7 @@
       {
         "id": "da61de551f871d8f",
         "type": "tabs",
+        "dimension": 72.86282306163022,
         "children": [
           {
             "id": "57799c1e0e9b6761",
@@ -76,6 +77,23 @@
             }
           }
         ]
+      },
+      {
+        "id": "3863b57bf730cc7d",
+        "type": "tabs",
+        "dimension": 27.137176938369784,
+        "children": [
+          {
+            "id": "c6dfd42dc9ab5a79",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
@@ -88,6 +106,7 @@
       {
         "id": "58d6bcfbfff1e10a",
         "type": "tabs",
+        "dimension": 70.99236641221374,
         "children": [
           {
             "id": "5fd87efc37921b1e",
@@ -162,7 +181,15 @@
               "icon": "lucide-list",
               "title": "Outline"
             }
-          },
+          }
+        ],
+        "currentTab": 2
+      },
+      {
+        "id": "a39f98ccefbfa8bd",
+        "type": "tabs",
+        "dimension": 29.00763358778626,
+        "children": [
           {
             "id": "4de478704ba60bb1",
             "type": "leaf",
@@ -191,8 +218,9 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "c6dfd42dc9ab5a79",
+  "active": "a5ee9f0343593c08",
   "lastOpenFiles": [
+    "TercerSemestre/Calculo3/Parcial3/MultiplicadoresDeLagrange.md",
     "TercerSemestre/Datos_Algoritmos/Parcial2/PropuestaProyecto.md",
     "TercerSemestre/AlgebraLineal2/Parcial3/BasesOrtonormales.md",
     "TercerSemestre/AlgebraLineal2/Parcial3/ProcesoGram-Schmidt.md",
