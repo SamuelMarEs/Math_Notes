@@ -23,8 +23,10 @@ Con esto concluimos que
 $$
 	c_{i}=\frac{\langle w,v_{i}\rangle}{\langle v_{i},v_{i}\rangle}=\frac{\langle w, v_{i}\rangle}{\lvert \lvert v_{i} \rvert  \rvert ^{2}}.\quad\square
 $$
-##### Corolario
-Si además $S$ es una [[BasesOrtonormales|ortonormal]], entonces los coeficientes son únicamente el producto interno $\langle w,v_{i}\rangle$.
+##### Corolarios
+Si además $S$ es una [[BasesOrtonormales|ortonormal]], entonces los coeficientes son únicamente el producto interno $\langle w,v_{i}\rangle$. 
+Adicional-mente, un conjunto ortogonal consistente de vectores no zero es linealmente independiente.
+
 
 
 

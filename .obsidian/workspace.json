@@ -1,14 +1,14 @@
 {
   "main": {
-    "id": "24c64545ba695783",
+    "id": "c415109c56e5af77",
     "type": "split",
     "children": [
       {
-        "id": "753f3bc00db74c7c",
+        "id": "491cb5ac89e130d7",
         "type": "tabs",
         "children": [
           {
-            "id": "2177a5b8eff2ff29",
+            "id": "896e73874b70aecb",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -23,16 +23,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "b7f63ada1822f350",
+    "id": "898071b34ee82c50",
     "type": "split",
     "children": [
       {
-        "id": "19222e06e28c1808",
+        "id": "da61de551f871d8f",
         "type": "tabs",
-        "dimension": 74.6520874751491,
         "children": [
           {
-            "id": "ddd66d7aa249ed22",
+            "id": "57799c1e0e9b6761",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -47,12 +46,12 @@
             }
           },
           {
-            "id": "0cb5a9c423476fb3",
+            "id": "6a73d2c2b1b99d6d",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#excalidraw",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -64,7 +63,7 @@
             }
           },
           {
-            "id": "82e643dd72424536",
+            "id": "1202fff1f9aecd0b",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -77,44 +76,25 @@
             }
           }
         ]
-      },
-      {
-        "id": "8daead9328d2acbf",
-        "type": "tabs",
-        "dimension": 25.347912524850898,
-        "children": [
-          {
-            "id": "ac8c60ffeb1b330f",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
-          }
-        ]
       }
     ],
     "direction": "horizontal",
     "width": 300
   },
   "right": {
-    "id": "113862d1325c49bd",
+    "id": "9419bebbb0f69816",
     "type": "split",
     "children": [
       {
-        "id": "3b387272ae035e50",
+        "id": "58d6bcfbfff1e10a",
         "type": "tabs",
-        "dimension": 68.98854961832062,
         "children": [
           {
-            "id": "13847b248dca9e84",
+            "id": "5fd87efc37921b1e",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Chapter2_Intro/Intro.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,12 +108,11 @@
             }
           },
           {
-            "id": "bcc1fb8ca1ab7ef3",
+            "id": "acfc95f1be0eb8d3",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Chapter2_Intro/Intro.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -142,7 +121,7 @@
             }
           },
           {
-            "id": "8c2c26b151a8d13d",
+            "id": "0c9c7cd1329ecd1a",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -157,7 +136,7 @@
             }
           },
           {
-            "id": "c5be0822fe77113f",
+            "id": "bb766513e28e5acc",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -171,30 +150,21 @@
             }
           },
           {
-            "id": "6550c2b75d30ac32",
+            "id": "eb8ecfe0d01f35cd",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Chapter2_Intro/Intro.md",
-                "followCursor": true,
+                "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
               "title": "Outline"
             }
-          }
-        ],
-        "currentTab": 2
-      },
-      {
-        "id": "bb9f56942eed379b",
-        "type": "tabs",
-        "dimension": 31.01145038167939,
-        "children": [
+          },
           {
-            "id": "6f189e73937059d0",
+            "id": "4de478704ba60bb1",
             "type": "leaf",
             "state": {
               "type": "calendar",
@@ -207,7 +177,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -221,59 +192,14 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-<<<<<<< HEAD
-  "active": "ddd66d7aa249ed22",
+  "active": "57799c1e0e9b6761",
   "lastOpenFiles": [
-    "TercerSemestre/Probabilidad/Parcial2/EjerciciosProbabilidad.md",
-    "TercerSemestre/Calculo3/Parcial3/TeoremaDeTaylor.md",
-=======
-  "active": "4193e29628f7df33",
-  "lastOpenFiles": [
-    "TercerSemestre/AlgebraLineal2/Parcial3/Tarea5_AlgebraLineal2.md",
-    "TercerSemestre/AlgebraLineal2/Parcial3/Tarea4_AlgebraLineal2.md",
-    "TercerSemestre/Datos_Algoritmos/Parcial2/ArbolesDeBusquedaBalanceada.md",
-    "TercerSemestre/Datos_Algoritmos/Parcial2/ArbolesRojinegros.md",
-    "TercerSemestre/Datos_Algoritmos/Parcial2/PropuestaProyecto.md",
-    "TercerSemestre/Probabilidad/Parcial2/VariablesAleatorias.md",
-    "TercerSemestre/Probabilidad/Parcial3/V.A.Continuas.md",
-    "TercerSemestre/Probabilidad/Parcial2/FuncionDeDistribucion.md",
-    "TercerSemestre/Calculo3/Parcial3/MaxMinAbsolutos.md",
-    "TercerSemestre/Calculo3/Parcial3/MaximosMinimos.md",
-    "TercerSemestre/Calculo3/Parcial1/ConjuntosAbiertos.md",
-    "TercerSemestre/AlgebraLineal2/Parcial4/OperadorAdjunto.md",
-    "TercerSemestre/AlgebraLineal2/Parcial3/ComplementoOrtogonal.md",
-    "TercerSemestre/AlgebraLineal2/Parcial3/Norma.md",
     "TercerSemestre/AlgebraLineal2/Parcial3/BasesOrtonormales.md",
+    "TercerSemestre/AlgebraLineal2/Parcial3/ProcesoGram-Schmidt.md",
+    "TercerSemestre/AlgebraLineal2/Parcial3/Norma.md",
+    "TercerSemestre/AlgebraLineal2/Parcial3/ComplementoOrtogonal.md",
     "TercerSemestre/AlgebraLineal2/Parcial3/ProductoInterno.md",
-    "TercerSemestre/Calculo3/Parcial3/TeoremaDeTaylor.md",
-    "TercerSemestre/Datos_Algoritmos/Parcial2/Arboles.md",
->>>>>>> f1ef81a6f12329e1b96b09da59be286a5ddf7b80
-    "TercerSemestre/Calculo3/Parcial2/Curvatura.md",
-    "TercerSemestre/Calculo3/Parcial1/Diferenciacion.md",
-    "TercerSemestre/Calculo3/Parcial1/PlanosTangentes.md",
-    "TercerSemestre/Probabilidad/Parcial2/EjerciciosProbabilidad2.md",
-    "TercerSemestre/AlgebraLineal2/Parcial1/EspaciosVectoriales.md",
-    "TercerSemestre/AlgebraLineal2/Parcial1/KernelYRango.md",
-    "Excalidraw/CoordenadasEsfericas.md",
-    "TercerSemestre/Calculo3/temario_calc3.pdf",
-    "TercerSemestre/Datos_Algoritmos/Parcial2",
-    "TercerSemestre/Imagenes/EjemploCampoVectorial2.png",
-    "TercerSemestre/Imagenes/EjemploCampoVectorial1.png",
-    "TercerSemestre/Imagenes/CDF_ejercicio194.png",
-    "TercerSemestre/Imagenes/PDF_ejercicio192.png",
-    "TercerSemestre/Imagenes/PDF_ejercicio191.png",
-    "TercerSemestre/Imagenes/CDF_ejercicio191.png",
-    "TercerSemestre/Imagenes/CDF_ejercicio192.png",
-    "Pasted image 20260927193306.png",
-    "TercerSemestre/Imagenes/f(x)_ejercicio180.png",
-    "TercerSemestre/Imagenes/PDF_ejercicio170.png",
-    "TercerSemestre/Probabilidad/Parcial2/Tarea4Probabilidad.ipynb",
-    "TercerSemestre/Datos_Algoritmos/Parcial1",
-    "TercerSemestre/Probabilidad/Temario_Probabilidad.pdf",
-    "TercerSemestre/Calculo3/Parcial4",
-    "TercerSemestre/Calculo3/Parcial3",
-    "TercerSemestre/Calculo3/Parcial2",
-    "TercerSemestre/Calculo3/Parcial1",
-    "TercerSemestre/Probabilidad/Parcial3"
+    "TercerSemestre/AlgebraLineal2/Parcial3/Tarea4_AlgebraLineal2.md",
+    "TercerSemestre/AlgebraLineal2/Parcial4/OperadorAdjunto.md"
   ]
 }
