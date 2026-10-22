@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "e7a339ba66072d60",
+        "id": "8d7f6a789f6edd33",
         "type": "tabs",
         "children": [
           {
-            "id": "7c31c262dfe3adb3",
+            "id": "4193e29628f7df33",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -221,8 +221,10 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "ddd66d7aa249ed22",
+  "active": "4193e29628f7df33",
   "lastOpenFiles": [
+    "TercerSemestre/AlgebraLineal2/Parcial3/Tarea5_AlgebraLineal2.md",
+    "TercerSemestre/AlgebraLineal2/Parcial3/Tarea4_AlgebraLineal2.md",
     "TercerSemestre/Datos_Algoritmos/Parcial2/ArbolesDeBusquedaBalanceada.md",
     "TercerSemestre/Datos_Algoritmos/Parcial2/ArbolesRojinegros.md",
     "TercerSemestre/Datos_Algoritmos/Parcial2/PropuestaProyecto.md",
@@ -247,8 +249,6 @@
     "TercerSemestre/AlgebraLineal2/Parcial1/EspaciosVectoriales.md",
     "TercerSemestre/AlgebraLineal2/Parcial1/KernelYRango.md",
     "Excalidraw/CoordenadasEsfericas.md",
-    "TercerSemestre/Calculo3/Parcial2/Gradiente.md",
-    "TercerSemestre/Calculo3/Parcial2/LongitudDeArco.md",
     "TercerSemestre/Calculo3/temario_calc3.pdf",
     "TercerSemestre/Datos_Algoritmos/Parcial2",
     "TercerSemestre/Imagenes/EjemploCampoVectorial2.png",
