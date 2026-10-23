@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "899090bd300160aa",
+        "id": "0b22c145a64c4d81",
         "type": "tabs",
         "children": [
           {
-            "id": "b49c75f361890c8b",
+            "id": "3f797de7112b123c",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -218,8 +218,11 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "57799c1e0e9b6761",
+  "active": "3f797de7112b123c",
   "lastOpenFiles": [
+    "TercerSemestre/AlgebraLineal2/Parcial3/Tarea5_AlgebraLineal2.md",
+    "TercerSemestre/AlgebraLineal2/Parcial3/ComplementoOrtogonal.md",
+    "TercerSemestre/AlgebraLineal2/Parcial3/ProcesoGram-Schmidt.md",
     "TercerSemestre/Calculo3/Parcial3/MultiplicadoresDeLagrange.md",
     "TercerSemestre/Calculo3/Parcial3/MaximosMinimos.md",
     "TercerSemestre/Probabilidad/Parcial3/ComulativeDensityFunction.md",
@@ -229,8 +232,6 @@
     "TercerSemestre/Probabilidad/Parcial2/FuncionDeProbabilidad.md",
     "TercerSemestre/Probabilidad/Parcial2/VariablesAleatorias.md",
     "TercerSemestre/Probabilidad/Parcial2/V.A.Independientes.md",
-    "TercerSemestre/AlgebraLineal2/Parcial3/ComplementoOrtogonal.md",
-    "TercerSemestre/AlgebraLineal2/Parcial3/ProcesoGram-Schmidt.md",
     "TercerSemestre/AlgebraLineal2/Parcial3/BasesOrtonormales.md",
     "TercerSemestre/Datos_Algoritmos/Parcial2/PropuestaProyecto.md",
     "TercerSemestre/AlgebraLineal2/Parcial3/Norma.md",

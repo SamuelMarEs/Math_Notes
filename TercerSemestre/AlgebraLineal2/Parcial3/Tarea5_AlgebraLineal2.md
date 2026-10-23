@@ -14,8 +14,28 @@ j) $V=C^{4}$, $S=\{ (1, i, 2-i, -1),(2+3i, 3i, 1-i, 2i),(-1+7i,6+10i,11-4i,3+4i)
 k) $V=C^{4}$, $S=\{ (-4,3-2i,i,1-4i),(-1-5i,5-4i,-3+5i,7-2i),(-27-i,-7-6i,-15+25i,-7-6i) \}$, y $x=(-13-7i, -12+3i, -39-11i,-26+5i)$.
 l) $V=M_{2 \times 2}(C), S=\left\{ \begin{pmatrix}1-i & -2-3i \\  2+2i & 4+i\end{pmatrix}, \begin{pmatrix}8i & 4 \\  -3-3i & -4+4i\end{pmatrix}, \begin{pmatrix}-25-38i & -2-13i \\  12-78i & -7+24i\end{pmatrix} \right\}$, y $A=\begin{pmatrix}-2+8i & -13+i \\  10-10i & 9-9i\end{pmatrix}.$
 m) $V=M_{2 \times 2}(C), S=\left\{ \begin{pmatrix}-1+i & -i \\  2-i & 1+3i\end{pmatrix}, \begin{pmatrix}-1-7i & -9-8i \\  1+10i & -6-2i\end{pmatrix}, \begin{pmatrix}-11-132i & -34-31i \\  7-126i & -71-5i\end{pmatrix} \right\}$ y $A=\begin{pmatrix}-7+5i & 3+18i \\  9-6i & -3+7i\end{pmatrix}$.
+**Sol:**
+a) El primer vector de nuestra base es $v_{1}=(1,0,1)$. El segundo vector va a ser 
+$$
+	v_{2}=(0,1,1)-\frac{\langle(0,1,1),(1,0,1)\rangle}{\lvert \lvert (1,0,1) \rvert  \rvert ^{2}}(1,0,1)=(0,1,1)-\frac{1}{2}(1,0,1)=\left( -\frac{1}{2}, 1, \frac{1}{2} \right).
+$$
+Entonces de momento nuestra base es $\{ (1,0,1),(-1 / 2, 1, 1 / 2) \}$. Nuestro último vector es 
+$$
+	\begin{align}
+	v_{3}&=(1,3,3)- \frac{\langle (1,3,3),(1,0,1)\rangle}{\lvert \lvert (1,0,1) \rvert  \rvert^{2} }(1,0,1)- \frac{\langle (1,3,3),(-1 /2,1,1 / 2)\rangle}{\lvert \lvert (-1 / 2,1,1 / 2) \rvert  \rvert^{2} }(-1 / 2,1,1 / 2) \\
+	&= (1,3,3)-\frac{4}{2}(1,0,1)- \frac{4}{3 / 2}(-1 / 2, 1, 1/2) \\
+	&=\left( 1-2+\frac{4}{3}, 3-\frac{8}{3}, 3-2-\frac{4}{3} \right)=\left( \frac{1}{3}, \frac{1}{3}, - \frac{1}{3} \right).
+	\end{align}
+$$
+Entonces nuestra base es $S'=\left\{  (1,0,1),\left( -\frac{1}{2}, 1, \frac{1}{2} \right), \left( \frac{1}{3}, \frac{1}{3}, -\frac{1}{3} \right)  \right\}$, que normalizada es 
+$$
+	\left\{  \left( \frac{1}{\sqrt{ 2 }}, 0, \frac{1}{\sqrt{ 2 }} \right), \left( -\frac{\sqrt{ 6 }}{6}, \frac{\sqrt{ 6 }}{3} , \frac{\sqrt{ 6 }}{6}  \right), \left( \frac{\sqrt{ 3 }}{3}, \frac{\sqrt{ 3 }}{3}, -\frac{\sqrt{ 3 }}{3} \right) \right\}.
+$$
+
 
 4.- Sea $S=\{ (1,0,i),(1,2,1) \}$ en $C^{3}$. Calcula $S^{\perp}$.
+**Sol:**
+
 
 5.- Sea $S_{0}=\{ x_{0} \}$, donde $x_{0}$ es un vector no cero en $R^{3}$. Describe $S_{0}^{\perp}$ geométricamente. Ahora supón que $S=\{ x_{1},x_{2} \}$ es un subconjunto linealmente independiente de $R^{3}$. Describe $S^{\perp}$ geométricamente.
 
