@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "10b524d94783669c",
+        "id": "899090bd300160aa",
         "type": "tabs",
         "children": [
           {
-            "id": "7988316a9c6c795b",
+            "id": "b49c75f361890c8b",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -218,8 +218,10 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "7988316a9c6c795b",
+  "active": "57799c1e0e9b6761",
   "lastOpenFiles": [
+    "TercerSemestre/Calculo3/Parcial3/MultiplicadoresDeLagrange.md",
+    "TercerSemestre/Calculo3/Parcial3/MaximosMinimos.md",
     "TercerSemestre/Probabilidad/Parcial3/ComulativeDensityFunction.md",
     "TercerSemestre/Probabilidad/Parcial2/FuncionDeDistribucion.md",
     "TercerSemestre/Probabilidad/Parcial3/V.A.Continuas.md",
@@ -230,7 +232,6 @@
     "TercerSemestre/AlgebraLineal2/Parcial3/ComplementoOrtogonal.md",
     "TercerSemestre/AlgebraLineal2/Parcial3/ProcesoGram-Schmidt.md",
     "TercerSemestre/AlgebraLineal2/Parcial3/BasesOrtonormales.md",
-    "TercerSemestre/Calculo3/Parcial3/MultiplicadoresDeLagrange.md",
     "TercerSemestre/Datos_Algoritmos/Parcial2/PropuestaProyecto.md",
     "TercerSemestre/AlgebraLineal2/Parcial3/Norma.md",
     "TercerSemestre/AlgebraLineal2/Parcial3/ProductoInterno.md",

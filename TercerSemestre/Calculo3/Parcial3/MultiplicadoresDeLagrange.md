@@ -19,3 +19,15 @@ y para $t=0$, tenemos que
 $$
 	\nabla f(x_{0})\cdot c´(0)=0
 $$
+
+#### Teorema (Multiplicadores de Lagrange)
+Sean $f,g:\mathbb{R}^{n}\to\mathbb{R}$ funciones $C^{1}$ en un abierto $U\subset\mathbb{R}^{n}$. Sea $S=\{ x\in\mathbb{R}|g(x)=c \}$ para alguna constante $c$. Supongamos que $\nabla g(x_{0})\neq 0$, $x_{0}\in U$.
+Si $f|_{S}$ alcanza un máximo o un mínimo en un punto de $x_{0}\in S$, entonces existe $\lambda\in\mathbb{R}$ tal que $\nabla f(x_{0})=\lambda \nabla g(x_{0})$.
+##### Idea de la demostración:
+Sea $c:\mathbb{R}\to\mathbb{R}^{n}$ una curva suave contenida en $S$ tal que $c(0)=x_{0}$. Si consideramos $h:\mathbb{R}\to\mathbb{R}$ dada por $h(t)=f(c(t))$ (para $f|_{S}$), tenemos que $h(t)=f(c(0))=f(x_{0})$, por lo tanto $h$ alcanza un máximo o un mínimo en $t=0$.
+Entonces $\frac{d}{dt}h(t)=0$ para $t=0$, es decir que 
+$$
+	0=\frac{d}{dt}h(0)=\frac{d}{dt}f(c(0))=\nabla f(x_{0})\cdot c´(0),
+$$
+esto implica que el gradiente de $f$, $\nabla f(x_{0})$ es perpendicular a cualquier curva suave contenida en $S$ que pasa por $x_{0}$, por lo tanto $\nabla f$ es perpendicular al vector tangente $c'(0)$, por lo que podemos concluir que $\nabla f(x_{0})\parallel \nabla g(x_{0})$, es decir que $\nabla f(x_{0})=\lambda \nabla g(x_{0})$.
+Esto último es pues el gradiente de $g$ es también es perpendicular a su conjunto de nivel $S$.
