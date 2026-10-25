@@ -35,18 +35,86 @@ $$
 
 4.- Sea $S=\{ (1,0,i),(1,2,1) \}$ en $C^{3}$. Calcula $S^{\perp}$.
 **Sol:**
+Para encontrar el complemento ortogonal tenemos que resolver el sistema 
+$$
+	\langle (1,0,i),(a,b,c)\rangle=0,\qquad\text{y}\qquad \langle(1,2,1),(a,b,c)\rangle=0.
+$$
+Es decir, tenemos el sistema $a-ic=0$ y $a+2b+c=0$, que podemos expresar de la forma 
+$$
+	a=ic,\quad b=-\frac{c}{2}(1+i), 
+$$
+entonces tenemos que $S^{\perp}=\left\{  c\left( i, -\frac{1}{2}-\frac{i}{2}, 1 \right):c\in C  \right\}$.
 
 
 5.- Sea $S_{0}=\{ x_{0} \}$, donde $x_{0}$ es un vector no cero en $R^{3}$. Describe $S_{0}^{\perp}$ geométricamente. Ahora supón que $S=\{ x_{1},x_{2} \}$ es un subconjunto linealmente independiente de $R^{3}$. Describe $S^{\perp}$ geométricamente.
+**Sol:**
+Para $S_{0}=\{ x_{0} \}$, su complemento ortogonal es el conjunto de vectores $v$ tales que $\langle x_{0}, v\rangle=0$, y al estar en $R^{3}$, el producto interno es el producto punto, por lo tanto $S_{0}^{\perp}$ es el plano normal al vector $x_{0}$.
+Para $S=\{ x_{1},x_{2} \}$ linealmente independientes, cualquier vector ortogonal a ambos es ortogonal a cualquier combinación lineal de ellos, por lo tanto, sea $u=ax_{1}+bx_{2}$, el complemento ortogonal son los vectores tales que $v\cdot u=0$, es decir el conjunto generado por el vector normal al plano generado por $\{ x_{1},x_{2} \}$.
+
 
 7.- Sea $\beta$ una base del subespacio $W$ de un espacio de producto interno $V$, y sea $z\in V$. Demuestra que $z\in W^{\perp}$ si y sólo si $\langle z,v\rangle=0$ para todo $v\in \beta$.
+**Sol:**
+$\implies$ Sea $z\in W^{\perp}$, por demostrar que $\langle z,v\rangle=0$ para todo $v\in \beta$. Dado que $\beta$ es una base de $W$, tenemos que $\beta \subset W$, entonces por definición tenemos que $\langle z,v\rangle=0\quad\forall v\in \beta \subset W$.
+
+$\Longleftarrow$ Sea $z\in V$ tal que $\langle z,v\rangle=0$ para todo $v\in \beta$ una base de $W$. Queremos demostrar que $z\in W^{\perp}$, es decir que $\langle z,w\rangle=0$ para todo $w\in W$. Sea $\beta=\{ v_{1},\dots, v_{n} \}$ tenemos que
+$$
+	\begin{align}
+	\langle z,w\rangle&=\left\langle  z,\sum_{i=1}^{n}a_{i}v_{i} \right\rangle \\
+	&=\sum_{i=1}^{n}\bar{a_{i}}\langle z,v_{i}\rangle=\sum_{i=1}^{n}\bar{a_{i}}0=0.\quad\square
+	\end{align}
+$$
+
 
 19.- En cada una de las siguientes partes, encuentra la proyección ortogonal del vector dado sobre el subespacio $W$ del espacio de producto interno $V$.
 a) $V=R^{2}$, $u=(2,6)$, y $W=\{ (x,y):y=4x \}$.
-b) $V=R^{3}$, $u=(2,1,3)$, u $W=\{ (x,y,z):x+3y-2z=0 \}$.
+b) $V=R^{3}$, $u=(2,1,3)$, y $W=\{ (x,y,z):x+3y-2z=0 \}$.
 c) $V=P(R)$ con producto interno $\langle f(x),g(x)\rangle=\int_{0}^{1}f(t)g(t)dt$, $h(x)=4+3x-2x^{2}$ y $W=P_{1}(R)$.
+**Sol:**
+a) Podemos ver que una base de $W$ es $\{ (1,4) \}$, por lo tanto la proyección de $u=(2,6)$ sobre $W$ es 
+$$
+	v=\frac{\langle (2,6),(1,4)\rangle}{\lvert \lvert (1,4) \rvert  \rvert ^{2}}(1,4)=\frac{26}{17}(1,4).
+$$
+b) El subespacio $W$ es un plano que se puede parametrizar como $P=(2z-3y, y, z)$, por lo que una base es $\{ (-3,1,0),(2,0,1) \}$. Para encontrar la proyección ortogonal, necesitamos transformar nuestra base en una base ortogonal, usando el proceso Gram-Schmidt, de modo que nuestro primer vector sigue siendo $(-3,1,0)$, y nuestro segundo vector será 
+$$
+	(2,0,1)-\frac{\langle (2,0,1),(-3,1,0)\rangle}{\lvert \lvert (-3,1,0) \rvert  \rvert ^{2}}(-3,1,0)=(2,0,1)-\frac{-6}{10}(-3,1,0)=\left( \frac{1}{5}, \frac{3}{5},1 \right).
+$$
+Entonces la proyección ortogonal de $u=(2,1,3)$ sobre $W$ es 
+$$
+	\begin{align}
+	v&= \frac{\langle (2,1,3),(-3,1,0)\rangle}{\lvert \lvert (-3,1,0) \rvert  \rvert ^{2}}(-3,1,0)+ \frac{\langle(2,1,3),(1 / 5,3 / 5,1)\rangle}{\lvert \lvert (1 / 5,3 / 5,1) \rvert  \rvert ^{2}}\left( \frac{1}{5}, \frac{3}{5}, 1 \right) \\
+	&=\frac{-1}{2}(-3,1,0)+\frac{20}{7}\left( \frac{1}{5}, \frac{3}{5}, 1 \right) \\
+	&=\left( \frac{3}{2}+\frac{4}{7}, -\frac{1}{2}+\frac{12}{7}, \frac{20}{7} \right)=\left( \frac{29}{14}, \frac{17}{14}, \frac{20}{7} \right).
+	\end{align}
+$$
+c) Sea $W=P_{1}(R)$, si queremos llevar la base $\{ 1,x \}$ a una base ortogonal, tomamos 
+$$
+	x-\frac{\langle x,1\rangle}{\lvert \lvert 1 \rvert  \rvert ^{2}}1=x-\frac{1}{2},
+$$
+entonces nuestra base ortogonal es $\left\{  1,x-\frac{1}{2}  \right\}$. Entonces la proyección de $h(x)=4+3x-2x^{2}$ es 
+$$
+	v=\frac{\langle h(x),1\rangle}{\lvert \lvert 1 \rvert  \rvert^{2} }1+ \frac{\langle h(x),x-1 /2\rangle}{\lvert \lvert x-1 / 2 \rvert  \rvert ^{2}}(x-1 / 2).
+$$
+Para calcular cada uno de los productos internos, veamos que las integrales son: 
+$$
+	\int_{0}^{1}4+3x-2x^{2}dx=4x+\frac{3}{2}x^{2}-\frac{2}{3}x^{3}|_{0}^{1}=4+\frac{3}{2}-\frac{2}{3}=\frac{24+9-4}{6}=\frac{29}{6}.
+$$
+La segunda integral que tenemos que calcular es la de $h(x)\left( x-\frac{1}{2} \right)$, que es 
+$$
+	\int_{0}^{1}-2+\frac{5}{2}x+4x^{2}-2x^{3}dx=-2x+\frac{5}{4}x^{2}+\frac{4}{3}x^{3}-\frac{1}{2}x^{3}|_{0}^{1}=\frac{-24+15+16-6}{12}=\frac{1}{12}.
+$$
+Por último, para calcular la norma de nuestro segundo vector de la base, tenemos 
+$$
+	\int_{0}^{1}\left( x-\frac{1}{2} \right)^{2}dx=\frac{1}{12}.
+$$
+Entonces tenemos que 
+$$
+	v=\frac{29}{6}+x-\frac{1}{2}=x+\frac{26}{6}.
+$$
+
 
 21.- Sea $V=C([-1,1])$ con producto interno $\langle f,g\rangle=\int_{-1}^{1}f(t)g(t)dt$ y sea $W$ el subespacio $P_{2}(R)$, visto como un espacio de funciones. Use la base ortonormal obtenida en el ejemplo 5 para calcular la "mejor" (más cercana) aproximación polinomial de segundo grado de la función $h(t)=e^{t}$ en el intervalo $[-1,1]$.
+**Sol:**
+
 
 22.- Sea $V=C([0,1])$ con producto interno $\langle f,g\rangle=\int_{0}^{1}f(t)g(t)dt$. Sea $W$ es subespacio generado por el conjunto linealmente independiente $\{ t, \sqrt{ t } \}$.
 a) Encuentra una base ortonormal de $W$.
