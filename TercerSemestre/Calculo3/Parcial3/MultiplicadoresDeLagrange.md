@@ -79,4 +79,11 @@ $$
 Entonces los puntos que nos quedan son $\left( \frac{1}{\sqrt{ 2 }}, 0 , \frac{1}{\sqrt{ 2 }} \right)$ y $\left( -\frac{1}{\sqrt{ 2 }}, 0 , -\frac{1}{\sqrt{ 2 }} \right)$.
 
 
-
+#### Varias Restricciones
+Si definimos $S$ por $g_{i}(x_{0})=c_{i}$, $i=1,\dots,k$, entonces $f|_{S}$ tiene un máximo o un mínimo sobre $S$ en $x_{0}$ si $\exists \lambda_{i}\in\mathbb{R}$, $i=1,\dots,k$ tales que $\nabla f(x_{0})=\lambda_{1}\nabla g_{1}(x_{0})+\dots+\lambda_{k}\nabla g_{k}(x_{0})$.
+##### Ejemplo
+Sea $f(x,y,z)=x+y+z$ restringida a $x^{2}+y^{2}=2$ y $x+z=1$. Entonces tenemos dos funciones $g_{1}(x,y,z)=x^{2}+y^{2}-2$ y $g_{2}(x,y,z)=x+z-1$, y $c_{1}=0=c_{2}$. Sus gradientes son $\nabla g_{1}(x,y,z)=(2x,2y,0)$ y $\nabla g_{2}(x,y,z)=(1,0,1)$, y $\nabla f(x,y,z)=(1,1,1)$, entonces el sistema que tendríamos que resolver es 
+$$
+	1=\lambda_{1} 2x+\lambda_{2},\quad 1=\lambda_{1} 2y,\quad 1= \lambda_{2},\quad x^{2}+y^{2}=2,\quad x+z=1.
+$$
+Inmediatamente tenemos que $\lambda_{2}=1$. Además, de la primera ecuación, tenemos que $x=0$ y se sigue que $z=1$. Además nos queda que $y=\pm \sqrt{ 2 }$. Por lo tanto tenemos dos puntos, $(0,\sqrt{ 2 }, 1)$ y $(0,-\sqrt{ 2 }, 1)$, por lo tanto $\lambda_{1}=\pm \frac{1}{2\sqrt{ 2 }}$.
