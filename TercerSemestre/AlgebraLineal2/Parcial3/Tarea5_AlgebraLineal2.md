@@ -114,9 +114,171 @@ $$
 
 21.- Sea $V=C([-1,1])$ con producto interno $\langle f,g\rangle=\int_{-1}^{1}f(t)g(t)dt$ y sea $W$ el subespacio $P_{2}(R)$, visto como un espacio de funciones. Use la base ortonormal obtenida en el ejemplo 5 para calcular la "mejor" (más cercana) aproximación polinomial de segundo grado de la función $h(t)=e^{t}$ en el intervalo $[-1,1]$.
 **Sol:**
+La “mejor” aproximación polinomial de grado 2 de $h(t)=e^t$ en $[-1,1]$ es la proyección ortogonal de $h$ sobre $W=P_2(\mathbb R)$. Si en el ejemplo 5 se obtuvo la base ortonormal de Legendre
+$$
+q_0(t)=\frac1{\sqrt2},\qquad
+q_1(t)=\sqrt{\frac32}\,t,\qquad
+q_2(t)=\sqrt{\frac58}(3t^2-1),
+$$
+entonces la proyección es
+$$
+p(t)=\langle h,q_0\rangle q_0+\langle h,q_1\rangle q_1+\langle h,q_2\rangle q_2.
+$$
+Calculamos los coeficientes:$$
+\langle h,q_0\rangle
+=\frac1{\sqrt2}\int_{-1}^1 e^t\,dt
+=\frac{e-e^{-1}}{\sqrt2},
+$$
+
+$$
+\langle h,q_1\rangle
+=\sqrt{\frac32}\int_{-1}^1 t e^t\,dt
+=\sqrt{\frac32}\cdot \frac{2}{e},
+$$
+
+$$
+\langle h,q_2\rangle
+=\sqrt{\frac58}\int_{-1}^1 (3t^2-1)e^t\,dt
+=\sqrt{\frac58}\left(2e-\frac{14}{e}\right).
+$$
+Por tanto,
+$$
+\begin{aligned}
+p(t)
+&=\frac{e-e^{-1}}{2}
++\frac{3}{e}t
++\frac54\left(e-\frac7e\right)(3t^2-1).
+\end{aligned}
+$$
+Equivalentemente, desarrollando:
+$$
+\boxed{
+p(t)=\frac{15}{4}\left(e-\frac7e\right)t^2
++\frac{3}{e}t
++\frac{33/e-3e}{4}
+}
+$$
+
+o también
+$$
+\boxed{
+p(t)=\frac{15}{4}\left(e-\frac7e\right)t^2
++\frac{3}{e}t
++\frac34\left(\frac{11}{e}-e\right).
+}
+$$
+Numéricamente,
+$$
+p(t)\approx 0.5367\,t^2+1.1036\,t+0.9963.
+$$
+Ese polinomio es la proyección ortogonal de \(e^t\) sobre \(P_2(\mathbb R)\) y, por el teorema de la mejor aproximación, es el polinomio de grado \(\le 2\) que minimiza
+$$
+\|e^t-p(t)\|^2=\int_{-1}^1\left(e^t-p(t)\right)^2dt.
+$$
 
 
 22.- Sea $V=C([0,1])$ con producto interno $\langle f,g\rangle=\int_{0}^{1}f(t)g(t)dt$. Sea $W$ es subespacio generado por el conjunto linealmente independiente $\{ t, \sqrt{ t } \}$.
 a) Encuentra una base ortonormal de $W$.
 b) Sea $h(t)=t^{2}$. Usa la base ortonormal para encontrar la "mejor" (más cercana) aproximación de $h$ en $W$.
+**Sol:**
+Sea $V=C([0,1])$ con el producto interno
+$$
+\langle f,g\rangle=\int_{0}^{1}f(t)g(t)\,dt,
+$$
+y sea $W=\operatorname{span}\{t,\sqrt t\}$.
 
+a) Base ortonormal de \(W\)
+Aplicamos Gram-Schmidt a
+$$
+u_1(t)=t,\qquad u_2(t)=\sqrt t.
+$$
+Primero,
+$$
+\|u_1\|^2=\int_0^1 t^2\,dt=\frac13,
+$$
+por lo que
+$$
+e_1(t)=\frac{u_1}{\|u_1\|}=\sqrt3\,t.
+$$
+Ahora calculamos
+$$
+\langle u_2,u_1\rangle
+=\int_0^1 \sqrt t\,t\,dt
+=\int_0^1 t^{3/2}\,dt
+=\frac25.
+$$
+Entonces
+$$
+v_2=u_2-\frac{\langle u_2,u_1\rangle}{\|u_1\|^2}u_1
+=\sqrt t-\frac{2/5}{1/3}t
+=\sqrt t-\frac65t.
+$$
+Su norma es
+$$
+\|v_2\|^2
+=\left\|\sqrt t-\frac65t\right\|^2
+=\frac1{50},
+$$
+así que
+$$
+\|v_2\|=\frac1{\sqrt{50}}=\frac1{5\sqrt2}.
+$$
+Por tanto,
+$$
+e_2(t)=\frac{v_2}{\|v_2\|}
+=\sqrt{50}\left(\sqrt t-\frac65t\right)
+=\sqrt2\left(5\sqrt t-6t\right).
+$$
+
+Así, una base ortonormal de \(W\) es
+$$
+\boxed{
+\left\{
+e_1(t)=\sqrt3\,t,\qquad
+e_2(t)=\sqrt2\left(5\sqrt t-6t\right)
+\right\}.
+}
+$$
+
+b) Mejor aproximación de $h(t)=t^2$ en $W$.
+La mejor aproximación de $h$ en $W$ es su proyección ortogonal sobre $W$:
+$$
+p(t)=\langle h,e_1\rangle e_1+\langle h,e_2\rangle e_2.
+$$
+Calculamos los coeficientes:
+$$
+\langle h,e_1\rangle
+=\int_0^1 t^2(\sqrt3\,t)\,dt
+=\sqrt3\int_0^1 t^3\,dt
+=\frac{\sqrt3}{4}.
+$$
+Por otro lado,
+$$
+\begin{aligned}
+\langle h,e_2\rangle
+&=\int_0^1 t^2\sqrt2\left(5\sqrt t-6t\right)dt \\
+&=\sqrt2\left(5\int_0^1 t^{5/2}\,dt-6\int_0^1 t^3\,dt\right) \\
+&=\sqrt2\left(5\cdot\frac27-6\cdot\frac14\right) \\
+&=\sqrt2\left(\frac{10}{7}-\frac32\right)
+=\sqrt2\left(-\frac1{14}\right)
+=-\frac{\sqrt2}{14}.
+\end{aligned}
+$$
+Entonces
+$$
+\begin{aligned}
+p(t)
+&=\frac{\sqrt3}{4}\left(\sqrt3\,t\right)
+-\frac{\sqrt2}{14}\left[\sqrt2\left(5\sqrt t-6t\right)\right] \\
+&=\frac34t-\frac17\left(5\sqrt t-6t\right) \\
+&=\frac34t-\frac57\sqrt t+\frac67t \\
+&=\frac{45}{28}t-\frac57\sqrt t.
+\end{aligned}
+$$
+
+Por tanto, la mejor aproximación de $h(t)=t^2$ en $W$ es
+$$
+\boxed{
+p(t)=\frac{45}{28}t-\frac57\sqrt t.
+}
+$$
