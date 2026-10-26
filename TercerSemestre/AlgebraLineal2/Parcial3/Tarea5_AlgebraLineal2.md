@@ -229,8 +229,7 @@ e_2(t)=\frac{v_2}{\|v_2\|}
 =\sqrt{50}\left(\sqrt t-\frac65t\right)
 =\sqrt2\left(5\sqrt t-6t\right).
 $$
-
-Así, una base ortonormal de \(W\) es
+Así, una base ortonormal de $W$ es
 $$
 \boxed{
 \left\{
