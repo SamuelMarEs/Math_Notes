@@ -17,6 +17,7 @@ Al trabajar con variables continuas, nos interesa
 $$
     P(X\leq a)=\int_{-\infty}^{a}f(x)dx,\quad P(X>a)=\int_{a}^{\infty}f(x)dx,\quad P(a\leq X\leq b)=\int_{a}^{b}f(x)dx.
 $$
+Cuando trabajemos con variables aleatorias, es lo mismo trabajar con desigualdad estricta < que con $\leq$.
 
 ##### Ejemplos
 1.- Sea $X$ una v.a. continua con función de densidad $f(x)=\begin{cases}c\lvert x \rvert, & -2\leq x\leq 2 \\  0, & \text{en otro caso}\end{cases}$. ¿Existe algún valor de $c$ que haga que sea realmente una función de densidad?
