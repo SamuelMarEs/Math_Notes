@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "3927396eadcbb975",
+        "id": "1dbc223e24c6235f",
         "type": "tabs",
         "children": [
           {
-            "id": "e7f16176e65a3080",
+            "id": "16e913fdb94e593f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "TercerSemestre/Calculo3/Parcial3/MaxMinAbsolutos.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "MaxMinAbsolutos"
+              "title": "New tab"
             }
           }
         ]
@@ -233,11 +229,16 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "e7f16176e65a3080",
+  "active": "57799c1e0e9b6761",
   "lastOpenFiles": [
+    "TercerSemestre/AlgebraLineal2/Parcial2/SubespaciosInvariantes.md",
+    "TercerSemestre/AlgebraLineal2/Parcial2/PruebaDeDiagonalizacion.md",
+    "TercerSemestre/AlgebraLineal2/Parcial2/Eigenespacios.md",
+    "TercerSemestre/AlgebraLineal2/Parcial2/Diagonalizabilidad.md",
+    "TercerSemestre/AlgebraLineal2/Parcial2/Eigenvectores_Eigenvalores.md",
+    "TercerSemestre/Calculo3/Parcial3/MaxMinAbsolutos.md",
     "TercerSemestre/Calculo3/Parcial3/MultiplicadoresDeLagrange.md",
     "TercerSemestre/Calculo3/Parcial3/TeoremaDeTaylor.md",
-    "TercerSemestre/Calculo3/Parcial3/MaxMinAbsolutos.md",
     "TercerSemestre/Probabilidad/Parcial3/V.A.Continuas.md",
     "TercerSemestre/Probabilidad/Parcial3/ComulativeDensityFunction.md",
     "TercerSemestre/Probabilidad/Parcial3/EjerciciosProbabilidad3.md",
@@ -260,7 +261,6 @@
     "TercerSemestre/Datos_Algoritmos/Parcial2/PropuestaProyecto.md",
     "TercerSemestre/AlgebraLineal2/Parcial3/Norma.md",
     "TercerSemestre/AlgebraLineal2/Parcial3/ProductoInterno.md",
-    "TercerSemestre/AlgebraLineal2/Parcial3/Tarea4_AlgebraLineal2.md",
-    "TercerSemestre/AlgebraLineal2/Parcial4/OperadorAdjunto.md"
+    "TercerSemestre/AlgebraLineal2/Parcial3/Tarea4_AlgebraLineal2.md"
   ]
 }
