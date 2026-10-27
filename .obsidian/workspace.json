@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "f41458d1077cce86",
+        "id": "3927396eadcbb975",
         "type": "tabs",
         "children": [
           {
-            "id": "82cee59e027f04cb",
+            "id": "e7f16176e65a3080",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -181,9 +181,19 @@
               "icon": "lucide-list",
               "title": "Outline"
             }
+          },
+          {
+            "id": "94c204e048bcd15d",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw-sidepanel",
+              "state": {},
+              "icon": "excalidraw-icon",
+              "title": "Excalidraw Sidepanel"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       },
       {
         "id": "a39f98ccefbfa8bd",
@@ -220,14 +230,21 @@
   },
   "active": "57799c1e0e9b6761",
   "lastOpenFiles": [
+    "TercerSemestre/Probabilidad/Parcial3/V.A.Continuas.md",
+    "TercerSemestre/Probabilidad/Parcial3/ComulativeDensityFunction.md",
+    "TercerSemestre/Probabilidad/Parcial3/EjerciciosProbabilidad3.md",
+    "TercerSemestre/Imagenes/PDF1_EjerciciosProba3.png",
+    "TercerSemestre/Imagenes/CDF2_EjerciciosProba3.png",
+    "TercerSemestre/Imagenes/CDF2_EjerciciosProba3.png",
+    "TercerSemestre/Imagenes/CDF1_EjerciciosProba3.png",
+    "TercerSemestre/Probabilidad/Parcial3/GraficasEjerciciosProba3.ipynb",
+    "Excalidraw/GraficasEjerciciosProba3.md",
     "TercerSemestre/Calculo3/Parcial3/MaximosMinimos.md",
     "TercerSemestre/Calculo3/Parcial3/MultiplicadoresDeLagrange.md",
     "TercerSemestre/AlgebraLineal2/Parcial3/Tarea5_AlgebraLineal2.md",
     "TercerSemestre/AlgebraLineal2/Parcial3/ComplementoOrtogonal.md",
     "TercerSemestre/AlgebraLineal2/Parcial3/ProcesoGram-Schmidt.md",
-    "TercerSemestre/Probabilidad/Parcial3/ComulativeDensityFunction.md",
     "TercerSemestre/Probabilidad/Parcial2/FuncionDeDistribucion.md",
-    "TercerSemestre/Probabilidad/Parcial3/V.A.Continuas.md",
     "TercerSemestre/Probabilidad/Parcial2/Varianza_DesviacionEstandar.md",
     "TercerSemestre/Probabilidad/Parcial2/FuncionDeProbabilidad.md",
     "TercerSemestre/Probabilidad/Parcial2/VariablesAleatorias.md",
