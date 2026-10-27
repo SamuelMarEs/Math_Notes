@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "1dbc223e24c6235f",
+        "id": "19f6cbc73e4a50b1",
         "type": "tabs",
         "children": [
           {
-            "id": "16e913fdb94e593f",
+            "id": "c2ef78167ea2461d",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -229,8 +229,9 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "57799c1e0e9b6761",
+  "active": "c2ef78167ea2461d",
   "lastOpenFiles": [
+    "TercerSemestre/Datos_Algoritmos/Parcial2/TablasHash.md",
     "TercerSemestre/AlgebraLineal2/Parcial2/SubespaciosInvariantes.md",
     "TercerSemestre/AlgebraLineal2/Parcial2/PruebaDeDiagonalizacion.md",
     "TercerSemestre/AlgebraLineal2/Parcial2/Eigenespacios.md",
@@ -260,7 +261,6 @@
     "TercerSemestre/AlgebraLineal2/Parcial3/BasesOrtonormales.md",
     "TercerSemestre/Datos_Algoritmos/Parcial2/PropuestaProyecto.md",
     "TercerSemestre/AlgebraLineal2/Parcial3/Norma.md",
-    "TercerSemestre/AlgebraLineal2/Parcial3/ProductoInterno.md",
-    "TercerSemestre/AlgebraLineal2/Parcial3/Tarea4_AlgebraLineal2.md"
+    "TercerSemestre/AlgebraLineal2/Parcial3/ProductoInterno.md"
   ]
 }
