@@ -43,6 +43,7 @@ Si definimos $h(x_{0},\lambda)=f(x_{0})-\lambda (g(x_{0})-c)$, lo que tenemos qu
 
 ##### Ejemplo:
 1.- Sea $f(x,y)=x^{2}+y^{2}$ y $S$ la recta que pasa por $(-1,0)$ con un ángulo respecto al eje $x$ de $\theta=\frac{\pi}{4}$.
+**Sol:**
 Primero tenemos que encontrar la función $g$ de forma que tenga como conjunto de nivel la recta que nos dieron. La recta está dada por 
 $$
 	y-0=\tan(\theta)(x+1)\implies S=\left\{  (x,y):y-x-1=0  \right\}.
@@ -56,6 +57,7 @@ cuya solución es $(x,y)=\left( -\frac{1}{2}, \frac{1}{2} \right)$ y $\lambda=1$
 Esto implica que el punto $\left( -\frac{1}{2}, \frac{1}{2} \right)$ es un punto crítico de $f|_{S}$. Si nos imaginamos la imagen de $S$ bajo $f$, se vería como un corte del paraboloide $z=x^{2}+y^{2}$, que sería una parábola que se abre hacia arriba, es decir que el punto que encontramos es un mínimo local de $f|_{S}$. 
 
 2.- Sea $f(x,y)=x^{2}-y^{2}$ y $S=\{ (x,y):x^{2}+y^{2}=1 \}$.
+**Sol:**
 Podemos tomar directamente $g(x,y)=x^{2}+y^{2}$, de modo que tenemos que $\nabla g(x,y)=(2x,2y)$ y $\nabla f(x,y)=(2x,-2y)$. Observemos que $\nabla g(x,y)=0\iff x=0\wedge y=0$, y el punto $(0,0)$ no se encuentra en el conjunto de nivel, por lo tanto $\nabla g(x_{0})\neq 0,\forall x_{0}\in S$. Entonces el sistema que tenemos que resolver es 
 $$
 	x^{2}+y^{2}=1,\quad 2x=\lambda 2x,\quad -2y=\lambda 2y.
@@ -68,7 +70,9 @@ De forma análoga tenemos que $\lambda=1$ y $x=\pm 1$, por lo que los puntos son
 
 Entonces los puntos que buscamos son $(0,1),(1,0),(0,-1),(-1,0)$. Sin embargo, si observamos la imagen de $S$ bajo $f$, veríamos que todos los puntos estarían a la misma "altura", por  lo tanto técnicamente no son ni máximos ni mínimos.
 
-3.- Sea $f(x,y,z)=x+z$ y $S=\{ (x,y,z)\in R^{3} : x^{2}+y^{2}+z^{2}=1\}$. Tomando a $g(x,y,z)=x^{2}+y^{2}+z=1$, nuestros gradientes son $\nabla g(x,y,z)=(2x,2y,2z)$ y $\nabla f(x,y,z)=(1,0,1)$. Entonces lo que queremos es resolver el sistema 
+3.- Sea $f(x,y,z)=x+z$ y $S=\{ (x,y,z)\in R^{3} : x^{2}+y^{2}+z^{2}=1\}$.
+**Sol:** 
+Tomando a $g(x,y,z)=x^{2}+y^{2}+z=1$, nuestros gradientes son $\nabla g(x,y,z)=(2x,2y,2z)$ y $\nabla f(x,y,z)=(1,0,1)$. Entonces lo que queremos es resolver el sistema 
 $$
 	2x\lambda=1,\quad 2y\lambda=0,\quad 2z\lambda=1,\quad x^{2}+y^{2}+z^{2}=1.
 $$
@@ -77,6 +81,8 @@ $$
 	\frac{1}{2\lambda^{2}}=1\implies \lambda^{2}=\frac{1}{2}\implies \lambda = \pm \frac{1}{\sqrt{ 2 }}.
 $$
 Entonces los puntos que nos quedan son $\left( \frac{1}{\sqrt{ 2 }}, 0 , \frac{1}{\sqrt{ 2 }} \right)$ y $\left( -\frac{1}{\sqrt{ 2 }}, 0 , -\frac{1}{\sqrt{ 2 }} \right)$.
+
+
 
 
 #### Varias Restricciones
