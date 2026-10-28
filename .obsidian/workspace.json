@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "34e456030eac84d8",
+        "id": "c93e5bae68600c26",
         "type": "tabs",
         "children": [
           {
-            "id": "e8e939f67c50bf80",
+            "id": "942866e92f85ec64",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -229,11 +229,17 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "e8e939f67c50bf80",
+  "active": "942866e92f85ec64",
   "lastOpenFiles": [
+    "TercerSemestre/Probabilidad/Parcial2/Varianza_DesviacionEstandarDiscretas.md",
+    "TercerSemestre/Probabilidad/Parcial3/Var_STD_Continuas.md",
+    "TercerSemestre/Probabilidad/Parcial3/Metricas.md",
+    "TercerSemestre/Probabilidad/Parcial3/ValorEsperadoContinuo.md",
+    "TercerSemestre/Probabilidad/Parcial3/Independencia_V.A_Continuas.md",
+    "TercerSemestre/Probabilidad/Temario_Probabilidad.pdf",
+    "TercerSemestre/Probabilidad/Parcial3/EjerciciosProbabilidad3.md",
     "TercerSemestre/Calculo3/Parcial3/MaxMinAbsolutos.md",
     "TercerSemestre/Calculo3/Parcial3/ProblemasDeOptimizacion.md",
-    "TercerSemestre/Probabilidad/Parcial3/EjerciciosProbabilidad3.md",
     "TercerSemestre/Datos_Algoritmos/Parcial2/TablasHash.md",
     "TercerSemestre/AlgebraLineal2/Parcial2/SubespaciosInvariantes.md",
     "TercerSemestre/AlgebraLineal2/Parcial2/PruebaDeDiagonalizacion.md",
@@ -255,12 +261,7 @@
     "TercerSemestre/AlgebraLineal2/Parcial3/ComplementoOrtogonal.md",
     "TercerSemestre/AlgebraLineal2/Parcial3/ProcesoGram-Schmidt.md",
     "TercerSemestre/Probabilidad/Parcial2/FuncionDeDistribucion.md",
-    "TercerSemestre/Probabilidad/Parcial2/Varianza_DesviacionEstandar.md",
     "TercerSemestre/Probabilidad/Parcial2/FuncionDeProbabilidad.md",
-    "TercerSemestre/Probabilidad/Parcial2/VariablesAleatorias.md",
-    "TercerSemestre/Probabilidad/Parcial2/V.A.Independientes.md",
-    "TercerSemestre/AlgebraLineal2/Parcial3/BasesOrtonormales.md",
-    "TercerSemestre/Datos_Algoritmos/Parcial2/PropuestaProyecto.md",
-    "TercerSemestre/AlgebraLineal2/Parcial3/Norma.md"
+    "TercerSemestre/Probabilidad/Parcial2/VariablesAleatorias.md"
   ]
 }
