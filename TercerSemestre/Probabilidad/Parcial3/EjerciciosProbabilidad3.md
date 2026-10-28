@@ -148,12 +148,60 @@ b) Para resolver cada inciso, usamos el teorema de cambio de variable.
 Para $Y=\psi(x)=2x-1$, la función es estrictamente creciente, y su inversa es $\psi ^{-1}(y)=\frac{y+1}{2}$, y su derivada es $\frac{d}{dy}\psi ^{-1}(y)=\frac{1}{2}$, por lo tanto 
 $$
 	f_{y}(y)=\begin{cases}
-	\frac{1}{2} ((2y-1)^{2}+\left( 2y-1)+\frac{1}{6} \right), & 0<x<1 \\
-	0, & \text{en otro caso}.
-	\end{cases}
+	\frac{1}{2} ((2y-1)^{2}+\left( 2y-1)+\frac{1}{6} \right), & -1<y<1 \\
+	0, & \text{en otro caso}
+	\end{cases}.
+$$
+Para $Y=\psi(x)=\sqrt{ x }$, la función es estrictamente creciente, y su inversa es $\psi ^{-1}(y)=y^{2}$ para $0<x<1$, cuya derivada es $\frac{d}{dy}\psi ^{-1}(y)=2y$, por lo tanto, la función de densidad de $Y$ va a estar dada por 
+$$
+	f_{y}(y)=\begin{cases}
+	2y\left( y^{4}+y^{2}+\frac{1}{6} \right), & 0<y<1 \\
+	0, & \text{en otro caso}
+	\end{cases}.
+$$
+Por último, para $Y=\psi(x)=ax+b$, para $a>0$ y $b$ constantes. La transformación es una recta con pendiente positiva, por lo tanto es estrictamente creciente, y su inversa está dada por $\psi ^{-1}(y)=\frac{y-b}{a}$, cuya derivada es $\frac{d}{dy}\psi ^{-1}(y)=\frac{1}{a}$. Por lo tanto, de forma similar al inciso 1, tenemos que 
+$$
+	f_{y}(y)=\begin{cases}
+	\frac{1}{a}((ay+b)^{2}+\left( ay+b)+\frac{1}{6} \right), & b<y<a+b \\
+	0, & \text{en otro caso}
+	\end{cases}.
 $$
 
 
 5.- Sea $X$ una v.a. continua con pdf $f(x)=\begin{cases}cx, & 0<x\leq 1 / 2 \\  c(1-x), & 1 / 2<x<1 \\  0, & \text{en otro caso}\end{cases}$.
 a) Encuentre $c$ tal que $f$ es función de densidad.
 b) Encuentre los valores de $a$ y $b$ tales que $P(a<X<b)=7 / 16$ y $b-a$ es mínimo.
+**Sol:**
+a) Para encontrar el valor de $c$ que hace que la función sea de densidad, tenemos que resolver la ecuación 
+$$
+     \begin{align}
+	 1=\int_{-\infty}^{\infty}f(x)dx&=\int_{0}^{1 / 2}cxdx+\int_{1 / 2}^{1}c(1-x)dx \\
+	 &=\frac{c(1 / 2)^{2}}{2}+\frac{c(1 / 2)^{2}}{2}=\frac{c}{4},
+	 \end{align}
+$$
+es decir que el valor que hace que $f$ sea una función de densidad es $c=4$.
+b) Ahora, queremos encontrar $a,b$ tales que 
+$$
+	P(a<X<b)=\frac{7}{16},
+$$
+es decir que necesitamos encontrar $a,b$ tales que 
+$$
+	\int_{a}^{b}f(x)dx= \frac{7}{16}.
+$$
+Observemos que la función de densidad es simétrica alrededor de $1 / 2$, por lo tanto nuestro intervalo de longitud mínima también debe de estar centrado en $1 / 2$, y por esto podemos tomar $a=1 / 2-h$ y $b= 1 / 2 +h$, para $h>0$. Además, tenemos que 
+$$
+	\int_{1 / 2-h}^{1 / 2}cxdx=\int_{1/2}^{1 / 2+h} c(1-x)dx,
+$$
+por lo tanto el sistema que necesitamos resolver es 
+$$
+	2\int_{1 / 2-h}^{1 / 2}4xdx=\frac{7}{16}\implies 4(1 / 2)^{2}-4(1 / 2 -h)^{2}=\frac{7}{16},
+$$
+o lo que es lo mismo 
+$$
+	\frac{1}{4}-\left( \frac{1}{2}-h \right)^{2}=\frac{7}{64}\implies \frac{9}{64}=\left( \frac{1}{2}-h \right)^{2}.
+$$
+Como además se necesita la condición $h\leq \frac{1}{2}$, podemos tomar la raíz positiva de ambos lados para obtener 
+$$
+	h=\frac{1}{2}-\frac{3}{8}=\frac{1}{8},
+$$
+por lo tanto llegamos a $a=\frac{3}{8}$, $b=\frac{5}{8}$.

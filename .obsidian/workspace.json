@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "19f6cbc73e4a50b1",
+        "id": "8843d74572eb497c",
         "type": "tabs",
         "children": [
           {
-            "id": "c2ef78167ea2461d",
+            "id": "1f5b20d28f2895c1",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -229,8 +229,9 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "c2ef78167ea2461d",
+  "active": "57799c1e0e9b6761",
   "lastOpenFiles": [
+    "TercerSemestre/Probabilidad/Parcial3/EjerciciosProbabilidad3.md",
     "TercerSemestre/Datos_Algoritmos/Parcial2/TablasHash.md",
     "TercerSemestre/AlgebraLineal2/Parcial2/SubespaciosInvariantes.md",
     "TercerSemestre/AlgebraLineal2/Parcial2/PruebaDeDiagonalizacion.md",
@@ -242,7 +243,6 @@
     "TercerSemestre/Calculo3/Parcial3/TeoremaDeTaylor.md",
     "TercerSemestre/Probabilidad/Parcial3/V.A.Continuas.md",
     "TercerSemestre/Probabilidad/Parcial3/ComulativeDensityFunction.md",
-    "TercerSemestre/Probabilidad/Parcial3/EjerciciosProbabilidad3.md",
     "TercerSemestre/Imagenes/PDF1_EjerciciosProba3.png",
     "TercerSemestre/Imagenes/CDF2_EjerciciosProba3.png",
     "TercerSemestre/Imagenes/CDF2_EjerciciosProba3.png",
