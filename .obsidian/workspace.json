@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "8843d74572eb497c",
+        "id": "34e456030eac84d8",
         "type": "tabs",
         "children": [
           {
-            "id": "1f5b20d28f2895c1",
+            "id": "e8e939f67c50bf80",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -229,8 +229,10 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "57799c1e0e9b6761",
+  "active": "e8e939f67c50bf80",
   "lastOpenFiles": [
+    "TercerSemestre/Calculo3/Parcial3/MaxMinAbsolutos.md",
+    "TercerSemestre/Calculo3/Parcial3/ProblemasDeOptimizacion.md",
     "TercerSemestre/Probabilidad/Parcial3/EjerciciosProbabilidad3.md",
     "TercerSemestre/Datos_Algoritmos/Parcial2/TablasHash.md",
     "TercerSemestre/AlgebraLineal2/Parcial2/SubespaciosInvariantes.md",
@@ -238,7 +240,6 @@
     "TercerSemestre/AlgebraLineal2/Parcial2/Eigenespacios.md",
     "TercerSemestre/AlgebraLineal2/Parcial2/Diagonalizabilidad.md",
     "TercerSemestre/AlgebraLineal2/Parcial2/Eigenvectores_Eigenvalores.md",
-    "TercerSemestre/Calculo3/Parcial3/MaxMinAbsolutos.md",
     "TercerSemestre/Calculo3/Parcial3/MultiplicadoresDeLagrange.md",
     "TercerSemestre/Calculo3/Parcial3/TeoremaDeTaylor.md",
     "TercerSemestre/Probabilidad/Parcial3/V.A.Continuas.md",
@@ -260,7 +261,6 @@
     "TercerSemestre/Probabilidad/Parcial2/V.A.Independientes.md",
     "TercerSemestre/AlgebraLineal2/Parcial3/BasesOrtonormales.md",
     "TercerSemestre/Datos_Algoritmos/Parcial2/PropuestaProyecto.md",
-    "TercerSemestre/AlgebraLineal2/Parcial3/Norma.md",
-    "TercerSemestre/AlgebraLineal2/Parcial3/ProductoInterno.md"
+    "TercerSemestre/AlgebraLineal2/Parcial3/Norma.md"
   ]
 }
