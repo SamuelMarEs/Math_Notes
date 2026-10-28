@@ -29,7 +29,7 @@ $$
 	1, & x\geq 1.
 	\end{cases}
 $$
-Además, es fácil calcular el [[ValorEsperado|valor esperado]] y la [[Varianza_DesviacionEstandar|varianza]]: 
+Además, es fácil calcular el [[ValorEsperadoDiscreto|valor esperado]] y la [[Varianza_DesviacionEstandarDiscretas|varianza]]: 
 $$
 	E(X)=p,\quad Var(X)=p(1-p).
 $$

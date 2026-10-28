@@ -17,7 +17,7 @@ A esta v.a. se le conoce como v.a. ***Binomial*** de parámetros $n$ y $p$, i.e.
 $$
 	X\sim\text{Binomial}(n,p).
 $$
-Se puede demostrar (tarea) que el [[ValorEsperado|valor esperado]] y la [[Varianza_DesviacionEstandar|varianza]] son 
+Se puede demostrar (tarea) que el [[ValorEsperadoDiscreto|valor esperado]] y la [[Varianza_DesviacionEstandarDiscretas|varianza]] son 
 $$
 	E(X)=np,\quad Var(X)=np(1-p).
 $$

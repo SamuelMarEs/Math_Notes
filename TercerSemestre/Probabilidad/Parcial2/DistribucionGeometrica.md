@@ -22,7 +22,7 @@ Esta distribución es muy útil para estudiar procesos de muestreo donde la prob
 Se sabe, por estudios previos, que el 5% de cierta población de ratas presenta una mutación con un gen específica. Se quiere repetir el experimento para corroborar los resultados. ¿Cuál es el número esperado de ratas que se necesitan para observar 1 que tenga la mutación? ¿Qué tan probable es que 20 ratas no tengan la mutación? ¿Qué tan probable es que la rata 51 sea la primera en tener la mutación?
 **Sol:**
 Sea $X$ el número de ratas examinadas sin mutación hasta que aparezca una con la mutación. Suponemos que $X\sim\text{Geom}(p)$ con $p=0.05$.
-La primera pregunta nos está preguntando el [[ValorEsperado|valor esperado]] de $X$, pero sumar 1 (porque el valor esperado por si solo nos da el número de ratas sin la mutación, pero la pregunta es el número de ratas para que haya una con la mutación, por eso añadimos la rata extra con la mutación).
+La primera pregunta nos está preguntando el [[ValorEsperadoDiscreto|valor esperado]] de $X$, pero sumar 1 (porque el valor esperado por si solo nos da el número de ratas sin la mutación, pero la pregunta es el número de ratas para que haya una con la mutación, por eso añadimos la rata extra con la mutación).
 Esto es 
 $$
 	E(X)+1=\frac{1-p}{p}+1=\frac{0.95}{0.05}+1=20.

@@ -2,13 +2,13 @@
 # Momentos
 #### Definición:
 Sea $X$ una [[VariablesAleatorias|v.a.]] discreta. Decimos que el $n$-ésimo momento de $X$ es $E(X^{n})$, para $n=1,2,\dots$, de modo que $E(X)$ es el primer momento, $E(X^{2})$ el segundo momento, y así sucesivamente.
-Recordemos que el [[ValorEsperado|valor esperado]] está dado como 
+Recordemos que el [[ValorEsperadoDiscreto|valor esperado]] está dado como 
 $$
 	E(X^{n})=\sum_{x}x^{n}P(X=x).
 $$
 Si bien puede ser que podamos calcular todos los momentos, no todos son interpretables. Algunos de los momentos de una v.a. están asociados a características de la distribución de proabilidad.
 - El primer momento $E(X)$ está relacionado con el "centro" de la [[FuncionDeProbabilidad|función de probabilidad]].
-- El segundo momento $E(X^{2})$, está relacionado con la variabilidad de la función de probabilidad, pues está ligado a la [[Varianza_DesviacionEstandar|varianza]].
+- El segundo momento $E(X^{2})$, está relacionado con la variabilidad de la función de probabilidad, pues está ligado a la [[Varianza_DesviacionEstandarDiscretas|varianza]].
 - El tercer momento $E(X^{3})$ contiene información sobre la simetría de la pdf.
 - El cuarto momento $E(X^{4})$ se relaciona con la *Kortosis*, es decir, el peso de la distribución en los extremos (colas de la distribución).
 
@@ -21,7 +21,7 @@ Existen variantes de los momentos "simples". Por ejemplo :
 # Moda
 Si $X$ es una [[VariablesAleatorias|v.a.]] discreta con [[FuncionDeProbabilidad|función de probabilidad]] $f$, la moda de $X$ es el valor de la v.a. en el que se alcanza la máxima probabilidad.
 ![[Excalidraw/Moda]]
-La moda de una v.a. no tiene que coincidir necesariamente con el [[ValorEsperado|valor esperado]] $E(X)$, salvo que la distribución $f(x)$ sea simétrica.
+La moda de una v.a. no tiene que coincidir necesariamente con el [[ValorEsperadoDiscreto|valor esperado]] $E(X)$, salvo que la distribución $f(x)$ sea simétrica.
 
 # Cuantiles
 #### Definición:
