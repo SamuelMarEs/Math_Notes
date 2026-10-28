@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "c93e5bae68600c26",
+        "id": "cd3750959782fc72",
         "type": "tabs",
         "children": [
           {
-            "id": "942866e92f85ec64",
+            "id": "124193b7ef5bd1bb",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -229,8 +229,11 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "942866e92f85ec64",
+  "active": "124193b7ef5bd1bb",
   "lastOpenFiles": [
+    "TercerSemestre/Datos_Algoritmos/Parcial2/Heap.md",
+    "TercerSemestre/Datos_Algoritmos/Parcial2/ColaDePrioridad.md",
+    "TercerSemestre/Datos_Algoritmos/Parcial2/Arboles.md",
     "TercerSemestre/Probabilidad/Parcial2/Varianza_DesviacionEstandarDiscretas.md",
     "TercerSemestre/Probabilidad/Parcial3/Var_STD_Continuas.md",
     "TercerSemestre/Probabilidad/Parcial3/Metricas.md",
@@ -259,9 +262,6 @@
     "TercerSemestre/Calculo3/Parcial3/MaximosMinimos.md",
     "TercerSemestre/AlgebraLineal2/Parcial3/Tarea5_AlgebraLineal2.md",
     "TercerSemestre/AlgebraLineal2/Parcial3/ComplementoOrtogonal.md",
-    "TercerSemestre/AlgebraLineal2/Parcial3/ProcesoGram-Schmidt.md",
-    "TercerSemestre/Probabilidad/Parcial2/FuncionDeDistribucion.md",
-    "TercerSemestre/Probabilidad/Parcial2/FuncionDeProbabilidad.md",
-    "TercerSemestre/Probabilidad/Parcial2/VariablesAleatorias.md"
+    "TercerSemestre/AlgebraLineal2/Parcial3/ProcesoGram-Schmidt.md"
   ]
 }
