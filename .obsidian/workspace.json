@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "cd3750959782fc72",
+        "id": "b174b62c4d8d12d9",
         "type": "tabs",
         "children": [
           {
-            "id": "124193b7ef5bd1bb",
+            "id": "2b9278a900a42d7a",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -229,8 +229,9 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "124193b7ef5bd1bb",
+  "active": "2b9278a900a42d7a",
   "lastOpenFiles": [
+    "TercerSemestre/Calculo3/Parcial3/ProblemasOptimizacion2.md",
     "TercerSemestre/Datos_Algoritmos/Parcial2/Heap.md",
     "TercerSemestre/Datos_Algoritmos/Parcial2/ColaDePrioridad.md",
     "TercerSemestre/Datos_Algoritmos/Parcial2/Arboles.md",
@@ -261,7 +262,6 @@
     "Excalidraw/GraficasEjerciciosProba3.md",
     "TercerSemestre/Calculo3/Parcial3/MaximosMinimos.md",
     "TercerSemestre/AlgebraLineal2/Parcial3/Tarea5_AlgebraLineal2.md",
-    "TercerSemestre/AlgebraLineal2/Parcial3/ComplementoOrtogonal.md",
-    "TercerSemestre/AlgebraLineal2/Parcial3/ProcesoGram-Schmidt.md"
+    "TercerSemestre/AlgebraLineal2/Parcial3/ComplementoOrtogonal.md"
   ]
 }
