@@ -16,7 +16,7 @@ Las relaciones padre-hijo se calculan mediante índices; no almacenamos referenc
 ##### Índices
 ```python
 def padre(i):
-	return (i-2) // 2
+	return (i-1) // 2
 def izquierdo(i):
 	return 2 * i + 1
 def derecho(i):
