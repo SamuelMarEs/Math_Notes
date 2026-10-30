@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "b174b62c4d8d12d9",
+        "id": "9c4125bf3b1d78de",
         "type": "tabs",
         "children": [
           {
-            "id": "2b9278a900a42d7a",
+            "id": "d2a4fdb9287deb6c",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "TercerSemestre/Probabilidad/Parcial3/DistribucionUniformeContinua.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "DistribucionUniformeContinua"
             }
           }
         ]
@@ -229,10 +233,11 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "2b9278a900a42d7a",
+  "active": "d2a4fdb9287deb6c",
   "lastOpenFiles": [
-    "TercerSemestre/Calculo3/Parcial3/ProblemasOptimizacion2.md",
     "TercerSemestre/Datos_Algoritmos/Parcial2/Heap.md",
+    "TercerSemestre/Probabilidad/Parcial3/DistribucionUniformeContinua.md",
+    "TercerSemestre/Calculo3/Parcial3/ProblemasOptimizacion2.md",
     "TercerSemestre/Datos_Algoritmos/Parcial2/ColaDePrioridad.md",
     "TercerSemestre/Datos_Algoritmos/Parcial2/Arboles.md",
     "TercerSemestre/Probabilidad/Parcial2/Varianza_DesviacionEstandarDiscretas.md",
@@ -261,7 +266,6 @@
     "TercerSemestre/Probabilidad/Parcial3/GraficasEjerciciosProba3.ipynb",
     "Excalidraw/GraficasEjerciciosProba3.md",
     "TercerSemestre/Calculo3/Parcial3/MaximosMinimos.md",
-    "TercerSemestre/AlgebraLineal2/Parcial3/Tarea5_AlgebraLineal2.md",
-    "TercerSemestre/AlgebraLineal2/Parcial3/ComplementoOrtogonal.md"
+    "TercerSemestre/AlgebraLineal2/Parcial3/Tarea5_AlgebraLineal2.md"
   ]
 }
