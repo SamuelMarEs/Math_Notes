@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "9a6a88b95c753e65",
+        "id": "aefe31ae1ba0ca85",
         "type": "tabs",
         "children": [
           {
-            "id": "e9962abb9dbbc719",
+            "id": "4f244cd6f1d22d42",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -229,14 +229,18 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "57799c1e0e9b6761",
+  "active": "4f244cd6f1d22d42",
   "lastOpenFiles": [
+    "TercerSemestre/Calculo3/Parcial3/ProblemasDeOptimizacion.md",
+    "TercerSemestre/Calculo3/Parcial3/ProblemasOptimizacion2.md",
+    "TercerSemestre/Calculo3/Parcial3/MaxMinAbsolutos.md",
+    "TercerSemestre/Calculo3/Parcial3/MultiplicadoresDeLagrange.md",
+    "TercerSemestre/Calculo3/Parcial3/Untitled.md",
     "TercerSemestre/Probabilidad/Parcial3/DistribucionExponencial.md",
     "TercerSemestre/Calculo3/Parcial2/CamposVectoriales.md",
     "TercerSemestre/Probabilidad/Parcial3/DistribucionUniformeContinua.md",
     "TercerSemestre/Calculo3/Parcial2/ReParametrizacion.md",
     "TercerSemestre/Datos_Algoritmos/Parcial2/Heap.md",
-    "TercerSemestre/Calculo3/Parcial3/ProblemasOptimizacion2.md",
     "TercerSemestre/Datos_Algoritmos/Parcial2/ColaDePrioridad.md",
     "TercerSemestre/Datos_Algoritmos/Parcial2/Arboles.md",
     "TercerSemestre/Probabilidad/Parcial2/Varianza_DesviacionEstandarDiscretas.md",
@@ -246,18 +250,14 @@
     "TercerSemestre/Probabilidad/Parcial3/Independencia_V.A_Continuas.md",
     "TercerSemestre/Probabilidad/Temario_Probabilidad.pdf",
     "TercerSemestre/Probabilidad/Parcial3/EjerciciosProbabilidad3.md",
-    "TercerSemestre/Calculo3/Parcial3/MaxMinAbsolutos.md",
-    "TercerSemestre/Calculo3/Parcial3/ProblemasDeOptimizacion.md",
     "TercerSemestre/Datos_Algoritmos/Parcial2/TablasHash.md",
     "TercerSemestre/AlgebraLineal2/Parcial2/SubespaciosInvariantes.md",
     "TercerSemestre/AlgebraLineal2/Parcial2/PruebaDeDiagonalizacion.md",
     "TercerSemestre/AlgebraLineal2/Parcial2/Eigenespacios.md",
     "TercerSemestre/AlgebraLineal2/Parcial2/Diagonalizabilidad.md",
     "TercerSemestre/AlgebraLineal2/Parcial2/Eigenvectores_Eigenvalores.md",
-    "TercerSemestre/Calculo3/Parcial3/MultiplicadoresDeLagrange.md",
     "TercerSemestre/Calculo3/Parcial3/TeoremaDeTaylor.md",
     "TercerSemestre/Probabilidad/Parcial3/V.A.Continuas.md",
-    "TercerSemestre/Probabilidad/Parcial3/ComulativeDensityFunction.md",
     "TercerSemestre/Imagenes/PDF1_EjerciciosProba3.png",
     "TercerSemestre/Imagenes/CDF2_EjerciciosProba3.png",
     "TercerSemestre/Imagenes/CDF2_EjerciciosProba3.png",
