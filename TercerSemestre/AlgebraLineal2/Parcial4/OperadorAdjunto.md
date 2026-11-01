@@ -33,4 +33,8 @@ Sea ${}y\in V{}$. Definamos ${}g:V\to F{}$ como ${}g(x)=\langle T(x),y \rangle{}
 Este teorema nos da la definición del operador adjunto como aquel que satisface que ${}\langle T(x),y \rangle=\langle x,T^{*}(y) \rangle{}$ para todo ${}x,y\in V{}$, y no es difícil mostrar que ${}\langle x,T(y) \rangle=\langle T^{*}(x),y \rangle{}$. Si ${}V{}$ es un espacio vectorial de dimensión infinita, entonces no podemos garantizar la existencia del operador adjunto, aunque se mantiene la unicidad y linearidad.
 Pero, ¿cómo podemos encontrar este operador adjunto? El siguiente teorema nos da una herramienta para encontrarlo:
 #### Teorema 6.10
-
+Sea ${}V{}$ un espacio de producto interno de dimensión finita, y sea ${}\beta{}$ una base ortonormal de ${}V{}$. Si ${}T{}$ es un operador lineal sobre ${}V{}$, entonces 
+$$
+[T^{*}]_{\beta}=[T]_{\beta}^{*}.
+$$
+Es decir, la matriz asociada al operador adjunto, es la matriz adjunta de la matriz asociada al operador original
