@@ -7,4 +7,5 @@ Supongamos que ${}v{}$ es un eigenvector de ${}T{}$ con eigenvalor ${}\lambda{}$
 $$
 0=\langle 0,x \rangle =\langle (T-\lambda I)(v),x \rangle =\langle v,(T-\lambda)^{*}(x) \rangle =\langle v,(T^{*}-\overline{\lambda}I)(x) \rangle ,
 $$
-y por lo tanto ${}v{}$ es ortogonal a la imagen de ${}T^{*}-\overline{\lambda}I{}$
+y por lo tanto ${}v{}$ es ortogonal a la imagen de ${}T^{*}-\overline{\lambda}I{}$, por lo que este operador no puede ser suprayectivo ni inyectivo, y por lo tanto su espacio nulo es distinto del vector cero, y cualquier vector no cero cuya imagen sea el cero es un eigenvector de ${}T^{*}{}$ con eigenvalor ${}\overline{\lambda}.\quad\square{}$
+
