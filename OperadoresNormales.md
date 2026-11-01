@@ -24,7 +24,7 @@ Esto nos lleva a la definición del nombre de la nota:
 Sea ${}V{}$ un espacio de producto interno, y sea ${}T{}$ un operador lineal sobre ${}V{}$. Decimos que ${}T{}$ es ***normal*** si ${}TT^{*}=T^{*}T{}$. Una matriz ${}A{}$ de ${}n\times n{}$ sobre los complejos o los reales es normal si ${}AA^{*}=A^{*}A{}$.
 #### Propiedades (Teo 6.15)
 Sea ${}V{}$ un espacio de producto interno, y sea ${}T{}$ un operador normal sobre ${}V{}$. Entonces las siguientes propiedades son ciertas:
-a) ${}\lVert T(x) \rVert=\lVert T^{*}(x) \rVert{}$ para todo ${}x \in V{};
+a) ${}\lVert T(x) \rVert=\lVert T^{*}(x) \rVert{}$ para todo ${}x \in V{}$;
 b) ${}T-cI{}$ es normal para todo ${}c\in F{}$;
-c) Si ${}x{}$ es un eigenvector de ${}T{}$ correspondiente al eigenvalor ${}\lambda{}$, entonces ${}x{}$ también es un eigenvector de ${}T^{*}{}$ correspondiente al eigenvalor ${}\overline{\lambda}{}$. Es decir, si ${}T(x)=\lambda x{}$, entonces ${}T^{*}(x)=\overline{\lambda}x{}$.
+c) Si ${}x{}$ es un eigenvector de ${}T{}$ correspondiente al eigenvalor ${}\lambda{}$, entonces ${}x{}$ también es un eigenvector de ${}T^{*}{}$ correspondiente al eigenvalor ${}\overline{\lambda}{}$. Es decir, si ${}T(x)=\lambda x{}$, entonces ${}T^{*}(x)=\overline{\lambda}x{}$;
 d) Si ${}\lambda_{1}{}$ y ${}\lambda_{2}{}$ son eigenvalores distintos de ${}T{}$ con sus correspondientes eigenvectores ${}x_{1}{}$ y ${}x_{2}{}$, entonces ${}x_{1}{}$ y ${}x_{2}{}$ son ortogonales.
