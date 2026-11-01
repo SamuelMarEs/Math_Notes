@@ -48,4 +48,7 @@ por lo que se tiene que ${}Ax=0.\quad\square{}$
 Si ${}A{}$ es una matriz de ${}m\times n{}$ tal que ${}\mathrm{rank}(A)=n{}$, entonces ${}A^{*}A{}$ es invertible.
 
 Volviendo al problema de la aproximación por mínimos cuadrados. Sea ${}A{}$ una matriz de ${}m\times n{}$ y ${}y\in F^{n}{}$. Definamos ${}W=\{ Ax:x \in F^{n} \}{}$, i.e. la imagen de ${}A{}$. Sabemos que la [[ComplementoOrtogonal|proyección ortogonal]] de ${}y{}$ sobre ${}W{}$ es el vector de ${}W{}$ que mejor aproxima a ${}y{}$. Llamemos a este vector ${}Ax_{0}{}$ para algún ${}x_{0}\in F^{n}{}$. Se tiene entonces que ${}E=\lVert Ax_{0}-y \rVert{}$ tendrá el valor mínimo posible, pues ${}Ax_{0}{}$ es el vector más cercano a ${}y{}$.
-Dado que ${}Ax_{0}{}$ es la proyección ortogonal de ${}y{}$ sobre ${}W{}$, se sigue que ${}Ax_{0}-y\in W^{\perp}{}$, por lo tanto tenemos que ${}\langle Ax,Ax_{0}-y \rangle_{m}=0{}$ para todo ${}x \in F^{n}{}$. Entonces, por el Lema 1 se sigue que ${}\langle x,A^{*}(Ax_{0}-y) \rangle=0{}$
+Dado que ${}Ax_{0}{}$ es la proyección ortogonal de ${}y{}$ sobre ${}W{}$, se sigue que ${}Ax_{0}-y\in W^{\perp}{}$, por lo tanto tenemos que ${}\langle Ax,Ax_{0}-y \rangle_{m}=0{}$ para todo ${}x \in F^{n}{}$. Entonces, por el Lema 1 se sigue que ${}\langle x,A^{*}(Ax_{0}-y) \rangle=0{}$ para cualquier ${}x{}$, por lo que ${}A^{*}(Ax_{0}-y)=0{}$, y por el Lema 2 y su Corolario, se sigue que 
+$$
+A^{*}(Ax_{0}-y)=0\implies Ax_{0}-y=0\implies A^{*}Ax_{0}=A^{*}y\implies x_{0}=(A^{*}A)^{-1}A^{*}y.
+$$
