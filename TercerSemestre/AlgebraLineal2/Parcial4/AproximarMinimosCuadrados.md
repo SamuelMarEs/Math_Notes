@@ -38,4 +38,13 @@ $$
 
 #### Lema 2:
 Sea ${}A\in M_{m\times n}(F){}$. Entonces ${}\mathrm{rank}(A^{*}A)=\mathrm{rank}(A){}$.
+##### Demostración:
+Por el [[TeoremaDimension|teorema de la dimensión]], tenemos que basta mostrar que, para ${}x \in F^{n}{}$, se tiene que ${}A^{*}Ax=0{}$ si y solo si ${}Ax=0{}$. Si suponemos que ${}Ax=0{}$, es evidente que ${}A^{*}Ax=0{}.$ Supongamos entonces que ${}A^{*}Ax=0{}$, se sigue que 
+$$
+0=\langle A^{*}Ax,x \rangle_{n}=\langle Ax,A^{* *}x \rangle _{m}=\langle Ax,Ax \rangle _{m}, 
+$$
+por lo que se tiene que ${}Ax=0.\quad\square{}$
+##### Corolario
+Si ${}A{}$ es una matriz de ${}m\times n{}$ tal que ${}\mathrm{rank}(A)=n{}$, entonces ${}A^{*}A{}$ es invertible.
 
+Volviendo al problema de la aproximación por mínimos cuadrados. Sea ${}A{}$ una matriz de ${}m\times n{}$ y ${}y\in F^{n}{}$. Definamos ${}W=\{ Ax:x \in F^{n} \}{}$.
