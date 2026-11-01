@@ -3,4 +3,8 @@ Sabemos que, para que un operador sobre ${}V{}$ sea diagonalizable, es necesario
 #### Lema
 Sea ${}T{}$ un operador lineal sobre un espacio de producto interno de dimensión finita ${}V{}$. Si ${}T{}$ tiene un eigenvector, entonces también ${}T^{*}{}$.
 ##### Demostración:
-Supongamos que ${}v{}$ es un eigenvector de ${}T{}$ con eigenvalor ${}\lambda{}$.
+Supongamos que ${}v{}$ es un eigenvector de ${}T{}$ con eigenvalor ${}\lambda{}$. Entonces para cualquier ${}x \in V{}$, 
+$$
+0=\langle 0,x \rangle =\langle (T-\lambda I)(v),x \rangle =\langle v,(T-\lambda)^{*}(x) \rangle =\langle v,(T^{*}-\overline{\lambda}I)(x) \rangle ,
+$$
+y por lo tanto ${}v{}$ es ortogonal a la imagen de ${}T^{*}-\overline{\lambda}I{}$
