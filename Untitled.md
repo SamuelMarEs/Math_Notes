@@ -12,3 +12,8 @@ y por lo tanto ${}v{}$ es ortogonal a la imagen de ${}T^{*}-\overline{\lambda}I{
 #### Teorema de Schur (6.14)
 Sea ${}T{}$ un operador lineal sobre un espacio de producto interno de dimensión finita ${}V{}$. Supongamos que el polinomio característico de ${}T{}$ es descomponible. Entonces existe una base ortonormal ${}\gamma{}$ de ${}V{}$ tal que la matriz ${}[T]_{\gamma}{}$ es triangular superior.
 ##### Demostración:
+Por un ejercicio que o no recuerdo o no hice (12(a) sección 5.2, revisarlo luego, o sea nunca), existe una base ordenada ${}\beta=\{ w_{1},\dots,w_{n} \}{}$ tal que ${}[T]_{\beta}{}$ es triangular superior. Si aplicamos el proceso Gram-Schmidt para obtener una base ortogonal ${}\beta’=\{ v_{1},\dots,v_{n} \}{}$, y definimos 
+$$
+S_{k}=\{ w_{1},\dots,w_{k} \},S’_{k}=\{ v_{1},\dots,v_{k} \},\quad \text{para }1\leq k\leq n,
+$$
+entonces ${}\mathrm{span}(S_{k})=\mathrm{span}(S’_{k}){}$ para toda ${}k{}$, y por algún detalle del mismo ejercicio, se t
