@@ -22,3 +22,5 @@ Volviendo al tema de encontrar una base ortonormal de vectores. Si suponemos que
 Esto nos lleva a la definición del nombre de la nota:
 #### Definición:
 Sea ${}V{}$ un espacio de producto interno, y sea ${}T{}$ un operador lineal sobre ${}V{}$. Decimos que ${}T{}$ es ***normal*** si ${}TT^{*}=T^{*}T{}$. Una matriz ${}A{}$ de ${}n\times n{}$ sobre los complejos o los reales es normal si ${}AA^{*}=A^{*}A{}$.
+#### Propiedades (Teo 6.15)
+Sea ${}V{}$ un espacio de producto interno, y sea ${}T{}$ un operador normal sobre ${}V{}$. Entonces las siguientes propiedades 
