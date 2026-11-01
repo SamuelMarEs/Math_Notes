@@ -37,4 +37,9 @@ Sea ${}V{}$ un espacio de producto interno de dimensión finita, y sea ${}\beta{
 $$
 [T^{*}]_{\beta}=[T]_{\beta}^{*}.
 $$
-Es decir, la matriz asociada al operador adjunto, es la matriz adjunta de la matriz asociada al operador original
+Es decir, la matriz asociada al operador adjunto, es la matriz adjunta de la matriz asociada al operador original.
+##### Demostración:
+Sean ${}A=[T]_{\beta}{}$, ${}B=[T^{*}]_{\beta}{}$, y ${}\beta=\{ v_{1},\dots,v_{n} \}{}$. Entonces tenemos que 
+$$
+B_{ij}=\langle T^{*}(v_{j}),v_{i} \rangle =\overline{\langle v_{i},T^{*}(v_{j}) \rangle }
+$$
