@@ -24,4 +24,18 @@ y_{m}
 \end{pmatrix},
 $$
 tenemos entonces que ${}E=\lVert y-Ax \rVert ^{2}{}$.
-A continuación desarrollamos un método general para encontrar un vector ${}x_{0}\in F^{n}{}$ que minimice ${}E{}$. 
+A continuación desarrollamos un método general para encontrar un vector ${}x_{0}\in F^{n}{}$ que minimice ${}E{}$. Primero, tomemos en cuenta que, si ${}x,y{}$ son vectores columna, entonces tenemos que ${}\langle x,y \rangle=y^{*}x{}$, donde ${}\langle \cdot,\cdot \rangle{}$ es el producto interno de ${}F^{n}{}$. Para encontrar una forma general de minimizar ${}E{}$, primero necesitamos dos lemas:
+#### Lema 1:
+Sean ${}A\in M_{m\times n}(F){}$, ${}x \in F^{n}{}$, y ${}y\in F^{m}{}$. Entonces 
+$$
+\langle Ax,y \rangle_{m}=\langle x,A^{*}y \rangle _{n}. 
+$$
+##### Demostración:
+De forma directa se tiene que 
+$$
+\langle Ax,y \rangle _{m}=y^{*}(Ax)=(y^{*}A)x=(A^{*}y)^{*}x=\langle x,A^{*}y \rangle _{n}.\quad\square
+$$
+
+#### Lema 2:
+Sea ${}A\in M_{m\times n}(F){}$. Entonces ${}\mathrm{rank}(A^{*}A)=\mathrm{rank}(A){}$.
+
