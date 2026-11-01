@@ -26,4 +26,6 @@ Para demostrar la unicidad, basta ver que, de existir otro ${}y’{}$, se tendr�
 
 Volviendo al tema del operador adjunto, tenemos el siguiente teorema para definirlo: 
 #### Teorema 6.9
-Sea ${}V{}$ un espacio de producto interno de dimensión finita, y sea ${}T{}$ un operador lineal sobre ${}V{}$. Entonces existe una única función ${}T{}$
+Sea ${}V{}$ un espacio de producto interno de dimensión finita, y sea ${}T{}$ un operador lineal sobre ${}V{}$. Entonces existe una única función ${}T^{*}:V\to V{}$ tal que ${}\langle T(x), y \rangle=\langle x,T^{*}(y) \rangle{}$ para todo ${}x,y\in V{}$. Más aún, ${}T^{*}{}$ es lineal.
+##### Demostración:
+Sea ${}y\in V{}$. Definamos ${}g;V\to F{}$ como ${}g(x)=\langle T(x),y \rangle{}$ para todo ${}x \in V{}$. No es difícil de ver que ${}g{}$ es lineal, y aplicando el teorema anterior, tenemos que existe ${}y’{}$ tal que ${}g(x)=\langle x, y’ \rangle=\langle T(x),y \rangle{}$ para toda ${}x \in V{}$
