@@ -14,4 +14,12 @@ Sea ${}\beta=\{ v_{1},\dots,v_{n} \}{}$ una base ortonormal de ${}V{}$, y sea
 $$
 y=\sum_{i=1}^{n}\overline{g(v_{i})}v_{i}.
 $$
-Definamos ${}h:V\to F{}$ como ${}h(x)={}$
+Definamos ${}h:V\to F{}$ como ${}h(x)=\langle x,y\rangle{}$, tenemos que para ${}1\leq j\leq n{}$:
+$$
+\begin{aligned}
+h(v_{j})&=\langle v_{j}, y\rangle=\langle v_{j}, \sum_{i=1}^{n}\overline{g(v_{i})}v_{i}\rangle \\
+&=\sum_{i=1}^{n}g(v_{i})\langle v_{j},v_{i}\rangle \\
+&=\sum_{i=1}^{n}g(v_{i})\delta_{ji}=g(v_{j}).
+\end{aligned}
+$$
+Para demostrar la unicidad, basta ver que, de existir otro ${}y’{}$, se tendría que ${}\langle x,y\rangle=\langle x,y’\rangle{}$ para todo ${}x{}$, por lo tanto ${}y=y’.\quad\square$
