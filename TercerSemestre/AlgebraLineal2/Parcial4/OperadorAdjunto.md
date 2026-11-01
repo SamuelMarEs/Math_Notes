@@ -23,4 +23,3 @@ h(v_{j})&=\langle v_{j}, y\rangle=\langle v_{j}, \sum_{i=1}^{n}\overline{g(v_{i}
 \end{aligned}
 $$
 Para demostrar la unicidad, basta ver que, de existir otro ${}y’{}$, se tendría que ${}\langle x,y\rangle=\langle x,y’\rangle{}$ para todo ${}x{}$, por lo tanto ${}y=y’.\quad\square$
-${}\quadsquare{}$
