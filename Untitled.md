@@ -9,3 +9,6 @@ $$
 $$
 y por lo tanto ${}v{}$ es ortogonal a la imagen de ${}T^{*}-\overline{\lambda}I{}$, por lo que este operador no puede ser suprayectivo ni inyectivo, y por lo tanto su espacio nulo es distinto del vector cero, y cualquier vector no cero cuya imagen sea el cero es un eigenvector de ${}T^{*}{}$ con eigenvalor ${}\overline{\lambda}.\quad\square{}$
 
+#### Teorema de Schur (6.14)
+Sea ${}T{}$ un operador lineal sobre un espacio de producto interno de dimensión finita ${}V{}$. Supongamos que el polinomio característico de ${}T{}$ es descomponible. Entonces existe una base ortonormal ${}\gamma{}$ de ${}V{}$ tal que la matriz ${}[T]_{\gamma}{}$ es triangular superior.
+##### Demostración:
