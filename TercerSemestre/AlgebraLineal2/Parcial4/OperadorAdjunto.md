@@ -1,4 +1,4 @@
-#Calculo 
+#AlgebraLineal
 Para trabajar el producto interno de [[ProductoInterno|Frobenius]], definimos la matriz adjunta de ${}A{}$ como 
 $$
 (A_{ij}^{*})=\overline{(A_{ji})},
