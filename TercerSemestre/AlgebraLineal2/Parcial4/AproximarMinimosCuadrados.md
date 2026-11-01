@@ -5,3 +5,17 @@ $$
 E=\sum_{i=1}^{m}(y_{i}-ct_{i}-d)^{2}.
 $$
 De este modo, lo que queremos encontrar son ${}c{}$ y ${}d{}$ que minimicen ${}E{}$.
+Si definimos
+$$
+A=\begin{pmatrix}
+t_{1} & 1 \\
+t_{2} & 1 \\
+\vdots & \vdots \\
+t_{m} & 1
+\end{pmatrix},\quad x=\begin{pmatrix}
+c \\
+d
+\end{pmatrix},\quad y=\begin{pmatrix}
+
+\end{pmatrix}
+$$
