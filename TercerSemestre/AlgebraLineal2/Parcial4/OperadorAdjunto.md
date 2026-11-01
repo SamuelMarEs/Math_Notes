@@ -44,3 +44,12 @@ $$
 B_{ij}=\langle T^{*}(v_{j}),v_{i} \rangle =\overline{\langle v_{i},T^{*}(v_{j}) \rangle }=\overline{\langle T(v_{i}),v_{j} \rangle }=\overline{A_{ji}}=(A^{*})_{ij}.
 $$
 Por lo tanto se tiene que ${}B=A^{*}.\quad\square{}$
+
+#### Propiedades (Teo 6.11)
+Sea ${}V{}$ un espacio de producto interno, y sean ${}T{}$ y ${}U{}$ operadores lineales cuyos operadores adjuntos existen. Entonces 
+a) ${}(T+U)^{*}=T^{*}+U^{*}{}$;
+b) ${}(cT)^{*}=\overline{c}T^{*}{}$ para todo ${}c\in F{}$;
+c) ${}(TU)^{*}=U^{*}T^{*}{}$;
+d) ${}T^{**}=T{}$;
+e) ${}I^{*}=I{}$.
+Estas mismas propiedades se extienden a matrices adjuntas.
