@@ -43,4 +43,4 @@ Sean ${}A=[T]_{\beta}{}$, ${}B=[T^{*}]_{\beta}{}$, y ${}\beta=\{ v_{1},\dots,v_{
 $$
 B_{ij}=\langle T^{*}(v_{j}),v_{i} \rangle =\overline{\langle v_{i},T^{*}(v_{j}) \rangle }=\overline{\langle T(v_{i}),v_{j} \rangle }=\overline{A_{ji}}=(A^{*})_{ij}.
 $$
-Por lo tanto se tiene que ${}B=A^{*}{}$
+Por lo tanto se tiene que ${}B=A^{*}.\quad\square{}$
