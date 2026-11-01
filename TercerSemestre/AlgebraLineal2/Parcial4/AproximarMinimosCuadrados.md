@@ -16,6 +16,12 @@ t_{m} & 1
 c \\
 d
 \end{pmatrix},\quad y=\begin{pmatrix}
+y_{1} \\
+y_{2} \\
 
-\end{pmatrix}
+\vdots \\
+y_{m}
+\end{pmatrix},
 $$
+tenemos entonces que ${}E=\lVert y-Ax \rVert ^{2}{}$.
+A continuación desarrollamos un método general para encontrar un vector ${}x_{0}\in F^{n}{}$ que minimice ${}E{}$. 
