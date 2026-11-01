@@ -23,3 +23,7 @@ h(v_{j})&=\langle v_{j}, y\rangle=\langle v_{j}, \sum_{i=1}^{n}\overline{g(v_{i}
 \end{aligned}
 $$
 Para demostrar la unicidad, basta ver que, de existir otro ${}y’{}$, se tendría que ${}\langle x,y\rangle=\langle x,y’\rangle{}$ para todo ${}x{}$, por lo tanto ${}y=y’.\quad\square$
+
+Volviendo al tema del operador adjunto, tenemos el siguiente teorema para definirlo: 
+#### Teorema 6.9
+Sea ${}V{}$ un espacio de producto interno de dimensión finita, y sea ${}T{}$ un operador lineal sobre ${}V{}$. Entonces existe una única función ${}T{}$
