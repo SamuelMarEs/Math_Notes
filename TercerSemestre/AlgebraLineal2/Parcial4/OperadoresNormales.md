@@ -37,7 +37,11 @@ b) Sea ${}c\in F{}$, queremos mostrar que ${}(T-cI)^{*}(T-cI)=(T-cI)(T-cI)^{*}{}
 $$
 \begin{aligned}
 (T-cI)^{*}(T-cI)&=T^{*}(T-cI)-\overline{c}I(T-cI) \\
-&=T^{*}T-cT^{*}I-\overline{c}IT+\overline{c}cII
+&=T^{*}T-cT^{*}I-\overline{c}IT+\overline{c}cII \\
+&=TT^{*}-\overline{c}TI-cIT^{*}+\overline{c}cII \\
+&=T(T^{*}-\overline{c}I)-cI(T^{*}-\overline{c}I) \\
+&=(T-cI)(T^{*}-\overline{c}I) \\
+&
 \end{aligned}
 $$ 
 
