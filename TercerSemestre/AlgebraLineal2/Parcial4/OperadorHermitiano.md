@@ -1,0 +1,25 @@
+#AlgebraLineal 
+#### Definición:
+Sea ${}T{}$ un operador lineal sobre un espacio de producto interno ${}V{}$. Decimos que ${}T{}$ es hermitiano (o auto-adjunto) si ${}T=T^{*}{}$. De forma análoga, una matriz real o compleja ${}A{}$ es hermitiana (auto-adjunta) si ${}A=A^{*}{}$.
+
+No es difícil ver que, si ${}\beta{}$ es una base ortonormal, entonces ${}T{}$ es hermitiano si y sólo si ${}[T]_{\beta}{}$ es hermitiana. Si se tiene que ${}F=\mathbb{R}{}$, entonces decir que una matriz es hermitiana es lo mismo a decir que la matriz es simétrica.
+#### Lema
+Sea ${}T{}$ un operador auto-adjunto sobre un espacio de producto interno de dimensión finita ${}V{}$. Entonces:
+a) Todo eigenvalor de ${}T{}$ es real.
+b) Supongamos que ${}V{}$ es un espacio vectorial sobre ${}\mathbb{R}{}$. Entonces el polinomio característico de ${}T{}$ se descompone sobre ${}\mathbb{R}{}$.
+##### Demostración:
+a) Supongamos que ${}T(x)=\lambda x{}$ para ${}x\neq 0{}$. Dado que un operador auto-adjunto también es un [[TercerSemestre/AlgebraLineal2/Parcial4/OperadoresNormales|operador normal]], tenemos que 
+$$
+\lambda x=T(x)=T^{*}(x)=\overline{\lambda}(x).
+$$
+Es decir que ${}\lambda=\overline{\lambda}{}$, por lo tanto ${}\lambda{}$ es real.
+b) Sean ${}n=\mathrm{dim}(V){}$, ${}\beta{}$ una base ortonormal de ${}V{}$, y ${}A=[T]_{\beta}{}$. Entonces ${}A{}$ es auto-adjunta. Sea ${}T_{A}{}$ el operador lineal sobre ${}\mathbb{C}^{n}{}$ definido como ${}T_{A}(x)=Ax{}$ para todo ${}x \in \mathbb{C}^{n}{}.$ Podemos notar que ${}T_{A}{}$ es auto-adjunto pues ${}[T_{A}]_{\gamma}=A{}$, donde ${}\gamma{}$ es la base canónica de ${}\mathbb{C}^{n}{}$. Entonces, por el inciso ${}A{}$, todo eigenvalor de ${}T_{A}{}$ es real, y por lo tanto su polinomio característico se descompone sobre los reales. Sin embargo, el polinomio característico de ${}T_{A}{}$ es el mismo que el de ${}A{}$, que a su vez es el mismo que el de ${}T{}$, i.e. el polinomio característico de ${}T{}$ se descompone sobre los reales. ${}\quad\square{}$
+
+
+Este Lema nos permite proceder con el siguiente Teorema importante.
+#### Teorema 6.17
+Sea ${}T{}$ un operador lineal sobre un espacio de producto interno de dimensión finita ${}V{}$ sobre los reales. Entonces ${}T{}$ es auto-adjunto si y sólo si existe una base ortonormal ${}\beta{}$ que consiste de eigenvectores de ${}T{}$.
+##### Demostración:
+${}\implies){}$ Supongamos que ${}T{}$ es auto-adjunto. por el Lema anterior, el polinomio característico de ${}T{}$ se descompone sobre los reales, y entonces por el [[OperadoresNormales|teorema de Schur]], existe una base ortonormal ${}\beta{}$ tal que la matriz ${}A=[T]_{\beta}{}$ es triangular superior. Más aún, tenemos que como ${}T{}$ es auto-adjunto, también ${}A{}$, por lo tanto ${}A^{*}=A{}$, es decir que ambas son triangulares superiores, por lo que no tienen de otra más que se diagonal. Esto implica que ${}\beta{}$ es una base formada de eigenvectores.
+${}(\impliedby{}$ Supongamos que existe una base ortonormal ${}\beta{}$ formada por eigenvectores de ${}T.{}$ Esto implica que ${}A=[T]_{\beta}{}$ es diagonal. Dado que ${}V{}$ es un espacio de producto interno sobre los reales, entonces tenemos que ${}A=A^{*}{}$, i.e. ${}A{}$ es auto-adjunta, y por lo tanto ${}T{}$ también es auto-adjunto. ${}\quad\square{}$
+
