@@ -28,3 +28,9 @@ a) ${}\lVert T(x) \rVert=\lVert T^{*}(x) \rVert{}$ para todo ${}x \in V{}$;
 b) ${}T-cI{}$ es normal para todo ${}c\in F{}$;
 c) Si ${}x{}$ es un eigenvector de ${}T{}$ correspondiente al eigenvalor ${}\lambda{}$, entonces ${}x{}$ también es un eigenvector de ${}T^{*}{}$ correspondiente al eigenvalor ${}\overline{\lambda}{}$. Es decir, si ${}T(x)=\lambda x{}$, entonces ${}T^{*}(x)=\overline{\lambda}x{}$;
 d) Si ${}\lambda_{1}{}$ y ${}\lambda_{2}{}$ son eigenvalores distintos de ${}T{}$ con sus correspondientes eigenvectores ${}x_{1}{}$ y ${}x_{2}{}$, entonces ${}x_{1}{}$ y ${}x_{2}{}$ son ortogonales.
+##### Demostración:
+a) Para todo ${}x \in V{}$, tenemos que 
+$$
+\lVert T(x) \rVert ^{2}=\langle T(x),T(x) \rangle =\langle T^{*}T(x),x \rangle =\langle TT^{*}(x),x \rangle =\langle T^{*}(x),T^{*}(x) \rangle =\lVert T^{*}(x) \rVert ^{2}. 
+$$
+b) 
