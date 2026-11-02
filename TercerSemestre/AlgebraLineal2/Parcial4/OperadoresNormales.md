@@ -41,10 +41,9 @@ $$
 &=TT^{*}-\overline{c}TI-cIT^{*}+\overline{c}cII \\
 &=T(T^{*}-\overline{c}I)-cI(T^{*}-\overline{c}I) \\
 &=(T-cI)(T^{*}-\overline{c}I) \\
-&
+&=(T-cI)(T-cI)^{*}.
 \end{aligned}
-$$ 
-
+$$
 c) Supongamos que ${}T(x)=\lambda x{}$ para algún ${}x \in V{}$. Sea ${}U=T-\lambda I{}$, entonces ${}U(x)=0{}$, y por el inciso anterior, ${}U{}$ es normal, por lo tanto 
 $$
 0=\lVert U(x) \rVert =\lVert U^{*}(x) \rVert =\lVert (T^{*}-\overline{\lambda}I)(x) \rVert =\lVert T^{*}(x)-\overline{\lambda}x \rVert .
@@ -56,3 +55,6 @@ $$
 \lambda_{1}\langle x_{1},x_{2} \rangle =\langle \lambda_{1}x_{1},x_{2} \rangle =\langle T(x_{1}),x_{2} \rangle =\langle x_{1},T^{*}(c_{2}) \rangle =\langle x_{1},\overline{\lambda_{2}}x_{2} \rangle =\lambda_{2}\langle x_{1},x_{2} \rangle. 
 $$
 Dado que ${}\lambda_{1}\neq \lambda_{2}{}$, la única forma posible para que se cumpla la igualdad es si ${}\langle x_{1},x_{2} \rangle=0{}$, por lo tanto son ortogonales. ${}\quad\square{}$
+
+#### Teorema 6.16
+Sea ${}T{}$ un operador lineal sobre un espacio de producto interno con dimensión finita sobre lo complejos ${}V{}$. Entonces ${}T{}$ es normal si y sólo si existe una base ortonormal de ${}V{}$ que consiste de eigenvectores de ${}T{}$.
