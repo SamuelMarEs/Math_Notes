@@ -68,4 +68,6 @@ Más aún, tenemos que como ${}\beta{}$ es una base ortonormal
 $$
 A_{jk}=\langle T(v_{k}),v_{j} \rangle =\langle v_{k},T^{*}(v_{j}) \rangle =\langle v_{k},\overline{\lambda_{j}}v_{j} \rangle =\lambda_{j}\langle v_{k},v_{j} \rangle .
 $$
-De esto se sigue que ${}T(v_{k})=A_{kk}v_{k}{}$ y por lo tanto ${}v_{k}{}$ es un eigenvector de ${}{}$
+De esto se sigue que ${}T(v_{k})=A_{kk}v_{k}{}$ y por lo tanto ${}v_{k}{}$ es un eigenvector de ${}T{}$, y por inducción todos los vectores de ${}\beta{}$ son eigenvectores de ${}T{}$.
+${}(\impliedby{}$ El regreso es directo. Si suponemos existe una base ${}\beta{}$ de eigenvectores, entonces ${}[T]_{\beta}{}$ es diagonal, y por lo mismo ${}[T]_{\beta}^{*}{}$ también es diagonal. Además, el producto matricial de matrices diagonales es conmutativo, por lo tanto ${}[T]_{\beta}^{*}[T]_{\beta}=[T]_{\beta}[T]_{\beta }^{*}{}$, y por lo tanto ${}[T]_{\beta}{}$ es normal, por lo que ${}T{}$ también es normal. ${}\quad\square{}$
+
