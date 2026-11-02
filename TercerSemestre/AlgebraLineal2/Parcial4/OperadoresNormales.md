@@ -33,9 +33,12 @@ a) Para todo ${}x \in V{}$, tenemos que
 $$
 \lVert T(x) \rVert ^{2}=\langle T(x),T(x) \rangle =\langle T^{*}T(x),x \rangle =\langle TT^{*}(x),x \rangle =\langle T^{*}(x),T^{*}(x) \rangle =\lVert T^{*}(x) \rVert ^{2}. 
 $$
-b) Sea ${}c\in F{}$, queremos mostrar que ${}(T-cI)^{*}(T-cI)=(T-cI)(T-cI)^{*}{}$. Sabemos que tanto ${}T{}$ como ${}cI{}$ son normales para cualquier constante ${}c{}$ (esto pues ${}I{}$ es diagonal). Además, por ser lineales, tenemos que 
+b) Sea ${}c\in F{}$, queremos mostrar que ${}(T-cI)^{*}(T-cI)=(T-cI)(T-cI)^{*}{}$. Sabemos que tanto ${}T{}$ como ${}cI{}$ son normales para cualquier constante ${}c{}$ (esto pues ${}I{}$ es diagonal y su adjunto es ella misma). Además, por ser lineales, tenemos que 
 $$
-(T-cI)^{*}(T-cI)=T^{*}(T-cI)
+\begin{aligned}
+(T-cI)^{*}(T-cI)&=T^{*}(T-cI)-\overline{c}I(T-cI) \\
+&=T^{*}T-cT^{*}I-\overline{c}IT+\overline{c}cII
+\end{aligned}
 $$ 
 
 c) Supongamos que ${}T(x)=\lambda x{}$ para algún ${}x \in V{}$. Sea ${}U=T-\lambda I{}$, entonces ${}U(x)=0{}$, y por el inciso anterior, ${}U{}$ es normal, por lo tanto 
