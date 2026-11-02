@@ -13,4 +13,7 @@ $$
 \lambda x=T(x)=T^{*}(x)=\overline{\lambda}(x).
 $$
 Es decir que ${}\lambda=\overline{\lambda}{}$, por lo tanto ${}\lambda{}$ es real.
-b) Sean ${}n=\mathrm{dim}(V){}$, ${}\beta{}$ una base ortonormal de ${}V{}$, y ${}A=[T]_{\beta}{}$. Entonces ${}A{}$ es auto-adjunta. Sea ${}T_{A}{}$ el operador lineal sobre ${}\mathbb{C}^{n}{}$ definido como ${}T_{A}(x)=Ax{}$ para todo ${}x \in \mathbb{C}^{n}{}.$ Podemos notar que ${}T_{A}{}$ es auto-adjunto pues ${}[T_{A}]_{\gamma}=A{}$, donde ${}\gamma{}$ es la base canónica de ${}\mathbb{C}^{n}{}$. Entonces, por el inciso ${}A{}$, todo eigenvalor de ${}T_{A}{}$ es real, y por lo tanto su polinomio característico se descompone sobre los reales. Sin embargo, el polinomio característico de ${}T_{A}{}$ es el mismo que el de ${}A{}$
+b) Sean ${}n=\mathrm{dim}(V){}$, ${}\beta{}$ una base ortonormal de ${}V{}$, y ${}A=[T]_{\beta}{}$. Entonces ${}A{}$ es auto-adjunta. Sea ${}T_{A}{}$ el operador lineal sobre ${}\mathbb{C}^{n}{}$ definido como ${}T_{A}(x)=Ax{}$ para todo ${}x \in \mathbb{C}^{n}{}.$ Podemos notar que ${}T_{A}{}$ es auto-adjunto pues ${}[T_{A}]_{\gamma}=A{}$, donde ${}\gamma{}$ es la base canónica de ${}\mathbb{C}^{n}{}$. Entonces, por el inciso ${}A{}$, todo eigenvalor de ${}T_{A}{}$ es real, y por lo tanto su polinomio característico se descompone sobre los reales. Sin embargo, el polinomio característico de ${}T_{A}{}$ es el mismo que el de ${}A{}$, que a su vez es el mismo que el de ${}T{}$, i.e. el polinomio característico de ${}T{}$ se descompone sobre los reales. ${}\quad\square{}$
+
+
+Este Lema nos permite proceder con el siguiente Teorema importante
