@@ -8,4 +8,9 @@ Sea ${}T{}$ un operador auto-adjunto sobre un espacio de producto interno de dim
 a) Todo eigenvalor de ${}T{}$ es real.
 b) Supongamos que ${}V{}$ es un espacio vectorial sobre ${}\mathbb{R}{}$. Entonces el polinomio característico de ${}T{}$ se descompone sobre ${}\mathbb{R}{}$.
 ##### Demostración:
-a) Supongamos que ${}T(x)=\lambda x{}$ para ${}x\neq 0{}$. Dado que un operador auto-adjunto también es un operador
+a) Supongamos que ${}T(x)=\lambda x{}$ para ${}x\neq 0{}$. Dado que un operador auto-adjunto también es un [[TercerSemestre/AlgebraLineal2/Parcial4/OperadoresNormales|operador normal]], tenemos que 
+$$
+\lambda x=T(x)=T^{*}(x)=\overline{\lambda}(x).
+$$
+Es decir que ${}\lambda=\overline{\lambda}{}$, por lo tanto ${}\lambda{}$ es real.
+b) Sean ${}n=\mathrm{dim}(V){}$, ${}\beta{}$ una base ortonormal de ${}V{}$, y ${}A=[T]_{\beta}{}$. Entonces ${}A{}$ es auto-adjunta. Sea ${}T_{A}{}$ el operador lineal sobre ${}\mathbb{C}^{n}{}$ definido como ${}T_{A}(x)=Ax{}$ para todo ${}x \in \mathbb{C}^{n}{}.$ Podemos notar que ${}T_{A}{}$ es auto-adjunto pues 
