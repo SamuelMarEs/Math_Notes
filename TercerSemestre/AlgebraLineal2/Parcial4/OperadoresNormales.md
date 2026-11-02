@@ -58,3 +58,14 @@ Dado que ${}\lambda_{1}\neq \lambda_{2}{}$, la única forma posible para que se 
 
 #### Teorema 6.16
 Sea ${}T{}$ un operador lineal sobre un espacio de producto interno con dimensión finita sobre lo complejos ${}V{}$. Entonces ${}T{}$ es normal si y sólo si existe una base ortonormal de ${}V{}$ que consiste de eigenvectores de ${}T{}$.
+##### Demostración:
+${}\implies)$ Supongamos que ${}T{}$ es normal. Por el ***Teorema fundamental del Álgebra***, el polinomio característico de ${}T{}$ se descompone sobre los complejos. Entonces, podemos usar el teorema de Schur para obtener una base ortonormal ${}\beta=\{ v_{1},\dots,v_{n} \}{}$ de ${}V{}$ tal que ${}[T]_{\beta}{}=A$ es una matriz triangular superior. Entonces, tenemos que ${}v_{1}{}$ es un eigenvector de ${}T{}$ pues ${}A{}$ es triangular superior. Supongamos que ${}v_{1},\dots,v_{k-1}{}$ son eigenvectores de ${}T{}$. Vamos a demostrar que entonces ${}v_{k}{}$ también es un eigenvector de ${}T{}$.
+Consideremos cualquier ${}j<k{}$, y sea ${}\lambda_{j}{}$ el eigenvector de ${}T{}$ correspondiente a ${}v_{j}{}$. Por el teorema anterior, tenemos que ${}T^{*}(v_{j})=\overline{\lambda_{j}}v_{j}{}$. Como ${}A{}$ es triangular superior, entonces 
+$$
+T(v_{k})=A_{1k}v_{1}+\dots+A_{jk}v_{j}+\dots+A_{kk}v_{k}.
+$$
+Más aún, tenemos que como ${}\beta{}$ es una base ortonormal 
+$$
+A_{jk}=\langle T(v_{k}),v_{j} \rangle =\langle v_{k},T^{*}(v_{j}) \rangle =\langle v_{k},\overline{\lambda_{j}}v_{j} \rangle =\lambda_{j}\langle v_{k},v_{j} \rangle .
+$$
+De esto se sigue que ${}T(v_{k})=A_{kk}v_{k}{}$ y por lo tanto ${}v_{k}{}$ es un eigenvector de ${}{}$
