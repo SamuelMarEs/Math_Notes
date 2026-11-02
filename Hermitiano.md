@@ -20,4 +20,4 @@ Este Lema nos permite proceder con el siguiente Teorema importante.
 #### Teorema 6.17
 Sea ${}T{}$ un operador lineal sobre un espacio de producto interno de dimensión finita ${}V{}$ sobre los reales. Entonces ${}T{}$ es auto-adjunto si y sólo si existe una base ortonormal ${}\beta{}$ que consiste de eigenvectores de ${}T{}$.
 ##### Demostración:
-Supongamos que ${}T{}$ es auto-adjunto. por el Lema anterior, el polinomio característico de ${}T{}$ se descompone sobre los reales
+Supongamos que ${}T{}$ es auto-adjunto. por el Lema anterior, el polinomio característico de ${}T{}$ se descompone sobre los reales, y entonces por el [[OperadoresNormales|teorema de Schur]], existe una base ortonormal ${}\beta{}$ tal que la matriz ${}A=[T]_{\beta}{}$ es triangular superior. Más aún, tenemos que como ${}T{}$ es auto-adjunto, también ${}A{}$, por lo tanto ${}A^{*}=A{}$, es decir que ambas son triangulares superiores, por lo que no tienen de otra más que se diagonal
