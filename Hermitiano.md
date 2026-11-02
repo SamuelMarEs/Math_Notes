@@ -4,4 +4,6 @@ Sea ${}T{}$ un operador lineal sobre un espacio de producto interno ${}V{}$. Dec
 
 No es difícil ver que, si ${}\beta{}$ es una base ortonormal, entonces ${}T{}$ es hermitiano si y sólo si ${}[T]_{\beta}{}$ es hermitiana. Si se tiene que ${}F=\mathbb{R}{}$, entonces decir que una matriz es hermitiana es lo mismo a decir que la matriz es simétrica.
 #### Lema
-Sea ${}T{}$ un operador auto-adjunto sobre un espacio de producto interno de dimensión finita ${}V{}$
+Sea ${}T{}$ un operador auto-adjunto sobre un espacio de producto interno de dimensión finita ${}V{}$. Entonces:
+a) Todo eigenvalor de ${}T{}$ es real.
+b) Supongamos que ${}V{}$ es un espacio vectorial sobre ${}\mathbb{R}{}$. Entonces el polinomio característico de ${}T{}$ se descompone sobre ${}\mathbb{R}{}$.
