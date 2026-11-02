@@ -18,4 +18,6 @@ b) Sean ${}n=\mathrm{dim}(V){}$, ${}\beta{}$ una base ortonormal de ${}V{}$, y $
 
 Este Lema nos permite proceder con el siguiente Teorema importante.
 #### Teorema 6.17
-Sea ${}T{}$
+Sea ${}T{}$ un operador lineal sobre un espacio de producto interno de dimensión finita ${}V{}$ sobre los reales. Entonces ${}T{}$ es auto-adjunto si y sólo si existe una base ortonormal ${}\beta{}$ que consiste de eigenvectores de ${}T{}$.
+##### Demostración:
+Supongamos que ${}T{}$ es auto-adjunto. por el Lema anterior, el polinomio característico de ${}T{}$ se descompone sobre los reales
