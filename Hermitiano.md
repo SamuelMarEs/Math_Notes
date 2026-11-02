@@ -7,3 +7,5 @@ No es difícil ver que, si ${}\beta{}$ es una base ortonormal, entonces ${}T{}$ 
 Sea ${}T{}$ un operador auto-adjunto sobre un espacio de producto interno de dimensión finita ${}V{}$. Entonces:
 a) Todo eigenvalor de ${}T{}$ es real.
 b) Supongamos que ${}V{}$ es un espacio vectorial sobre ${}\mathbb{R}{}$. Entonces el polinomio característico de ${}T{}$ se descompone sobre ${}\mathbb{R}{}$.
+##### Demostración:
+a) Supongamos que ${}T(x)=\lambda x{}$ para ${}x\neq 0{}$. Dado que un operador auto-adjunto también es un operador
