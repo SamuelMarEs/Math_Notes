@@ -33,4 +33,16 @@ a) Para todo ${}x \in V{}$, tenemos que
 $$
 \lVert T(x) \rVert ^{2}=\langle T(x),T(x) \rangle =\langle T^{*}T(x),x \rangle =\langle TT^{*}(x),x \rangle =\langle T^{*}(x),T^{*}(x) \rangle =\lVert T^{*}(x) \rVert ^{2}. 
 $$
-b) 
+b) Sea ${}c\in F{}$, queremos mostrar que ${}(T-cI)^{*}(T-cI)=(T-cI)(T-cI)^{*}{}$.
+
+c) Supongamos que ${}T(x)=\lambda x{}$ para algún ${}x \in V{}$. Sea ${}U=T-\lambda I{}$, entonces ${}U(x)=0{}$, y por el inciso anterior, ${}U{}$ es normal, por lo tanto 
+$$
+0=\lVert U(x) \rVert =\lVert U^{*}(x) \rVert =\lVert (T^{*}-\overline{\lambda}I)(x) \rVert =\lVert T^{*}(x)-\overline{\lambda}x \rVert .
+$$
+Por lo tanto tenemos que ${}T^{*}(x)=\overline{\lambda}x{}$.
+
+d) Sean ${}\lambda_{1}{}$ y ${}\lambda_{2}{}$ eigenvalores distintos de ${}T{}$ con eigenvectores correspondientes ${}x_{1}{}$ y ${}x_{2}{}$. Entonces, por el inciso (c), tenemos que 
+$$
+\lambda_{1}\langle x_{1},x_{2} \rangle =\langle \lambda_{1}x_{1},x_{2} \rangle =\langle T(x_{1}),x_{2} \rangle =\langle x_{1},T^{*}(c_{2}) \rangle =\langle x_{1},\overline{\lambda_{2}}x_{2} \rangle =\lambda_{2}\langle x_{1},x_{2} \rangle. 
+$$
+Dado que ${}\lambda_{1}\neq \lambda_{2}{}$, la única forma posible para que se cumpla la igualdad es si ${}\langle x_{1},x_{2} \rangle=0{}$, por lo tanto son ortogonales. ${}\quad\square{}$
