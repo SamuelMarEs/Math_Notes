@@ -11,4 +11,4 @@ Un algoritmo de ordenamiento es estable si conserva el orden relativo de los ele
 Por ejemplo, si la entrada es ${}[2_{a},1,2_{b}]{}$, un ordenamiento estable (que conserva el orden entre estables) regresaría ${}[1,2_{a},2_{b}]{}$, mientras que uno no estable lo invierte ${}[1,2_{b},2_{a}]{}$.
 ### Insertion Sort
 El prefijo ${}A[0:i]{}$ ya está ordenado.
-Tomamos ${}A[i]{}$ como *clave* y desplazamos a la derecha los val
+Tomamos ${}A[i]{}$ como *clave* y desplazamos a la derecha los valores mayores
