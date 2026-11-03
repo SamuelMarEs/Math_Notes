@@ -20,3 +20,7 @@ $$
 Se puede demostrar que 
 - ${}\mathbb{E}(X)=\frac{\alpha}{\alpha+\beta}{}$,
 - ${}\mathrm{Var}(X)=\frac{\alpha \beta}{(\alpha+\beta+1)(\alpha+\beta)^{2}}{}$.
+
+Este modelo se usa principalmente para modelar proporciones.
+##### Ejemplo
+Sea ${}X{}$ una v.a. ${}\text{Beta}(\alpha=3,\beta=10){}$ que describe la proporción de personas que sufren accidentes cardiacos en una cierta población
