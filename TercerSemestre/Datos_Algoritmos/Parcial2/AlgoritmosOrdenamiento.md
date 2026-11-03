@@ -48,4 +48,4 @@ def selection_sort(A):
         A[i], A[m] = A[m], A[i]
 ```
 Sin importar si se trata del mejor o el pero caso, el algoritmo tiene complejidad ${}\Theta(n^{2}){}$.
-
+Este algoritmo resulta ser no estable, pues ${}[2_{a},2_{b},1]\implies[1,2_{b},2_{a}]{}$, y ahí acaba el algoritmo.
