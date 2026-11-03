@@ -49,3 +49,7 @@ def selection_sort(A):
 ```
 Sin importar si se trata del mejor o el pero caso, el algoritmo tiene complejidad ${}\Theta(n^{2}){}$.
 Este algoritmo resulta ser no estable, pues ${}[2_{a},2_{b},1]\implies[1,2_{b},2_{a}]{}$, y ahí acaba el algoritmo.
+### Bubble Sort
+Comparamos vecinos de derecha a izquierda e intercambiamos si están invertidos.
+El mínimo del sufijo avanza hasta la posición ${}i{}$.
+Al terminar una iteración del ciclo exterior, el prefijo ordenado crece una posición.
