@@ -11,12 +11,29 @@ $$
 f) Para toda matriz ${}A{}$ de ${}n\times n{}$, se tiene que ${}(L_{A})^{*}=L_{A^{*}}{}$.
 g) Para todo operador lineal ${}T{}$, se tiene que ${}(T^{*})^{*}=T{}$.
 **Sol:**
-a) 
+a) Verdadero.
+b) Verdadero.
+c) Falso.
+d) Verdadero.
+e) Falso.
+f) Verdadero.
+g) Verdadero.
+
 
 2.- En cada caso, encuentre el vector ${}y{}$ tal que ${}g(x)=\langle x,y \rangle{}$ para todo ${}x \in V{}$.
 a) ${}V=\mathbb{R}^{3},g(a_{1},a_{2},a_{3})=a_{1}-2a_{2}+4a_{3}{}$.
 b) ${}V=\mathbb{C}^{2}, g(z_{1},z_{2})=z_{1}-2z_{2}{}$.
 c) ${}V=P_{2}(\mathbb{R}){}$ con ${}\langle f,h \rangle=\int_{0}^{1}f(t)h(t)dt{}$, y ${}g(f)=f(0)+f´(1){}$.
+**Sol:**
+a) Sea ${}\beta=\{ e_{1},e_{2},e_{3} \}{}$, entonces 
+$$
+y=g(e_{1})e_{1}+g(e_{2})e_{2}+g(e_{3})e_{3}=e_{1}-2e_{2}+4e_{3}=(1,-2,4).
+$$
+b) Sea $\beta=\{ e_{1},e_{2} \}{}$, entonces tenemos que 
+$$
+y=g(e_{1})e_{1}+g(e_{2})e_{2}=e_{1}-2e_{2}=(1,-2).
+$$
+c) Sea ${}\beta=\{ 1,x,x^{2} \}{}$
 
 3.- Para cada uno de los siguientes, calcula ${}T^{*}{}$ en el vector dado.
 a) ${}V=\mathbb{R}^{2},T(a,b)=(2a+b,a-3b),x=(3,5){}$.
