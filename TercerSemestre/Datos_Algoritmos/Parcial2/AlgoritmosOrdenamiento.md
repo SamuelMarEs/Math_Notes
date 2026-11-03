@@ -73,7 +73,22 @@ def shell_sort(A):
     n = len(A)
     h = 1
     while h < n // 3:
-        h = 3*h 
+        h = 3*h + 1
+    while h >= 1:
+        for i in range(h, n):
+            j = i
+            while (j >= h and A[j]<A[j-h]):
+                A[j], A[j-h] = A[j-h], A[j]
+                j -= h
+        h //= 3
 ```
-##### Sucesiones y costos
-!
+Existen distintas sucesiones que se pueden usar para determinar ${}h{}$:
+
+| Sucesión       | Primeros términos | Mejor caso               | Peor caso |
+| -------------- | ----------------- | ------------------------ | --------- |
+| Shell original |                   | ${}\Theta(n\log_{2}n){}$ |           |
+| Hibbard        |                   | ${}\Theta(n\log_{2}n){}$ |           |
+| Knuth          |                   | ${}\Theta(n\log_{2}n){}$ |           |
+| Pratt          |                   |                          |           |
+| Sedgewick      |                   | ${}\Theta(n\log_{2}n){}$ |           |
+### Heap Sort
