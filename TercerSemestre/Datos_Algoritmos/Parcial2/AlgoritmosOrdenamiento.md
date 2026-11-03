@@ -68,3 +68,12 @@ Por ejemplo, si ${}h=4{}$, las posiciones 0, 4, 8 forman una subsecuencia:
 $$
 [9,8,7,6,5,4,3,2,1]\implies[1,4,3,2,5,8,7,6,9].
 $$
+```python
+def shell_sort(A):
+    n = len(A)
+    h = 1
+    while h < n // 3:
+        h = 3*h 
+```
+##### Sucesiones y costos
+!
