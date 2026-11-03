@@ -12,4 +12,11 @@ $$
 B(a,b)=\int_{0}^{1}x^{a-1}(1-x)^{b-1}dx.
 $$
 De forma similar a la [[DistribucionGamma|distribución gamma]], el término ${}x^{\alpha-1}(1-x)^{\beta-1}{}$ es el kernel de la función de densidad, y ${}1 / B(\alpha,\beta){}$ es la constante de normalización.
-
+La distribución beta es muy versátil, ya que se pueden encontrar funciones muy diferentes variando los parámetros ${}\alpha,\beta{}$.
+A este tipo de variables aleatorias se les denota de la forma 
+$$
+X\sim \mathrm{Beta}(\alpha,\beta).
+$$
+Se puede demostrar que 
+- ${}\mathbb{E}(X)=\frac{\alpha}{\alpha+\beta}{}$,
+- ${}\mathrm{Var}(X)=\frac{\alpha \beta}{(\alpha+\beta+1)(\alpha+\beta)^{2}}{}$.
