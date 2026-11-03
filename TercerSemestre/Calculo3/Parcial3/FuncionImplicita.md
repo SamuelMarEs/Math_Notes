@@ -14,4 +14,8 @@ $$
 D_{x}F=\left[ \frac{\partial F}{\partial x_{1}},\dots, \frac{\partial F}{\partial x_{n}} \right].
 $$
 ##### Ejemplo
-Sea ${}F(x,z)=x^{2}+z^{2}-1{}$ con ${}F(x,z)=0{}$, ${}x^{2}+z^{2}-1=0{}$
+Sea ${}F(x,z)=x^{2}+z^{2}-1{}$. Tenemos que ${}\frac{\partial F}{\partial z}=2z{}$ que es distinto de cero para ${}z\neq 0{}$.
+Por el teorema de la función implícita, existe ${}g:U\to U{}$ tal que ${}z=g(x){}$ siempre que 
+$$
+x^{2}+(g(x))^{2}
+$$
