@@ -12,4 +12,19 @@ Por ejemplo, si la entrada es ${}[2_{a},1,2_{b}]{}$, un ordenamiento estable (qu
 ### Insertion Sort
 El prefijo ${}A[0:i]{}$ ya está ordenado.
 Tomamos ${}A[i]{}$ como *clave* y desplazamos a la derecha los valores mayores.
-La clave ocupa el espacio que queda libre.
+La clave ocupa el espacio que queda libre. 
+$$
+[2,5,4,6,1,3]\implies[2,5,5,6,1,3]\implies[2,4,5,6,1,3].
+$$
+Después, tocaría mover el 1, por lo que habría que repetir los mismos tres pasos un total de cuatro veces.
+```python
+def insertion_sort(A):
+    n = len(A)
+    for i in range(1, n):
+        clave = A[i]
+        j = i - 1
+        while j >= 0 and A[j] > clave
+            a[j+1] = A[j]
+            j -= 1
+        A[j+1] = clave
+```
