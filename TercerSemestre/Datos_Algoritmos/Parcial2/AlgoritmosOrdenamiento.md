@@ -61,4 +61,4 @@ def bubble_sort(A):
             if A[i] < A[j]:
                 A[i], A[j] = A[j], A[i]
 ```
-La co
+Es fácil ver que la complejidad del Bubble Sort es ${}\Theta(n^{2}){}$.
