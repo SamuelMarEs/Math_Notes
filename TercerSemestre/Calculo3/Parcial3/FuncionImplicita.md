@@ -17,5 +17,10 @@ $$
 Sea ${}F(x,z)=x^{2}+z^{2}-1{}$. Tenemos que ${}\frac{\partial F}{\partial z}=2z{}$ que es distinto de cero para ${}z\neq 0{}$.
 Por el teorema de la función implícita, existe ${}g:U\to U{}$ tal que ${}z=g(x){}$ siempre que 
 $$
-x^{2}+(g(x))^{2}
+x^{2}+(g(x))^{2}-1=0,\text{ y } z\neq 0,
 $$
+y entonces podemos tomar ${}g(x)=\sqrt{ 1-x^{2} }{}$ para ${}z>0{}$ o ${}g(x)=-\sqrt{ 1-x^{2} }{}$ para ${}z<0{}$, de modo que tenemos que 
+$$
+U=\{ x:\lvert x \rvert <1 \}.
+$$
+
