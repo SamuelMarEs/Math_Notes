@@ -24,3 +24,5 @@ El parámetro ${}\beta{}$ se conoce como parámetro de tasa, y ${}\frac{1}{\beta
 - ${}\mathbb{E}(X)=\frac{\alpha}{\beta}{}$, o si reparametrizamos ${}\mathbb{E}(X)=\alpha \lambda{}$,
 - ${}\mathrm{Var}(X)=\frac{\alpha}{\beta^{2}}{}$, o alternativamente ${}\mathrm{Var}(X)=\alpha \lambda^{2}{}$.
 Para la [[ComulativeDensityFunction|función de distribución acumulada]] no hay una forma cerrada.
+
+El modelo gamma es muy usado para modelar cantidades positivas como tiempo, longitud, velocidad, peso, concentración, etc.
