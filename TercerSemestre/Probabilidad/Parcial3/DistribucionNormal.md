@@ -35,3 +35,5 @@ $$
 f_{Z}(z)=\frac{1}{\sqrt{ 2\pi }\sigma}\exp\left( -\frac{(\sigma z+\mu-\mu)^{2}}{2\sigma^{2}} \right)\sigma=\frac{1}{\sqrt{ 2\pi }}\exp\left( -\frac{z^{2}}{2} \right),
 $$
 es decir que ${}Z{}$ es una v.a. Normal con media ${}\mu=0{}$ y desviación estándar ${}\sigma=1.\quad\square{}$
+
+Este resultado nos permite calcular probabilidades de cualquier v.a. Normal ${}X{}$ en términos de la v.a. ${}Z{}$ Normal estándar.
