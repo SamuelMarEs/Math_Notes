@@ -34,5 +34,18 @@ Buscamos el mínimo del sufijo ${}A[i:n]{}$ y lo intercambiamos con ${}A[i]{}$.
 Después de cada iteración del ciclo exterior, una posición más queda en su lugar definitivo.
 El prefijo contiene los menores elementos, en orden. 
 $$
-
+[5,2,4,6,1,3]\implies[1,2,4,6,5,3]\implies[1,2,3,6,5,4]\implies \dots\implies[1,2,3,4,5,6].
 $$
+Buscamos el mínimo de los siguientes, y reemplazamos con el actual.
+```python
+def selection_sort(A):
+    n = len(A)
+    for i in range(n - 1):
+        m = i
+        for j in range(i+1, n):
+            if A[j] < A[m]:
+                m = j
+        A[i], A[m] = A[m], A[i]
+```
+Sin importar si se trata del mejor o el pero caso, el algoritmo tiene complejidad ${}\Theta(n^{2}){}$.
+
