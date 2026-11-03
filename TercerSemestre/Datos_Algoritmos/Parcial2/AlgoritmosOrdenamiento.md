@@ -28,3 +28,5 @@ def insertion_sort(A):
             j -= 1
         A[j+1] = clave
 ```
+No es difícil ver que en el peor de los casos, el algoritmo tiene complejidad ${}\Theta(n^{2}){}$.
+
