@@ -54,6 +54,9 @@ $$
 Observemos que, por la definición de [[ProbabilidadCondicional|probabilidad condicional]], tenemos que 
 $$
 \begin{aligned}
-P(X>n+m|>n)=\frac{P(X>n+m,X>n)}{P(>n)}
+P(X>n+m|>n)&=\frac{P(X>n+m,X>n)}{P(>n)} \\
+&=\frac{P(X>n+m)}{P(X>n)} \\
+&=\frac{e^{-\lambda(n+m)}}{e^{-\lambda n}}=e^{-\lambda m}=P(X>m).\quad\square
 \end{aligned}
 $$
+
