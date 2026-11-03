@@ -29,4 +29,10 @@ def insertion_sort(A):
         A[j+1] = clave
 ```
 No es difícil ver que en el peor de los casos, el algoritmo tiene complejidad ${}\Theta(n^{2}){}$.
+### Selection Sort
+Buscamos el mínimo del sufijo ${}A[i:n]{}$ y lo intercambiamos con ${}A[i]{}$.
+Después de cada iteración del ciclo exterior, una posición más queda en su lugar definitivo.
+El prefijo contiene los menores elementos, en orden. 
+$$
 
+$$
