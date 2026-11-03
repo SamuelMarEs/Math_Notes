@@ -17,3 +17,10 @@ Para toda distribución Normal, sin importar sus parámetros, se cumple lo sigui
 - ${}P(\mu-\sigma\leq X\leq \mu+\sigma)\approx 0.68{}$,
 - ${}P(\mu-2\sigma\leq X\leq \mu+2\sigma)\approx 0.95{}$,
 - ${}P(\mu-3\sigma\leq X\leq \mu+3\sigma)\approx 0.99{}$.
+
+#### Proposición:
+Si ${}X\sim\mathcal{N}(\mu,\sigma){}$, entonces 
+$$
+Z=\frac{X-\mu}{\sigma}\sim\mathcal{N}(0,1).
+$$
+A ${}Z{}$ se le conoce como una v.a. Normal *estándar*.
