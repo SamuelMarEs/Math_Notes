@@ -10,6 +10,8 @@ $$
 $$
 f) Para toda matriz ${}A{}$ de ${}n\times n{}$, se tiene que ${}(L_{A})^{*}=L_{A^{*}}{}$.
 g) Para todo operador lineal ${}T{}$, se tiene que ${}(T^{*})^{*}=T{}$.
+**Sol:**
+a) 
 
 2.- En cada caso, encuentre el vector ${}y{}$ tal que ${}g(x)=\langle x,y \rangle{}$ para todo ${}x \in V{}$.
 a) ${}V=\mathbb{R}^{3},g(a_{1},a_{2},a_{3})=a_{1}-2a_{2}+4a_{3}{}$.
