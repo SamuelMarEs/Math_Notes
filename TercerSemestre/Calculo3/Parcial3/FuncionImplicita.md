@@ -13,6 +13,15 @@ Aquí ${}D_{x}F{}$ denota la derivada parcial de ${}F{}$ con respecto a ${}x{}$ 
 $$
 D_{x}F=\left[ \frac{\partial F}{\partial x_{1}},\dots, \frac{\partial F}{\partial x_{n}} \right].
 $$
+Coordenada a coordenada se tiene que 
+$$
+\frac{\partial g}{\partial x_{i}}=\frac{-\frac{\partial F}{\partial x_{i}}}{\frac{\partial F}{\partial z}},\quad i=1,\dots,n.
+$$
+Entonces se puede aproximar ${}z{}$ en términos del plano tangente a la curva ${}g{}$ usando sus parciales, lo que es, si ${}F(x_{0},g(x_{0}))=0{}$, entonces 
+$$
+z=z_{0}+\left( \nabla g(x_{0}) \right)(x-x_{0}).
+$$
+
 ##### Ejemplo
 Sea ${}F(x,z)=x^{2}+z^{2}-1{}$. Tenemos que ${}\frac{\partial F}{\partial z}=2z{}$ que es distinto de cero para ${}z\neq 0{}$.
 Por el teorema de la función implícita, existe ${}g:U\to U{}$ tal que ${}z=g(x){}$ siempre que 
