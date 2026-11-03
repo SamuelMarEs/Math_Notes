@@ -62,3 +62,5 @@ def bubble_sort(A):
                 A[i], A[j] = A[j], A[i]
 ```
 Es fácil ver que la complejidad del Bubble Sort es ${}\Theta(n^{2}){}$.
+### Shell Sort
+Ordenamos por inserción las subsecuencias separadas por una distancia ${}h{}$. Un arreglo está ${}h{}$-ordenado si ${}A[j-h]\leq A[j]{}$ para todo ${}j\geq h{}$.
