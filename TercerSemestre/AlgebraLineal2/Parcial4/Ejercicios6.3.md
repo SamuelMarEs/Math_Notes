@@ -33,7 +33,10 @@ b) Sea $\beta=\{ e_{1},e_{2} \}{}$, entonces tenemos que
 $$
 y=\overline{g(e_{1})}e_{1}+\overline{g(e_{2})}e_{2}=e_{1}-2e_{2}=(1,-2).
 $$
-c) Sea ${}\beta=\{ 1,\sqrt{ 3 }(2x-1),\sqrt{ 5 }(6x^{2}-6x+1) \}{}$ 
+c) Sea ${}\beta=\{ 1,\sqrt{ 3 }(2x-1),\sqrt{ 5 }(6x^{2}-6x+1) \}{}$, entonces 
+$$
+y=g(1)1+g(\sqrt{ 3 }(2x-1))(\sqrt{ 3 }(2x-1))
+$$
 
 3.- Para cada uno de los siguientes, calcula ${}T^{*}{}$ en el vector dado.
 a) ${}V=\mathbb{R}^{2},T(a,b)=(2a+b,a-3b),x=(3,5){}$.
