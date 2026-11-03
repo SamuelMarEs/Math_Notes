@@ -26,3 +26,7 @@ El parámetro ${}\beta{}$ se conoce como parámetro de tasa, y ${}\frac{1}{\beta
 Para la [[ComulativeDensityFunction|función de distribución acumulada]] no hay una forma cerrada.
 
 El modelo gamma es muy usado para modelar cantidades positivas como tiempo, longitud, velocidad, peso, concentración, etc.
+
+#### Proposición
+Sean ${}X_{1},\dots,X_{n}{}$ v.a. exponenciales independientes e idénticamente distribuidas con parámetro ${}\lambda{}$. Luego, la v.a. ${}Y=\sum_{i=1}^{n}X_{i}\sim \mathrm{Gamma}(\mathrm{forma}=n, \mathrm{tasa}=\lambda){}$.
+
