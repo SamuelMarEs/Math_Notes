@@ -50,9 +50,25 @@ c) ${}V=P_{1}(\mathbb{R}){}$ con ${}\langle f,g \rangle=\int_{-1}^{1}f(t)g(t)dt{
 a) Sea ${}\beta=\{ e_{1},e_{2} \}{}$, entonces 
 $$
 A=[T]_{\beta}=\begin{pmatrix}
-
-\end{pmatrix}
+2 & 1 \\
+1 & -3
+\end{pmatrix}\implies A^{*}=\begin{pmatrix}
+2 & 1 \\
+1 & -3
+\end{pmatrix}=A.
 $$
+Entonces ${}T^{*}(x)=A^{*}x=(11,-12){}$.
+b) Sea ${}\beta=\{ e_{1},e_{2} \}{}$, entonces 
+$$
+A=[T]_{\beta}=\begin{pmatrix}
+2 & i \\
+1-i & 0
+\end{pmatrix}\implies A^{*}=\begin{pmatrix}
+2 & 1+i \\
+-i & 0
+\end{pmatrix},
+$$
+entonces ${}T^{*}(x)=A^{*}x=(){}$
 
 10.- Sea ${}T{}$ un operador lineal sobre ${}V{}$ un espacio de producto interno. Pruebe que ${}\lVert T(x) \rVert=\lVert x \rVert{}$ para todo ${}x{}$ si y sólo si ${}\langle T(x),T(y) \rangle=\langle x,y \rangle{}$ para todo ${}x,y\in V{}$. *Hint*: use el ejercicio 20 de la sección 6.1.
 
