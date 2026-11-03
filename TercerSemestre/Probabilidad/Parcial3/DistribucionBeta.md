@@ -22,5 +22,7 @@ Se puede demostrar que
 - ${}\mathrm{Var}(X)=\frac{\alpha \beta}{(\alpha+\beta+1)(\alpha+\beta)^{2}}{}$.
 
 Este modelo se usa principalmente para modelar proporciones.
-##### Ejemplo
-Sea ${}X{}$ una v.a. ${}\text{Beta}(\alpha=3,\beta=10){}$ que describe la proporción de personas que sufren accidentes cardiacos en una cierta población
+##### Ejemplos
+1.- Sea ${}X{}$ una v.a. ${}\text{Beta}(\alpha=3,\beta=10){}$ que describe la proporción de personas que sufren accidentes cardiacos en una cierta población.
+
+2.- Sea ${}X{}$ la v.a. que describe la probabilidad de que una moneda de águila.
