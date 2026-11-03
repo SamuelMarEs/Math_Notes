@@ -49,4 +49,4 @@ Si tomamos, por ejemplo, ${}\mu=10,\sigma=2,a=8,b=13{}$, entonces tenemos
 $$
 P(8\leq X\leq 13)=P(-1\leq Z\leq 1.5).
 $$
-El únic
+El único problema que tiene la distribución normal, es que no existe una forma cerrada para expresar su cdf.
