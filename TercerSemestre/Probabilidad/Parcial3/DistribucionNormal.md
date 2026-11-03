@@ -4,7 +4,7 @@ Sea ${}X{}$ una [[V.A.Continuas|v.a. continua]] que toma valores en todo ${}\mat
 $$
 f(x)=\frac{1}{\sqrt{ 2\pi }\sigma}\exp\left( -\frac{(x-\mu)^{2}}{2\sigma^{2}} \right),\quad \forall x \in \mathbb{R}.
 $$
-Al parámetro ${}\mu {}$ se le conoce como “media” o parámetro de centralidad, y a ${}\sigma{}$ se le conoce como parámetro de escala.
+Al parámetro ${}\mu {}$ se le conoce como “media” o parámetro de centralidad, y a ${}\sigma{}$ se le conoce como parámetro de escala y ${}\sigma >0{}$.
 A este tipo de v.a. se le conoce como variable Normal o Gaussiana de parámetros ${}\mu{}$ y ${}\sigma{}$, y se denota como 
 $$
 X\sim \mathcal{N}(\mu,\sigma).
@@ -24,3 +24,13 @@ $$
 Z=\frac{X-\mu}{\sigma}\sim\mathcal{N}(0,1).
 $$
 A ${}Z{}$ se le conoce como una v.a. Normal *estándar*.
+##### Demostración:
+Usando el [[ComulativeDensityFunction|teorema de cambio de variable]] para variables continuas, podemos encontrar la función de densidad de la v.a. ${}Z{}$.
+Sea ${}\psi(x)=\frac{x-\mu}{\sigma}{}$, esta es una función creciente con inversa ${}\psi ^{-1}(z)=\sigma z+\mu{}$, cuya derivada es ${}\frac{d}{dz}\psi ^{-1}(z)=\sigma{}$. Si recordamos el teorema, tenemos que 
+$$
+f_{Z}(z)=f_{X}(\psi ^{-1}(z))\left\lvert  \frac{d}{dz}\psi ^{-1}(z)  \right\rvert ,
+$$
+es decir que 
+$$
+f_{Z}(z)=\frac{1}{\sqrt{ 2\pi }\sigma}
+$$
