@@ -79,9 +79,13 @@ A=[T]_{\beta}=\begin{pmatrix}
 \sqrt{ 3 } & 3
 \end{pmatrix},
 $$
-y por lo tanto ${}T^{*}(x)=A^{*}x={}$
+y por lo tanto ${}T^{*}(x)=A^{*}x=12+6t{}$.
+
 
 10.- Sea ${}T{}$ un operador lineal sobre ${}V{}$ un espacio de producto interno. Pruebe que ${}\lVert T(x) \rVert=\lVert x \rVert{}$ para todo ${}x{}$ si y sólo si ${}\langle T(x),T(y) \rangle=\langle x,y \rangle{}$ para todo ${}x,y\in V{}$. *Hint*: use el ejercicio 20 de la sección 6.1.
+**Sol:**
+${}\implies){}$ Supongamos que ${}\lVert T(x) \rVert=\lVert x \rVert{}$ para todo ${}x{}$. Esto implica que ${}\langle T(x),T(x) \rangle=\langle x,x \rangle{}$ para todo ${}x{}$
+${}(\impliedby{}$ Supongamos que ${}\langle T(x),T(y) \rangle=\langle x,y \rangle{}$ para todo ${}x,y\in V{}$, entonces podemos tomar ${}y=x{}$, de modo que tenemos que ${}\langle T(x),T(x) \rangle=\langle x,x \rangle{}$, es decir que ${}\lVert T(x) \rVert ^{2}=\lVert x \rVert ^{2}{}$, y por lo tanto ${}\lVert T(x) \rVert=\lVert x \rVert{}$.
 
 12.- Sea ${}V{}$ un espacio de producto interno, y sea ${}T{}$ un operador lineal sobre ${}V{}$. pruebe los siguientes resultados:
 a) ${}R(T^{*})^{\perp}=N(T){}$.
