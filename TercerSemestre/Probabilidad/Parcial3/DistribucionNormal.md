@@ -32,5 +32,6 @@ f_{Z}(z)=f_{X}(\psi ^{-1}(z))\left\lvert  \frac{d}{dz}\psi ^{-1}(z)  \right\rver
 $$
 es decir que 
 $$
-f_{Z}(z)=\frac{1}{\sqrt{ 2\pi }\sigma}
+f_{Z}(z)=\frac{1}{\sqrt{ 2\pi }\sigma}\exp\left( -\frac{(\sigma z+\mu-\mu)^{2}}{2\sigma^{2}} \right)\sigma=\frac{1}{\sqrt{ 2\pi }}\exp\left( -\frac{z^{2}}{2} \right),
 $$
+es decir que ${}Z{}$ es una v.a. Normal con media ${}\mu=0{}$ y desviación estándar ${}\sigma=1.\quad\square{}$
