@@ -20,3 +20,4 @@ La función ${}\Gamma{}$ tiene las siguientes propiedades:
 - ${}\Gamma(2)=\Gamma(1)=1{}$,
 - ${}\Gamma(1 / 2)=\sqrt{ \pi }{}$.
 
+El parámetro ${}\beta{}$ se conoce como parámetro de tasa, y ${}\frac{1}{\beta}=\lambda{}$ se conoce como parámetro de escala. Por otro lado, el parámetro ${}\alpha{}$ es un parámetro de forma.
