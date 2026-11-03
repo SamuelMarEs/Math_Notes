@@ -44,3 +44,16 @@ $$
 	\mathbb{E}(X)=\lambda=170.
 $$
 Para responder a la segunda pregunta, lo que queremos encontrar es $P(X>250)=1-P(X\leq 250)$, o lo que es lo mismo $1-F(250)=1-(1-e^{-250 / 170})=e^{-250 / 170}\approx 0.22$. Es decir, alrededor del 22% de la población consume más de 250 kw/h al mes.
+
+#### Propiedad de pérdida de memoria
+Si ${}X{}$ es una v.a. exponencial de parámetro ${}\lambda{}$, entonces 
+$$
+P(X>n+m|X>n)=P(X>m).
+$$
+##### Demostración:
+Observemos que, por la definición de [[ProbabilidadCondicional|probabilidad condicional]], tenemos que 
+$$
+\begin{aligned}
+P(X>n+m|>n)=\frac{P(X>n+m,X>n)}{P(>n)}
+\end{aligned}
+$$
