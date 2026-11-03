@@ -53,3 +53,9 @@ Este algoritmo resulta ser no estable, pues ${}[2_{a},2_{b},1]\implies[1,2_{b},2
 Comparamos vecinos de derecha a izquierda e intercambiamos si están invertidos.
 El mínimo del sufijo avanza hasta la posición ${}i{}$.
 Al terminar una iteración del ciclo exterior, el prefijo ordenado crece una posición.
+```python
+def bubble_sort(A):
+    n = len(A)
+    for i in range(n-1):
+        for j in range
+```
