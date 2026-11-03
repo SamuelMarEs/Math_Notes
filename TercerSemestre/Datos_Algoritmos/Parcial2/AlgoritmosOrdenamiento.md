@@ -57,5 +57,8 @@ Al terminar una iteración del ciclo exterior, el prefijo ordenado crece una pos
 def bubble_sort(A):
     n = len(A)
     for i in range(n-1):
-        for j in range
+        for j in range(n-1, i, -1):
+            if A[i] < A[j]:
+                A[i], A[j] = A[j], A[i]
 ```
+La co
