@@ -46,6 +46,13 @@ $$
 a) ${}V=\mathbb{R}^{2},T(a,b)=(2a+b,a-3b),x=(3,5){}$.
 b) ${}V=\mathbb{C}^{2},T(z_{1},z_{2})=(2z_{1}+iz_{2},(1-i)z_{1}),x=(3-i,1+2i){}$.
 c) ${}V=P_{1}(\mathbb{R}){}$ con ${}\langle f,g \rangle=\int_{-1}^{1}f(t)g(t)dt{}$, ${}T(f)=f’+3f{}$, ${}f(t)=4-2t{}$.
+**Sol:**
+a) Sea ${}\beta=\{ e_{1},e_{2} \}{}$, entonces 
+$$
+A=[T]_{\beta}=\begin{pmatrix}
+
+\end{pmatrix}
+$$
 
 10.- Sea ${}T{}$ un operador lineal sobre ${}V{}$ un espacio de producto interno. Pruebe que ${}\lVert T(x) \rVert=\lVert x \rVert{}$ para todo ${}x{}$ si y sólo si ${}\langle T(x),T(y) \rangle=\langle x,y \rangle{}$ para todo ${}x,y\in V{}$. *Hint*: use el ejercicio 20 de la sección 6.1.
 
