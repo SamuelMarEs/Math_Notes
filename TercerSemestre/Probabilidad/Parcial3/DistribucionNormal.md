@@ -15,7 +15,7 @@ Se puede demostrar que
 
 Para toda distribución Normal, sin importar sus parámetros, se cumple lo siguiente:
 - ${}P(\mu-\sigma\leq X\leq \mu+\sigma)\approx 0.68{}$,
-- ${}P(\mu-2\sigma\leq X\leq \mu+2\sigma)\approx 0.95{}$,
+&- ${}P(\mu-2\sigma\leq X\leq \mu+2\sigma)\approx 0.95{}$,
 - ${}P(\mu-3\sigma\leq X\leq \mu+3\sigma)\approx 0.99{}$.
 
 #### Proposición:
@@ -37,3 +37,16 @@ $$
 es decir que ${}Z{}$ es una v.a. Normal con media ${}\mu=0{}$ y desviación estándar ${}\sigma=1.\quad\square{}$
 
 Este resultado nos permite calcular probabilidades de cualquier v.a. Normal ${}X{}$ en términos de la v.a. ${}Z{}$ Normal estándar.
+Por ejemplo, sea ${}X\sim\mathcal{N}(\mu,\sigma){}$, entonces 
+$$
+\begin{aligned}
+P(a\leq X\leq b)&=P(a-\mu\leq X-\mu\leq b-\mu) \\
+&=P\left( \frac{a-\mu}{\sigma}\leq \frac{X-\mu}{\sigma}\leq \frac{b-\mu}{\sigma} \right) \\
+&= P(a^{*}\leq Z \leq b^{*}).
+\end{aligned}
+$$
+Si tomamos, por ejemplo, ${}\mu=10,\sigma=2,a=8,b=13{}$, entonces tenemos 
+$$
+P(8\leq X\leq 13)=P(-1\leq Z\leq 1.5).
+$$
+El únic
