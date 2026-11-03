@@ -68,7 +68,8 @@ A=[T]_{\beta}=\begin{pmatrix}
 -i & 0
 \end{pmatrix},
 $$
-entonces ${}T^{*}(x)=A^{*}x=(){}$
+entonces ${}T^{*}(x)=A^{*}x=(5+i,-1+3i){}$.
+c) Sea ${}{}$
 
 10.- Sea ${}T{}$ un operador lineal sobre ${}V{}$ un espacio de producto interno. Pruebe que ${}\lVert T(x) \rVert=\lVert x \rVert{}$ para todo ${}x{}$ si y sólo si ${}\langle T(x),T(y) \rangle=\langle x,y \rangle{}$ para todo ${}x,y\in V{}$. *Hint*: use el ejercicio 20 de la sección 6.1.
 
