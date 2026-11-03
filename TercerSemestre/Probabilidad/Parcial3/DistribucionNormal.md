@@ -13,3 +13,5 @@ Se puede demostrar que
 - ${}\mathbb{E}(X)=\mu{}$;
 - ${}\mathrm{Var}(X)=\sigma^{2}{}$.
 
+Para toda distribución Normal, sin importar sus parámetros, se cumple lo siguiente:
+- ${}P(\mu-\sigma\leq X\leq \mu+\sigma)\approx 0.68{}$,
