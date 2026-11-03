@@ -69,7 +69,17 @@ A=[T]_{\beta}=\begin{pmatrix}
 \end{pmatrix},
 $$
 entonces ${}T^{*}(x)=A^{*}x=(5+i,-1+3i){}$.
-c) Sea ${}\beta=\left\{  \frac{1}{\sqrt{ 2 }}, \sqrt{ \frac{3}{2} }t \right\}{}$.
+c) Sea ${}\beta=\left\{  \frac{1}{\sqrt{ 2 }}, \sqrt{ \frac{3}{2} }t \right\}{}$, entonces 
+$$
+A=[T]_{\beta}=\begin{pmatrix}
+3  & \sqrt{ 3 }\\
+0 & 3
+\end{pmatrix}\implies A^{*}=\begin{pmatrix}
+3 & 0 \\
+\sqrt{ 3 } & 3
+\end{pmatrix},
+$$
+y por lo tanto ${}T^{*}(x)=A^{*}x={}$
 
 10.- Sea ${}T{}$ un operador lineal sobre ${}V{}$ un espacio de producto interno. Pruebe que ${}\lVert T(x) \rVert=\lVert x \rVert{}$ para todo ${}x{}$ si y sólo si ${}\langle T(x),T(y) \rangle=\langle x,y \rangle{}$ para todo ${}x,y\in V{}$. *Hint*: use el ejercicio 20 de la sección 6.1.
 
