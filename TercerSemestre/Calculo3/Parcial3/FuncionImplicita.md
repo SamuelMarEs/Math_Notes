@@ -4,7 +4,7 @@ Sea ${}F:\mathbb{R}^{n+1}\to \mathbb{R}{}$ con derivadas parciales continuas y $
 $$
 F(x_{0},z_{0})=0, \frac{\partial F}{\partial z}(x_{0},z_{0})\neq0.
 $$
-Entonces existe una bola ${}U\subset \mathbb{R}^{n}{}$ que contiene a ${}x_{0}{}$ y una vecindad ${}V{}$ tal que existe ${}g(x)=z{}$ definida para ${}x \in U{}$ y ${}z\in U{}$ (i.e. ${}g:U\to U{}$) que satisface ${}F(x,g(x))=0{}$. Más aún, si ${}x \in U{}$ y ${}z\in U{}$ entonces ${}F(x,z)=0{}$ y ${}z=g(x){}$. 
+Entonces existe una bola ${}U\subset \mathbb{R}^{n}{}$ que contiene a ${}x_{0}{}$ y una vecindad ${}V{}$ de ${}z\in \mathbb{R}{}$ tal que existe ${}g(x)=z{}$ definida para ${}x \in U{}$ y ${}z\in V{}$ (i.e. ${}g:U\to V{}$) que satisface ${}F(x,g(x))=0{}$. Más aún, si ${}x \in U{}$ y ${}z\in V{}$ entonces ${}F(x,z)=0{}$ y ${}z=g(x){}$. 
 Finalmente, ${}z=g(x){}$ es continuamente diferenciable y 
 $$
 D_{g}(x)=\frac{-1}{\frac{\partial F(x,z)}{\partial z}}D_{x}F(x,z)|_{z=g(x)}.
