@@ -152,4 +152,5 @@ def quick_sort(A, p, r):
     quick_sort(A, q+1, r)
 ```
 La primera llamada sería `quick_sort(A, 0, len(A)-1)`.
+Este algoritmo tiene complejidad ${}O(){}$
 
