@@ -124,3 +124,4 @@ def mergesort(A, p, r):
     mergesort(A, q+1, r)
     mezclar(A, p, q, r)
 ```
+Nuestra llamada inicial sería 
