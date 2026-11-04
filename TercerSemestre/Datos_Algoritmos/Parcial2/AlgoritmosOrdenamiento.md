@@ -97,3 +97,7 @@ Si tenemos un max-heap incial
 $$
 [16,14,10,8,7,9,3,2,4,1],
 $$
+intercambiamos el primero con el último, y lo hundimos 
+$$
+[14,8,10]
+$$
