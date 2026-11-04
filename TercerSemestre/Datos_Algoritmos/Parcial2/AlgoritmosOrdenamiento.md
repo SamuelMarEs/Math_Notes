@@ -116,7 +116,7 @@ La complejidad de hundir es ${}\Theta(\log_{2}(n+1)){}$, mientras que construir_
 Ordenamiento por mezcla. Dividimos el intervalo, ordenamos cada mitad y mezclamos sus resultados.
 ![[MergeSort]]
 ```python
-def mergesort(A, p, r):
+def merge_sort(A, p, r):
     if p >= r
         return
     q = (p + r) // 2
@@ -124,4 +124,5 @@ def mergesort(A, p, r):
     mergesort(A, q+1, r)
     mezclar(A, p, q, r)
 ```
-Nuestra llamada inicial sería 
+Nuestra llamada inicial sería `merge_sort(A, 0, len(A)-1)`.
+
