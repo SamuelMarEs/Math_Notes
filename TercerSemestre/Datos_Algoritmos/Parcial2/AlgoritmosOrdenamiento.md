@@ -128,3 +128,5 @@ Nuestra llamada inicial sería `merge_sort(A, 0, len(A)-1)`.
 El costo total de merge sort es de ${}\Theta(n\log_{2}(n)){}$.
 ### Quick Sort
 Partiendo de un arreglo inicial ${}[2,8,7,1,3,5,6,4]{}$, elegimos el último elemento (4) como pivote, y movemos los elementos menores al pivote a su izquierda, y a los mayores al pivote a su derecha: ${}[2,1,3,4,7,5,6,8]{}$. Lo siguiente que hace quicksort es ordenar recursivamente ambas regiones, excluyendo al pivote.
+##### Particionar
+Trabajamos en ${}A[p, \dots,r]{}$ con extremos inclusivos, y el pivote es ${}x=A[r]{}$
