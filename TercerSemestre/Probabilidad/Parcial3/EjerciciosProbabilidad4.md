@@ -1,10 +1,21 @@
 #Probabilidad 
 1.- Si ${}X\sim\mathcal{N}(\mu,\sigma){}$, encontrar la distribución de ${}Y=aX+b{}$, ${}a>0{}$.
+**Sol:**
+Sea ${}\psi(x)=ax+b{}$ para ${}a>0{}$, esta función es creciente, y su inversa es ${}\psi ^{-1}(y)=\frac{y-b}{a}{}$, con derivada ${}\frac{d}{dy}\psi ^{-1}(y)=\frac{1}{a}{}$. Entonces, por el teorema de cambio de variable, tenemos que 
+$$
+\begin{aligned}
+F_{Y}(y)&=F_{X}(\psi ^{-1}(y))\left\lvert  \frac{d}{dy}\psi ^{-1}(y)  \right\rvert  \\
+&=\frac{1}{a\sqrt{ 2\pi }\sigma}\exp\left( -\frac{\left( \frac{y-b}{a}-\mu \right)^{2}}{2\sigma^{2}} \right).
+\end{aligned}
+$$
 
 2.- Encontrar la función generadora de momentos de ${}X\sim \mathcal{N}(\mu,\sigma){}$. Usar esta función para demostrar que la suma de dos v.a. independientes Normales es Normal. 
 $$
 M(t)=E(e^{tx}),\quad M_{X_{1}+X_{2}}(t)=M_{X_{1}}(t)M_{X_{2}}(t).
 $$
+**Sol:**
+La función 
+
 
 3.- Si ${}X\sim\mathcal{N}(5,7){}$, calcular:
 a) ${}P(X<7){}$,
@@ -24,5 +35,10 @@ $$
 
 6.- Sean ${}a<b{}$ y ${}Z\sim\mathcal{N}(0,1){}$. Demuestra que 
 $$
-P(a\leq Z^{2}\leq b)=2(F_{})
+P(a\leq Z^{2}\leq b)=2(F_{Z}(\sqrt{ b })-F_{Z}(\sqrt{ a })).
 $$
+
+7.- Use software para verificar las siguientes aproximaciones:
+a) Para ${}n{}$ grande, la distribución ${}\mathrm{Binomial}(n,p){}$ puede aproximarse con una distribución ${}\mathcal{N}(np, \sqrt{ np(1-p) }){}$.
+b) Para ${}\lambda{}$ grande, la distribución Poisson puede aproximarse por una distribución ${}\mathcal{N}(\lambda,\sqrt{ \lambda }){}$.
+De un ejemplo de donde estas aproximaciones podrías ser útiles.
