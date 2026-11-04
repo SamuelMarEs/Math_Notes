@@ -114,3 +114,13 @@ def heap_sort(A):
 La complejidad de hundir es ${}\Theta(\log_{2}(n+1)){}$, mientras que construir_heap tiene complejidad lineal. Dado que hundir está dentro de un ciclo, tenemos que la complejidad de heap sort será de ${}\Theta(n\log_{2}(n+1)){}$.
 ### Merge Sort
 Ordenamiento por mezcla. Dividimos el intervalo, ordenamos cada mitad y mezclamos sus resultados.
+![[MergeSort]]
+```python
+def mergesort(A, p, r):
+    if p >= r
+        return
+    q = (p + r) // 2
+    mergesort(A, p, q)
+    mergesort(A, q+1, r)
+    mezclar(A, p, q, r)
+```
