@@ -14,8 +14,8 @@ Se puede demostrar que
 - ${}\mathrm{Var}(X)=\sigma^{2}{}$.
 
 Para toda distribución Normal, sin importar sus parámetros, se cumple lo siguiente:
-- ${}P(\mu-\sigma\leq X\leq \mu+\sigma)\approx 0.68{}$,
-&- ${}P(\mu-2\sigma\leq X\leq \mu+2\sigma)\approx 0.95{}$,
+- ${}P(\mu-\sigma\leq X\leq \mu+\sigma)\approx 0.68{}$
+- ${}P(\mu-2\sigma\leq X\leq \mu+2\sigma)\approx 0.95{}$,
 - ${}P(\mu-3\sigma\leq X\leq \mu+3\sigma)\approx 0.99{}$.
 
 #### Proposición:
