@@ -92,3 +92,8 @@ Existen distintas sucesiones que se pueden usar para determinar ${}h{}$:
 | Pratt          |                   |                          |           |
 | Sedgewick      |                   | ${}\Theta(n\log_{2}n){}$ |           |
 ### Heap Sort
+El máximo del [[Heap|heap]] está en la raíz. Lo intercambiamos con el último elemento activo y reservamos esa posición para el resultado.
+Si tenemos un max-heap incial 
+$$
+[16,14,10,8,7,9,3,2,4,1],
+$$
