@@ -21,6 +21,9 @@ Entonces se puede aproximar ${}z{}$ en términos del plano tangente a la curva $
 $$
 z=z_{0}+\left( \nabla g(x_{0}) \right)(x-x_{0}).
 $$
+##### Demostración:
+
+
 
 ##### Ejemplo
 Sea ${}F(x,z)=x^{2}+z^{2}-1{}$. Tenemos que ${}\frac{\partial F}{\partial z}=2z{}$ que es distinto de cero para ${}z\neq 0{}$.
