@@ -22,6 +22,8 @@ a) ${}P(X<7){}$,
 b) ${}P(X>4){}$,
 c) ${}P(\lvert X-2 \rvert\leq 3){}$,
 d) ${}P(\lvert X-6 \rvert>1){}$.
+**Sol:**
+
 
 4.- Suponga que el tiempo de vida útil ${}X{}$, medido en horas, de un componente electrónico se puede modelar de forma aproximada con una distribución Normal con media ${}\mu=20,000{}$ y ${}\sigma=500{}$ horas.
 a) ¿Cuál es la probabilidad de que un componente dure más de 21,000 horas?
