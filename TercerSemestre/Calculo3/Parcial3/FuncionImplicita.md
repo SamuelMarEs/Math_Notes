@@ -21,11 +21,6 @@ Entonces se puede aproximar ${}z{}$ en términos del plano tangente a la curva $
 $$
 z=z_{0}+\left( \nabla g(x_{0}) \right)(x-x_{0}).
 $$
-##### Demostración:
-Algunos resultados previos importantes:
-1.- Como ${}F\in C^{1}{}$, ${}\frac{\partial F}{\partial z}{}$ es continua. Si suponemos ${}F_{z}(x_{0},z_{0})>0{}$. Sea ${}c>0{}$ tal que ${}\frac{\partial F}{\partial z}=F_{z}=c{}$. Para ${}\varepsilon=c / 2>0{}$, ${}\exists B_{\delta}(x_{0},y_{0},z_{0}){}$ tal que ${}F_{z}>c/2{}$.
-2.- Teorema de Weierstrass. Como las parciales ${}F_{x},F_{y}{}$ son continuas, ${}\exists \delta_{1},\delta_{2}{}$ tal que si ${}a<\min \{ \delta_{1},\delta_{2} \}{}$, ${}\lvert F_{x} \rvert<M_{x}{}$ y ${}\lvert F_{y} \rvert<M_{y}{}$. Si ${}M<\min \{ M_{x},M_{y} \}{}$, entonces para ${}B_{a}(x_{0},y_{0},z_{0})\implies \lvert F_{x} \rvert,\lvert F_{y} \rvert<M{}$.
-
 
 
 ##### Ejemplo
