@@ -67,7 +67,7 @@ def hundir(self, i):
 	A, n = self.datos, self.tamaño
 	l, r = izquierdo(i), derecho(i)
 	mayor = i
-	if (l < n and A[l.dato] > datos[i].dato):
+	if (l < n and A[l].dato > A[i].dato):
 		mayor = l
 	if (r < n and A[r].dato > A[mayor].dato):
 		mayor = r
