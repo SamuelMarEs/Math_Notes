@@ -22,7 +22,8 @@ $$
 z=z_{0}+\left( \nabla g(x_{0}) \right)(x-x_{0}).
 $$
 ##### Demostración:
-
+Algunos resultados previos importantes:
+1.- Como ${}F\in C^{1}{}$, ${}\frac{\partial F}{\partial z}{}$ es continua. Si suponemos ${}F_{z}(x_{0},z_{0})>0{}$. Sea ${}c>0{}$ tal que ${}\frac{\partial F}{\partial z}=F_{z}=c{}$. Para ${}{}$
 
 
 ##### Ejemplo
