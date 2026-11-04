@@ -21,3 +21,8 @@ c) ¿Qué garantía debería dar el fabricante para garantizar que sólo recibir
 $$
 P(\mu-c\sigma\leq X\leq \mu+c\sigma)=
 $$
+
+6.- Sean ${}a<b{}$ y ${}Z\sim\mathcal{N}(0,1){}$. Demuestra que 
+$$
+P(a\leq Z^{2}\leq b)=2(F_{})
+$$
