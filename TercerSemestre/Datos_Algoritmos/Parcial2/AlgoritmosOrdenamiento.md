@@ -125,4 +125,6 @@ def merge_sort(A, p, r):
     mezclar(A, p, q, r)
 ```
 Nuestra llamada inicial sería `merge_sort(A, 0, len(A)-1)`.
-
+El costo total de merge sort es de ${}\Theta(n\log_{2}(n)){}$.
+### Quick Sort
+Partiendo de un arreglo inicial ${}[2,8,7,1,3,5,6,4]{}$, elegimos el último elemento (4) como pivote
