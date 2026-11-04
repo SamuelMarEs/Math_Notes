@@ -102,3 +102,11 @@ $$
 [14,8,10,4,7,9,3,2,1,16].
 $$
 La última posición deja de pertenecer al heap (de lo contrario la tendríamos que flotar, y no queremos eso).
+```python
+def heap_sort(A):
+	construir_heap(A)
+	n = len(A)
+	for i in range(n - 1, 0, -1):
+	    A[0], A[i], = A[i], A[0]
+	    n -= 1
+	    hundir(A, n, 0)
