@@ -99,5 +99,5 @@ $$
 $$
 intercambiamos el primero con el último, y lo hundimos 
 $$
-[14,8,10]
+[14,8,10,4,7,9,3,2,1,16].
 $$
