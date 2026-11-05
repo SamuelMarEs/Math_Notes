@@ -81,4 +81,8 @@ y además
 $$
 x_{j+1}-x_{j}= \frac{b-a}{n},\quad y_{k+1}-y_{k}=\frac{d-c}{n}.
 $$
-Sea ${}R_{jk}=[x_{j}, x_{j+1}]\times[y_{k},y_{k+1}]{}$. Si ${}f:R\to \mathbb{R}{}$ es una función actotada con valores en los reales
+Sea ${}R_{jk}=[x_{j}, x_{j+1}]\times[y_{k},y_{k+1}]{}$. Si ${}f:R\to \mathbb{R}{}$ es una función acotada con valores en los reales, definimos 
+$$
+S_{n}=\sum_{j,k=0}^{n-1}f(c_{jk})\Delta x\Delta y=\sum_{jk=0}^{n}f(c_{jk})\Delta A
+$$
+donde ${}\Delta A=\Delta x\Delta y{}$, y cada uno de estos es el tamaño de los subintervalos.
