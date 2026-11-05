@@ -51,6 +51,15 @@ De esto surge una pregunta importante, ¿siempre es posible intercambiar el orde
 
 ##### Ejercicio
 Sea ${}R=[a,b]\times[c,d]{}$, encontrar el volumen de las regiones con altura 
-a) ${}f(x,y)=k{}$
-b) ${}f(x,y)=1-x{}$
-c) ${}f{}$
+a) ${}f(x,y)=k{}$,
+b) ${}f(x,y)=1-x{}$, en ${}[0,1]\times[0,1]{}$
+c) ${}f(x,y)=x^{2}+y^{2}{}$ en ${}[-1,1]\times[0,1]{}$.
+**Sol:**
+a) Simplemente calculamos la integral 
+$$
+\int_{c}^{d}\int_{a}^{b}kdxdy=\int_{c}^{d}k(b-a)dy=k(b-a)(d-c).
+$$
+b) Nuevamente el problema es solo calcular la integral 
+$$
+\int_{0}^{1}\int_{0}^{1}1-xdxdy=\int_{0}^{1}\left( x-\frac{x^{2}}{2} \right)\lvert_{0}^{1}dy=\int_{0}^{1}\frac{1}{2}
+$$
