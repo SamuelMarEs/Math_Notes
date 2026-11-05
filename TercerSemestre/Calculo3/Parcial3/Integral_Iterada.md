@@ -50,4 +50,7 @@ se llama la ***integral iterada*** (por el *Principio de Cavalieri*).
 De esto surge una pregunta importante, ¿siempre es posible intercambiar el orden de las integrales? Si no, entonces ¿cuándo se puede?
 
 ##### Ejercicio
-Sea ${}R=[a,b]\times[c,d]{}$, encontrar el volumen de la región con altura ${}f(x,y)=k{}$
+Sea ${}R=[a,b]\times[c,d]{}$, encontrar el volumen de las regiones con altura 
+a) ${}f(x,y)=k{}$
+b) ${}f(x,y)=1-x{}$
+c) ${}f{}$
