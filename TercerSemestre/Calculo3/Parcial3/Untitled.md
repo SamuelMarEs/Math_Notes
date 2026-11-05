@@ -40,5 +40,5 @@ V=\int_{a}^{b}\left(\int_{c}^{d}f(x,y)dy\right)dx.
 $$
 ***Notación:*** Sea ${}R=[a,b]\times[c,d]{}$, varias formas de notación que se usan son 
 $$
-\int_{R}f,\quad \int_{R}f(x,y)
+\int_{R}f,\quad \int_{R}f(x,y)dA,\quad \int_{R}f(x,y)dxdy,\quad \under
 $$
