@@ -31,4 +31,4 @@ Sea ${}T{}$ un operador lineal en un espacio vectorial ${}V{}$ sobre ${}\mathbb{
 Un operador lineal ${}T{}$ en un espacio vectorial ${}V{}$ sobre ${}\mathbb{C}{}$ es unitario si y sólo si existe una base ortonormal ${}\beta{}$ de ${}V{}$ formada por eigenvectores, de modo que sus eigenvalores asociados tienen norma 1 (i.e. ${}\lvert \lambda_{i} \rvert=1{}$).
 
 #### Definición:
-Sea ${}L{}$ un subespacio de dimensión 1 en ${}\mathbb{R}^{2}{}$ (aunque chance se generaliza a ${}\mathbb{R}^{n}{}$). Podemos ver a ${}L{}$ como una recta sobre el plano. Un operador lineal ${}T{}$ se llama la reflexión de ${}\mathbb{R}^{2}{}$ sobr
+Sea ${}L{}$ un subespacio de dimensión 1 en ${}\mathbb{R}^{2}{}$ (aunque chance se generaliza a ${}\mathbb{R}^{n}{}$). Podemos ver a ${}L{}$ como una recta sobre el plano. Un operador lineal ${}T{}$ se llama la reflexión de ${}\mathbb{R}^{2}{}$ respecto a ${}L{}$ si ${}T(x)=x{}$ para todo ${}x \in L{}$, y ${}T(x)=-x{}$ para todo ${}x \in L^{\perp}{}$.
