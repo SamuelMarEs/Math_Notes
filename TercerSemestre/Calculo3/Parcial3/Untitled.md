@@ -38,3 +38,4 @@ de modo que sobre la misma región rectangular ${}[a,b]\times[c,d]{}$, tenemos q
 $$
 V=\int_{a}^{b}\left(\int_{c}^{d}f(x,y)dy\right)dx.
 $$
+***Notación***
