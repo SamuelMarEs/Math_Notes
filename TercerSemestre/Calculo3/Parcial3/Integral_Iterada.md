@@ -97,3 +97,5 @@ $$
 \lim_{ n \to \infty } \sum_{j,k=0}^{n}f(c_{jk})\Delta x\Delta y=\int_{R}f(x,y)dxdy,
 $$
 para cualquier ${}c_{jk}\in R_{jk}{}$.
+#### Teorema
+Cualquier función continua definida en un rectángulo ${}R{}$ es integrable.
