@@ -25,7 +25,8 @@ ${}(d)\implies(e){}$. Esta implicación es OBVIA.
 ${}(f)\implies(a){}$
 
 #### Corolario:
-Un operador lineal ${}T{}$ en un espacio vectorial ${}V{}$ sobre ${}\mathbb{C}{}$ es unitario si y sólo si existe una base ortonormal ${}\beta{}$ de ${}V{}$ formada por eigenvectores de modo que sus eigenvalores asociados tienen norma 1 (i.e. ${}\lvert \lambda_{i} \rvert=1{}$).
+Un operador lineal ${}T{}$ en un espacio vectorial ${}V{}$ sobre ${}\mathbb{C}{}$ es unitario si y sólo si existe una base ortonormal ${}\beta{}$ de ${}V{}$ formada por eigenvectores, de modo que sus eigenvalores asociados tienen norma 1 (i.e. ${}\lvert \lambda_{i} \rvert=1{}$).
 
 #### Corolario:
-Sea ${}T{}$ un operador lineal sobre ${}T{}$
+Sea ${}T{}$ un operador lineal en un espacio vectorial ${}V{}$ sobre ${}\mathbb{R}{}$. Entonces ${}T{}$ es [[OperadorHermitiano|auto-adjunto]] y ortogonal si y sólo si existe una base ${}\beta{}$ de ${}V{}$ formada por eigenvectores, con eigenvalores ${}1,-1{}$.
+
