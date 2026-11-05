@@ -20,4 +20,4 @@ lo cual sustituyendo nos da que
 $$
 V=\int_{c}^{d}\left( \int_{a}^{b}f(x,y)dx \right)dy.
 $$
-Notemos que 
+Notemos que ${}{}$
