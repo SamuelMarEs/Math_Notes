@@ -77,3 +77,8 @@ tal que
 $$
 a=x_{0}< x_{1}<\dots<x_{n}=b,\quad c=y_{0}<y_{1}<\dots<y_{n}=d
 $$
+y además 
+$$
+x_{j+1}-x_{j}= \frac{b-a}{n},\quad y_{k+1}-y_{k}=\frac{d-c}{n}.
+$$
+Sea ${}R_{ik}=[x_{}]{}$
