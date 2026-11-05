@@ -47,4 +47,4 @@ $$
 V=\int_{c}^{d}A(y)dy=\int_{c}^{d}\int_{a}^{b}f(x,y)dxdy=\int_{a}^{b}B(x)dx=\int_{a}^{b}\int_{c}^{d}f(x,y)dydx
 $$
 se llama la ***integral iterada*** (por el *Principio de Cavalieri*).
-De esto surge una pregunta importante, ¿si
+De esto surge una pregunta importante, ¿siempre es posible intercambiar el orden de las integrales? Si no, entonces ¿cuándo se puede?
