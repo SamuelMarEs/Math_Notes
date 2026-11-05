@@ -25,3 +25,16 @@ $$
 V=\lim_{ m \to \infty } \lim_{ n \to \infty } \sum_{j=1}^{m}\sum_{i=1}^{n}f(x_{i}^{*},y_{j}^{*})\Delta x\Delta y.
 $$
 ***Nota:*** Es importante darnos cuenta que aquí solo estaríamos calculando el área de una forma similar a un prisma, pues estamos restringidos al rectángulo ${}[a,b]\times[c,d]{}$.
+
+Ahora, si para cada ${}x{}$ tenemos que ${}B(x){}$ es el área de la región transversal 
+$$
+B(x_{0})=\int_{c}^{d}f(x_{0},y)dy,
+$$
+entonces  
+$$
+V=\int_{a}^{b}B(x)dx,
+$$
+de modo que sobre la misma región rectangular ${}[a,b]\times[c,d]{}$, tenemos que 
+$$
+V=\int_{a}^{b}\int_{c}^{d}f(x,y)dydx
+$$
