@@ -6,5 +6,9 @@ Denotemos
 - $z=f(x,y)$: la altura de cada punto.
 Notemos que en cada punto $y_{0}$, (i.e. para $y$ constante), podemos definir una integral como 
 $$
-	A(y_{0})=\int_{a}^{b}f(x,y_{0})dx
+	A(y_{0})=\int_{a}^{b}f(x,y_{0})dx,
+$$
+de modo que tenemos que 
+$$
+	
 $$
