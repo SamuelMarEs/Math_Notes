@@ -69,4 +69,11 @@ $$
 $$
 
 
-Consideremos ${}R{}$
+Consideremos ${}R\subseteq \mathbb{R}^{2}{}$, ${}R=[a,b]\times[c,d]{}$. Definamos una partición regular de ${}R{}$ de orden ${}n{}$, y sean dos colecciones ordenadas de ${}n+1{}$ puntos igualmente espaciados 
+$$
+\{ x_{i} \}_{i=0}^{n},\quad \{ y_{k} \}_{k=0}^{n},
+$$
+tal que 
+$$
+a=x_{0}< x_{1}<\dots<x_{n}=b,\quad c=y_{0}<y_{1}<\dots<y_{n}=d
+$$
