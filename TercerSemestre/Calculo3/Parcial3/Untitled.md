@@ -20,4 +20,7 @@ lo cual sustituyendo nos da que
 $$
 V=\int_{c}^{d}\left( \int_{a}^{b}f(x,y)dx \right)dy.
 $$
-Notemos que ${}V\approx \sum_{j=1}^{m}A(y^{*})\Delta y{}$, entonces, de cierta forma, tenemos que ${}\Delta V_{ij}\approx f(x_{ij}^{*},y_{ij}^{*}){}$
+Notemos que ${}V\approx \sum_{j=1}^{m}A(y^{*})\Delta y{}$, entonces, de cierta forma, tenemos que ${}\Delta V_{ij}\approx f(x_{i}^{*},y_{j}^{*})\Delta x\Delta y{}$ lo que nos lleva a 
+$$
+V=\lim_{ m \to \infty } \lim_{ n \to \infty } \sum_{j=1}^{m}\sum_{i=1}^{n}f(x_{i}^{*},y_{j}^{*})\Delta x\Delta y.
+$$
