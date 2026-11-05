@@ -12,4 +12,4 @@ c) ${}\langle T(x),T(y) \rangle=\langle x,y \rangle{}$ para todo ${}x,y\in V{}$.
 d) Si ${}\beta{}$ es una base ortonormal de ${}V{}$, entonces ${}T(\beta){}$ es una base ortonormal de ${}V{}$.
 e) Existe una base ortonormal ${}\beta{}$ de ${}V{}$ tal que ${}T(\beta){}$ es una base ortonormal de ${}V{}$.
 f) ${}\lVert T(x) \rVert=\lVert x \rVert{}$ para todo ${}x \in V{}$.
-Es decir, todas las condiciones anteriores son equivalentes 
+Es decir, todas las condiciones anteriores son equivalentes a la definición de un operador ortogonal/unitario.
