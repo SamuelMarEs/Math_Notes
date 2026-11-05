@@ -10,5 +10,5 @@ $$
 $$
 de modo que tenemos que 
 $$
-	
+A(y)\approx \sum_{i=1}^{n}f(c,y)\Delta x,\quad \text{para }c\in[x_{i+1},x_{i}].
 $$
