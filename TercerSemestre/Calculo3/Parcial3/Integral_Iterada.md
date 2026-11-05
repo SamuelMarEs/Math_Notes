@@ -48,3 +48,6 @@ V=\int_{c}^{d}A(y)dy=\int_{c}^{d}\int_{a}^{b}f(x,y)dxdy=\int_{a}^{b}B(x)dx=\int_
 $$
 se llama la ***integral iterada*** (por el *Principio de Cavalieri*).
 De esto surge una pregunta importante, ¿siempre es posible intercambiar el orden de las integrales? Si no, entonces ¿cuándo se puede?
+
+##### Ejercicio
+Sea ${}R=[a,b]\times[c,d]{}$, encontrar el volumen de la región con altura ${}f(x,y)=k{}$
