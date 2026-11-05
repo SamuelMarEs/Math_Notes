@@ -32,3 +32,10 @@ Un operador lineal ${}T{}$ en un espacio vectorial ${}V{}$ sobre ${}\mathbb{C}{}
 
 #### Definición:
 Sea ${}L{}$ un subespacio de dimensión 1 en ${}\mathbb{R}^{2}{}$ (aunque chance se generaliza a ${}\mathbb{R}^{n}{}$). Podemos ver a ${}L{}$ como una recta sobre el plano. Un operador lineal ${}T{}$ se llama la reflexión de ${}\mathbb{R}^{2}{}$ respecto a ${}L{}$ si ${}T(x)=x{}$ para todo ${}x \in L{}$, y ${}T(x)=-x{}$ para todo ${}x \in L^{\perp}{}$.
+
+#### Definición:
+Una matriz ${}A{}$ es unitaria equivalente a ${}D\in M_{n\times n}(\mathbb{C}){}$ (o ortogonal equivalente a ${}D\in M_{n\times n}(\mathbb{R}){}$) si existe una matriz ${}Q{}$ tal que 
+$$
+D=Q^{-1}AQ.
+$$
+
