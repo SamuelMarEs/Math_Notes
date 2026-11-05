@@ -68,3 +68,5 @@ $$
 \int_{0}^{1}\int_{-1}^{1}x^{2}+y^{2}dxdy=\int_{0}^{1}\left( \frac{x^{3}}{3}+y^{2}x \right)|_{-1}^{1}dy=\int_{0}^{1} \frac{2}{3}+2y^{2}dy=\frac{4}{3}.
 $$
 
+
+Consideremos ${}R{}$
