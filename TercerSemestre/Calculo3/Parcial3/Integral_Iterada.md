@@ -71,7 +71,7 @@ $$
 
 Consideremos ${}R\subseteq \mathbb{R}^{2}{}$, ${}R=[a,b]\times[c,d]{}$. Definamos una partición regular de ${}R{}$ de orden ${}n{}$, y sean dos colecciones ordenadas de ${}n+1{}$ puntos igualmente espaciados 
 $$
-\{ x_{i} \}_{i=0}^{n},\quad \{ y_{k} \}_{k=0}^{n},
+\{ x_{j} \}_{j=0}^{n},\quad \{ y_{k} \}_{k=0}^{n},
 $$
 tal que 
 $$
@@ -81,4 +81,4 @@ y además
 $$
 x_{j+1}-x_{j}= \frac{b-a}{n},\quad y_{k+1}-y_{k}=\frac{d-c}{n}.
 $$
-Sea ${}R_{ik}=[x_{}]{}$
+Sea ${}R_{jk}=[x_{j}, x_{j+1}]\times[y_{k},y_{k+1}]{}$. Si ${}f:R\to \mathbb{R}{}$ es una función actotada con valores en los reales
