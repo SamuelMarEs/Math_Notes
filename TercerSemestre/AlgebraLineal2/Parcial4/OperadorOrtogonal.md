@@ -23,3 +23,5 @@ ${}(c)\implies(d){}$
 ${}(d)\implies(e){}$. Esta implicación es OBVIA.
 
 ${}(f)\implies(a){}$
+
+#### Corolario:
