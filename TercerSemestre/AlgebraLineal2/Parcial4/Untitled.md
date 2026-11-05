@@ -13,3 +13,13 @@ d) Si ${}\beta{}$ es una base ortonormal de ${}V{}$, entonces ${}T(\beta){}$ es 
 e) Existe una base ortonormal ${}\beta{}$ de ${}V{}$ tal que ${}T(\beta){}$ es una base ortonormal de ${}V{}$.
 f) ${}\lVert T(x) \rVert=\lVert x \rVert{}$ para todo ${}x \in V{}$.
 Es decir, todas las condiciones anteriores son equivalentes a la definición de un operador ortogonal/unitario.
+##### Demostración:
+${}(a)\implies(b){}$
+
+${}(b)\implies(c){}$
+
+${}(c)\implies(d){}$
+
+${}(d)\implies(e){}$. Esta implicación es OBVIA.
+
+${}(f)\implies(a){}$
