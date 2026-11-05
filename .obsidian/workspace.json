@@ -11,10 +11,14 @@
             "id": "f350a21c0f309f20",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "TercerSemestre/AlgebraLineal2/Parcial4/AproximarMinimosCuadrados.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "AproximarMinimosCuadrados"
             }
           }
         ]
@@ -232,6 +236,13 @@
   },
   "active": "f350a21c0f309f20",
   "lastOpenFiles": [
+    "TercerSemestre/AlgebraLineal2/Parcial4/OperadorHermitiano.md",
+    "TercerSemestre/AlgebraLineal2/Parcial4/OperadoresNormales.md",
+    "TercerSemestre/AlgebraLineal2/Parcial4/OperadorAdjunto.md",
+    "TercerSemestre/AlgebraLineal2/Parcial4/AproximarMinimosCuadrados.md",
+    "TercerSemestre/AlgebraLineal2/Parcial4/Ejercicios6.3.md",
+    "TercerSemestre/AlgebraLineal2/Parcial3/Tarea5_AlgebraLineal2.md",
+    "TercerSemestre/AlgebraLineal2/Parcial3/Tarea4_AlgebraLineal2.md",
     "TercerSemestre/Calculo3/Parcial3/Integral_Iterada.md",
     "TercerSemestre/Datos_Algoritmos/Parcial2/AlgoritmosOrdenamiento.md",
     "TercerSemestre/Probabilidad/Parcial3/EjerciciosProbabilidad4.md",
@@ -239,10 +250,6 @@
     "TercerSemestre/Probabilidad/Parcial3/DistribucionGamma.md",
     "TercerSemestre/Probabilidad/Parcial3/DistribucionBeta.md",
     "TercerSemestre/Calculo3/Parcial3/FuncionImplicita.md",
-    "TercerSemestre/AlgebraLineal2/Parcial4/OperadoresNormales.md",
-    "TercerSemestre/AlgebraLineal2/Parcial4/OperadorHermitiano.md",
-    "TercerSemestre/AlgebraLineal2/Parcial4/Ejercicios6.3.md",
-    "TercerSemestre/AlgebraLineal2/Parcial4/AproximarMinimosCuadrados.md",
     "Excalidraw/MergeSort.md",
     "Excalidraw/Drawing 2026-11-04 15.40.50.excalidraw.md",
     "GraficasEjerciciosProba3.ipynb",
@@ -257,9 +264,6 @@
     "TercerSemestre/Probabilidad/Parcial3/DistribucionUniformeContinua.md",
     "TercerSemestre/Calculo3/Parcial2/ReParametrizacion.md",
     "TercerSemestre/Datos_Algoritmos/Parcial2/Heap.md",
-    "TercerSemestre/Datos_Algoritmos/Parcial2/ColaDePrioridad.md",
-    "TercerSemestre/Datos_Algoritmos/Parcial2/Arboles.md",
-    "TercerSemestre/Probabilidad/Parcial2/Varianza_DesviacionEstandarDiscretas.md",
     "TercerSemestre/Probabilidad/Temario_Probabilidad.pdf",
     "TercerSemestre/Imagenes/PDF1_EjerciciosProba3.png",
     "TercerSemestre/Imagenes/CDF2_EjerciciosProba3.png",
