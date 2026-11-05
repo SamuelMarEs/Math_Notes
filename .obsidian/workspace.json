@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TercerSemestre/AlgebraLineal2/Parcial4/Untitled.md",
+                "file": "TercerSemestre/AlgebraLineal2/Parcial4/OperadorOrtogonal.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "OperadorOrtogonal"
             }
           }
         ],
@@ -263,10 +263,10 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "57799c1e0e9b6761",
+  "active": "6dd1a1cfc245f7c0",
   "lastOpenFiles": [
     "TercerSemestre/AlgebraLineal2/Parcial4/OperadorHermitiano.md",
-    "TercerSemestre/AlgebraLineal2/Parcial4/Untitled.md",
+    "TercerSemestre/AlgebraLineal2/Parcial4/OperadorOrtogonal.md",
     "TercerSemestre/AlgebraLineal2/Parcial4/OperadoresNormales.md",
     "TercerSemestre/AlgebraLineal2/Parcial5",
     "TercerSemestre/AlgebraLineal2/Parcial4/AproximarMinimosCuadrados.md",
