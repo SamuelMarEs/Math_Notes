@@ -28,3 +28,4 @@ ${}(f)\implies(a){}$
 Un operador lineal ${}T{}$ en un espacio vectorial ${}V{}$ sobre ${}\mathbb{C}{}$ es unitario si y sólo si existe una base ortonormal ${}\beta{}$ de ${}V{}$ formada por eigenvectores de modo que sus eigenvalores asociados tienen norma 1 (i.e. ${}\lvert \lambda_{i} \rvert=1{}$).
 
 #### Corolario:
+Sea ${}T{}$ un operador lineal sobre ${}T{}$
