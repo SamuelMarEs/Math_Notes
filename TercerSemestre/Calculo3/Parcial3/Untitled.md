@@ -20,4 +20,4 @@ lo cual sustituyendo nos da que
 $$
 V=\int_{c}^{d}\left( \int_{a}^{b}f(x,y)dx \right)dy.
 $$
-Notemos que ${}{}$
+Notemos que ${}V\approx \sum_{j=1}^{m}A(y^{*})\Delta y{}$, entonces, de cierta forma, tenemos que ${}\Delta V_{ij}\approx f(x_{ij}^{*},y_{ij}^{*}){}$
