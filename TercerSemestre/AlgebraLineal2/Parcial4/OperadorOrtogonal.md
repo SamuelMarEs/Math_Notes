@@ -25,3 +25,4 @@ ${}(d)\implies(e){}$. Esta implicación es OBVIA.
 ${}(f)\implies(a){}$
 
 #### Corolario:
+Un operador lineal ${}T{}$ en un espacio vectorial ${}V{}$ sobre ${}\mathbb{C}{}$ es unitario si y sólo si existe una base ortonormal ${}\beta{}$ de ${}V{}$ formada por eigenvectores 
