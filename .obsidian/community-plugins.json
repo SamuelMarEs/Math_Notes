@@ -1,7 +1,7 @@
 [
   "calendar",
-  "obsidian-latex-suite",
   "obsidian-excalidraw-plugin",
   "excalidraw-extras",
-  "hybrid-git-sync"
+  "hybrid-git-sync",
+  "obsidian-latex-suite"
 ]

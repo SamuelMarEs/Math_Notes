@@ -12,3 +12,12 @@ de modo que tenemos que
 $$
 A(y)\approx \sum_{i=1}^{n}f(c,y)\Delta x,\quad \text{para }c\in[x_{i+1},x_{i}].
 $$
+Como el área puede cambiar para cada una de las secciones transversales, se puede definir el volumen total como la suma (integral) de todas las áreas: 
+$$
+V=\int_{c}^{d}A(y)dy,
+$$
+lo cual sustituyendo nos da que 
+$$
+V=\int_{c}^{d}\left( \int_{a}^{b}f(x,y)dx \right)dy.
+$$
+Notemos que 
