@@ -11,10 +11,14 @@
             "id": "4f244cd6f1d22d42",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "TercerSemestre/Datos_Algoritmos/Parcial2/AlgoritmosOrdenamiento.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "AlgoritmosOrdenamiento"
             }
           }
         ]
@@ -230,8 +234,20 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "57799c1e0e9b6761",
+  "active": "4f244cd6f1d22d42",
   "lastOpenFiles": [
+    "TercerSemestre/Probabilidad/Parcial3/EjerciciosProbabilidad4.md",
+    "TercerSemestre/Probabilidad/Parcial3/DistribucionNormal.md",
+    "TercerSemestre/Probabilidad/Parcial3/DistribucionGamma.md",
+    "TercerSemestre/Probabilidad/Parcial3/DistribucionBeta.md",
+    "TercerSemestre/Datos_Algoritmos/Parcial2/AlgoritmosOrdenamiento.md",
+    "TercerSemestre/Calculo3/Parcial3/FuncionImplicita.md",
+    "TercerSemestre/AlgebraLineal2/Parcial4/OperadoresNormales.md",
+    "TercerSemestre/AlgebraLineal2/Parcial4/OperadorHermitiano.md",
+    "TercerSemestre/AlgebraLineal2/Parcial4/Ejercicios6.3.md",
+    "TercerSemestre/AlgebraLineal2/Parcial4/AproximarMinimosCuadrados.md",
+    "Excalidraw/MergeSort.md",
+    "Excalidraw/Drawing 2026-11-04 15.40.50.excalidraw.md",
     "GraficasEjerciciosProba3.ipynb",
     "Tarea4Probabilidad.ipynb",
     "TercerSemestre/Calculo3/Parcial3/ProblemasDeOptimizacion.md",
@@ -248,18 +264,7 @@
     "TercerSemestre/Datos_Algoritmos/Parcial2/Arboles.md",
     "TercerSemestre/Probabilidad/Parcial2/Varianza_DesviacionEstandarDiscretas.md",
     "TercerSemestre/Probabilidad/Parcial3/Var_STD_Continuas.md",
-    "TercerSemestre/Probabilidad/Parcial3/Metricas.md",
-    "TercerSemestre/Probabilidad/Parcial3/ValorEsperadoContinuo.md",
-    "TercerSemestre/Probabilidad/Parcial3/Independencia_V.A_Continuas.md",
     "TercerSemestre/Probabilidad/Temario_Probabilidad.pdf",
-    "TercerSemestre/Probabilidad/Parcial3/EjerciciosProbabilidad3.md",
-    "TercerSemestre/Datos_Algoritmos/Parcial2/TablasHash.md",
-    "TercerSemestre/AlgebraLineal2/Parcial2/SubespaciosInvariantes.md",
-    "TercerSemestre/AlgebraLineal2/Parcial2/PruebaDeDiagonalizacion.md",
-    "TercerSemestre/AlgebraLineal2/Parcial2/Eigenespacios.md",
-    "TercerSemestre/AlgebraLineal2/Parcial2/Diagonalizabilidad.md",
-    "TercerSemestre/AlgebraLineal2/Parcial2/Eigenvectores_Eigenvalores.md",
-    "TercerSemestre/Calculo3/Parcial3/TeoremaDeTaylor.md",
     "TercerSemestre/Imagenes/PDF1_EjerciciosProba3.png",
     "TercerSemestre/Imagenes/CDF2_EjerciciosProba3.png",
     "TercerSemestre/Imagenes/CDF2_EjerciciosProba3.png",
