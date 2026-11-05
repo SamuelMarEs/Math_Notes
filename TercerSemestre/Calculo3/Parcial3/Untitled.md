@@ -4,4 +4,7 @@ Denotemos
 - $x$: la posición respecto al eje $x$ (a lo largo),
 - $y$: la posición respecto al eje $y$ (a lo ancho),
 - $z=f(x,y)$: la altura de cada punto.
-Notemos que en cada punto $y_{0}$, (i.e. para $y$)
+Notemos que en cada punto $y_{0}$, (i.e. para $y$ constante), podemos definir una integral como 
+$$
+	A(y_{0})=\int_{a}^{b}f(x,y_{0})dx
+$$
