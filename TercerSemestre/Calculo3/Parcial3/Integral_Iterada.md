@@ -90,5 +90,10 @@ Esta es la ***Suma de Riemann***.
 #### Definición:
 Si la sucesión ${}\{ S_{n} \}{}$ converge a un límite ${}S{}$ cuando ${}n\to \infty{}$ y el límite ${}S{}$ es el mismo para cualquier elección ${}c_{jk}{}$ en ${}R_{jk}{}$, entonces decimos que ${}f{}$ es integrable sobre ${}R{}$ y podemos escribir 
 $$
-\int_{R}f(x,y)dxdy
+\int_{R}f(x,y)dxdy.
 $$
+Así podemos reescribir integrabilidad de la forma 
+$$
+\lim_{ n \to \infty } \sum_{j,k=0}^{n}f(c_{jk})\Delta x\Delta y=\int_{R}f(x,y)dxdy,
+$$
+para cualquier ${}c_{jk}\in R_{jk}{}$.
