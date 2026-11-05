@@ -24,3 +24,4 @@ Notemos que ${}V\approx \sum_{j=1}^{m}A(y^{*})\Delta y{}$, entonces, de cierta f
 $$
 V=\lim_{ m \to \infty } \lim_{ n \to \infty } \sum_{j=1}^{m}\sum_{i=1}^{n}f(x_{i}^{*},y_{j}^{*})\Delta x\Delta y.
 $$
+***Nota:*** Es importante darnos cuenta que aquí solo estaríamos calculando el área de una forma similar a un prisma, pues estamos restringidos al rectángu
