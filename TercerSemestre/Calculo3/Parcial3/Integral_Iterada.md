@@ -86,3 +86,9 @@ $$
 S_{n}=\sum_{j,k=0}^{n-1}f(c_{jk})\Delta x\Delta y=\sum_{jk=0}^{n}f(c_{jk})\Delta A
 $$
 donde ${}\Delta A=\Delta x\Delta y{}$, y cada uno de estos es el tamaño de los subintervalos.
+Esta es la ***Suma de Riemann***.
+#### Definición:
+Si la sucesión ${}\{ S_{n} \}{}$ converge a un límite ${}S{}$ cuando ${}n\to \infty{}$ y el límite ${}S{}$ es el mismo para cualquier elección ${}c_{jk}{}$ en ${}R_{jk}{}$, entonces decimos que ${}f{}$ es integrable sobre ${}R{}$ y podemos escribir 
+$$
+\int_{R}f(x,y)dxdy
+$$
