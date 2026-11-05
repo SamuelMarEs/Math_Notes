@@ -40,5 +40,11 @@ V=\int_{a}^{b}\left(\int_{c}^{d}f(x,y)dy\right)dx.
 $$
 ***Notación:*** Sea ${}R=[a,b]\times[c,d]{}$, varias formas de notación que se usan son 
 $$
-\int_{R}f,\quad \int_{R}f(x,y)dA,\quad \int_{R}f(x,y)dxdy,\quad \under
+\int_{R}f,\quad \int_{R}f(x,y)dA,\quad \int_{R}f(x,y)dxdy,\quad \underset{R}{\int \int}f(x,y)dxdy.
 $$
+La integral 
+$$
+V=\int_{c}^{d}A(y)dy=\int_{c}^{d}\int_{a}^{b}f(x,y)dxdy=\int_{a}^{b}B(x)dx=\int_{a}^{b}\int_{c}^{d}f(x,y)dydx
+$$
+se llama la ***integral iterada*** (por el *Principio de Cavalieri*).
+De esto surge una pregunta importante, ¿si
