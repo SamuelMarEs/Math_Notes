@@ -36,7 +36,7 @@ b) Dado que el componente ha vivido 21,000 horas, ¿qué tan probable es que dur
 c) ¿Qué garantía debería dar el fabricante para garantizar que sólo recibirá reclamaciones por el 5% de productos que venda?
 **Sol:**
 Sea ${}X\sim N(20000,500){}$, definamos ${}Z=\frac{X-20000}{500}{}$ tal que ${}Z\sim N(0,1){}$. Entonces tenemos que:
-a) 
+a) ${}P(X>21000)=1-P(X\leq 21000)=1-P(){}$
 
 5.- SI ${}X\sim\mathcal{N}(\mu,\sigma){}$, encuentre, de forma aproximada, el valor de ${}c{}$ que cumple 
 $$
