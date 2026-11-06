@@ -28,3 +28,5 @@ $$
 ¿Son ${}X{}$ y ${}Y{}$ independientes?
 Tomemos una muestra de ${}n{}$ individuos, asignando a cada individuo una categoría en ${}x{}$ y una en ${}y{}$. Después hacemos un conteo de cuántos individuos pertenecen a cada categoría.
 Sabemos que ${}X,Y{}$ son independientes si ${}P(X=i,Y=j)=P(X=i)P(Y=j){}$.
+¿Qué debería pasar con los conteos si hubiera independencia?
+Tomamos ${}o_{ij}={}$“número observado de personas con la condición ${}X=i,Y=j{}$”, y tomamos además ${}e_{ij}={}$“el número esperado de personas con la condición ${}X=i,Y=j{}$ bajo el supuesto de independencia”.
