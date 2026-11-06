@@ -1,6 +1,16 @@
 #Probabilidad 
+#### Definición:
 Sea ${}X{}$ una [[V.A.Continuas|v.a. continua]] que sólo toma valores positivos, con función de densidad dada por 
 $$
-f(x)=\frac{1}{\Gamma(n)}\left( \frac{1}{2} \right)^{n / 2}x^{n/2 -1}e^{-x/2},\quad x>0,n\geq 0.
+f(x)=\frac{1}{\Gamma(n/2)}\left( \frac{1}{2} \right)^{n / 2}x^{n/2 -1}e^{-x/2},\quad x>0,n\geq 0.
 $$
-A este tipo de variable se le conoce como distribución ${}\mathcal{X}^{2}{}$ con ${}n{}$ grados de libertad. (Ji o Chi cuadrada).
+A este tipo de variable se le conoce como distribución ${}\mathcal{X}^{2}{}$ con ${}n{}$ grados de libertad. (Ji o Chi cuadrada). Los grados de libertad se pueden ver como las “opciones” que tenemos. Por ejemplo, si queremos elegir una gorra, y tenemos seis gorras, tenemos seis grados de libertad.
+
+Se puede demostrar que si ${}X\sim \mathcal{X}^{2}_{(n)}{}$
+- ${}\mathbb{E}(X)=n{}$,
+- ${}\mathrm{Var}(X)=2n{}$.
+#### Proposición
+Si ${}X{}$ es una [[DistribucionNormal|v.a.]] ${}\mathcal{N}(0,1){}$, entonces ${}X^{2}\sim \mathcal{X}^{2}_{(1)}{}$, es decir, sigue una distribución ji-cuadrada con un grado de libertad.
+#### Proposición
+Si ${}X_{1},X_{2}{}$ son v.a. ${}\mathcal{X}^{2}{}$ con ${}n{}$ y ${}m{}$ grados de libertad, respectivamente, entonces $${}X_{1}+X_{2}\sim \mathcal{X}^{2}_{(n+m)}.{}$$
+
