@@ -13,4 +13,5 @@ Se puede demostrar que si ${}X\sim \mathcal{X}^{2}_{(n)}{}$
 Si ${}X{}$ es una [[DistribucionNormal|v.a.]] ${}\mathcal{N}(0,1){}$, entonces ${}X^{2}\sim \mathcal{X}^{2}_{(1)}{}$, es decir, sigue una distribución ji-cuadrada con un grado de libertad.
 #### Proposición
 Si ${}X_{1},X_{2}{}$ son v.a. ${}\mathcal{X}^{2}{}$ con ${}n{}$ y ${}m{}$ grados de libertad, respectivamente, entonces $${}X_{1}+X_{2}\sim \mathcal{X}^{2}_{(n+m)}.{}$$
-
+#### Ejemplo. Pruebas de independencia
+Sean ${}X{}$ y ${}Y{}$ dos variables aleatorias categóricas nominales  
