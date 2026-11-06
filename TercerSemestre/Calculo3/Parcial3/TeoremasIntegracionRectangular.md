@@ -19,6 +19,11 @@ Sea ${}h(x,y)\geq 0{}$ en ${}R{}$, entonces
 $$
 \int_{R}h(x,y)dA\geq0.
 $$
+##### Demostración:
+Sea ${}S_{n}(h){}$ la suma de Riemann de ${}h{}$, como ${}h\geq 0{}$ en ${}R{}$ y ${}\Delta A_{ij}>0{}$, entonces ${}h(x,y)\Delta A_{ij}\geq 0{}$, es decir cada término de la suma de Riemann es positivo, de modo que 
+$$
+S_{n}(h)=\sum_{i,j}h(x_{i},y_{j})\Delta A_{ij}\geq 0
+$$
 
 #### Propiedades
 1.- Linealidad. Sean ${}f,g{}$ funciones integrables en el rectángulo ${}R{}$, entonces 
