@@ -23,7 +23,7 @@ b) ${}P(X>4){}$,
 c) ${}P(\lvert X-2 \rvert\leq 3){}$,
 d) ${}P(\lvert X-6 \rvert>1){}$.
 **Sol:**
-Sea ${}X\sim N(5,7){}$, definamos ${}Z=\frac{X-5}{7}{}$, de modo que ${}Z\sim N(0,1){}$. Entonces tenemos que:
+Sea ${}X\sim \mathcal{N}(5,7){}$, definamos ${}Z=\frac{X-5}{7}{}$, de modo que ${}Z\sim \mathcal{N}(0,1){}$. Entonces tenemos que:
 a) ${}P(X<7)=P(Z<2 / 7){}$
 b) ${}P(X>4)=1-P(X\leq 4)=1-P(Z\leq -1 / 7){}$
 c) ${}P(\lvert X-2 \rvert\leq 3)=P(-3\leq X\leq 3)=P(-1\leq X\leq 5)=P(- 6 / 7\leq Z \leq 0)=P(Z\leq 0)-P(Z\leq- 6 / 7){}$.
@@ -35,7 +35,7 @@ a) ¿Cuál es la probabilidad de que un componente dure más de 21,000 horas?
 b) Dado que el componente ha vivido 21,000 horas, ¿qué tan probable es que dure otros 500?
 c) ¿Qué garantía debería dar el fabricante para garantizar que sólo recibirá reclamaciones por el 5% de productos que venda?
 **Sol:**
-Sea ${}X\sim N(20000,500){}$, definamos ${}Z=\frac{X-20000}{500}{}$ tal que ${}Z\sim N(0,1){}$. Entonces tenemos que:
+Sea ${}X\sim \mathcal{N}(20000,500){}$, definamos ${}Z=\frac{X-20000}{500}{}$ tal que ${}Z\sim \mathcal{N}(0,1){}$. Entonces tenemos que:
 a) ${}P(X>21000)=1-P(X\leq 21000)=1-P(Z\leq 2){}$
 b) ${}P(X>21500|X>21000)=\frac{P(X>21500, X>21000)}{P(X>21000)}=\frac{P(X>21500)}{P(X>21000)}=\frac{1-P(X\leq 21500)}{1-P(X\leq 21000)}=\frac{1-P(Z\leq 3)}{1-P(Z\leq 2)}{}$.
 c) Queremos encontrar ${}c{}$ que satisfaga ${}P(X\leq c)=0.05{}$, lo que es lo mismo que ${}P\left( Z\leq \frac{c-21000}{500} \right)=0.05{}$.
@@ -45,7 +45,7 @@ $$
 P(\mu-c\sigma\leq X\leq \mu+c\sigma)=0.99.
 $$
 **Sol:**
-Por lo visto en clase, sea ${}X\sim N(\mu,\sigma){}$, tenemos ${}{}$
+Por lo visto en clase, sea ${}X\sim \mathcal{N}(\mu,\sigma){}$, tenemos ${}{}$
 
 
 6.- Sean ${}a<b{}$ y ${}Z\sim\mathcal{N}(0,1){}$. Demuestra que 
