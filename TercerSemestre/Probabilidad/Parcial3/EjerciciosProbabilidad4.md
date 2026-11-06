@@ -30,6 +30,7 @@ c) ${}P(\lvert X-2 \rvert\leq 3)=P(-3\leq X\leq 3)=P(-1\leq X\leq 5)=P(- 6 / 7\l
 d) ${}P(\lvert X-6 \rvert>1)=P(X-6>1\cup X-6<-1)=P(X-6>1)+P(X-6<-1)=1-P(X\leq 7)+P(X<5)=1-P(Z\leq 2 / 7)+P(Z<0){}$.
 Estas probabilidades son fáciles de calcular con una tabla o una computadora.
 
+
 4.- Suponga que el tiempo de vida útil ${}X{}$, medido en horas, de un componente electrónico se puede modelar de forma aproximada con una distribución Normal con media ${}\mu=20,000{}$ y ${}\sigma=500{}$ horas.
 a) ¿Cuál es la probabilidad de que un componente dure más de 21,000 horas?
 b) Dado que el componente ha vivido 21,000 horas, ¿qué tan probable es que dure otros 500?
@@ -40,18 +41,25 @@ a) ${}P(X>21000)=1-P(X\leq 21000)=1-P(Z\leq 2){}$
 b) ${}P(X>21500|X>21000)=\frac{P(X>21500, X>21000)}{P(X>21000)}=\frac{P(X>21500)}{P(X>21000)}=\frac{1-P(X\leq 21500)}{1-P(X\leq 21000)}=\frac{1-P(Z\leq 3)}{1-P(Z\leq 2)}{}$.
 c) Queremos encontrar ${}c{}$ que satisfaga ${}P(X\leq c)=0.05{}$, lo que es lo mismo que ${}P\left( Z\leq \frac{c-21000}{500} \right)=0.05{}$.
 
+
 5.- Si ${}X\sim\mathcal{N}(\mu,\sigma){}$, encuentre, de forma aproximada, el valor de ${}c{}$ que cumple 
 $$
 P(\mu-c\sigma\leq X\leq \mu+c\sigma)=0.99.
 $$
 **Sol:**
-Por lo visto en clase, sea ${}X\sim \mathcal{N}(\mu,\sigma){}$, tenemos ${}{}$
+Por lo visto en clase, sea ${}X\sim \mathcal{N}(\mu,\sigma){}$, tenemos que para ${}c=3{}$ se cumple que 
+$$
+P(\mu-3\sigma\leq X\leq \mu+3\sigma \approx 0.99.
+$$
 
 
 6.- Sean ${}a<b{}$ y ${}Z\sim\mathcal{N}(0,1){}$. Demuestra que 
 $$
 P(a\leq Z^{2}\leq b)=2(F_{Z}(\sqrt{ b })-F_{Z}(\sqrt{ a })).
 $$
+**Sol:**
+Sean ${}Z\sim \mathcal{N}(0,1){}$ y ${}a<b\in \mathbb{R}{}$.
+
 
 7.- Use software para verificar las siguientes aproximaciones:
 a) Para ${}n{}$ grande, la distribución ${}\mathrm{Binomial}(n,p){}$ puede aproximarse con una distribución ${}\mathcal{N}(np, \sqrt{ np(1-p) }){}$.
