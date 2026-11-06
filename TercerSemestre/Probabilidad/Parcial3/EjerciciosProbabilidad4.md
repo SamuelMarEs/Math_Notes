@@ -55,10 +55,13 @@ $$
 \begin{aligned}
 M_{X_{1}+X_{2}}(t)&=M_{X_{1}}(t)M_{X_{2}}(t) \\
 &=\exp\left( \mu_{1}t+\frac{\sigma_{1}^{2}t^{2}}{2} \right)\exp\left( \mu_{2}t+\frac{\sigma_{2}^{2}t^{2}}{2} \right) \\
-&=\exp\left( (\mu_{1}+\mu_{2})t+\frac{(\sigma_{1}^{2}+\sigma_{2}^{2})t^{2}}{2} \right)
+&=\exp\left( (\mu_{1}+\mu_{2})t+\frac{(\sigma_{1}^{2}+\sigma_{2}^{2})t^{2}}{2} \right).
 \end{aligned}
 $$
-
+Podemos observar que ${}M_{X_{1}+X_{2}}(t){}$ es la función generadora de momentos de otra v.a. normal, más aún, esto nos dice que 
+$$
+X_{1}+X_{2}=Z\sim \mathcal{N}\left(\mu_{1}+\mu_{2},\sqrt{ \sigma_{1}^{2}+\sigma_{2}^{2} }\right).
+$$
 
 
 3.- Si ${}X\sim\mathcal{N}(5,7){}$, calcular:
