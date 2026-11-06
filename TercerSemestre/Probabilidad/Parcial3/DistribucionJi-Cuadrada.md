@@ -26,4 +26,5 @@ x=\begin{cases}
 \end{cases}.
 $$
 ¿Son ${}X{}$ y ${}Y{}$ independientes?
-Tomemos una muestra de ${}n{}$ individuos, asignando a cada individuo una categoría en ${}x{}$ y una en ${}y{}$
+Tomemos una muestra de ${}n{}$ individuos, asignando a cada individuo una categoría en ${}x{}$ y una en ${}y{}$. Después hacemos un conteo de cuántos individuos pertenecen a cada categoría.
+Sabemos que ${}X,Y{}$ son independientes si ${}P(X=i,Y=j)=P(X=i)P(Y=j){}$.
