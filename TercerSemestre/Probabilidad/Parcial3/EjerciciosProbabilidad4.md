@@ -32,8 +32,14 @@ $$
 $$
 Por lo tanto, tenemos que podemos llevar la integral a 
 $$
-
+M(t)=\exp\left( \mu t+\frac{\sigma^{2}t^{2}}{2} \right)\int_{-\infty}^{\infty} \frac{1}{\sqrt{ 2\pi }\sigma}\exp\left( - \frac{(x-(\mu-\sigma^{2}t))^{2}}{2\sigma^{2}} \right)dx,
 $$
+donde podemos tomar a 
+$$
+g(x)=\frac{1}{\sqrt{ 2\pi }\sigma}\exp\left( - \frac{(x-(\mu-\sigma^{2}t))^{2}}{2\sigma^{2}} \right)
+$$
+como la función de distribución 
+
 
 
 3.- Si ${}X\sim\mathcal{N}(5,7){}$, calcular:
