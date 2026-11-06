@@ -26,5 +26,6 @@ dónde ${}t_{1- \alpha /2}{}$ es una distribución t-student con ${}n-1{}$ grado
 $$
 S=\sqrt{ \frac{1}{n-1}\sum_{i=1}^{n}(x_{i}-\bar{x}) }.
 $$
-Este intervalo se conoce como el intervalo de confianza de nivel ${}(1-\alpha / 2)100\%{}$ para la media de la distribución normal, con ${}\alpha \in(0,1){}$.
-Si tomamos ${}\alpha=0.05{}$, entonces el nivel del intervalo es ${}{}$
+Este intervalo se conoce como el intervalo de confianza de nivel ${}(1-\alpha)100\%{}$ para la media de la distribución normal, con ${}\alpha \in(0,1){}$.
+Si tomamos ${}\alpha=0.05{}$, entonces el nivel del intervalo es ${}(1-0.05)100\%=95\%{}$. 
+Esto se interpreta como que si repetimos el intervalo 100 veces, en 95 de esas 100 el valor del promedio caerá dentro del intervalo.
