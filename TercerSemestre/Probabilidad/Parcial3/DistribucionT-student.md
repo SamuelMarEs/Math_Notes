@@ -22,7 +22,7 @@ Se puede demostrar que un buen intervalo de estimación de ${}u{}$ es
 $$
 \bar{X}\pm t_{1-\alpha /2} \frac{S}{\sqrt{ n }},
 $$
-dónde ${}t_{1- \alpha /2}{}$ es una distribución t-student con ${}n-1{}$ grados de libertad, y ${}S{}$ es la desviación estándar estimada de la forma 
+dónde ${}t_{1- \alpha /2}{}$ es el [[Metricas|cuantil]] de nivel ${}1-\alpha / 2{}$ de una distribución t-student con ${}n-1{}$ grados de libertad, y ${}S{}$ es la desviación estándar estimada de la forma 
 $$
 S=\sqrt{ \frac{1}{n-1}\sum_{i=1}^{n}(x_{i}-\bar{x}) }.
 $$
