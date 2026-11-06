@@ -67,10 +67,19 @@ Observemos que ${}Z\sim \mathcal{N}(0,1){}$ es simétrica respecto a ${}0{}$, po
 $$
 \begin{aligned}
 P(Z^{2}\leq b)&=P(Z\leq \sqrt{ b })-P(Z\leq -\sqrt{ b }) \\
-&=
+&=P(Z\leq \sqrt{ b })-(1-P(Z \leq \sqrt{ b })) \\
+&=2P(Z \leq \sqrt{ b }) -1.
 \end{aligned}
 $$
-
+De forma análoga, se llega a que ${}P(Z^{2}\leq a)=2P(Z\leq \sqrt{ a })-1{}$, por lo tanto tenemos que 
+$$
+\begin{aligned}
+P(a\leq Z^{2}\leq b)&=P(Z^{2}\leq b)-P(Z^{2}\leq a) \\
+&=(2P(Z \leq \sqrt{ b }) -1)-(2P(Z \leq \sqrt{ a }) -1) \\
+&=2P(Z \leq \sqrt{ b }) -2P(Z \leq \sqrt{ a })  \\
+&=2(F_{Z}(\sqrt{ b })-F_{Z}(\sqrt{ a })).\quad\square
+\end{aligned}
+$$
 
 
 7.- Use software para verificar las siguientes aproximaciones:
