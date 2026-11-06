@@ -14,4 +14,16 @@ Si ${}X{}$ es una [[DistribucionNormal|v.a.]] ${}\mathcal{N}(0,1){}$, entonces $
 #### Proposición
 Si ${}X_{1},X_{2}{}$ son v.a. ${}\mathcal{X}^{2}{}$ con ${}n{}$ y ${}m{}$ grados de libertad, respectivamente, entonces $${}X_{1}+X_{2}\sim \mathcal{X}^{2}_{(n+m)}.{}$$
 #### Ejemplo. Pruebas de independencia
-Sean ${}X{}$ y ${}Y{}$ dos variables aleatorias categóricas nominales (nominales significa sin orden). 
+Sean ${}X{}$ y ${}Y{}$ dos variables aleatorias categóricas nominales (nominales significa sin orden). Tomemos por ejemplo 
+$$
+x=\begin{cases}
+1, & \text{la persona juega videojuegos} \\
+0, & \text{si no}
+\end{cases},\quad y=\begin{cases}
+1, & \text{buen desempeño académico} \\
+2, & \text{desempeño regular} \\
+3, & \text{desempeño bajo}
+\end{cases}.
+$$
+¿Son ${}X{}$ y ${}Y{}$ independientes?
+
