@@ -26,4 +26,4 @@ x=\begin{cases}
 \end{cases}.
 $$
 ¿Son ${}X{}$ y ${}Y{}$ independientes?
-
+Tomemos una muestra de ${}n{}$ individuos, asignando a cada individuo una categoría en ${}x{}$ y una en ${}y{}$
