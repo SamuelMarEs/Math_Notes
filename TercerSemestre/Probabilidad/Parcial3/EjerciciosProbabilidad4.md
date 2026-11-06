@@ -61,7 +61,7 @@ $$
 Sean ${}Z\sim \mathcal{N}(0,1){}$ y ${}a<b\in \mathbb{R}{}$. Sabemos que ${}P(a\leq Z^{2}\leq b)=P(Z^{2}\leq b)-P(Z^{2}\leq a){}$. Notemos que ${}Z^{2}\geq 0{}$, por lo tanto podemos tomar ${}0\leq a<b{}$. 
 Tenemos entonces que 
 $$
-P(Z^{2}\leq b)=P(\lvert Z \rvert \leq \sqrt{ b })=P(-\sqrt{ b }\leq Z\leq \sqrt{ 2 })
+P(Z^{2}\leq b)=P(\lvert Z \rvert \leq \sqrt{ b })=P(-\sqrt{ b }\leq Z\leq \sqrt{ b })=
 $$
 
 
