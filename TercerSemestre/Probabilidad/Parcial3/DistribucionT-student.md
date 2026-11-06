@@ -16,3 +16,4 @@ Además, también podemos demostrar que
 #### Ejemplo:
 El modelo t-student se puede utilizar para calcular intervalos de confianza para la media de una v.a.
 Sea ${}X{}$ el tiempo de vida de una célula. Se sabe que se puede utilizar una distribución Normal para modelar estos tiempos. No obstante, en la práctica se desconoce los valores de los parámetros de la distribución.
+Si recabamos los tiempos de vida de distintas células ${}x_{1},\dots,x_{n}{}$
