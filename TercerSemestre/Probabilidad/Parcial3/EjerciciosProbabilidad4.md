@@ -21,7 +21,10 @@ M(t)=\mathbb{E}(e^{tx})&=\int_{-\infty}^{\infty}e^{tx} \frac{1}{\sqrt{ 2\pi }\si
 &=\int_{-\infty}^{\infty} \frac{1}{\sqrt{ 2\pi }\sigma}\exp\left( - \frac{(x-\mu)^{2}}{2\sigma^{2}}+tx \right)dx.
 \end{aligned}
 $$
-Concentrémonos únicamente en el término de la exponencial
+Concentrémonos únicamente en el término de la exponencial, que al desarrollarlo tenemos que 
+$$
+-\frac{(x-\mu)^{2}}{2\sigma^{2}}+tx=\frac{-x^{2}+2x(\mu)}{}
+$$
 
 
 3.- Si ${}X\sim\mathcal{N}(5,7){}$, calcular:
