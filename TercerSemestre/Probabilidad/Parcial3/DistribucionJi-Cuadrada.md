@@ -30,3 +30,5 @@ Tomemos una muestra de ${}n{}$ individuos, asignando a cada individuo una catego
 Sabemos que ${}X,Y{}$ son independientes si ${}P(X=i,Y=j)=P(X=i)P(Y=j){}$.
 ¿Qué debería pasar con los conteos si hubiera independencia?
 Tomamos ${}o_{ij}={}$“número observado de personas con la condición ${}X=i,Y=j{}$”, y tomamos además ${}e_{ij}={}$“el número esperado de personas con la condición ${}X=i,Y=j{}$ bajo el supuesto de independencia”.
+Si definimos $${}X^{2}=\sum_{i}\sum_{j} \frac{(o_{ij}-e_{ij})^{2}}{e_{ij}},{}$$
+entonces se puede mostrar que ${}X^{2}\sim \mathcal{X}^{2}_{(2)}{}$.
