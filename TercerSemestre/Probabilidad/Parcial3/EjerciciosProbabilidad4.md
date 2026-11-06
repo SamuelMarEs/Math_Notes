@@ -63,7 +63,13 @@ Tenemos entonces que
 $$
 P(Z^{2}\leq b)=P(\lvert Z \rvert \leq \sqrt{ b })=P(-\sqrt{ b }\leq Z\leq \sqrt{ b })=P(Z\leq \sqrt{ b })-P(Z \leq -\sqrt{ b }).
 $$
-Observemos que ${}Z\sim \mathcal{N}(0,1){}$ es simétrica respecto a ${}0{}$, por lo tanto ${}P(Z\leq -\sqrt{ b })=P(Z\geq \sqrt{ b })=1-P(Z\leq \sqrt{ b }){}$
+Observemos que ${}Z\sim \mathcal{N}(0,1){}$ es simétrica respecto a ${}0{}$, por lo tanto ${}P(Z\leq -\sqrt{ b })=P(Z\geq \sqrt{ b })=1-P(Z\leq \sqrt{ b }){}$, y por lo tanto 
+$$
+\begin{aligned}
+P(Z^{2}\leq b)&=P(Z\leq \sqrt{ b })-P(Z\leq -\sqrt{ b }) \\
+&=
+\end{aligned}
+$$
 
 
 
