@@ -58,7 +58,11 @@ $$
 P(a\leq Z^{2}\leq b)=2(F_{Z}(\sqrt{ b })-F_{Z}(\sqrt{ a })).
 $$
 **Sol:**
-Sean ${}Z\sim \mathcal{N}(0,1){}$ y ${}a<b\in \mathbb{R}{}$. Sabemos que ${}P(a\leq Z^{2}\leq b)=P(Z^{2}\leq b)-P(Z^{2}\leq a){}$. Notemos que 
+Sean ${}Z\sim \mathcal{N}(0,1){}$ y ${}a<b\in \mathbb{R}{}$. Sabemos que ${}P(a\leq Z^{2}\leq b)=P(Z^{2}\leq b)-P(Z^{2}\leq a){}$. Notemos que ${}Z^{2}\geq 0{}$, por lo tanto podemos tomar ${}0\leq a<b{}$. 
+Tenemos entonces que 
+$$
+P(Z^{2}\leq b)=P(\lvert Z \rvert \leq \sqrt{ b })=P(-\sqrt{ b }\leq Z\leq \sqrt{ 2 })
+$$
 
 
 7.- Use software para verificar las siguientes aproximaciones:
