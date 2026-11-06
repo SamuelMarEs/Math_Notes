@@ -61,8 +61,10 @@ $$
 Sean ${}Z\sim \mathcal{N}(0,1){}$ y ${}a<b\in \mathbb{R}{}$. Sabemos que ${}P(a\leq Z^{2}\leq b)=P(Z^{2}\leq b)-P(Z^{2}\leq a){}$. Notemos que ${}Z^{2}\geq 0{}$, por lo tanto podemos tomar ${}0\leq a<b{}$. 
 Tenemos entonces que 
 $$
-P(Z^{2}\leq b)=P(\lvert Z \rvert \leq \sqrt{ b })=P(-\sqrt{ b }\leq Z\leq \sqrt{ b })=
+P(Z^{2}\leq b)=P(\lvert Z \rvert \leq \sqrt{ b })=P(-\sqrt{ b }\leq Z\leq \sqrt{ b })=P(Z\leq \sqrt{ b })-P(Z \leq -\sqrt{ b }).
 $$
+Observemos que ${}Z\sim \mathcal{N}(0,1){}$ es simétrica respecto a ${}0{}$, por lo tanto ${}P(Z\leq -\sqrt{ b })=P(Z\geq \sqrt{ b })=1-P(Z\leq \sqrt{ b }){}$
+
 
 
 7.- Use software para verificar las siguientes aproximaciones:
