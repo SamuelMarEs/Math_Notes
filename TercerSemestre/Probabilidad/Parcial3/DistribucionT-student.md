@@ -22,7 +22,9 @@ Se puede demostrar que un buen intervalo de estimación de ${}u{}$ es
 $$
 \bar{X}\pm t_{1-\alpha /2} \frac{S}{\sqrt{ n }},
 $$
-dónde ${}S{}$ es la desviación estándar estimada de la forma 
+dónde ${}t_{1- \alpha /2}{}$ es una distribución t-student con ${}n-1{}$ grados de libertad, y ${}S{}$ es la desviación estándar estimada de la forma 
 $$
 S=\sqrt{ \frac{1}{n-1}\sum_{i=1}^{n}(x_{i}-\bar{x}) }.
 $$
+Este intervalo se conoce como el intervalo de confianza de nivel ${}(1-\alpha / 2)100\%{}$ para la media de la distribución normal, con ${}\alpha \in(0,1){}$.
+Si tomamos ${}\alpha=0.05{}$, entonces el nivel del intervalo es ${}{}$
