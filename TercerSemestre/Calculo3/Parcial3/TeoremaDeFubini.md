@@ -79,5 +79,5 @@ $$
 ### Teorema de Fubini
 Sea ${}f{}$ una función continua con dominio rectangular ${}R=[a,b]\times[c,d]{}$. Entonces 
 $$
-\int_{R}f(x,y)dA=\int_{a}^{b}\int_{c}^{d}f(x,y)dydx=\int_{c}^{d}\int_{a}^{b}f(x,y)
+\int_{R}f(x,y)dA=\int_{a}^{b}\int_{c}^{d}f(x,y)dydx=\int_{c}^{d}\int_{a}^{b}f(x,y)dxdy.
 $$
