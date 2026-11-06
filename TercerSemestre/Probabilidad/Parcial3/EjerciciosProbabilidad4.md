@@ -27,8 +27,12 @@ $$
 -\frac{(x-\mu)^{2}}{2\sigma^{2}}+tx&=\frac{-x^{2}+2x(\mu+\sigma^{2}t)-\mu^{2}+(\mu+\sigma^{2}t)^{2}-(\mu+\sigma^{2}t)^{2}}{2\sigma^{2}} \\
 &=\frac{-(x^{2}-2x(\mu+\sigma^{2}t)+(\mu+\sigma^{2}t)^{2})-\mu^{2}+(\mu \sigma^{2}t)}{2\sigma^{2}} \\
 &=\frac{-(x-\mu+\sigma^{2}t)^{2}+\sigma^{2}(2\mu t+\sigma^{2}t^{2})}{2\sigma^{2}} \\
-&=-\frac{(x-(\mu-\sigma^{2}t))^{2}}{2\sigma^{2}}
+&=-\frac{(x-(\mu-\sigma^{2}t))^{2}}{2\sigma^{2}}+\mu t+\frac{\sigma^{2}t^{2}}{2}.
 \end{aligned}
+$$
+Por lo tanto, tenemos que podemos llevar la integral a 
+$$
+
 $$
 
 
