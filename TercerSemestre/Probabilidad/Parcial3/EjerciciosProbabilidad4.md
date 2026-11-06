@@ -16,8 +16,12 @@ $$
 **Sol:**
 La función generadora de momentos de la distribución normal esta dada por 
 $$
-M(t)=\mathbb{E}(e^{tx})=\int_{-\infty}^{\infty}
+\begin{aligned}
+M(t)=\mathbb{E}(e^{tx})&=\int_{-\infty}^{\infty}e^{tx} \frac{1}{\sqrt{ 2\pi }\sigma}\exp\left( - \frac{(x-\mu)^{2}}{2\sigma^{2}} \right)dx \\
+&=\int_{-\infty}^{\infty} \frac{1}{\sqrt{ 2\pi }\sigma}\exp\left( - \frac{(x-\mu)^{2}}{2\sigma^{2}}+tx \right)dx.
+\end{aligned}
 $$
+Concentrémonos únicamente en el término de la exponencial
 
 
 3.- Si ${}X\sim\mathcal{N}(5,7){}$, calcular:
