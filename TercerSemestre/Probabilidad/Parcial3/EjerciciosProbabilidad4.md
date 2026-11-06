@@ -14,7 +14,10 @@ $$
 M(t)=E(e^{tx}),\quad M_{X_{1}+X_{2}}(t)=M_{X_{1}}(t)M_{X_{2}}(t).
 $$
 **Sol:**
-La función generadora de momentos va a estar dada por 
+La función generadora de momentos de la distribución normal esta dada por 
+$$
+M(t)=\mathbb{E}(e^{tx})=\int_{-\infty}^{\infty}
+$$
 
 
 3.- Si ${}X\sim\mathcal{N}(5,7){}$, calcular:
