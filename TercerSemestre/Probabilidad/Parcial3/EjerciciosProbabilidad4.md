@@ -23,7 +23,12 @@ M(t)=\mathbb{E}(e^{tx})&=\int_{-\infty}^{\infty}e^{tx} \frac{1}{\sqrt{ 2\pi }\si
 $$
 Concentrémonos únicamente en el término de la exponencial, que al desarrollarlo tenemos que 
 $$
--\frac{(x-\mu)^{2}}{2\sigma^{2}}+tx=\frac{-x^{2}+2x(\mu)}{}
+\begin{aligned}
+-\frac{(x-\mu)^{2}}{2\sigma^{2}}+tx&=\frac{-x^{2}+2x(\mu+\sigma^{2}t)-\mu^{2}+(\mu+\sigma^{2}t)^{2}-(\mu+\sigma^{2}t)^{2}}{2\sigma^{2}} \\
+&=\frac{-(x^{2}-2x(\mu+\sigma^{2}t)+(\mu+\sigma^{2}t)^{2})-\mu^{2}+(\mu \sigma^{2}t)}{2\sigma^{2}} \\
+&=\frac{-(x-\mu+\sigma^{2}t)^{2}+\sigma^{2}(2\mu t+\sigma^{2}t^{2})}{2\sigma^{2}} \\
+&=-\frac{(x-(\mu-\sigma^{2}t))^{2}}{2\sigma^{2}}
+\end{aligned}
 $$
 
 
