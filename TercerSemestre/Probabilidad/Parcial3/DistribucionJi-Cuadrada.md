@@ -33,4 +33,4 @@ Tomamos ${}o_{ij}={}$“número observado de personas con la condición ${}X=i,Y
 Si definimos $${}X^{2}=\sum_{i}\sum_{j} \frac{(o_{ij}-e_{ij})^{2}}{e_{ij}},{}$$
 entonces se puede mostrar que ${}X^{2}\sim \mathcal{X}^{2}_{(2)}{}$.
 Lo que buscamos entonces es que el valor observado de ${}X^{2}{}$ tenga una probabilidad alta dada la distribución ${}\mathcal{X}^{2}{}$. Si no, entonces esto nos haría pensar que ${}X{}$ y ${}Y{}$ no son independientes.
-De este modo, reducimos el problema a estimar ${}e_{ij}{}$
+De este modo, reducimos el problema a estimar ${}e_{ij}{}$.
