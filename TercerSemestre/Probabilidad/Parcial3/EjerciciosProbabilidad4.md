@@ -11,7 +11,7 @@ $$
 
 2.- Encontrar la función generadora de momentos de ${}X\sim \mathcal{N}(\mu,\sigma){}$. Usar esta función para demostrar que la suma de dos v.a. independientes Normales es Normal. 
 $$
-M(t)=E(e^{tx}),\quad M_{X_{1}+X_{2}}(t)=M_{X_{1}}(t)M_{X_{2}}(t).
+M(t)=\mathbb{E}(e^{tx}),\quad M_{X_{1}+X_{2}}(t)=M_{X_{1}}(t)M_{X_{2}}(t).
 $$
 **Sol:**
 La función generadora de momentos de la distribución normal esta dada por 
@@ -34,11 +34,30 @@ Por lo tanto, tenemos que podemos llevar la integral a
 $$
 M(t)=\exp\left( \mu t+\frac{\sigma^{2}t^{2}}{2} \right)\int_{-\infty}^{\infty} \frac{1}{\sqrt{ 2\pi }\sigma}\exp\left( - \frac{(x-(\mu-\sigma^{2}t))^{2}}{2\sigma^{2}} \right)dx,
 $$
-donde podemos tomar a 
+donde podemos ver a 
 $$
 g(x)=\frac{1}{\sqrt{ 2\pi }\sigma}\exp\left( - \frac{(x-(\mu-\sigma^{2}t))^{2}}{2\sigma^{2}} \right)
 $$
-como la función de distribución 
+como la función de densidad de una variable aleatoria ${}X_{1}\sim \mathcal{N}(\mu-\sigma^{2}t,\sigma){}$, y por lo tanto satisface que 
+$$
+\int_{-\infty}^{\infty}g(x)dx=1,
+$$
+de modo que tenemos que 
+$$
+M(t)=\exp\left( \mu t+\frac{\sigma^{2}t^{2}}{2} \right).
+$$
+Para la segunda parte del ejercicio, sean ${}X_{1}\sim \mathcal{N}(\mu_{1},\sigma_{1}){}$ y ${}X_{2}\sim \mathcal{N}(\mu_{2},\sigma_{2}){}$, tenemos que 
+$$
+M_{X_{1}}(t)=\exp\left( \mu_{1}t+\frac{\sigma_{1}^{2}t^{2}}{2} \right)\quad\text{y}\quad M_{X_{2}}(t)=\exp\left( \mu_{2}t+\frac{\sigma_{2}^{2}t^{2}}{2} \right),
+$$
+por lo que se sigue que 
+$$
+\begin{aligned}
+M_{X_{1}+X_{2}}(t)&=M_{X_{1}}(t)M_{X_{2}}(t) \\
+&=\exp\left( \mu_{1}t+\frac{\sigma_{1}^{2}t^{2}}{2} \right)\exp\left( \mu_{2}t+\frac{\sigma_{2}^{2}t^{2}}{2} \right) \\
+&=\exp\left( (\mu_{1}+\mu_{2})t+\frac{(\sigma_{1}^{2}+\sigma_{2}^{2})t^{2}}{2} \right)
+\end{aligned}
+$$
 
 
 
