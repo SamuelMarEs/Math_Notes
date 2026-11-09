@@ -30,20 +30,29 @@ f(x,y), & (x,y)\in D \\
 $$
 Así, definimos 
 $$
-\iint_{D}f(x,y)dA=\iint_{R}f^{*}(x,y)dA.
+\int_{D}f(x,y)dA=\int_{R}f^{*}(x,y)dA.
 $$
 
 #### Teorema
 Si ${}f:D\to \mathbb{R}{}$ es continua en ${}D\subseteq \mathbb{R}^{2}{}$, donde ${}D{}$ es una región elemental, entonces 
 $$
-\iint_{D}f(x,y)dA=\int_{a}^{b}\int_{\phi_{1}(x)}^{\phi_{2}(x)}f(x,y)dydx\quad \text{o}\quad =\int_{c}^{d}\int_{\psi_{1}(y)}^{\psi_{2}(y)}f(x,y)dxdy.
+\int_{D}f(x,y)dA=\int_{a}^{b}\int_{\phi_{1}(x)}^{\phi_{2}(x)}f(x,y)dydx\quad \text{o}\quad =\int_{c}^{d}\int_{\psi_{1}(y)}^{\psi_{2}(y)}f(x,y)dxdy.
 $$
 Si en particular tuviéramos que ${}f(x,y)=1{}$, tendríamos que 
 $$
 \int_{a}^{b}\int_{\phi_{1}(x)}^{\phi_{2}(x)}f(x,y)dydx=\int_{a}^{b}\phi_{2}(x)-\phi_{1}(x)dx=\text{Área de }D.
 $$
 ##### Ejemplos:
-1.- 
+1.- Calcular ${}\int_{T}(x^{3}y+\cos x)dA{}$ para ${}T=\left\{  (x,y)|0\leq x\leq \frac{\pi}{2},0\leq y\leq x  \right\}{}$. 
+**Sol:** 
+$$
+\begin{aligned}
+\int_{T}x^{3}y+\cos xdA&=\int_{0}^{\pi / 2}\int_{0}^{x}x^{3}y+\cos xdydx \\
+&=\int_{0}^{\pi / 2} \frac{x^{5}}{2}+x\cos xdx \\
+&=\left( \frac{x^{6}}{12} \right)+\cos x-x\sin x|_{0}^{\pi / 2} \\
+&=\frac{(\pi / 2)^{6}}{12}-\frac{\pi}{2}-1.
+\end{aligned}
+$$
 $$
 
 $$
