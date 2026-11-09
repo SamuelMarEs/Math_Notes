@@ -16,3 +16,4 @@ Otra opción es definir a ${}D{}$ de la forma
 $$
 D=\{ (x,y)\in \mathbb{R}^{2}|c\leq y\leq d,\psi_{1}(y)\leq x\leq \psi_{2}(y) \}.
 $$
+Básicamente todas las curvas cerradas parametrizadas se pueden representar de ambas formas. 
