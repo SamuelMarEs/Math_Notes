@@ -33,3 +33,9 @@ $$
 \iint_{D}f(x,y)dA=\iint_{R}f^{*}(x,y)dA.
 $$
 
+#### Teorema
+Si ${}f:D\to \mathbb{R}{}$ es continua en ${}D\subseteq \mathbb{R}^{2}{}$, donde ${}D{}$ es una región elemental, entonces 
+$$
+\iint_{D}f(x,y)dA=\int_{a}^{b}\int_{\phi_{1}(x)}^{\phi_{2}(x)}f(x,y)dydx\quad \text{o}\quad =\int_{c}^{d}\int_{\psi_{1}(y)}^{\psi_{2}(y)}f(x,y)dxdy.
+$$
+
