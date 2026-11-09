@@ -21,4 +21,10 @@ Básicamente todas las curvas cerradas parametrizadas se pueden representar de a
 Una región que se puede expresar de una o ambas formas se conoce como una región elemental.
 
 #### Definición
-Sea ${}f:D\to \mathbb{R}{}$, donde ${}D\subseteq \mathbb{R}^{2}{}$ es una región elemental, y ${}f{}$ es continua en ${}D{}$. Si ${}R{}$ es un rectángulo que contenga a ${}D{}$
+Sea ${}f:D\to \mathbb{R}{}$, donde ${}D\subseteq \mathbb{R}^{2}{}$ es una región elemental, y ${}f{}$ es continua en ${}D{}$. Si ${}R{}$ es un rectángulo que contenga a ${}D{}$, definimos a 
+$$
+f^{*}(x,y)=\begin{cases}
+f(x,y), & (x,y)\in D \\
+0, & (x,y)\in R\setminus D
+\end{cases}.
+$$
