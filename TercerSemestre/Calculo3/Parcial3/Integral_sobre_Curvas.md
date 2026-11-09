@@ -6,3 +6,4 @@ f(x,y), & (x,y)\in D \\
 0, & (x,y)\in R \setminus D
 \end{cases}.
 $$
+Aquí, ${}D\subseteq \mathbb{R}^{2}{}$ es una región del plano.
