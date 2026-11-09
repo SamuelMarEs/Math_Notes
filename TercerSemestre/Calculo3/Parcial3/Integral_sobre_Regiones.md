@@ -42,7 +42,8 @@ Si en particular tuviéramos que ${}f(x,y)=1{}$, tendríamos que
 $$
 \int_{a}^{b}\int_{\phi_{1}(x)}^{\phi_{2}(x)}f(x,y)dydx=\int_{a}^{b}\phi_{2}(x)-\phi_{1}(x)dx=\text{Área de }D.
 $$
-
+##### Ejemplos:
+1.- 
 $$
 
 $$
