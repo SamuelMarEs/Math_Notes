@@ -6,4 +6,9 @@ f(x,y), & (x,y)\in D \\
 0, & (x,y)\in R \setminus D
 \end{cases}.
 $$
-Aquí, ${}D\subseteq \mathbb{R}^{2}{}$ es una región del plano.
+Aquí, ${}D\subseteq \mathbb{R}^{2}{}$ es una región del plano que se puede definir de distintas formas.
+
+Definamos ${}D\subseteq \mathbb{R}^{2}{}$ de la siguiente forma: 
+$$
+D=\{ (x,y)\in \mathbb{R}^{2}|a\leq x\leq b,\phi_{1}(x)\leq y\leq \phi_{2}(x) \}
+$$
