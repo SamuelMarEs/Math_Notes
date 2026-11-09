@@ -53,4 +53,6 @@ $$
 &=\frac{(\pi / 2)^{6}}{12}-\frac{\pi}{2}-1.
 \end{aligned}
 $$
+2.- Hallar el volumen del tetraedro acotado por ${}y=0,z=0,x=0{}$ y ${}y-x+z=1{}$.
+**Sol**:
 
