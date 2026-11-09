@@ -4,5 +4,5 @@ $$
 f^{*}(x,y)=\begin{cases}
 f(x,y), & (x,y)\in D \\
 0, & (x,y)\in R \setminus D
-\end{cases}
+\end{cases}.
 $$
