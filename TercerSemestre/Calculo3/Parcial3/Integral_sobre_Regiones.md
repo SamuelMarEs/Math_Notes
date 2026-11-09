@@ -28,3 +28,8 @@ f(x,y), & (x,y)\in D \\
 0, & (x,y)\in R\setminus D
 \end{cases}.
 $$
+Así, definimos 
+$$
+\iint_{D}f(x,y)dA=\iint_{R}f^{*}(x,y)dA.
+$$
+
