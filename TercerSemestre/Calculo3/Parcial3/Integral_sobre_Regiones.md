@@ -63,6 +63,10 @@ entonces la integral a resolver es
 $$
 \begin{aligned}
 \int_{D}1+x-ydA&=\int_{0}^{1}\int_{y-1}^{0}1+x-ydxdy \\
-&= \int_{0}^{1}
+&= \int_{0}^{1}-(y-1)-\frac{(y-1)^{2}}{2}+y(y-1)dy \\
+&=\int_{0}^{1}-y+1-\frac{(y-1)^{2}}{2}+y^{2}-ydy \\
+&=-y^{2}+y-\frac{(y-1)^{3}}{6}+\frac{y^{3}}{3}|_{0}^{1} \\
+&=-1+1-0+\frac{1}{3}-\frac{1}{6}=\frac{1}{6}.
 \end{aligned}
 $$
+
