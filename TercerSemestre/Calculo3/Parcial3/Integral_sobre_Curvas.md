@@ -10,5 +10,9 @@ Aquí, ${}D\subseteq \mathbb{R}^{2}{}$ es una región del plano que se puede def
 
 Definamos ${}D\subseteq \mathbb{R}^{2}{}$ de la siguiente forma: 
 $$
-D=\{ (x,y)\in \mathbb{R}^{2}|a\leq x\leq b,\phi_{1}(x)\leq y\leq \phi_{2}(x) \}
+D=\{ (x,y)\in \mathbb{R}^{2}|a\leq x\leq b,\phi_{1}(x)\leq y\leq \phi_{2}(x) \}.
+$$
+Otra opción es definir a ${}D{}$ de la forma 
+$$
+D=\{ (x,y)\in \mathbb{R}^{2}|c\leq y\leq d,\psi_{1}(y)\leq x\leq \psi_{2}(y) \}.
 $$
