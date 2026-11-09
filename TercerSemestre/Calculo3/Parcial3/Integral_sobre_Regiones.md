@@ -57,5 +57,12 @@ $$
 **Sol**:
 Tomemos la función ${}z=1+x-y{}$. Este plano intersecta al plano ${}x=0{}$ sobre la recta ${}z=1-y{}$, y al plano ${}y=0{}$ sobre la recta ${}z=1+x{}$ (contenidas sobre sus respectivos planos). La recta ${}z=1-y{}$ corta al eje ${}y{}$ en el punto ${}y=1{}$. Entonces tenemos ${}y\in[0,1]{}$. De igual forma, la recta ${}z=1+x{}$ corta al eje ${}x{}$ en ${}x=-1{}$, por lo tanto ${}x \in[0,-1]{}$. Entonces podemos definir a nuestra región como 
 $$
-D=\{ (x,y)|0\leq y\leq 1,y-1\leq x\leq 0 \}
+D=\{ (x,y)|0\leq y\leq 1,y-1\leq x\leq 0 \},
+$$
+entonces la integral a resolver es 
+$$
+\begin{aligned}
+\int_{D}1+x-ydA&=\int_{0}^{1}\int_{y-1}^{0}1+x-ydxdy \\
+&= \int_{0}^{1}
+\end{aligned}
 $$
