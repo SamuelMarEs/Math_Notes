@@ -55,4 +55,4 @@ $$
 $$
 2.- Hallar el volumen del tetraedro acotado por ${}y=0,z=0,x=0{}$ y ${}y-x+z=1{}$.
 **Sol**:
-Tomemos la función ${}z=1+x-y{}$. Este plano intersecta al plano 
+Tomemos la función ${}z=1+x-y{}$. Este plano intersecta al plano ${}x=0{}$ sobre la recta ${}z=1-y{}$, y al plano ${}y=0{}$ sobre la recta ${}z=1+x{}$ (contenidas sobre sus respectivos planos).
