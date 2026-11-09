@@ -8,6 +8,7 @@ f(x,y), & (x,y)\in D \\
 $$
 Aquí, ${}D\subseteq \mathbb{R}^{2}{}$ es una región del plano que se puede definir de distintas formas.
 
+#### Región Elemental
 Definamos ${}D\subseteq \mathbb{R}^{2}{}$ de la siguiente forma: 
 $$
 D=\{ (x,y)\in \mathbb{R}^{2}|a\leq x\leq b,\phi_{1}(x)\leq y\leq \phi_{2}(x) \}.
@@ -17,3 +18,4 @@ $$
 D=\{ (x,y)\in \mathbb{R}^{2}|c\leq y\leq d,\psi_{1}(y)\leq x\leq \psi_{2}(y) \}.
 $$
 Básicamente todas las curvas cerradas parametrizadas se pueden representar de ambas formas. 
+Una región que se puede expresar de una o ambas formas se conoce como una región elemental.
