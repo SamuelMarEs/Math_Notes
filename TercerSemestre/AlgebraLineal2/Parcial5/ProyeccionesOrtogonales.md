@@ -4,4 +4,4 @@ Recordemos de secciones anteriores que, sea ${}V=W_{1}\oplus W_{2}{}$, entonces 
 Sea ${}V{}$ un espacio de producto interno, y sea ${}T:V\to V{}$ una proyección. Decimos que ${}T{}$ es una ***proyección ortogonal*** si ${}R(T)^{\perp}=N(T){}$ y ${}N(T)^{\perp}=R(T){}$.
 Si ${}V{}$ es de dimensión finita, entonces basta con una sola de las condiciones. 
 
-Sea ${}W{}$ un subespacio de dimensión finita de ${}V{}$, previamente habíamos definido la proyección ortogonal de un vector ${}y{}$ sobre ${}W{}$ como ${}T(y)=u{}$, para ${}y=u+z{}$ donde ${}z\in W^{\perp}{}$, y no es dificil mostrar que esta transformación ${}T{}$ es una proyección ortogonal bajo esta nueva definición.
+Sea ${}W{}$ un subespacio de dimensión finita de ${}V{}$, previamente habíamos definido la proyección ortogonal de un vector ${}y{}$ sobre ${}W{}$ como ${}T(y)=u{}$, para ${}y=u+z{}$ donde ${}z\in W^{\perp}{}$, y no es dificil mostrar que esta transformación ${}T{}$ es una proyección ortogonal bajo esta nueva definición. Además, se puede mostrar que la proyección ortogonal de ${}V{}$ sobre ${}W{}$ es única.
