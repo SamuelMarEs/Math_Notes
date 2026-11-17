@@ -5,3 +5,8 @@ Sea ${}V{}$ un espacio de producto interno, y sea ${}T:V\to V{}$ una proyección
 Si ${}V{}$ es de dimensión finita, entonces basta con una sola de las condiciones. 
 
 Sea ${}W{}$ un subespacio de dimensión finita de ${}V{}$, previamente habíamos definido la proyección ortogonal de un vector ${}y{}$ sobre ${}W{}$ como ${}T(y)=u{}$, para ${}y=u+z{}$ donde ${}z\in W^{\perp}{}$, y no es dificil mostrar que esta transformación ${}T{}$ es una proyección ortogonal bajo esta nueva definición. Además, se puede mostrar que la proyección ortogonal de ${}V{}$ sobre ${}W{}$ es única.
+
+#### Teorema 6.24
+Sea ${}V{}$ un espacio de producto interno, y sea ${}T{}$ un operador lineal sobre ${}V{}$. Entonces ${}T{}$ es una proyección ortogonal si y sólo si ${}T{}$ tiene un [[OperadorAdjunto|adjunto]] ${}T^{*}{}$ y ${}T^{2}=T=T^{*}{}$.
+
+Me da hueva escribir la demostración, y dudo que sea muy útil, entonces así se queda.
