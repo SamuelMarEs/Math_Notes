@@ -34,4 +34,4 @@ Si ${}F=\mathbb{C}{}$ entonces ${}T{}$ es normal si y sólo si ${}T^{*}=g(T){}$ 
 ###### Demostración:
 ${}\implies){}$ Supongamos que ${}T{}$ es normal, entonces por el teorema espectral tenemos que ${}T=\lambda_{1}T_{1}+\dots+\lambda_{n}T_{n}{}$, y entonces ${}T^{*}=\overline{\lambda_{1}}T_{1}+\dots+\overline{\lambda_{n}}T_{n}{}$ .
 El polinomio de interpolación de Lagrange nos permite encontrar ${}g{}$ tal que ${}g(\lambda_{i})=\overline{\lambda_{i}}{}$ para ${}i=1,\dots,n{}$.
-${}(\impliedby{}$ 
+${}(\impliedby{}$ Supongamos que existe un polinomio ${}g{}$ que satisface ${}g(T)=T^{*}{}$. Para mostrar que ${}T{}$ es normal, basta mostrar que ${}Tg(T)=g(T)T{}$. De la izquierda tenemos que ${}T(a_{n}T^{n}+\dots+a_{0}){}$ 
