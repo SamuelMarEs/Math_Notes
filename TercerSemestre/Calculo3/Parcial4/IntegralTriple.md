@@ -28,5 +28,9 @@ $$
 $$
 donde la integral de cada término se puede resolver mediante otro cambio de variable como 
 $$
-\int_{0}^{1 / 3}
+\int_{0}^{1 / 3} \frac{1}{24} [(3z+1)^{4}-2(3z)^{4}+(3z-1)^{4}]dz,
+$$
+y nuevamente haciendo todas las cuentas mediante sustitución por ${}u{}$ y etc etc, llegamos a que esto es 
+$$
+\frac{1}{24} \frac{1}{15}[(3z+1)^{5}-2(3z)^{5}+(3z-1)^{5}]|_{0}^{1 / 3}=\frac{1}{12}.
 $$
