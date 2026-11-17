@@ -32,4 +32,4 @@ Sea ${}g(T)=g(\lambda_{1})T_{1}+\dots+g(\lambda_{n})T_{n}{}$ donde ${}g{}$ es un
 ##### Corolario 1
 Si ${}F=\mathbb{C}{}$ entonces ${}T{}$ es normal si y sólo si ${}T^{*}=g(T){}$ para algún polinomio ${}g{}$.
 ###### Demostración:
-${}\implies){}$ Supongamos que ${}T{}$ es normal, entonces por el teorema espectral tenemos que ${}T=\lambda_{1}T_{1}+\dots+\lambda_{n}T_{n}{}$, y entonces ${}T^{*}=\overline{\lambda_{1}}{}$
+${}\implies){}$ Supongamos que ${}T{}$ es normal, entonces por el teorema espectral tenemos que ${}T=\lambda_{1}T_{1}+\dots+\lambda_{n}T_{n}{}$, y entonces ${}T^{*}=\overline{\lambda_{1}}T_{1}+\dots+\overline{\lambda_{n}}T_{n}{}$
