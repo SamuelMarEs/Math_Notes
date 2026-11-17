@@ -17,4 +17,4 @@ d) ${}I=T_{1}+\dots+T_{n}{}$.
 e) ${}T=\lambda_{1}T_{1}+\lambda_{2}T_{2}+\dots+\lambda_{n}T_{n}{}$.
 ##### Demostración
 a) Por los teoremas 6.16 y 6.17 ${}T{}$ es diagonalizable y por lo tanto ${}V=W_{1}\oplus\dots\oplus W_{n}{}$.
-b) 
+b) Sea ${}x \in W_{i}{}$ y ${}y\in W_{j}{}$ 
