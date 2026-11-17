@@ -16,3 +16,17 @@ $$
 $$
 
 Si ${}f{}$ es continua en ${}B{}$ entonces es integrable sobre ${}B{}$. Además, se cumple el [[TeoremaDeFubini|Teorema de Fubini,]] es decir, podemos intercambiar el orden de integración.
+
+##### Ejemplos
+1.- Sea ${}B=[0,1]\times\left[ -\frac{1}{2},0 \right]\times\left[ 0, \frac{1}{3} \right]{}$ y sea ${}f(x,y,z)=(x+2y+3z)^{2}{}$, entonces 
+$$
+\int_{B}f(x,y,z)dV=\int_{0}^{1 / 3}\int_{-1 / 2}^{0}\int_{0}^{1}(x+2y+3z)^{2}dxdydz,
+$$
+y haciendo un cambio de variable es fácil ver que esto es
+$$
+\int_{0}^{1 / 3}\int_{- 1 / 2}^{0} \frac{(1+2y+3z)^{3}}{3}- \frac{(2y+3z)^{3}}{3}dydz,
+$$
+donde la integral de cada término se puede resolver mediante otro cambio de variable como 
+$$
+\int_{0}^{1 / 3}
+$$
