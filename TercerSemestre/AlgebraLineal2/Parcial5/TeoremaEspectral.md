@@ -26,3 +26,6 @@ e) Tenemos que ${}T(x)=T(x_{1}+\dots+x_{n})=T(x_{1})+\dots+T(x_{n})=\lambda_{1}x
 
 El conjunto ${}\{ \lambda_{1},\lambda_{2},\dots,\lambda_{n} \}{}$ se llama el ***espectro*** de ${}T{}$. Y ${}T=\lambda_{1}T_{1}+\lambda_{2}T_{2}+\dots+\lambda_{n}T_{n}{}$ se llama la descomposición espectral de ${}T{}$, y es única salvo el orden.
 Y tenemos que ${}A=[T]_{\beta}{}$ es la matriz diagonal donde ${}A_{ii}=\lambda_{i}I_{ni}{}$ donde ${}n_{i}{}$ es la dimensión del eigenespacio ${}E_{\lambda i}{}$.
+
+Sea ${}g(T)=g(\lambda_{1})T_{1}+\dots+g(\lambda_{n})T_{n}{}$ donde ${}g{}$ es un polinomio cualquiera. Lo que esto nos dice es que para evaluar una transformación en un polinomio basta con tomar la descomposición espectral del operador, tomando además el polinomio evaluado en cada eigenvalor.
+
