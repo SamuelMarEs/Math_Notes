@@ -29,3 +29,7 @@ Y tenemos que ${}A=[T]_{\beta}{}$ es la matriz diagonal donde ${}A_{ii}=\lambda_
 
 Sea ${}g(T)=g(\lambda_{1})T_{1}+\dots+g(\lambda_{n})T_{n}{}$ donde ${}g{}$ es un polinomio cualquiera. Lo que esto nos dice es que para evaluar una transformación en un polinomio basta con tomar la descomposición espectral del operador, tomando además el polinomio evaluado en cada eigenvalor.
 
+##### Corolario 1
+Si ${}F=\mathbb{C}{}$ entonces ${}T{}$ es normal si y sólo si ${}T^{*}=g(T){}$ para algún polinomio ${}g{}$.
+###### Demostración:
+${}\implies){}$ Supongamos que ${}T{}$ es normal, entonces por el teorema espectral tenemos que ${}T=\lambda_{1}T_{1}+\dots+\lambda_{n}T_{n}{}$, y entonces ${}T^{*}=\overline{\lambda_{1}}{}$
