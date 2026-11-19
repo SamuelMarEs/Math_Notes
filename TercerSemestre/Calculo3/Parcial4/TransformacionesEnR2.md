@@ -3,5 +3,5 @@ Si ${}T(r,\theta)=(r\cos \theta, r\sin \theta){}$, es decir ${}x=r\cos \theta{}$
 Sin embargo no es igual de fácil a que región va una transformación en general.
 
 #### Teorema:
-Sea ${}T:\mathbb{R}^{2}\to \mathbb{R}^{2}{}$ una transformación lineal, entonces ${}T{}$ transforma paralelogramos en paralelogramos.
+Sea ${}T:\mathbb{R}^{2}\to \mathbb{R}^{2}{}$ una transformación lineal con ${}\det A\neq 0{}$ para ${}A=[T]_{\beta}{}$ , entonces ${}T{}$ transforma paralelogramos en paralelogramos.
 Además si ${}T(D^{*}){}$ es un paralelogramo, entonces el conjunto ${}D^{*}{}$ es un paralelogramo.
