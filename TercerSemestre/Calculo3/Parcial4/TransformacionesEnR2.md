@@ -8,5 +8,6 @@ Además si ${}T(D^{*}){}$ es un paralelogramo, entonces el conjunto ${}D^{*}{}$ 
 
 Un paralelogramo se caracteriza de la forma 
 $$
-\mathcal{P}=\{ P_{0}+tv+su:0\leq t\leq 1,0\leq 1\leq \}
+\mathcal{P}=\{ P_{0}+tv+su:0\leq t\leq 1,0\leq s\leq 1 \}
 $$
+para ${}P_{0}{}$ uno de los vértices, y ${}v,u{}$ dos vectores no colineales.
