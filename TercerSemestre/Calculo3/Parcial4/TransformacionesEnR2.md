@@ -5,3 +5,8 @@ Sin embargo no es igual de fácil a que región va una transformación en genera
 #### Teorema:
 Sea ${}T:\mathbb{R}^{2}\to \mathbb{R}^{2}{}$ una transformación lineal con ${}\det A\neq 0{}$ para ${}A=[T]_{\beta}{}$ , entonces ${}T{}$ transforma paralelogramos en paralelogramos.
 Además si ${}T(D^{*}){}$ es un paralelogramo, entonces el conjunto ${}D^{*}{}$ es un paralelogramo.
+
+Un paralelogramo se caracteriza de la forma 
+$$
+\mathcal{P}=\{ P_{0}+tv+su:0\leq t\leq 1,0\leq 1\leq \}
+$$
