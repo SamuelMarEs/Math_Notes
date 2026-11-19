@@ -2,7 +2,10 @@
 #### Determinante del Jacobiano
 Sea ${}T:D^{*}\to \mathbb{R}^{2}{}$ una transformación ${}C^{1}{}$ dada por ${}T(u,v)=(x(u,v),y(u,v)){}$. El determinante del Jacobiano es 
 $$
-J(u,v)=\frac{par}{}
+\det J(u,v)=\frac{\partial(x,y)}{\partial(u,v)}=\det \begin{bmatrix}
+\frac{\partial x}{\partial u} & \frac{\partial x}{\partial v} \\
+\frac{\partial y}{\partial u} & \frac{\partial y}{\partial v}
+\end{bmatrix}.
 $$
 
 #### Teorema de cambio de variable
