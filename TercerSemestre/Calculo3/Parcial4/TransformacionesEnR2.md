@@ -4,3 +4,4 @@ Sin embargo no es igual de fácil a que región va una transformación en genera
 
 #### Teorema:
 Sea ${}T:\mathbb{R}^{2}\to \mathbb{R}^{2}{}$ una transformación lineal, entonces ${}T{}$ transforma paralelogramos en paralelogramos.
+Además si ${}T(D^{*}){}$ es un paralelogramo, entonces el conjunto ${}D^{*}{}$ es un paralelogramo.
