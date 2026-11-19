@@ -1,6 +1,6 @@
 #Calculo #Teorema 
 #### Determinante Jacobiano
-Sea ${}T:D^{*}\to \mathbb{R}^{2}{}$ una transformación ${}C^{1}{}$ dada por ${}T(u,v)=(x(u,v),y(u,v)){}$. El determinante Jacobiano es el determinate de la matriz derivada:
+Sea ${}T:D^{*}\to \mathbb{R}^{2}{}$ una transformación ${}C^{1}{}$ dada por ${}T(u,v)=(x(u,v),y(u,v)){}$. El determinante Jacobiano o únicamente Jacobiano es el determinate de la matriz derivada:
 $$
 J(u,v)=\frac{\partial(x,y)}{\partial(u,v)}=\det \begin{bmatrix}
 \frac{\partial x}{\partial u} & \frac{\partial x}{\partial v} \\
@@ -10,8 +10,11 @@ $$
 Si tomamos por ejemplo ${}T(r,\theta)=(r\cos \theta,r\sin \theta){}$, no es difícil de ver que ${}{}$
 
 #### Teorema de cambio de variable
-Si tenemos ${}T(u,v)=(x(u,v),y(u,v)){}$ con ${}(u,v)\in D^{*}\subseteq \mathbb{R}^{2}{}$. Si además tenemos ${}f:D\subseteq\mathbb{R}^{2}\to \mathbb{R}{}$ y ${}T(D^{*})=D{}$.
-
+Si tenemos ${}T(u,v)=(x(u,v),y(u,v)){}$ con ${}(u,v)\in D^{*}\subseteq \mathbb{R}^{2}{}$. Si además tenemos ${}f:D\subseteq\mathbb{R}^{2}\to \mathbb{R}{}$ y ${}T(D^{*})=D{}$. Entonces 
+$$
+\iint_{D}f(x,y)dxdy=\iint_{D^{*}}f(x(u,v),y(u,v))\lvert J(u,v) \rvert dudv.
+$$
+(Aquí ${}f(x(u,v),y(u,v))=f(T(u,v)){}$ la composición de ${}f{}$ con ${}T{}$, y ${}J(u,v){}$ es el Jacobiano)
 ##### Ejemplo
 Sean ${}D=\{ (x,y):x^{2}+y^{2}\leq 1 \}{}$, ${}f(x,y)=1{}$ y ${}T(r,\theta)=(r\cos \theta,r\sin \theta){}$. Entonces 
 $$
