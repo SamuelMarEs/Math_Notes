@@ -10,3 +10,9 @@ $$
 
 #### Teorema de cambio de variable
 Si tenemos ${}T(u,v)=(x(u,v),y(u,v)){}$ con ${}(u,v)\in D^{*}\subseteq \mathbb{R}^{2}{}$. Si además tenemos ${}f:D\subseteq\mathbb{R}^{2}\to \mathbb{R}{}$ y ${}T(D^{*})=D{}$.
+
+##### Ejemplo
+Sean ${}D=\{ (x,y):x^{2}+y^{2}\leq 1 \}{}$, ${}f(x,y)=1{}$ y ${}T(r,\theta)=(r\cos \theta,r\sin \theta){}$. Entonces 
+$$
+\iint_{D}f(x,y)dxdy=\iint_{D^{*}}f(x(r,\theta),y(r,\theta))d
+$$
