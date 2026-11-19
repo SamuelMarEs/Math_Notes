@@ -11,3 +11,7 @@ $$
 \mathcal{P}=\{ P_{0}+tv+su:0\leq t\leq 1,0\leq s\leq 1 \}
 $$
 para ${}P_{0}{}$ uno de los vértices, y ${}v,u{}$ dos vectores no colineales.
+
+
+##### Ejemplo
+Sea nuevamente ${}T(r,\theta)=(r\cos \theta,r\sin \theta){}$, tomemos el siguiente conjunto:
