@@ -1,8 +1,8 @@
 #Calculo #Teorema 
-#### Determinante del Jacobiano
-Sea ${}T:D^{*}\to \mathbb{R}^{2}{}$ una transformación ${}C^{1}{}$ dada por ${}T(u,v)=(x(u,v),y(u,v)){}$. El determinante del Jacobiano es 
+#### Determinante Jacobiano
+Sea ${}T:D^{*}\to \mathbb{R}^{2}{}$ una transformación ${}C^{1}{}$ dada por ${}T(u,v)=(x(u,v),y(u,v)){}$. El determinante Jacobiano es el determinate de la matriz derivada:
 $$
-\det J(u,v)=\frac{\partial(x,y)}{\partial(u,v)}=\det \begin{bmatrix}
+J(u,v)=\frac{\partial(x,y)}{\partial(u,v)}=\det \begin{bmatrix}
 \frac{\partial x}{\partial u} & \frac{\partial x}{\partial v} \\
 \frac{\partial y}{\partial u} & \frac{\partial y}{\partial v}
 \end{bmatrix}.
