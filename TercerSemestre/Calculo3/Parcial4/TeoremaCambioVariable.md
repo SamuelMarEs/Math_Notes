@@ -33,15 +33,15 @@ $$
 \Delta vT_{v}(u_{0},v_{0})\approx T(u_0,v_{0}+\Delta v)-T(u_{0},v_{0}).
 $$
 Tomemos el paralelogramo formado por estos dos vectores: ${}\mathcal{P}=\{ T(u_{0},v_{0})+t\gamma’(u)+s\beta’(v):0\leq t,s\leq 1 \}{}$. Entonces el área de ${}\mathcal{P}$ es una aproximación del área de ${}D{}$. En particular, los vectores que queremos son los vectores ${}\gamma’(u_{0}){}$ y ${}\beta’(v_{0}){}$.
-El área de este paralelogramo se puede calcular de la forma $${}\Delta A=\lVert (\Delta u\gamma´(u_{0}),0)\times \Delta v(\beta’(v_{0}),0)\rVert=\lVert \Delta u(x_{u}(u_{0},v_{0}),y_{u}(u_{0},v_{0}),0)\times \Delta v(x_{v}(u_{0},v_{0}),y_{v}(u_{0},v_{0}),0) \rVert {}.$$
+El área de este paralelogramo se puede calcular de la forma $${}\Delta A\approx\lVert (\Delta u\gamma´(u_{0}),0)\times \Delta v(\beta’(v_{0}),0)\rVert=\lVert \Delta u(x_{u}(u_{0},v_{0}),y_{u}(u_{0},v_{0}),0)\times \Delta v(x_{v}(u_{0},v_{0}),y_{v}(u_{0},v_{0}),0) \rVert {}.$$
 Esto, calculando el producto cruz, es lo mismo que 
 $$
 \begin{aligned}
-\Delta A&=\Delta u\Delta v\lVert (0,0,x_{u}(u_{0},v_{0})y_{v}(u_{0},v_{0})-x_{v}(u_{0},v_{0})y_{u}(u_{0},v_{0})) \rVert \\
+\Delta A&\approx\Delta u\Delta v\lVert (0,0,x_{u}(u_{0},v_{0})y_{v}(u_{0},v_{0})-x_{v}(u_{0},v_{0})y_{u}(u_{0},v_{0})) \rVert \\
 &=\Delta u\Delta v\lvert J(u_{0},v_{0}) \rvert .
 \end{aligned} 
 $$
-
+Además, recordemos que 
 
 ##### Ejemplos
 1.- Sean ${}D=\{ (x,y):x^{2}+y^{2}\leq 1 \}{}$, ${}f(x,y)=1{}$ y ${}T(r,\theta)=(r\cos \theta,r\sin \theta){}$. Entonces 
