@@ -43,11 +43,11 @@ $$
 $$
 Además, recordemos que la [[Integral_de_rectangulo|integral doble]] está definida como 
 $$
-\iint_{D^{*}}f(x,y)dA=\lim_{ m,n \to \infty }\sum_{i=1}^{n}\sum_{j=1}^{m}f(c_{ij})\Delta A 
+\int_{D^{*}}f(x,y)dA=\lim_{ m,n \to \infty }\sum_{i=1}^{n}\sum_{j=1}^{m}f(c_{ij})\Delta A 
 $$
 y por lo tanto 
 $$
-\iint_{D}f(x,y)dA=\lim_{ m,n \to \infty } \sum_{i=1}^{n}\sum_{j=1}^{m}f(x(u_{ij},v_{ij}),y(u_{ij},v_{ij}))\Delta u\Delta v\lvert J(u,v) \rvert 
+\iint_{D}f(x(u,v),y(u,v))\lvert J(u,v) \rvert dudv=\lim_{ m,n \to \infty } \sum_{i=1}^{n}\sum_{j=1}^{m}f(x(u_{ij},v_{ij}),y(u_{ij},v_{ij}))\Delta u\Delta v\lvert J(u,v) \rvert 
 $$
 
 
