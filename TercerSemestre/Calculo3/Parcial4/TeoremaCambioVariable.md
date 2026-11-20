@@ -19,7 +19,7 @@ $$
 Tomemos un rectángulo ${}D^{*}=[u_{0},u]\times[v_{0},v]{}$ con lados de tamaño ${}\Delta u=u-u_{0}{}$ y ${}\Delta v=v-v_{0}{}$, con área ${}A(D^{*})=\Delta u\Delta v{}$. (${}u,v{}$ no son fijos, son variables).
 Sea ${}T:\mathbb{R}^{2}\to \mathbb{R}^{2}{}$ una transformación que mande ${}T(u_{0},v_{0})=(x_{0},y_{0}){}$, ${}T(D^{*})=D{}$,
 y que además sea ${}C^{1}{}$.
-Tomemos los lados del rectángulo ${}(u,v_{0}){}$ y ${}(u_{0},v){}$, cuyas imágenes van a dar a parar a las curvas que representan la “frontera” de ${}D{}$, es decir las curvas ${}T(u,v_{0}){}$, ${}T(u_{0},v){}$.
+Tomemos los lados del rectángulo ${}(u,v_{0}){}$ y ${}(u_{0},v){}$, cuyas imágenes van a dar a parar a las curvas que representan la “frontera” de ${}D{}$, es decir las curvas ${}T(u,v_{0}){}$, ${}T(u_{0},v){}$. Estas curvas se pueden aproximar mediante los vectores tangente ${}T’(u,v_{0}){}$ y ${}T’(u_{0},v){}$. Tomemos el paralelogramo formado por estos dos vectores: ${}\mathcal{P}=\{ T(u_{0},v_{0})+tT’(u,v_{0})+sT’(u_{0},v):0\leq t,s\leq 1 \}{}$. Entonces el área de ${}\mathcal{P}$ es una aproximación del área de ${}D{}$.
 
 ##### Ejemplos
 1.- Sean ${}D=\{ (x,y):x^{2}+y^{2}\leq 1 \}{}$, ${}f(x,y)=1{}$ y ${}T(r,\theta)=(r\cos \theta,r\sin \theta){}$. Entonces 
