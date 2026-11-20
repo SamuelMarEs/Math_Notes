@@ -24,9 +24,11 @@ El área de este paralelogramo se puede calcular de la forma $${}\Delta A=\lVert
 Esto, calculando el producto cruz, es lo mismo que 
 $$
 \begin{aligned}
-\Delta A=\Delta u\Delta v\lVert (0,0,x_{u}(u_{0},v_{0})y_{v}(u_{0},v_{0})-x_{v}(u_{0},v_{0})y_{u}(u_{0},v_{0})) \rVert
+\Delta A&=\Delta u\Delta v\lVert (0,0,x_{u}(u_{0},v_{0})y_{v}(u_{0},v_{0})-x_{v}(u_{0},v_{0})y_{u}(u_{0},v_{0})) \rVert \\
+&=\Delta u\Delta v\lvert J(u_{0},v_{0}) \rvert .
 \end{aligned} 
 $$
+
 
 ##### Ejemplos
 1.- Sean ${}D=\{ (x,y):x^{2}+y^{2}\leq 1 \}{}$, ${}f(x,y)=1{}$ y ${}T(r,\theta)=(r\cos \theta,r\sin \theta){}$. Entonces 
