@@ -69,3 +69,6 @@ lo cual nos da como resultado ${}\pi{}$, el área del círculo de radio 1 (${}D{
 
 2.- Sea ${}x=u^{2}-v^{2}{}$ y ${}y=2uv{}$, encontrar la imagen de ${}S=\{ (u,v)\in \mathbb{R}^{2} :0\leq u,v\leq 1\}{}$.
 Tenemos que ${}T(S)=\{ (x,y)\in \mathbb{R}^{2}: -1\leq x\leq 1,0\leq y\leq2\}{}$.
+
+3.- ${}\iint_{D}\log(x^{2}+y^{2})dxdy{}$ para ${}D=\{ (x,y)\in \mathbb{R}^{2}:a^{2}\leq x^{2}+y^{2}\leq b^{2} \}{}$.
+**Sol:**
