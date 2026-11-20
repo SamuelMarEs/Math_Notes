@@ -70,5 +70,9 @@ lo cual nos da como resultado ${}\pi{}$, el área del círculo de radio 1 (${}D{
 2.- Sea ${}x=u^{2}-v^{2}{}$ y ${}y=2uv{}$, encontrar la imagen de ${}S=\{ (u,v)\in \mathbb{R}^{2} :0\leq u,v\leq 1\}{}$.
 Tenemos que ${}T(S)=\{ (x,y)\in \mathbb{R}^{2}: -1\leq x\leq 1,0\leq y\leq2\}{}$.
 
-3.- ${}\iint_{D}\log(x^{2}+y^{2})dxdy{}$ para ${}D=\{ (x,y)\in \mathbb{R}^{2}:a^{2}\leq x^{2}+y^{2}\leq b^{2},x\geq 0,y\geq 0 \}{}$.
+3.- ${}\iint_{D}\ln(x^{2}+y^{2})dxdy{}$ para ${}D=\{ (x,y)\in \mathbb{R}^{2}:a^{2}\leq x^{2}+y^{2}\leq b^{2},x\geq 0,y\geq 0 \}{}$.
 **Sol:**
+Sea ${}T(x,y)=(r\cos \theta,r\sin \theta){}$, entonces ${}f(T(x,y))=\ln(r^{2}\cos ^{2}\theta+r^{2}\sin ^{2}\theta)=\ln(r^{2}){}$, y nuestra región pasa a ser ${}D^{*}=[a,b]\times[0,\pi/2]{}$, y entonces tenemos 
+$$
+\int_{0}^{\pi / 2}\int_{a}^{b}\ln(r^{2})
+$$
