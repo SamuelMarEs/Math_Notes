@@ -28,7 +28,7 @@ por lo que para ${}\Delta u{}$ chiquito, podemos aproximar
 $$
 \Delta uT_{u}(u_{0},v_{0})\approx T(u_{0}+\Delta u,v_{0})-T(u_{0},v_{0}),
 $$
-y de forma análoga tenemos que 
+y de forma análoga tenemos que para ${}\Delta v{}$ chiquito se llega a
 $$
 \Delta vT_{v}(u_{0},v_{0})\approx T(u_0,v_{0}+\Delta v)-T(u_{0},v_{0}).
 $$
@@ -41,7 +41,11 @@ $$
 &=\Delta u\Delta v\lvert J(u_{0},v_{0}) \rvert .
 \end{aligned} 
 $$
-Además, recordemos que 
+Además, recordemos que la [[Integral_de_rectangulo|integral doble]] está definida como 
+$$
+\iint_{D}f(x,y)dA=\lim_{ m,n \to \infty }\sum_{i=1}^{n}\sum_{j=1}^{m}f(c_{ij})\Delta A 
+$$
+
 
 ##### Ejemplos
 1.- Sean ${}D=\{ (x,y):x^{2}+y^{2}\leq 1 \}{}$, ${}f(x,y)=1{}$ y ${}T(r,\theta)=(r\cos \theta,r\sin \theta){}$. Entonces 
