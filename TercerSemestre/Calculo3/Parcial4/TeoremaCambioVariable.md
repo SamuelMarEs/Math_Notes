@@ -19,7 +19,14 @@ $$
 Tomemos un rectángulo ${}D^{*}=[u_{0},u]\times[v_{0},v]{}$ con lados de tamaño ${}\Delta u=u-u_{0}{}$ y ${}\Delta v=v-v_{0}{}$, con área ${}A(D^{*})=\Delta u\Delta v{}$. (${}u,v{}$ no son fijos, son variables).
 Sea ${}T:\mathbb{R}^{2}\to \mathbb{R}^{2}{}$ una transformación que mande ${}T(u_{0},v_{0})=(x_{0},y_{0}){}$, ${}T(D^{*})=D{}$,
 y que además sea ${}C^{1}{}$.
-Tomemos los lados del rectángulo ${}(u,v_{0}){}$ y ${}(u_{0},v){}$, cuyas imágenes van a dar a parar a las curvas que representan la “frontera” de ${}D{}$, es decir las curvas ${}\gamma(u)=T(u,v_{0}){}$, ${}\beta(v)=T(u_{0},v){}$. Estas curvas se pueden aproximar mediante los vectores tangente ${}\gamma’(u)=T_{u}(x_{u}(u,v_{0}),y_{u}(u,v_{0})){}$ y ${}\beta’(v)=T_{v}(x_{v}(u_{0},v),y_{v}(u_{0},v)){}$. Tomemos el paralelogramo formado por estos dos vectores: ${}\mathcal{P}=\{ T(u_{0},v_{0})+t\gamma’(u)+s\beta’(v):0\leq t,s\leq 1 \}{}$. Entonces el área de ${}\mathcal{P}$ es una aproximación del área de ${}D{}$. En particular, los vectores que queremos son los vectores ${}\gamma’(u_{0}){}$ y ${}{}$
+Tomemos los lados del rectángulo ${}(u,v_{0}){}$ y ${}(u_{0},v){}$, cuyas imágenes van a dar a parar a las curvas que representan la “frontera” de ${}D{}$, es decir las curvas ${}\gamma(u)=T(u,v_{0}){}$, ${}\beta(v)=T(u_{0},v){}$. Estas curvas se pueden aproximar mediante los vectores tangente ${}\gamma’(u)=T_{u}(x_{u}(u,v_{0}),y_{u}(u,v_{0})){}$ y ${}\beta’(v)=T_{v}(x_{v}(u_{0},v),y_{v}(u_{0},v)){}$. Tomemos el paralelogramo formado por estos dos vectores: ${}\mathcal{P}=\{ T(u_{0},v_{0})+t\gamma’(u)+s\beta’(v):0\leq t,s\leq 1 \}{}$. Entonces el área de ${}\mathcal{P}$ es una aproximación del área de ${}D{}$. En particular, los vectores que queremos son los vectores ${}\gamma’(u_{0}){}$ y ${}\beta’(v_{0}){}$.
+El área de este paralelogramo se puede calcular de la forma $${}\Delta A=\lVert (\Delta u\gamma´(u_{0}),0)\times \Delta v(\beta’(v_{0}),0)\rVert=\lVert \Delta u(x_{u}(u_{0},v_{0}),y_{u}(u_{0},v_{0}),0)\times \Delta v(x_{v}(u_{0},v_{0}),y_{v}(u_{0},v_{0}),0) \rVert {}.$$
+Esto, calculando el producto cruz, es lo mismo que 
+$$
+\begin{aligned}
+\Delta A=\Delta u\Delta v\lVert (0,0,x_{u}(u_{0},v_{0})y_{v}(u_{0},v_{0})-x_{v}(u_{0},v_{0})y_{u}(u_{0},v_{0})) \rVert
+\end{aligned} 
+$$
 
 ##### Ejemplos
 1.- Sean ${}D=\{ (x,y):x^{2}+y^{2}\leq 1 \}{}$, ${}f(x,y)=1{}$ y ${}T(r,\theta)=(r\cos \theta,r\sin \theta){}$. Entonces 
