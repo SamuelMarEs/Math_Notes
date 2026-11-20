@@ -47,7 +47,10 @@ $$
 $$
 y por lo tanto 
 $$
-\iint_{D}f(x(u,v),y(u,v))\lvert J(u,v) \rvert dudv=\lim_{ m,n \to \infty } \sum_{i=1}^{n}\sum_{j=1}^{m}f(x(u_{ij},v_{ij}),y(u_{ij},v_{ij}))\Delta u\Delta v\lvert J(u,v) \rvert 
+\begin{aligned}
+\iint_{D}f(x(u,v),y(u,v))\lvert J(u,v) \rvert dudv&=\lim_{ m,n \to \infty } \sum_{i=1}^{n}\sum_{j=1}^{m}f(x(u_{ij},v_{ij}),y(u_{ij},v_{ij}))\Delta u\Delta v\lvert J(u,v) \rvert \\
+&=\int_{D^{*}}f(x,y)dA.
+\end{aligned} 
 $$
 
 
