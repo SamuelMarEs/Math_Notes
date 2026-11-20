@@ -74,5 +74,6 @@ Tenemos que ${}T(S)=\{ (x,y)\in \mathbb{R}^{2}: -1\leq x\leq 1,0\leq y\leq2\}{}$
 **Sol:**
 Sea ${}T(x,y)=(r\cos \theta,r\sin \theta){}$, entonces ${}f(T(x,y))=\ln(r^{2}\cos ^{2}\theta+r^{2}\sin ^{2}\theta)=\ln(r^{2}){}$, y nuestra región pasa a ser ${}D^{*}=[a,b]\times[0,\pi/2]{}$, y entonces tenemos 
 $$
-\int_{0}^{\pi / 2}\int_{a}^{b}r\ln(r^{2})dr d\theta=\frac{1}{2}\int_{0}^{\pi / 2}b^{2}\ln(b^{2})-b^{2}-a^{2}\ln(a^{2})+a^{2}d\theta
+\int_{0}^{\pi / 2}\int_{a}^{b}r\ln(r^{2})dr d\theta=\frac{1}{2}\int_{0}^{\pi / 2}b^{2}\ln(b^{2})-b^{2}-a^{2}\ln(a^{2})+a^{2}d\theta=\frac{\pi}{4}(b^{2}\ln(b^{2})-b^{2}-a^{2}\ln(a^{2})+a^{2}).
 $$
+
