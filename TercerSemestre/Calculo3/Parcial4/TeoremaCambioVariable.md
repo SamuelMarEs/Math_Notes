@@ -16,8 +16,9 @@ $$
 $$
 (Aquí ${}f(x(u,v),y(u,v))=f(T(u,v)){}$ la composición de ${}f{}$ con ${}T{}$, y ${}J(u,v){}$ es el Jacobiano)
 ##### Demostración Barroca
-
-
+Tomemos un rectángulo ${}D^{*}=[u_{0},u]\times[v_{0},v]{}$ con lados de tamaño ${}\Delta u=u-u_{0}{}$ y ${}\Delta v=v-v_{0}{}$, con área ${}A(D^{*})=\Delta u\Delta v{}$.
+Sea ${}T:\mathbb{R}^{2}\to \mathbb{R}^{2}{}$ una transformación que mande ${}T(u_{0},v_{0})=(x_{0},y_{0}){}$, ${}T(D^{*})=D{}$,
+y que además sea ${}C^{1}{}$.
 
 ##### Ejemplos
 1.- Sean ${}D=\{ (x,y):x^{2}+y^{2}\leq 1 \}{}$, ${}f(x,y)=1{}$ y ${}T(r,\theta)=(r\cos \theta,r\sin \theta){}$. Entonces 
