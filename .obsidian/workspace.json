@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "41c8ff3c47a86adc",
+        "id": "da4091ab325daf7a",
         "type": "tabs",
         "children": [
           {
-            "id": "9619101ff00dffe3",
+            "id": "aac8717c1e61e2c8",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -230,10 +230,19 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "57799c1e0e9b6761",
+  "active": "aac8717c1e61e2c8",
   "lastOpenFiles": [
-    "TercerSemestre/Calculo3/Parcial4/Integral_sobre_Regiones.md",
+    "TercerSemestre/Probabilidad/Parcial3/EjerciciosProbabilidad3.md",
+    "TercerSemestre/Probabilidad/Parcial3/ComulativeDensityFunction.md",
+    "TercerSemestre/Probabilidad/Parcial3/V.A.Continuas.md",
+    "TercerSemestre/Probabilidad/Parcial3/Independencia_V.A_Continuas.md",
+    "TercerSemestre/Probabilidad/TeoremasLimite/ConvergenciaDeVariablesAleatorias.md",
+    "TercerSemestre/Probabilidad/TeoremasLimite/DesigualdadChebyshev.md",
+    "TercerSemestre/Probabilidad/TeoremasLimite/DesigualdadMarkov.md",
+    "TercerSemestre/Probabilidad/Parcial1/ProbabilidadAxiomatica.md",
     "TercerSemestre/Calculo3/Parcial4/TeoremaValorMedioIntegrales.md",
+    "TercerSemestre/Probabilidad/TeoremasLimite",
+    "TercerSemestre/Calculo3/Parcial4/Integral_sobre_Regiones.md",
     "TercerSemestre/Calculo3/Parcial3/Integral_de_rectangulo.md",
     "TercerSemestre/Calculo3/Parcial3/Integral_sobre_Regiones.md",
     "TercerSemestre/Calculo3/Parcial3/Integral_sobre_Curvas.md",
@@ -251,14 +260,6 @@
     "TercerSemestre/AlgebraLineal2/Parcial4/AproximarMinimosCuadrados.md",
     "TercerSemestre/AlgebraLineal2/Parcial4/OperadorAdjunto.md",
     "TercerSemestre/AlgebraLineal2/Parcial4/Ejercicios6.3.md",
-    "TercerSemestre/AlgebraLineal2/Parcial3/Tarea5_AlgebraLineal2.md",
-    "TercerSemestre/AlgebraLineal2/Parcial3/Tarea4_AlgebraLineal2.md",
-    "TercerSemestre/Datos_Algoritmos/Parcial2/AlgoritmosOrdenamiento.md",
-    "TercerSemestre/Probabilidad/Parcial3/DistribucionNormal.md",
-    "TercerSemestre/Probabilidad/Parcial3/DistribucionBeta.md",
-    "TercerSemestre/Calculo3/Parcial3/FuncionImplicita.md",
-    "Excalidraw/MergeSort.md",
-    "Excalidraw/Drawing 2026-11-04 15.40.50.excalidraw.md",
     "GraficasEjerciciosProba3.ipynb",
     "Tarea4Probabilidad.ipynb",
     "TercerSemestre/Probabilidad/Temario_Probabilidad.pdf",
