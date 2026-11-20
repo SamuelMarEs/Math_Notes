@@ -15,6 +15,10 @@ $$
 \iint_{D}f(x,y)dxdy=\iint_{D^{*}}f(x(u,v),y(u,v))\lvert J(u,v) \rvert dudv.
 $$
 (Aquí ${}f(x(u,v),y(u,v))=f(T(u,v)){}$ la composición de ${}f{}$ con ${}T{}$, y ${}J(u,v){}$ es el Jacobiano)
+##### Demostración Barroca
+
+
+
 ##### Ejemplos
 1.- Sean ${}D=\{ (x,y):x^{2}+y^{2}\leq 1 \}{}$, ${}f(x,y)=1{}$ y ${}T(r,\theta)=(r\cos \theta,r\sin \theta){}$. Entonces 
 $$
