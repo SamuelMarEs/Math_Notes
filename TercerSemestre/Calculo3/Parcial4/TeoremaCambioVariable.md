@@ -78,3 +78,4 @@ $$
 $$
 
 4.- Sea ${}P=\{ (0,0)+t(2,2)+s(1,2):0\leq s,t\leq 1 \}{}$ un paralelogramo. Calcular ${}\iint_{P}xydxdy{}$.
+
