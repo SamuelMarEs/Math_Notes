@@ -19,7 +19,20 @@ $$
 Tomemos un rectángulo ${}D^{*}=[u_{0},u]\times[v_{0},v]{}$ con lados de tamaño ${}\Delta u=u-u_{0}{}$ y ${}\Delta v=v-v_{0}{}$, con área ${}A(D^{*})=\Delta u\Delta v{}$. (${}u,v{}$ no son fijos, son variables).
 Sea ${}T:\mathbb{R}^{2}\to \mathbb{R}^{2}{}$ una transformación que mande ${}T(u_{0},v_{0})=(x_{0},y_{0}){}$, ${}T(D^{*})=D{}$,
 y que además sea ${}C^{1}{}$.
-Tomemos los lados del rectángulo ${}(u,v_{0}){}$ y ${}(u_{0},v){}$, cuyas imágenes van a dar a parar a las curvas que representan la “frontera” de ${}D{}$, es decir las curvas ${}\gamma(u)=T(u,v_{0}){}$, ${}\beta(v)=T(u_{0},v){}$. Estas curvas se pueden aproximar mediante los vectores tangente ${}\gamma’(u)=T_{u}(x_{u}(u,v_{0}),y_{u}(u,v_{0})){}$ y ${}\beta’(v)=T_{v}(x_{v}(u_{0},v),y_{v}(u_{0},v)){}$. Tomemos el paralelogramo formado por estos dos vectores: ${}\mathcal{P}=\{ T(u_{0},v_{0})+t\gamma’(u)+s\beta’(v):0\leq t,s\leq 1 \}{}$. Entonces el área de ${}\mathcal{P}$ es una aproximación del área de ${}D{}$. En particular, los vectores que queremos son los vectores ${}\gamma’(u_{0}){}$ y ${}\beta’(v_{0}){}$.
+Tomemos los lados del rectángulo ${}(u,v_{0}){}$ y ${}(u_{0},v){}$, cuyas imágenes van a dar a parar a las curvas que representan la “frontera” de ${}D{}$, es decir las curvas ${}\gamma(u)=T(u,v_{0}){}$, ${}\beta(v)=T(u_{0},v){}$. Estas curvas se pueden aproximar mediante los vectores tangente ${}\gamma’(u)=T_{u}(x_{u}(u,v_{0}),y_{u}(u,v_{0})){}$ y ${}\beta’(v)=T_{v}(x_{v}(u_{0},v),y_{v}(u_{0},v)){}$. 
+Observemos que 
+$$
+T_{u}(u_{0},v_{0})=\lim_{ \Delta u \to 0 }  \frac{T(u_{0}+\Delta u,v_{0})-T(u_{0},v_{0})}{\Delta u},
+$$
+por lo que para ${}\Delta u{}$ chiquito, podemos aproximar 
+$$
+\Delta uT_{u}(u_{0},v_{0})\approx T(u_{0}+\Delta u,v_{0})-T(u_{0},v_{0}),
+$$
+y de forma análoga tenemos que 
+$$
+\Delta vT_{v}(u_{0},v_{0})\approx T(u_0,v_{0}+\Delta v)-T(u_{0},v_{0}).
+$$
+Tomemos el paralelogramo formado por estos dos vectores: ${}\mathcal{P}=\{ T(u_{0},v_{0})+t\gamma’(u)+s\beta’(v):0\leq t,s\leq 1 \}{}$. Entonces el área de ${}\mathcal{P}$ es una aproximación del área de ${}D{}$. En particular, los vectores que queremos son los vectores ${}\gamma’(u_{0}){}$ y ${}\beta’(v_{0}){}$.
 El área de este paralelogramo se puede calcular de la forma $${}\Delta A=\lVert (\Delta u\gamma´(u_{0}),0)\times \Delta v(\beta’(v_{0}),0)\rVert=\lVert \Delta u(x_{u}(u_{0},v_{0}),y_{u}(u_{0},v_{0}),0)\times \Delta v(x_{v}(u_{0},v_{0}),y_{v}(u_{0},v_{0}),0) \rVert {}.$$
 Esto, calculando el producto cruz, es lo mismo que 
 $$
