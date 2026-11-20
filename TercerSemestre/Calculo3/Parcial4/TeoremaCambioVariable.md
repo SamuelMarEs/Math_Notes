@@ -77,3 +77,4 @@ $$
 \int_{0}^{\pi / 2}\int_{a}^{b}r\ln(r^{2})dr d\theta=\frac{1}{2}\int_{0}^{\pi / 2}b^{2}\ln(b^{2})-b^{2}-a^{2}\ln(a^{2})+a^{2}d\theta=\frac{\pi}{4}(b^{2}\ln(b^{2})-b^{2}-a^{2}\ln(a^{2})+a^{2}).
 $$
 
+4.- Sea ${}P=\{ (0,0)+t(2,2)+s(1,2):0\leq s,t\leq 1 \}{}$ un paralelogramo. Calcular ${}\iint_{P}xydxdy{}$.
