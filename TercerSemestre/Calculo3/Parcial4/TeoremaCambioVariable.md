@@ -52,7 +52,13 @@ $$
 &=\int_{D^{*}}f(x,y)dA.
 \end{aligned} 
 $$
-
+#### Teorema
+Exactamente el mismo teorema que el que acabamos de “demostrar”, pero tal cual como lo enuncia el Marsden.
+Sean ${}D{}$ y ${}D^{*}{}$ regiones elementales y ${}T:D^{*}\to D{}$ una función ${}C^{1}{}$ y biyectiva.
+Entonces si ${}f:D\to \mathbb{R}{}$ es integrable, se tiene que 
+$$
+\iint_{D}f(x,y)dxdy=\iint_{D^{*}}f(x(u,v),y(u,v))\lvert J(u,v) \rvert dudv.
+$$
 
 ##### Ejemplos
 1.- Sean ${}D=\{ (x,y):x^{2}+y^{2}\leq 1 \}{}$, ${}f(x,y)=1{}$ y ${}T(r,\theta)=(r\cos \theta,r\sin \theta){}$. Entonces 
