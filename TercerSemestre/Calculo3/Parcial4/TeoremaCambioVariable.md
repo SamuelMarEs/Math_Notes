@@ -79,7 +79,7 @@ $$
 
 4.- Sea ${}P=\{ (0,0)+t(2,2)+s(1,2):0\leq s,t\leq 1 \}{}$ un paralelogramo. Calcular ${}\iint_{P}xydxdy{}$.
 **Sol:**
-Sea ${}T(u,v)=(u-v,2u-v){}$, ${}T{}$ es una transformación lineal y que además es biyectiva (${}\det A=\det[T]_{\beta}=1{}$ para ${}\beta{}$ la base canónica), por lo tanto manda paralelogramos en paralelogramos, y podemos fijarnos únicamente en los vértices de ${}P{}$, que son ${}(0,0),(2,2),(1,2),(3,4){}$.
+Sea ${}T(x,y)=(x-y,2x-y){}$, es decir ${}u={}$, ${}T{}$ es una transformación lineal y que además es biyectiva (${}\det A=\det[T]_{\beta}=1{}$ para ${}\beta{}$ la base canónica), por lo tanto manda paralelogramos en paralelogramos, y podemos fijarnos únicamente en los vértices de ${}P{}$, que son ${}(0,0),(2,2),(1,2),(3,4){}$.
 Entonces tenemos que ${}T(0,0)=(0,0),T(2,2)=(0,2),T(-1,0),T(-1,2){}$, es decir que ${}T(P)=[-1,0]\times[0,2]{}$. Además, el jacobiano de la transformación es 
 $$
 J(u,v)=\det DT=\begin{vmatrix}
