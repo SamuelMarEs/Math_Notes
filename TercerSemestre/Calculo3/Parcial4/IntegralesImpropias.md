@@ -11,4 +11,9 @@ $$
 S_{n}=\sum_{i=0}^{n-1}\sum_{j=0}^{n-1}f(c_{ij})\Delta x\Delta y
 $$
 podremos notar que para puntos fijos cercanos a ${}(0,0){}$ y ${}n{}$ fijo, podemos tomar ${}c_{ij}{}$ cada vez más cerca a ${}(0,0){}$ tal que ${}S_{n}\to \infty{}$.
-Esto indica que ${}\lim_{ n \to \infty }S_{n}{}$ depende de ${}c_{ij}{}$
+Esto indica que ${}\lim_{ n \to \infty }S_{n}{}$ depende de la elección de ${}c_{ij}{}$, por lo tanto la función no es integrable.
+Sin embargo, tenemos que 
+$$
+\int_{R}f(x,y)dA=\int_{0}^{1}\int_{0}^{1}f(x,y)dxdy=\int_{0}^{1}2dy=2.
+$$
+
