@@ -54,5 +54,9 @@ $$
 $$
 donde la integral respecto a ${}y{}$ es 
 $$
-\int_{\delta}^{x-\delta} \frac{1}{x-y}dy=-\ln(\delta)+\ln(x-\delta)
+\int_{\delta}^{x-\delta} \frac{1}{x-y}dy=-\ln(\delta)+\ln(x-\delta),
+$$
+y entonces tenemos 
+$$
+\int_{\eta}^{1-\eta}-\ln(\delta)+\ln(x-\delta)
 $$
