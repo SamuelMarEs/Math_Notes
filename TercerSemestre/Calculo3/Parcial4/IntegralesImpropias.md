@@ -38,3 +38,13 @@ $$
 $$
 Si los límites existen, entonces esta es la integral iterada impropia.
 
+#### Ejemplos:
+1.- Si ${}f(x,y)=\frac{1}{\sqrt{ 1-x^{2}-y^{2} }}{}$, y ${}D{}$ es el círculo unitario ${}x^{2}+y^{2}\leq 1{}$. Calcular ${}\int_{D}fdA{}$ si existe.
+**Sol:**
+
+2.- Sea ${}f(x,y)=\frac{1}{x-y}{}$ y ${}D=\{ (x,y):0\leq x\leq 1,0\leq y\leq x \}{}$. Mostrar que ${}f{}$ no es integrable. (Dar una trayectoria para la cual el límite no exista).
+**Sol:**
+Notemos que en ${}x=y{}$ la función no está acotada (ni definida). Sea ${}0<\eta<1,0<\det <\eta{}$, definimos 
+$$
+D_{\eta \delta}=\{ (x,y) \}
+$$
