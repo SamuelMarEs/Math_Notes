@@ -18,4 +18,9 @@ $$
 $$
 
 
-Supongamos que tenemos una región tipo 1 ${}D{}$, y una función ${}f:D\to \mathbb{R}{}$ continua y acotada excepto en los puntos frontera de ${}D{}$. Escribimos ${}D{}$ por ${}(x,y)\in \mathbb{R}^{2}{}$ tal que ${}a\leq x\leq b{}$
+Supongamos que tenemos una región tipo 1 ${}D{}$, y una función ${}f:D\to \mathbb{R}{}$ continua y acotada excepto en los puntos frontera de ${}D{}$. Escribimos ${}D{}$ por ${}(x,y)\in \mathbb{R}^{2}{}$ tal que ${}a\leq x\leq b{}$ y ${}\phi_{2}(x)\leq y\leq \phi_{1}(x){}$.
+Si elegimos ${}\delta,\eta>0{}$ y definimos 
+$$
+D_{\eta,\delta}=\{ (x,y)\in \mathbb{R}^{2}|a+\eta\leq x\leq b-\eta,\phi_{2}(x)+\delta\leq y\leq \phi_{1}(x)-\delta \},
+$$
+donde ${}\delta,\eta{}$ son lo suficientemente pequeños para ${}D_{\eta ,\delta}\subset D{}$. Así ${}f(x,y){}$ en ${}D_{\eta,\delta}{}$ es ac
