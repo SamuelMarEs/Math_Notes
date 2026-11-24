@@ -68,3 +68,9 @@ donde si tomamos el limite cuando ${}\eta{}$ y ${}\delta{}$ tienden a cero, el �
 
 
 4.- Sean ${}f,g{}$ no negativas acotadas salvo quizás en la frontera de ${}D{}$ tal que ${}f(x,y)\leq g(x,y){}$. Demostrar que si ${}\int_{D}g{}$ existe, entonces ${}\int_{D}f{}$ existe.
+**Sol:**
+Como ${}0\leq f\leq g{}$ para cualquier ${}D_{k}{}$ dominio truncado, entonces por las propiedades de la integral tenemos que 
+$$
+0\leq \int_{Dk}f\leq \int_{Dk}g\leq \int_{D}g,
+$$
+donde esta última existe y está acotada. Por lo tanto ${}\lim_{ k \to \infty }\int_{Dk}f{}$ existe, y por lo tanto ${}\int_{D}f{}$ existe.
