@@ -64,4 +64,4 @@ y a partir de esto llegamos al resultado
 $$
 -\ln(\delta)[1-2\eta]+(1-\eta-\delta)\ln(1-\eta-\delta)-(1-\eta-\delta)-(\eta-\delta)\ln(\eta-\delta)+(\eta-\delta),
 $$
-donde si tomamos el limite cuando ${}\eta{}$ y ${}\delta{}$ tienden a cero, el único término que sobrevive es ${}-\ln(\delta)[1-2\eta]\to-\ln \delta{}$, que diverge para ${}\delta\to 0{}$.
+donde si tomamos el limite cuando ${}\eta{}$ y ${}\delta{}$ tienden a cero, el único término que sobrevive es ${}-\ln(\delta)[1-2\eta]-1\to-\ln (\delta)-1{}$, que diverge para ${}\delta\to 0{}$.
