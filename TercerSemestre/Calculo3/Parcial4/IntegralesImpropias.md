@@ -37,3 +37,4 @@ $$
 \lim_{ (\eta,\delta) \to (0,0) } \int_{D\eta,\delta}f(x,y)dA.=\lim_{ \eta \to 0 } \int_{a+\eta}^{b-\eta}\left[ \lim_{ \delta \to 0 } \int_{\phi_{2}+\delta}^{\phi_{1}-\delta}f(x,y)dy \right]dx.
 $$
 Si los límites existen, entonces esta es la integral iterada impropia.
+
