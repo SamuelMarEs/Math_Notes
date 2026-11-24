@@ -65,3 +65,6 @@ $$
 -\ln(\delta)[1-2\eta]+(1-\eta-\delta)\ln(1-\eta-\delta)-(1-\eta-\delta)-(\eta-\delta)\ln(\eta-\delta)+(\eta-\delta),
 $$
 donde si tomamos el limite cuando ${}\eta{}$ y ${}\delta{}$ tienden a cero, el único término que sobrevive es ${}-\ln(\delta)[1-2\eta]-1\to-\ln (\delta)-1{}$, que diverge para ${}\delta\to 0{}$.
+
+
+4.- Sean ${}f,g{}$ no negativas acotadas salvo quizás en la frontera de ${}D{}$ tal que ${}f(x,y)\leq g(x,y){}$. Demostrar que si ${}\int_{D}g{}$ existe, entonces ${}\int_{D}f{}$ existe.
