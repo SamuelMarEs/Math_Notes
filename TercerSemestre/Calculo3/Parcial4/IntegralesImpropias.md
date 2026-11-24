@@ -23,4 +23,13 @@ Si elegimos ${}\delta,\eta>0{}$ y definimos
 $$
 D_{\eta,\delta}=\{ (x,y)\in \mathbb{R}^{2}|a+\eta\leq x\leq b-\eta,\phi_{2}(x)+\delta\leq y\leq \phi_{1}(x)-\delta \},
 $$
-donde ${}\delta,\eta{}$ son lo suficientemente pequeños para ${}D_{\eta ,\delta}\subset D{}$. Así ${}f(x,y){}$ en ${}D_{\eta,\delta}{}$ es ac
+donde ${}\delta,\eta{}$ son lo suficientemente pequeños para ${}D_{\eta ,\delta}\subset D{}$. Así ${}f(x,y){}$ en ${}D_{\eta,\delta}{}$ es acotada y continua por lo que existe 
+$$
+\int_{D\eta,\delta}f(x,y)dA.
+$$
+Entonces definimos la ***integral impropia*** de ${}f{}$ sobre ${}D{}$ como 
+$$
+\lim_{ (\eta,\delta) \to (0,0) } \int_{D\eta,\delta}f(x,y)dA.
+$$
+(Siempre que el límite exista)
+Notese que en ${}D_{\eta \delta}{}$ se cumple el [[TeoremaDeFubini#^d82507|Fubini]] 
