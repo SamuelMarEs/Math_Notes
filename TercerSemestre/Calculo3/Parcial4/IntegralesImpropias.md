@@ -18,4 +18,4 @@ $$
 $$
 
 
-Supongamos que tenemos una región tipo 1 ${}D{}$, y una función ${}f:D\to \mathbb{R}{}$ continua y acotada excepto en los puntos frontera de ${}D{}$.
+Supongamos que tenemos una región tipo 1 ${}D{}$, y una función ${}f:D\to \mathbb{R}{}$ continua y acotada excepto en los puntos frontera de ${}D{}$. Escribimos ${}D{}$ por ${}(x,y)\in \mathbb{R}^{2}{}$ tal que ${}a\leq x\leq b{}$
