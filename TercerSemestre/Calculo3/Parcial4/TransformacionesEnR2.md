@@ -15,6 +15,6 @@ para ${}P_{0}{}$ uno de los vértices, y ${}v,u{}$ dos vectores no colineales.
 
 ##### Ejemplo
 Sea nuevamente ${}T(r,\theta)=(r\cos \theta,r\sin \theta){}$, tomemos el siguiente conjunto:
-![[Drawing 2026-11-19 10.40.42.excalidraw]]
+![[CuartoDeDona]]
 Entonces no es difícil de ver que la pre-imagen bajo ${}T{}$ de la región ${}D{}$ es el rectángulo ${}r\in[a,b]{}$ y ${}\theta \in[0,\pi / 2]{}$.
 
