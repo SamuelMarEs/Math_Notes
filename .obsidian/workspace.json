@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "88b155193dea3ba6",
+        "id": "b0622e056fe87913",
         "type": "tabs",
         "children": [
           {
-            "id": "8b4ff543414bb328",
+            "id": "afe1a1a59d09f743",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -234,7 +234,7 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "8b4ff543414bb328",
+  "active": "afe1a1a59d09f743",
   "lastOpenFiles": [
     "TercerSemestre/Calculo3/Parcial3/TeoremaDeFubini.md",
     "TercerSemestre/Calculo3/Parcial4/IntegralesImpropias.md",
