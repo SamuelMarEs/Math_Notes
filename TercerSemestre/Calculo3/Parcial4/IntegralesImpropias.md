@@ -17,3 +17,5 @@ $$
 \int_{R}f(x,y)dA=\int_{0}^{1}\int_{0}^{1}f(x,y)dxdy=\int_{0}^{1}2dy=2.
 $$
 
+
+Supongamos que tenemos una región tipo 1 ${}D{}$, y una función ${}f:D\to \mathbb{R}{}$ continua y acotada excepto en los puntos frontera de ${}D{}$.
