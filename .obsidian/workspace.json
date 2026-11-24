@@ -4,53 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "bc37c50fa0693fc5",
+        "id": "da4091ab325daf7a",
         "type": "tabs",
         "children": [
           {
-            "id": "1b51bf4413a1e01e",
+            "id": "aac8717c1e61e2c8",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "TercerSemestre/AlgebraLineal2/Parcial4/OperadoresNormales.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "OperadoresNormales"
-            }
-          },
-          {
-            "id": "6e0552bf2e047521",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "TercerSemestre/AlgebraLineal2/Parcial4/OperadorHermitiano.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "OperadorHermitiano"
-            }
-          },
-          {
-            "id": "6dd1a1cfc245f7c0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "TercerSemestre/AlgebraLineal2/Parcial4/OperadorOrtogonal.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "OperadorOrtogonal"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -248,11 +215,11 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "hybrid-git-sync:Sync Now": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -263,37 +230,38 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "6dd1a1cfc245f7c0",
+  "active": "aac8717c1e61e2c8",
   "lastOpenFiles": [
-    "TercerSemestre/AlgebraLineal2/Parcial4/OperadorHermitiano.md",
+    "TercerSemestre/Probabilidad/Parcial3/EjerciciosProbabilidad3.md",
+    "TercerSemestre/Probabilidad/Parcial3/ComulativeDensityFunction.md",
+    "TercerSemestre/Probabilidad/Parcial3/V.A.Continuas.md",
+    "TercerSemestre/Probabilidad/Parcial3/Independencia_V.A_Continuas.md",
+    "TercerSemestre/Probabilidad/TeoremasLimite/ConvergenciaDeVariablesAleatorias.md",
+    "TercerSemestre/Probabilidad/TeoremasLimite/DesigualdadChebyshev.md",
+    "TercerSemestre/Probabilidad/TeoremasLimite/DesigualdadMarkov.md",
+    "TercerSemestre/Probabilidad/Parcial1/ProbabilidadAxiomatica.md",
+    "TercerSemestre/Calculo3/Parcial4/TeoremaValorMedioIntegrales.md",
+    "TercerSemestre/Probabilidad/TeoremasLimite",
+    "TercerSemestre/Calculo3/Parcial4/Integral_sobre_Regiones.md",
+    "TercerSemestre/Calculo3/Parcial3/Integral_de_rectangulo.md",
+    "TercerSemestre/Calculo3/Parcial3/Integral_sobre_Regiones.md",
+    "TercerSemestre/Calculo3/Parcial3/Integral_sobre_Curvas.md",
+    "TercerSemestre/Probabilidad/Parcial3/EjerciciosProbabilidad5.md",
+    "TercerSemestre/Probabilidad/Parcial3/DistribucionGamma.md",
+    "TercerSemestre/Probabilidad/Parcial3/EjerciciosProbabilidad4.md",
+    "TercerSemestre/Calculo3/Parcial3/Integral_Iterada.md",
+    "TercerSemestre/Calculo3/Parcial3/TeoremaDeFubini.md",
+    "TercerSemestre/Calculo3/Parcial3/TeoremasIntegracionRectangular.md",
+    "TercerSemestre/Calculo3/Parcial3/Untitled.md",
     "TercerSemestre/AlgebraLineal2/Parcial4/OperadoresNormales.md",
+    "TercerSemestre/AlgebraLineal2/Parcial4/OperadorHermitiano.md",
     "TercerSemestre/AlgebraLineal2/Parcial4/OperadorOrtogonal.md",
     "TercerSemestre/AlgebraLineal2/Parcial5",
     "TercerSemestre/AlgebraLineal2/Parcial4/AproximarMinimosCuadrados.md",
     "TercerSemestre/AlgebraLineal2/Parcial4/OperadorAdjunto.md",
     "TercerSemestre/AlgebraLineal2/Parcial4/Ejercicios6.3.md",
-    "TercerSemestre/AlgebraLineal2/Parcial3/Tarea5_AlgebraLineal2.md",
-    "TercerSemestre/AlgebraLineal2/Parcial3/Tarea4_AlgebraLineal2.md",
-    "TercerSemestre/Calculo3/Parcial3/Integral_Iterada.md",
-    "TercerSemestre/Datos_Algoritmos/Parcial2/AlgoritmosOrdenamiento.md",
-    "TercerSemestre/Probabilidad/Parcial3/EjerciciosProbabilidad4.md",
-    "TercerSemestre/Probabilidad/Parcial3/DistribucionNormal.md",
-    "TercerSemestre/Probabilidad/Parcial3/DistribucionGamma.md",
-    "TercerSemestre/Probabilidad/Parcial3/DistribucionBeta.md",
-    "TercerSemestre/Calculo3/Parcial3/FuncionImplicita.md",
-    "Excalidraw/MergeSort.md",
-    "Excalidraw/Drawing 2026-11-04 15.40.50.excalidraw.md",
     "GraficasEjerciciosProba3.ipynb",
     "Tarea4Probabilidad.ipynb",
-    "TercerSemestre/Calculo3/Parcial3/ProblemasDeOptimizacion.md",
-    "TercerSemestre/Calculo3/Parcial3/ProblemasOptimizacion2.md",
-    "TercerSemestre/Calculo3/Parcial3/MaxMinAbsolutos.md",
-    "TercerSemestre/Calculo3/Parcial3/MultiplicadoresDeLagrange.md",
-    "TercerSemestre/Calculo3/Parcial3/Integral_Iterada.md",
-    "TercerSemestre/Probabilidad/Parcial3/DistribucionExponencial.md",
-    "TercerSemestre/Calculo3/Parcial2/CamposVectoriales.md",
-    "TercerSemestre/Probabilidad/Parcial3/DistribucionUniformeContinua.md",
-    "TercerSemestre/Calculo3/Parcial2/ReParametrizacion.md",
     "TercerSemestre/Probabilidad/Temario_Probabilidad.pdf",
     "TercerSemestre/Imagenes/PDF1_EjerciciosProba3.png",
     "TercerSemestre/Imagenes/CDF2_EjerciciosProba3.png",
