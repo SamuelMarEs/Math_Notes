@@ -58,5 +58,5 @@ $$
 $$
 y entonces tenemos 
 $$
-\int_{\eta}^{1-\eta}-\ln(\delta)+\ln(x-\delta)
+\int_{\eta}^{1-\eta}-\ln(\delta)+\ln(x-\delta)=-\ln(\delta)x+(x-\delta)\ln(x-\delta)-(x-\delta)
 $$
