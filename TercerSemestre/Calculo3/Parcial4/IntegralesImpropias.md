@@ -58,5 +58,10 @@ $$
 $$
 y entonces tenemos 
 $$
-\int_{\eta}^{1-\eta}-\ln(\delta)+\ln(x-\delta)=-\ln(\delta)x+(x-\delta)\ln(x-\delta)-(x-\delta)
+\int_{\eta}^{1-\eta}-\ln(\delta)+\ln(x-\delta)=-\ln(\delta)x+(x-\delta)\ln(x-\delta)-(x-\delta)|_{\eta}^{1-\eta},
 $$
+y a partir de esto llegamos al resultado 
+$$
+-\ln(\delta)[1-2\eta]+(1-\eta-\delta)\ln(1-\eta-\delta)-(1-\eta-\delta)-(\eta-\delta)\ln(\eta-\delta)+(\eta-\delta),
+$$
+donde si tomamos el limite cuando ${}\eta{}$ y ${}\delta{}$ tienden a infinito, 
