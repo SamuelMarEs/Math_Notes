@@ -52,3 +52,7 @@ entonces
 $$
 \int_{D\eta \delta}fdA=\int_{\eta}^{1-\eta}\int_{\delta}^{x-\delta} \frac{1}{x-y}dydx,
 $$
+donde la integral respecto a ${}y{}$ es 
+$$
+\int_{\delta}^{x-\delta} \frac{1}{x-y}dy=-\ln(\delta)+\ln(x-\delta)
+$$
