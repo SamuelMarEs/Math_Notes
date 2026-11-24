@@ -46,5 +46,9 @@ Si los límites existen, entonces esta es la integral iterada impropia.
 **Sol:**
 Notemos que en ${}x=y{}$ la función no está acotada (ni definida). Sea ${}0<\eta<1,0<\det <\eta{}$, definimos 
 $$
-D_{\eta \delta}=\{ (x,y) \}
+D_{\eta \delta}=\{ (x,y)\varepsilon ta\leq x\leq 1-\eta,\delta\leq y\leq x-\delta \},
+$$
+entonces 
+$$
+\int_{D\eta \delta}fdA=\int_{\eta}^{1-\eta}\int_{\delta}^{x-\delta} \frac{1}{x-y}dydx,
 $$
