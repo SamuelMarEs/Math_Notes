@@ -16,3 +16,5 @@ $$
 f(t_{1},\dots,tt_{n})=\sum_{i\leq j}a_{ij}a_{ij}t_{i}t_{j},
 $$
 y todo polinomio de esta forma es una forma cuadrática.
+
+Si ${}\beta$ es la base ordenada estándar de ${}F^{n}{}$, entonces la forma bilineal simétrica ${}H{}$ correspondiente a la forma cuadrática ${}f{}$ definida anteriormente, tiene como matriz asociada ${}\psi_{\beta}(H)=A{}$ con entradas
