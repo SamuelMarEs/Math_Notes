@@ -11,4 +11,4 @@ H(x,y)=\frac{1}{2}[K(x+y)-K(x)-K(y)].
 $$
 
 El ejemplo más clásico de una forma cuadrática es un polinomio homogéneo de segundo grado de varias variables.
-Dadas las variables ${}t_{1},\dots,t_{n}{}$ que toman valores sobre un campo ${}F{}$ de característica distinta de dos, y dados los escalares ${}a_{ij}{}$ (no necesariamente distintos), con 
+Dadas las variables ${}t_{1},\dots,t_{n}{}$ que toman valores sobre un campo ${}F{}$ de característica distinta de dos, y dados los escalares ${}a_{ij}{}$ (no necesariamente distintos), con ${}1\leq i,j\leq n{}$
