@@ -24,3 +24,4 @@ a_{ii}, & \text{si }i=j, \\
 \frac{1}{2}a_{ij}, & \text{si }i\neq j. 
 \end{cases}
 $$
+Por ejemplo, si tenemos el polinomio 
