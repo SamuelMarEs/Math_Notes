@@ -13,5 +13,11 @@ Una forma bilineal ${}H{}$ sobre un espacio ${}V{}$ de dimensión finita se llam
 Además, es trivial ver que si ${}H{}$ es diagonalizable, entonces ${}H{}$ es simétrica. Sin embargo, el regreso de esta afirmación no necesariamente se satisface, y de hecho puede depender hasta del campo ${}F{}$. Pero aún así, si ponemos algunas restricciones sobre ${}F{}$ (básicamente que no sea ${}\mathbb{Z}_{2}{}$), entonces tenemos el siguiente teorema
 
 #### Teorema 6.35
-Sea ${}V{}$ un espacio vectorial de dimensión finita sobre un campo ${}F{}$ de característica distinta de dos.
-Entonces toda forma bilineal simétrica sobre ${}V{}$ es diagonalizable.
+Sea ${}V{}$ un espacio vectorial de dimensión finita sobre un campo ${}F{}$ de característica distinta de dos. Entonces toda forma bilineal simétrica sobre ${}V{}$ es diagonalizable.
+Como corolario, si ${}A{}$ es simétrica, entonces ${}A{}$ es congruente con una matriz diagonal.
+
+Ya que tenemos este teorema, podemos pasar las cuentitas, como encontramos una matriz diagonal congruente con una matriz simétrica. 
+Sabemos que si ${}A{}$ es simétrica, existen ${}Q,D{}$ tales que ${}Q{}$ es invertible y ${}D{}$ diagonal, y 
+$$
+Q^{t}AQ=D.
+$$
