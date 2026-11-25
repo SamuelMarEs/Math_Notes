@@ -9,3 +9,6 @@ Si conocemos la forma de una forma cuadrática asociada a una forma bilineal sim
 $$
 H(x,y)=\frac{1}{2}[K(x+y)-K(x)-K(y)].
 $$
+
+El ejemplo más clásico de una forma cuadrática es un polinomio homogéneo de segundo grado de varias variables.
+Dadas las variables ${}t_{1},\dots,t_{n}{}$ que toman valores sobre un campo ${}F{}$
