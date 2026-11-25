@@ -21,3 +21,9 @@ Sabemos que si ${}A{}$ es simétrica, existen ${}Q,D{}$ tales que ${}Q{}$ es inv
 $$
 Q^{t}AQ=D.
 $$
+Esto se hace mediante el mismo proceso que llevamos haciendo desde secciones anteriores para hallar matrices ortogonalmente equivalentes:
+
+1.- Encontramos los eigenvalores de ${}A{}$ encontrando las raíces de ${}\det(A-\lambda I)=0{}$.
+2.- Encontramos los eigenvectores asociados a cada eigenvalor resolviendo el sistema ${}(A-\lambda_{i}I)(x)=0{}$.
+3.- Ortonormalizamos la base de eigenvectores ${}\{ x_{1},\dots,x_{n} \}{}$ en una base ortonormal ${}\{ v_{1},\dots,v_{n} \}{}$.
+4.- Fijamos ${}Q=[v_{1},\dots,v_{n}]{}$ y ${}D=\mathrm{diag}(\lambda_{1},\dots,\lambda_{n}){}$.
