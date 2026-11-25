@@ -24,4 +24,11 @@ a_{ii}, & \text{si }i=j, \\
 \frac{1}{2}a_{ij}, & \text{si }i\neq j. 
 \end{cases}
 $$
-Por ejemplo, si tenemos el polinomio 
+Por ejemplo, si tenemos el polinomio ${}f(t_{1},t_{2},t_{3})=2t_{1}^{2}-t_{2}^{2}+6t_{1}t_{2}-4t_{2}t_{3}{}$, la matriz asociada a la forma cuadrática es 
+$$
+A=\begin{pmatrix}
+2 & 3 & 0 \\
+3 & -1 & -2 \\
+0 & -2 & 0
+\end{pmatrix}.
+$$
