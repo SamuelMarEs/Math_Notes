@@ -13,3 +13,6 @@ $$
 $$
 Por lo tanto, las matrices asociadas a una forma bilineal en distintas bases son congruentes.
 
+A partir de la relación de congruencia entre matrices, surge el problema de determinar aquellas formas bilineales que admiten representaciones matriciales diagonales. Veremos que existe una estrecha relación entre la simetría de una matriz y las formas bilineales diagonalizables.
+
+####
