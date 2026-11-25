@@ -4,3 +4,8 @@ Sea ${}V{}$ un espacio vectorial sobre un campo ${}F{}$ de característica disti
 $$
 K(x)=H(x,x),\quad\text{para todo }x \in V.
 $$
+
+Si conocemos la forma de una forma cuadrática asociada a una forma bilineal simétrica ${}H{}$ sobre ${}V{}$, entonces podemos recuperar ${}H{}$ a partid de ${}K{}$ mediante 
+$$
+H(x,y)=\frac{1}{2}[K(x+y)-K(x)-K(y)].
+$$
